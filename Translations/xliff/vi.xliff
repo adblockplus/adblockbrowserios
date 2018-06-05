@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AdBlockBrowser/Info.plist" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Adblock</source>
+        <target xml:lang="vi" state="needs-translation">Adblock</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</source>
+        <target xml:lang="vi" state="needs-translation">We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AdBlockBrowser/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="%@ of %@ matches">
+        <source>%1$@ of %2$@ matches</source>
+        <note>Find in page bar</note>
+        <target xml:lang="vi" state="needs-translation">%1$@ of %2$@ matches</target>
+      </trans-unit>
+      <trans-unit id="A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.">
+        <source>A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="vi" state="needs-translation">A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</target>
+      </trans-unit>
+      <trans-unit id="ACTIVE FOR WEBSITES IN ...">
+        <source>ACTIVE FOR WEBSITES IN ...</source>
+        <note>Subscription listing section title</note>
+        <target xml:lang="vi" state="needs-translation">ACTIVE FOR WEBSITES IN ...</target>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <note>About screen title
+   Settings status option</note>
+        <target xml:lang="vi" state="needs-translation">About</target>
+      </trans-unit>
+      <trans-unit id="Acceptable Ads">
+        <source>Acceptable Ads</source>
+        <note>Acceptable ads setting title
+   Settings - enable/disable acceptable ads</note>
+        <target xml:lang="vi" state="needs-translation">Acceptable Ads</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking">
+        <source>Ad blocking</source>
+        <note>Settings - show list of subscriptions</note>
+        <target xml:lang="vi" state="needs-translation">Ad blocking</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking is automatically integrated - no more annoying ads while you surf!">
+        <source>Ad blocking is automatically integrated - no more annoying ads while you surf!</source>
+        <note>Welcome guide screen 1 paragraph</note>
+        <target xml:lang="vi" state="needs-translation">Ad blocking is automatically integrated - no more annoying ads while you surf!</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking on this site">
+        <source>Ad blocking on this site</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="vi" state="needs-translation">Ad blocking on this site</target>
+      </trans-unit>
+      <trans-unit id="Adblock Plus">
+        <source>Adblock Plus</source>
+        <note>Settings - enable/disable ABP extension
+   Settings status option
+   Settings title - Extension name</note>
+        <target xml:lang="vi" state="needs-translation">Adblock Plus</target>
+      </trans-unit>
+      <trans-unit id="Adblock Browser Encountered an Error">
+        <source>Adblock Browser Encountered an Error</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="vi" state="needs-translation">Adblock Browser Encountered an Error</target>
+      </trans-unit>
+      <trans-unit id="Adblock Unexpectedly Quit">
+        <source>Adblock Unexpectedly Quit</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="vi" state="needs-translation">Adblock Unexpectedly Quit</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark to Dashboard">
+        <source>Add Bookmark to Dashboard</source>
+        <note>Add bookmark controller</note>
+        <target xml:lang="vi" state="needs-translation">Add Bookmark to Dashboard</target>
+      </trans-unit>
+      <trans-unit id="After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.">
+        <source>After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</source>
+        <note>Ghost mode description</note>
+        <target xml:lang="vi" state="needs-translation">After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</target>
+      </trans-unit>
+      <trans-unit id="All of your bookmarks have been added to the Dashboard.">
+        <source>All of your bookmarks have been added to the Dashboard.</source>
+        <note>Add bookmark controller</note>
+        <target xml:lang="vi" state="needs-translation">All of your bookmarks have been added to the Dashboard.</target>
+      </trans-unit>
+      <trans-unit id="Allow some nonintrusive advertising">
+        <source>Allow some nonintrusive advertising</source>
+        <note>Acceptable ads switch label</note>
+        <target xml:lang="vi" state="needs-translation">Allow some nonintrusive advertising</target>
+      </trans-unit>
+      <trans-unit id="Always">
+        <source>Always</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="vi" state="needs-translation">Always</target>
+      </trans-unit>
+      <trans-unit id="Always Send">
+        <source>Always Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="vi" state="needs-translation">Always Send</target>
+      </trans-unit>
+      <trans-unit id="Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.">
+        <source>Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</source>
+        <note>Welcome guide screen 2 paragraph</note>
+        <target xml:lang="vi" state="needs-translation">Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to clear history? You cannot undo this action.">
+        <source>Are you sure you want to clear history? You cannot undo this action.</source>
+        <note>Clear history alert message</note>
+        <target xml:lang="vi" state="needs-translation">Are you sure you want to clear history? You cannot undo this action.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to delete this bookmark?">
+        <source>Are you sure you want to delete this bookmark?</source>
+        <note>Delete Bookmark alert message</note>
+        <target xml:lang="vi" state="needs-translation">Are you sure you want to delete this bookmark?</target>
+      </trans-unit>
+      <trans-unit id="Ask Me After a Crash or Error">
+        <source>Ask Me After a Crash or Error</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="vi" state="needs-translation">Ask Me After a Crash or Error</target>
+      </trans-unit>
+      <trans-unit id="BLOCKING">
+        <source>BLOCKING</source>
+        <note>Settings section header</note>
+        <target xml:lang="vi" state="needs-translation">BLOCKING</target>
+      </trans-unit>
+      <trans-unit id="Baidu">
+        <source>Baidu</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="vi" state="needs-translation">Baidu</target>
+      </trans-unit>
+      <trans-unit id="Baidu search">
+        <source>Baidu search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="vi" state="needs-translation">Baidu search</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <note>Show bookmarks in new tab view</note>
+        <target xml:lang="vi" state="needs-translation">Bookmarks</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks loading has failed">
+        <source>Bookmarks loading has failed</source>
+        <note>Bookmarks view warning</note>
+        <target xml:lang="vi" state="needs-translation">Bookmarks loading has failed</target>
+      </trans-unit>
+      <trans-unit id="Browse in peace">
+        <source>Browse in peace</source>
+        <note>Welcome guide screen 1 headline</note>
+        <target xml:lang="vi" state="needs-translation">Browse in peace</target>
+      </trans-unit>
+      <trans-unit id="CRASH AND ERROR REPORTING">
+        <source>CRASH AND ERROR REPORTING</source>
+        <note>Devbuild setting section header</note>
+        <target xml:lang="vi" state="needs-translation">CRASH AND ERROR REPORTING</target>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title</note>
+        <target xml:lang="vi" state="needs-translation">Cancel</target>
+      </trans-unit>
+      <trans-unit id="Clear">
+        <source>Clear</source>
+        <note>Clear Browsing Data Confirmation
+   Clear history alert clear button title</note>
+        <target xml:lang="vi" state="needs-translation">Clear</target>
+      </trans-unit>
+      <trans-unit id="Clear All">
+        <source>Clear All</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="vi" state="needs-translation">Clear All</target>
+      </trans-unit>
+      <trans-unit id="Clear Browsing Data">
+        <source>Clear Browsing Data</source>
+        <note>Clear Browsing Data Screen Title
+   Settings status option</note>
+        <target xml:lang="vi" state="needs-translation">Clear Browsing Data</target>
+      </trans-unit>
+      <trans-unit id="Clear Cache">
+        <source>Clear Cache</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="vi" state="needs-translation">Clear Cache</target>
+      </trans-unit>
+      <trans-unit id="Clear Cookies &amp; Site Data">
+        <source>Clear Cookies &amp; Site Data</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="vi" state="needs-translation">Clear Cookies &amp; Site Data</target>
+      </trans-unit>
+      <trans-unit id="Clear History">
+        <source>Clear History</source>
+        <note>Browser history list
+   Clear Browsing Data Option</note>
+        <target xml:lang="vi" state="needs-translation">Clear History</target>
+      </trans-unit>
+      <trans-unit id="Clear History?">
+        <source>Clear History?</source>
+        <note>Clear history alert title</note>
+        <target xml:lang="vi" state="needs-translation">Clear History?</target>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Critical abort alert button</note>
+        <target xml:lang="vi" state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="Configurable under *Settings &gt; URL Search Suggestions*">
+        <source>Configurable under *Settings &gt; URL Search Suggestions*</source>
+        <note>Note of search approval confirmation</note>
+        <target xml:lang="vi" state="needs-translation">Configurable under *Settings &gt; URL Search Suggestions*</target>
+      </trans-unit>
+      <trans-unit id="Crash and Error Reports">
+        <source>Crash and Error Reports</source>
+        <note>Crash Reports Dialogs
+   HockeyApp crash reports settings
+   Settings status option</note>
+        <target xml:lang="vi" state="needs-translation">Crash and Error Reports</target>
+      </trans-unit>
+      <trans-unit id="Dashboard">
+        <source>Dashboard</source>
+        <note>Show dashboard in new tab view</note>
+        <target xml:lang="vi" state="needs-translation">Dashboard</target>
+      </trans-unit>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Bookmark delete
+   Delete Bookmark alert delete button title</note>
+        <target xml:lang="vi" state="needs-translation">Delete</target>
+      </trans-unit>
+      <trans-unit id="Delete Bookmark">
+        <source>Delete Bookmark</source>
+        <note>Bookmark deleting button
+   Delete Bookmark alert title</note>
+        <target xml:lang="vi" state="needs-translation">Delete Bookmark</target>
+      </trans-unit>
+      <trans-unit id="Delete History">
+        <source>Delete History</source>
+        <target xml:lang="vi" state="needs-translation">Delete History</target>
+      </trans-unit>
+      <trans-unit id="Disable Anti-Ad blocking Messages">
+        <source>Disable Anti-Ad blocking Messages</source>
+        <note>Blocking options - Disable anti-adblocking messages</note>
+        <target xml:lang="vi" state="needs-translation">Disable Anti-Ad blocking Messages</target>
+      </trans-unit>
+      <trans-unit id="Disable Malware Domains">
+        <source>Disable Malware Domains</source>
+        <note>Blocking options - Disable malware domains</note>
+        <target xml:lang="vi" state="needs-translation">Disable Malware Domains</target>
+      </trans-unit>
+      <trans-unit id="Disable Social Media Buttons">
+        <source>Disable Social Media Buttons</source>
+        <note>Blocking options - Disable social media buttons</note>
+        <target xml:lang="vi" state="needs-translation">Disable Social Media Buttons</target>
+      </trans-unit>
+      <trans-unit id="Disable Tracking">
+        <source>Disable Tracking</source>
+        <note>Blocking options - Disable tracking</note>
+        <target xml:lang="vi" state="needs-translation">Disable Tracking</target>
+      </trans-unit>
+      <trans-unit id="Do you want to see web search results here?">
+        <source>Do you want to see web search results here?</source>
+        <note>Question of search approval confirmation</note>
+        <target xml:lang="vi" state="needs-translation">Do you want to see web search results here?</target>
+      </trans-unit>
+      <trans-unit id="Don't Send">
+        <source>Don't Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="vi" state="needs-translation">Don't Send</target>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Add bookmark controller
+   Bookmarks listing
+   Find in Page toolbar button</note>
+        <target xml:lang="vi" state="needs-translation">Done</target>
+      </trans-unit>
+      <trans-unit id="Double tap the Home button.">
+        <source>Double tap the Home button.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="vi" state="needs-translation">Double tap the Home button.</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo">
+        <source>DuckDuckGo</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="vi" state="needs-translation">DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo search">
+        <source>DuckDuckGo search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="vi" state="needs-translation">DuckDuckGo search</target>
+      </trans-unit>
+      <trans-unit id="EXCEPTIONS">
+        <source>EXCEPTIONS</source>
+        <note>Settings section header</note>
+        <target xml:lang="vi" state="needs-translation">EXCEPTIONS</target>
+      </trans-unit>
+      <trans-unit id="Edit">
+        <source>Edit</source>
+        <note>Bookmark edit
+   Bookmarks listing</note>
+        <target xml:lang="vi" state="needs-translation">Edit</target>
+      </trans-unit>
+      <trans-unit id="Enter link">
+        <source>Enter link</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="vi" state="needs-translation">Enter link</target>
+      </trans-unit>
+      <trans-unit id="Enter title">
+        <source>Enter title</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="vi" state="needs-translation">Enter title</target>
+      </trans-unit>
+      <trans-unit id="FILTER LIST UPDATES">
+        <source>FILTER LIST UPDATES</source>
+        <note>Settings section header</note>
+        <target xml:lang="vi" state="needs-translation">FILTER LIST UPDATES</target>
+      </trans-unit>
+      <trans-unit id="Find &quot;%@&quot; in page">
+        <source>Find "%@" in page</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="vi" state="needs-translation">Find "%@" in page</target>
+      </trans-unit>
+      <trans-unit id="Find in page (%@ matches)">
+        <source>Find in page (%@ matches)</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="vi" state="needs-translation">Find in page (%@ matches)</target>
+      </trans-unit>
+      <trans-unit id="Finish">
+        <source>Finish</source>
+        <note>Welcome guide screen 2 button</note>
+        <target xml:lang="vi" state="needs-translation">Finish</target>
+      </trans-unit>
+      <trans-unit id="GENERAL">
+        <source>GENERAL</source>
+        <note>Settings section header</note>
+        <target xml:lang="vi" state="needs-translation">GENERAL</target>
+      </trans-unit>
+      <trans-unit id="Ghost Mode">
+        <source>Ghost Mode</source>
+        <note>Ghost Mode Title</note>
+        <target xml:lang="vi" state="needs-translation">Ghost Mode</target>
+      </trans-unit>
+      <trans-unit id="Google">
+        <source>Google</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="vi" state="needs-translation">Google</target>
+      </trans-unit>
+      <trans-unit id="Google search">
+        <source>Google search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="vi" state="needs-translation">Google search</target>
+      </trans-unit>
+      <trans-unit id="Got it">
+        <source>Got it</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="vi" state="needs-translation">Got it</target>
+      </trans-unit>
+      <trans-unit id="Hide">
+        <source>Hide</source>
+        <target xml:lang="vi" state="needs-translation">Hide</target>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>Show history in new tab view</note>
+        <target xml:lang="vi" state="needs-translation">History</target>
+      </trans-unit>
+      <trans-unit id="More Blocking Options">
+        <source>More Blocking Options</source>
+        <note>Blocking options screen
+   Settings - show more blocking options</note>
+        <target xml:lang="vi" state="needs-translation">More Blocking Options</target>
+      </trans-unit>
+      <trans-unit id="Never">
+        <source>Never</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="vi" state="needs-translation">Never</target>
+      </trans-unit>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <note>Tab view label</note>
+        <target xml:lang="vi" state="needs-translation">New Tab</target>
+      </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>Deny Google search</note>
+        <target xml:lang="vi" state="needs-translation">No</target>
+      </trans-unit>
+      <trans-unit id="No Bookmarks Available">
+        <source>No Bookmarks Available</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="vi" state="needs-translation">No Bookmarks Available</target>
+      </trans-unit>
+      <trans-unit id="No Dashboard Items Available">
+        <source>No Dashboard Items Available</source>
+        <target xml:lang="vi" state="needs-translation">No Dashboard Items Available</target>
+      </trans-unit>
+      <trans-unit id="No History Available">
+        <source>No History Available</source>
+        <note>Browser history list</note>
+        <target xml:lang="vi" state="needs-translation">No History Available</target>
+      </trans-unit>
+      <trans-unit id="No websites whitelisted">
+        <source>No websites whitelisted</source>
+        <note>Whitelist no website whitelisted label</note>
+        <target xml:lang="vi" state="needs-translation">No websites whitelisted</target>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <target xml:lang="vi" state="needs-translation">OK</target>
+      </trans-unit>
+      <trans-unit id="OTHER LANGUAGES">
+        <source>OTHER LANGUAGES</source>
+        <note>Subscription listing section title</note>
+        <target xml:lang="vi" state="needs-translation">OTHER LANGUAGES</target>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="vi" state="needs-translation">Off</target>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="vi" state="needs-translation">On</target>
+      </trans-unit>
+      <trans-unit id="Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.">
+        <source>Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="vi" state="needs-translation">Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</target>
+      </trans-unit>
+      <trans-unit id="Only one more step">
+        <source>Only one more step</source>
+        <note>Welcome guide screen 1 button</note>
+        <target xml:lang="vi" state="needs-translation">Only one more step</target>
+      </trans-unit>
+      <trans-unit id="Open privacy policy.">
+        <source>Open privacy policy.</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="vi" state="needs-translation">Open privacy policy.</target>
+      </trans-unit>
+      <trans-unit id="PRIVACY &amp; SECURITY">
+        <source>PRIVACY &amp; SECURITY</source>
+        <note>Settings section header</note>
+        <target xml:lang="vi" state="needs-translation">PRIVACY &amp; SECURITY</target>
+      </trans-unit>
+      <trans-unit id="Restart Adblock Browser.">
+        <source>Restart Adblock Browser.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="vi" state="needs-translation">Restart Adblock Browser.</target>
+      </trans-unit>
+      <trans-unit id="SEARCH">
+        <source>SEARCH</source>
+        <note>Settings section header</note>
+        <target xml:lang="vi" state="needs-translation">SEARCH</target>
+      </trans-unit>
+      <trans-unit id="SEND CRASH AND ERROR REPORTS">
+        <source>SEND CRASH AND ERROR REPORTS</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="vi" state="needs-translation">SEND CRASH AND ERROR REPORTS</target>
+      </trans-unit>
+      <trans-unit id="Search Engine">
+        <source>Search Engine</source>
+        <note>Search Engine Selection
+   Settings status option</note>
+        <target xml:lang="vi" state="needs-translation">Search Engine</target>
+      </trans-unit>
+      <trans-unit id="Search History">
+        <source>Search History</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="vi" state="needs-translation">Search History</target>
+      </trans-unit>
+      <trans-unit id="Search or enter website name">
+        <source>Search or enter website name</source>
+        <note>Browser address bar hint</note>
+        <target xml:lang="vi" state="needs-translation">Search or enter website name</target>
+      </trans-unit>
+      <trans-unit id="Send Report">
+        <source>Send Report</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="vi" state="needs-translation">Send Report</target>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="vi" state="needs-translation">Settings</target>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="vi" state="needs-translation">Share</target>
+      </trans-unit>
+      <trans-unit id="Show in Dashboard">
+        <source>Show in Dashboard</source>
+        <note>Bookmark editing switch</note>
+        <target xml:lang="vi" state="needs-translation">Show in Dashboard</target>
+      </trans-unit>
+      <trans-unit id="Something went wrong.">
+        <source>Something went wrong.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="vi" state="needs-translation">Something went wrong.</target>
+      </trans-unit>
+      <trans-unit id="Subscriptions">
+        <source>Subscriptions</source>
+        <note>Subscriptions listing title</note>
+        <target xml:lang="vi" state="needs-translation">Subscriptions</target>
+      </trans-unit>
+      <trans-unit id="Swipe up on Adblock Browser to quit the app.">
+        <source>Swipe up on Adblock Browser to quit the app.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="vi" state="needs-translation">Swipe up on Adblock Browser to quit the app.</target>
+      </trans-unit>
+      <trans-unit id="Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads">
+        <source>Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</source>
+        <note>Welcome guide screen 2 picture label</note>
+        <target xml:lang="vi" state="needs-translation">Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</target>
+      </trans-unit>
+      <trans-unit id="The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.">
+        <source>The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</source>
+        <note>Settings section footer</note>
+        <target xml:lang="vi" state="needs-translation">The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</target>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone. Are you sure you want to continue?">
+        <source>This action cannot be undone. Are you sure you want to continue?</source>
+        <note>Clear Browsing Data Confirmation</note>
+        <target xml:lang="vi" state="needs-translation">This action cannot be undone. Are you sure you want to continue?</target>
+      </trans-unit>
+      <trans-unit id="URL Search Suggestions">
+        <source>URL Search Suggestions</source>
+        <note>Headline of search approval confirmation
+   Settings status option</note>
+        <target xml:lang="vi" state="needs-translation">URL Search Suggestions</target>
+      </trans-unit>
+      <trans-unit id="Uh-Oh!">
+        <source>Uh-Oh!</source>
+        <note>App start failure screen</note>
+        <target xml:lang="vi" state="needs-translation">Uh-Oh!</target>
+      </trans-unit>
+      <trans-unit id="Unable to start browser.">
+        <source>Unable to start browser.</source>
+        <note>Critical abort alert message</note>
+        <target xml:lang="vi" state="needs-translation">Unable to start browser.</target>
+      </trans-unit>
+      <trans-unit id="Use Cellular Network">
+        <source>Use Cellular Network</source>
+        <note>Settings - enable/disable cellular network for downloading subscriptions</note>
+        <target xml:lang="vi" state="needs-translation">Use Cellular Network</target>
+      </trans-unit>
+      <trans-unit id="VERSION">
+        <source>VERSION</source>
+        <note>Section header in About screen</note>
+        <target xml:lang="vi" state="needs-translation">VERSION</target>
+      </trans-unit>
+      <trans-unit id="We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.">
+        <source>We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</source>
+        <note>Acceptable ads explanation</note>
+        <target xml:lang="vi" state="needs-translation">We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</target>
+      </trans-unit>
+      <trans-unit id="Whitelisted Websites">
+        <source>Whitelisted Websites</source>
+        <note>Settings - show list of whitelisted pages
+   Whitelist title</note>
+        <target xml:lang="vi" state="needs-translation">Whitelisted Websites</target>
+      </trans-unit>
+      <trans-unit id="With Adblock Plus, you can block ads or other elements on websites.">
+        <source>With Adblock Plus, you can block ads or other elements on websites.</source>
+        <note>Settings section footer</note>
+        <target xml:lang="vi" state="needs-translation">With Adblock Plus, you can block ads or other elements on websites.</target>
+      </trans-unit>
+      <trans-unit id="Would you like to send a report to fix the problem?">
+        <source>Would you like to send a report to fix the problem?</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="vi" state="needs-translation">Would you like to send a report to fix the problem?</target>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>Allow Google search</note>
+        <target xml:lang="vi" state="needs-translation">Yes</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash and Error Reports**">
+        <source>You can change this setting at any time in: **Settings → Crash and Error Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="vi" state="needs-translation">You can change this setting at any time in: **Settings → Crash and Error Reports**</target>
+      </trans-unit>
+      <trans-unit id="You're in control">
+        <source>You're in control</source>
+        <note>Welcome guide screen 2 headline</note>
+        <target xml:lang="vi" state="needs-translation">You're in control</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/Info.plist" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Adblock Browser</source>
+        <target xml:lang="vi" state="needs-translation">Adblock Browser</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="vi">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="vi" state="needs-translation">Cancel</target>
+      </trans-unit>
+      <trans-unit id="Dismiss">
+        <source>Dismiss</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="vi" state="needs-translation">Dismiss</target>
+      </trans-unit>
+      <trans-unit id="Open">
+        <source>Open</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="vi" state="needs-translation">Open</target>
+      </trans-unit>
+      <trans-unit id="Open in Adblock Browser?">
+        <source>Open in Adblock Browser?</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="vi" state="needs-translation">Open in Adblock Browser?</target>
+      </trans-unit>
+      <trans-unit id="URL not found">
+        <source>URL not found</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="vi" state="needs-translation">URL not found</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

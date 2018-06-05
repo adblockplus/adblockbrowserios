@@ -1,0 +1,6 @@
+/* (No Commment) */
+"CFBundleDisplayName" = "Адблок";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "Само сайтове като Google Карти получават достъп до местоположението, и то след изрично позволение от ваша страна. Браузърът Adblock не го ползва за никакви други цели.";
+

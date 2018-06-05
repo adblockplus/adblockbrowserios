@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AdBlockBrowser/Info.plist" source-language="en" datatype="plaintext" target-language="pt-PT">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Adblock</source>
+        <target xml:lang="pt-PT" state="translated">Adblock</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>Adblock Browser</source>
+        <target xml:lang="pt-PT" state="translated">Adblock Browser</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</source>
+        <target xml:lang="pt-PT" state="translated">Apenas damos acesso à sua localização a websites (por exemplo, Google Maps) se der permissão. O Adblock Browser não utiliza a sua localização para qualquer outra finalidade.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AdBlockBrowser/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="pt-PT">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="%@ of %@ matches">
+        <source>%1$@ of %2$@ matches</source>
+        <note>Find in page bar</note>
+        <target xml:lang="pt-PT" state="translated">%1$@ de %2$@ ocorrências</target>
+      </trans-unit>
+      <trans-unit id="A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." approved="yes">
+        <source>A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="pt-PT">Um erro crítico impediu o Adblock Browser de arrancar. Siga estas instruções para terminar a aplicação e tente novamente.</target>
+      </trans-unit>
+      <trans-unit id="ADBLOCK BROWSER">
+        <source>Adblock Browser</source>
+        <target xml:lang="pt-PT" state="translated">Adblock Browser</target>
+      </trans-unit>
+      <trans-unit id="ADBLOCK VERSION">
+        <source>ADBLOCK VERSION</source>
+        <target xml:lang="pt-PT" state="needs-translation">ADBLOCK VERSION</target>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <target xml:lang="pt-PT" state="translated">Acerca de</target>
+        <alt-trans>
+          <target xml:lang="pt-PT">Sobre</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Ad blocking">
+        <source>Ad blocking</source>
+        <target xml:lang="pt-PT" state="translated">Bloqueio de anúncios</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking is automatically integrated - no more annoying ads while you surf!">
+        <source>Ad blocking is automatically integrated - no more annoying ads while you surf!</source>
+        <note>Welcome guide screen 1 paragraph</note>
+        <target xml:lang="pt-PT" state="translated">O bloqueio de anúncios está automaticamente integrado - acabaram-se os anúncios irritantes ao navegar!</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking on this site">
+        <source>Ad blocking on this site</source>
+        <target xml:lang="pt-PT" state="translated">Bloqueio de anúncios neste site</target>
+      </trans-unit>
+      <trans-unit id="Adblock Browser Encountered an Error" approved="yes">
+        <source>Adblock Browser Encountered an Error</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="pt-PT">O Adblock Browser encontrou um erro</target>
+      </trans-unit>
+      <trans-unit id="Adblock Unexpectedly Quit" approved="yes">
+        <source>Adblock Unexpectedly Quit</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="pt-PT">O Adblock terminou inesperadamente</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark">
+        <source>Add Bookmark</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Adicionar marcador</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark to Dashboard">
+        <source>Add Bookmark to Dashboard</source>
+        <target xml:lang="pt-PT" state="translated">Adicionar marcador ao painel</target>
+      </trans-unit>
+      <trans-unit id="After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.">
+        <source>After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</source>
+        <target xml:lang="pt-PT" state="needs-translation">After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</target>
+      </trans-unit>
+      <trans-unit id="All of your bookmarks have been added to the Dashboard.">
+        <source>All of your bookmarks have been added to the Dashboard.</source>
+        <target xml:lang="pt-PT" state="translated">Todos os seus marcadores foram adicionados ao painel.</target>
+      </trans-unit>
+      <trans-unit id="Allow some nonintrusive advertising">
+        <source>Allow some nonintrusive advertising</source>
+        <target xml:lang="pt-PT" state="translated">Permitir alguma publicidade não-invasiva</target>
+      </trans-unit>
+      <trans-unit id="Always">
+        <source>Always</source>
+        <target xml:lang="pt-PT" state="translated">Sempre</target>
+      </trans-unit>
+      <trans-unit id="Always Send" approved="yes">
+        <source>Always Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="pt-PT">Enviar sempre</target>
+      </trans-unit>
+      <trans-unit id="Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.">
+        <source>Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</source>
+        <note>Welcome guide screen 2 paragraph</note>
+        <target xml:lang="pt-PT" state="translated">Os anúncios irritantes são sempre bloqueados, enquanto os anúncios não intrusivos são exibidos por predefinição. Pode alterar esta definição a qualquer momento.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to clear history? You cannot undo this action.">
+        <source>Are you sure you want to clear history? You cannot undo this action.</source>
+        <note>Clear history alert message</note>
+        <target xml:lang="pt-PT" state="translated">Tem a certeza de que deseja limpar o histórico? Não pode anular esta ação.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to delete this bookmark?">
+        <source>Are you sure you want to delete this bookmark?</source>
+        <note>Delete Bookmark alert message</note>
+        <target xml:lang="pt-PT" state="translated">Tem a certeza de que pretende eliminar este marcador?</target>
+      </trans-unit>
+      <trans-unit id="Ask Me After a Crash or Error" approved="yes">
+        <source>Ask Me After a Crash or Error</source>
+        <target xml:lang="pt-PT">Pergunte-me depois de uma falha ou erro</target>
+      </trans-unit>
+      <trans-unit id="BLOCKING">
+        <source>BLOCKING</source>
+        <target xml:lang="pt-PT" state="translated">BLOQUEAR</target>
+      </trans-unit>
+      <trans-unit id="BROWSER VERSION">
+        <source>BROWSER VERSION</source>
+        <target xml:lang="pt-PT" state="needs-translation">BROWSER VERSION</target>
+      </trans-unit>
+      <trans-unit id="Baidu">
+        <source>Baidu</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="pt-PT" state="translated">Baidu</target>
+      </trans-unit>
+      <trans-unit id="Baidu search">
+        <source>Baidu search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="pt-PT" state="translated">Pesquisa Baidu</target>
+      </trans-unit>
+      <trans-unit id="Block Ads on this Site">
+        <source>Block Ads on this Site</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Bloquear os anúncios neste site</target>
+      </trans-unit>
+      <trans-unit id="Block ads for websites in">
+        <source>Block ads for websites in</source>
+        <target xml:lang="pt-PT" state="translated">Bloquear anúncios de sites Web em</target>
+      </trans-unit>
+      <trans-unit id="Bookmarked Pages">
+        <source>Bookmarked Pages</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="pt-PT" state="translated">Páginas marcadas</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <target xml:lang="pt-PT" state="translated">Marcadores</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks loading has failed">
+        <source>Bookmarks loading has failed</source>
+        <target xml:lang="pt-PT" state="translated">Falhou o carregamento de marcadores</target>
+      </trans-unit>
+      <trans-unit id="Browse in peace">
+        <source>Browse in peace</source>
+        <note>Welcome guide screen 1 headline</note>
+        <target xml:lang="pt-PT" state="translated">Navegue em paz</target>
+      </trans-unit>
+      <trans-unit id="CRASH AND ERROR REPORTING">
+        <source>CRASH AND ERROR REPORTING</source>
+        <target xml:lang="pt-PT" state="needs-translation">CRASH AND ERROR REPORTING</target>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title</note>
+        <target xml:lang="pt-PT" state="translated">Cancelar</target>
+      </trans-unit>
+      <trans-unit id="Clear">
+        <source>Clear</source>
+        <note>Clear Browsing Data Confirmation
+   Clear history alert clear button title</note>
+        <target xml:lang="pt-PT" state="translated">Apagar</target>
+      </trans-unit>
+      <trans-unit id="Clear All">
+        <source>Clear All</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="pt-PT" state="translated">Limpar tudo</target>
+      </trans-unit>
+      <trans-unit id="Clear Browsing Data">
+        <source>Clear Browsing Data</source>
+        <note>Clear Browsing Data Screen Title</note>
+        <target xml:lang="pt-PT" state="translated">Limpar dados de navegação</target>
+      </trans-unit>
+      <trans-unit id="Clear Cache">
+        <source>Clear Cache</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="pt-PT" state="translated">Limpar cache</target>
+      </trans-unit>
+      <trans-unit id="Clear Cookies &amp; Site Data">
+        <source>Clear Cookies &amp; Site Data</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="pt-PT" state="translated">Limpar cookies &amp; dados do site</target>
+      </trans-unit>
+      <trans-unit id="Clear History">
+        <source>Clear History</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="pt-PT" state="translated">Limpar histórico</target>
+      </trans-unit>
+      <trans-unit id="Clear History?">
+        <source>Clear History?</source>
+        <note>Clear history alert title</note>
+        <target xml:lang="pt-PT" state="translated">Apagar o Histórico?</target>
+        <alt-trans>
+          <target xml:lang="pt-PT">Apagar Histórico?</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Tabs view</note>
+        <target xml:lang="pt-PT" state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="Configurable under *Settings &gt; URL Search Suggestions*">
+        <source>Configurable under *Settings &gt; URL Search Suggestions*</source>
+        <note>Note of search approval confirmation</note>
+        <target xml:lang="pt-PT" state="translated">Configurável em *Definições &gt; Sugestões de Pesquisa de URL*</target>
+      </trans-unit>
+      <trans-unit id="Crash Application Now">
+        <source>Crash Application Now</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="needs-translation">Crash Application Now</target>
+      </trans-unit>
+      <trans-unit id="Crash Reports">
+        <source>Crash Reports</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="pt-PT" state="needs-translation">Crash Reports</target>
+      </trans-unit>
+      <trans-unit id="Crash and Error Reports" approved="yes">
+        <source>Crash and Error Reports</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="pt-PT">Relatório de falhas e erros</target>
+      </trans-unit>
+      <trans-unit id="Dashboard">
+        <source>Dashboard</source>
+        <target xml:lang="pt-PT" state="translated">Painel</target>
+        <alt-trans>
+          <target xml:lang="pt-PT">Dashboard</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Browser history list
+   Delete Bookmark alert delete button title</note>
+        <target xml:lang="pt-PT" state="translated">Eliminar</target>
+      </trans-unit>
+      <trans-unit id="Delete Bookmark">
+        <source>Delete Bookmark</source>
+        <note>Bookmark deleting button
+   Delete Bookmark alert title</note>
+        <target xml:lang="pt-PT" state="translated">Eliminar marcador</target>
+      </trans-unit>
+      <trans-unit id="Dev notification">
+        <source>Dev notification</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="needs-translation">Dev notification</target>
+      </trans-unit>
+      <trans-unit id="Devbuild Settings">
+        <source>Devbuild Settings</source>
+        <note>Navigation control title</note>
+        <target xml:lang="pt-PT" state="needs-translation">Devbuild Settings</target>
+      </trans-unit>
+      <trans-unit id="Disable Anti-Ad blocking Messages">
+        <source>Disable Anti-Ad blocking Messages</source>
+        <target xml:lang="pt-PT" state="translated">Desativar as Mensagens de Bloqueio Antianúncios</target>
+      </trans-unit>
+      <trans-unit id="Disable Malware Domains">
+        <source>Disable Malware Domains</source>
+        <target xml:lang="pt-PT" state="translated">Desativar os Domínios de Malware</target>
+      </trans-unit>
+      <trans-unit id="Disable Social Media Buttons">
+        <source>Disable Social Media Buttons</source>
+        <target xml:lang="pt-PT" state="translated">Desativar os Botões das Redes Sociais</target>
+      </trans-unit>
+      <trans-unit id="Disable Tracking">
+        <source>Disable Tracking</source>
+        <target xml:lang="pt-PT" state="translated">Desativar o Controlo</target>
+      </trans-unit>
+      <trans-unit id="Do you want to see web search results here?">
+        <source>Do you want to see web search results here?</source>
+        <note>Question of search approval confirmation</note>
+        <target xml:lang="pt-PT" state="translated">Deseja ver os resultados da pesquisa Web aqui?</target>
+      </trans-unit>
+      <trans-unit id="Don't Send" approved="yes">
+        <source>Don't Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="pt-PT">Não enviar</target>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Bookmarks listing
+   Find in Page toolbar button</note>
+        <target xml:lang="pt-PT" state="translated">Feito</target>
+      </trans-unit>
+      <trans-unit id="Double tap the Home button." approved="yes">
+        <source>Double tap the Home button.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="pt-PT">Toque duas vezes no botão principal.</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo">
+        <source>DuckDuckGo</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="pt-PT" state="translated">DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo search">
+        <source>DuckDuckGo search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="pt-PT" state="translated">Pesquisa DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="Edit">
+        <source>Edit</source>
+        <note>Bookmark edit
+   Bookmarks listing</note>
+        <target xml:lang="pt-PT" state="translated">Editar</target>
+      </trans-unit>
+      <trans-unit id="Enter link">
+        <source>Enter link</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="pt-PT" state="translated">Introduza o endereço</target>
+      </trans-unit>
+      <trans-unit id="Enter title">
+        <source>Enter title</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="pt-PT" state="translated">Introduza o título</target>
+      </trans-unit>
+      <trans-unit id="Error prepared for sending">
+        <source>Error prepared for sending</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="needs-translation">Error prepared for sending</target>
+      </trans-unit>
+      <trans-unit id="Exceptions">
+        <source>Exceptions</source>
+        <target xml:lang="pt-PT" state="translated">Exceções</target>
+      </trans-unit>
+      <trans-unit id="Find &quot;%@&quot; in page">
+        <source>Find "%@" in page</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="pt-PT" state="translated">Encontrar "%@" na página</target>
+      </trans-unit>
+      <trans-unit id="Find in page (%@ matches)">
+        <source>Find in page (%@ matches)</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="pt-PT" state="translated">Encontrar na página (%@ ocorrências)</target>
+      </trans-unit>
+      <trans-unit id="Finish">
+        <source>Finish</source>
+        <note>Welcome guide screen 2 button</note>
+        <target xml:lang="pt-PT" state="translated">Concluir</target>
+      </trans-unit>
+      <trans-unit id="GENERAL">
+        <source>GENERAL</source>
+        <target xml:lang="pt-PT" state="translated">GERAL</target>
+      </trans-unit>
+      <trans-unit id="Ghost Mode">
+        <source>Ghost Mode</source>
+        <target xml:lang="pt-PT" state="translated">Modo Fantasma</target>
+      </trans-unit>
+      <trans-unit id="Google">
+        <source>Google</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="pt-PT" state="translated">Google</target>
+      </trans-unit>
+      <trans-unit id="Google search">
+        <source>Google search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="pt-PT" state="translated">Pesquisa do Google</target>
+      </trans-unit>
+      <trans-unit id="Got it">
+        <source>Got it</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="pt-PT" state="translated">Entendido</target>
+      </trans-unit>
+      <trans-unit id="Hide all ads">
+        <source>Hide all ads</source>
+        <target xml:lang="pt-PT" state="translated">Ocultar todos os anúncios</target>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Histórico</target>
+      </trans-unit>
+      <trans-unit id="Languages">
+        <source>Languages</source>
+        <target xml:lang="pt-PT" state="translated">Idiomas</target>
+      </trans-unit>
+      <trans-unit id="MEMORY PRESSURE">
+        <source>MEMORY PRESSURE</source>
+        <target xml:lang="pt-PT" state="needs-translation">MEMORY PRESSURE</target>
+      </trans-unit>
+      <trans-unit id="MORE OPTIONS">
+        <source>MORE OPTIONS</source>
+        <target xml:lang="pt-PT" state="translated">MAIS OPÇÕES</target>
+      </trans-unit>
+      <trans-unit id="More Blocking Options">
+        <source>More Blocking Options</source>
+        <target xml:lang="pt-PT" state="translated">Mais Opções de Bloqueio</target>
+      </trans-unit>
+      <trans-unit id="Never">
+        <source>Never</source>
+        <target xml:lang="pt-PT" state="translated">Nunca</target>
+      </trans-unit>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <note>Tab view label</note>
+        <target xml:lang="pt-PT" state="translated">Novo Separador</target>
+      </trans-unit>
+      <trans-unit id="Next App Start Failure">
+        <source>Next App Start Failure</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="needs-translation">Next App Start Failure</target>
+      </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>Deny Google search</note>
+        <target xml:lang="pt-PT" state="translated">Não</target>
+      </trans-unit>
+      <trans-unit id="No Bookmarks Available">
+        <source>No Bookmarks Available</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="pt-PT" state="translated">Não Há Marcadores Disponíveis</target>
+      </trans-unit>
+      <trans-unit id="No History Available">
+        <source>No History Available</source>
+        <target xml:lang="pt-PT" state="translated">Sem Histórico Disponível</target>
+      </trans-unit>
+      <trans-unit id="No websites whitelisted">
+        <source>No websites whitelisted</source>
+        <target xml:lang="pt-PT" state="translated">Não há nenhum website na lista branca</target>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="OTHER LANGUAGES">
+        <source>OTHER LANGUAGES</source>
+        <target xml:lang="pt-PT" state="translated">OUTRAS LÍNGUAS</target>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="pt-PT" state="translated">Desligado</target>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="pt-PT" state="translated">Ligado</target>
+      </trans-unit>
+      <trans-unit id="Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." approved="yes">
+        <source>Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</source>
+        <target xml:lang="pt-PT">Só informações anônimas contendo dados do dispositivo e da falha ou erro enviadas. Obtenha mais informações sobre a nossa política de privacidade no site adblockplus.org.</target>
+      </trans-unit>
+      <trans-unit id="Only one more step">
+        <source>Only one more step</source>
+        <note>Welcome guide screen 1 button</note>
+        <target xml:lang="pt-PT" state="translated">Apenas mais um passo</target>
+      </trans-unit>
+      <trans-unit id="Open New Tab">
+        <source>Open New Tab</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Abrir novo separador</target>
+      </trans-unit>
+      <trans-unit id="Open privacy policy." approved="yes">
+        <source>Open privacy policy.</source>
+        <target xml:lang="pt-PT">Abra a política de privacidade</target>
+      </trans-unit>
+      <trans-unit id="Produce Error Now">
+        <source>Produce Error Now</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="needs-translation">Produce Error Now</target>
+      </trans-unit>
+      <trans-unit id="Recent History">
+        <source>Recent History</source>
+        <note>Browser history list</note>
+        <target xml:lang="pt-PT" state="needs-translation">Recent History</target>
+      </trans-unit>
+      <trans-unit id="Remove Bookmark">
+        <source>Remove Bookmark</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Remover marcador</target>
+      </trans-unit>
+      <trans-unit id="Restart Adblock Browser." approved="yes">
+        <source>Restart Adblock Browser.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="pt-PT">Reinicie o Adblock Browser.</target>
+      </trans-unit>
+      <trans-unit id="SEARCH">
+        <source>SEARCH</source>
+        <target xml:lang="pt-PT" state="translated">PESQUISA</target>
+      </trans-unit>
+      <trans-unit id="SEND CRASH AND ERROR REPORTS" approved="yes">
+        <source>SEND CRASH AND ERROR REPORTS</source>
+        <target xml:lang="pt-PT">ENVIAR RELATÓRIO DE FALHAS E ERROS</target>
+      </trans-unit>
+      <trans-unit id="Search Engine">
+        <source>Search Engine</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="pt-PT" state="translated">Motor de Pesquisa</target>
+      </trans-unit>
+      <trans-unit id="Search History">
+        <source>Search History</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="pt-PT" state="translated">Histórico de Pesquisa</target>
+      </trans-unit>
+      <trans-unit id="Send Report" approved="yes">
+        <source>Send Report</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="pt-PT">Enviar relatório</target>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Definições</target>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="pt-PT" state="translated">Partilhar</target>
+      </trans-unit>
+      <trans-unit id="Show Memory Pressure Indication">
+        <source>Show Memory Pressure Indication</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="pt-PT" state="needs-translation">Show Memory Pressure Indication</target>
+      </trans-unit>
+      <trans-unit id="Show in Dashboard">
+        <source>Show in Dashboard</source>
+        <note>Bookmark editing switch</note>
+        <target xml:lang="pt-PT" state="translated">Mostrar no Painel</target>
+        <alt-trans>
+          <target xml:lang="pt-PT">Mostrar no Dashboard</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Show nonintrusive ads">
+        <source>Show nonintrusive ads</source>
+        <target xml:lang="pt-PT" state="translated">Mostrar anúncios não invasivos</target>
+      </trans-unit>
+      <trans-unit id="Something went wrong." approved="yes">
+        <source>Something went wrong.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="pt-PT">Algo correu mal.</target>
+      </trans-unit>
+      <trans-unit id="Swipe tabs left to close them.">
+        <source>Swipe tabs left to close them.</source>
+        <note>TIP - Tabs View</note>
+        <target xml:lang="pt-PT" state="needs-translation">Swipe tabs left to close them.</target>
+      </trans-unit>
+      <trans-unit id="Swipe up on Adblock Browser to quit the app." approved="yes">
+        <source>Swipe up on Adblock Browser to quit the app.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="pt-PT">Arraste o dedo para cima no Adblock Browser para terminar a aplicação.</target>
+      </trans-unit>
+      <trans-unit id="TIP">
+        <source>TIP</source>
+        <note>TIP</note>
+        <target xml:lang="pt-PT" state="needs-translation">TIP</target>
+      </trans-unit>
+      <trans-unit id="Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads">
+        <source>Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</source>
+        <note>Welcome guide screen 2 picture label</note>
+        <target xml:lang="pt-PT" state="translated">Toque no ícone Menu → Definições → Adblock Plus → Anúncios Aceitáveis</target>
+      </trans-unit>
+      <trans-unit id="The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.">
+        <source>The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</source>
+        <target xml:lang="pt-PT" state="translated">O *bloqueio de anúncios* e *mais opções de bloqueio* baseiam-se nas listas de filtros. Estas são conjuntos de regras que dizem ao Adblock Browser o que deve bloquear.</target>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone. Are you sure you want to continue?">
+        <source>This action cannot be undone. Are you sure you want to continue?</source>
+        <note>Clear Browsing Data Confirmation</note>
+        <target xml:lang="pt-PT" state="translated">Esta ação não pode ser anulada. Tem a certeza de que pretende continuar?</target>
+      </trans-unit>
+      <trans-unit id="UNDO">
+        <source>UNDO</source>
+        <note>Undo tooltip</note>
+        <target xml:lang="pt-PT" state="needs-translation">UNDO</target>
+      </trans-unit>
+      <trans-unit id="URL Search Suggestions">
+        <source>URL Search Suggestions</source>
+        <note>Headline of search approval confirmation</note>
+        <target xml:lang="pt-PT" state="translated">Sugestões de Pesquisa de URL</target>
+      </trans-unit>
+      <trans-unit id="Uh-Oh!" approved="yes">
+        <source>Uh-Oh!</source>
+        <note>App start failure screen</note>
+        <target xml:lang="pt-PT">Oh não!</target>
+      </trans-unit>
+      <trans-unit id="Unable to start browser." approved="yes">
+        <source>Unable to start browser.</source>
+        <note>Critical abort alert message</note>
+        <target xml:lang="pt-PT">Impossível iniciar o browser.</target>
+      </trans-unit>
+      <trans-unit id="VERSION">
+        <source>Version</source>
+        <target xml:lang="pt-PT" state="translated">VERSÃO</target>
+      </trans-unit>
+      <trans-unit id="We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.">
+        <source>We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</source>
+        <target xml:lang="pt-PT" state="translated">Gostaríamos de incentivar os websites a utilizarem publicidade direta e não intrusiva. É por isso que estabelecemos diretrizes rígidas para identificação dos Anúncios Aceitáveis, que são mostrados nas predefinições. Se quiser navegar sem publicidade, pode desativar esta definição a qualquer momento.</target>
+      </trans-unit>
+      <trans-unit id="Would you like to send a report to fix the problem?" approved="yes">
+        <source>Would you like to send a report to fix the problem?</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="pt-PT">Gostaria de enviar um relatório para resolver o problema?</target>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>Allow Google search</note>
+        <target xml:lang="pt-PT" state="translated">Sim</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash Reports**">
+        <source>You can change this setting at any time in: **Settings → Crash Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="pt-PT" state="needs-translation">You can change this setting at any time in: **Settings → Crash Reports**</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash and Error Reports**" approved="yes">
+        <source>You can change this setting at any time in: **Settings → Crash and Error Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="pt-PT">Você pode mudar esta configuração a qualquer momento em: **Definições → Relatório de falhas e erros**</target>
+      </trans-unit>
+      <trans-unit id="You closed a tab">
+        <source>You closed a tab</source>
+        <note>Undo tooltip</note>
+        <target xml:lang="pt-PT" state="needs-translation">You closed a tab</target>
+      </trans-unit>
+      <trans-unit id="You're in control">
+        <source>You're in control</source>
+        <note>Welcome guide screen 2 headline</note>
+        <target xml:lang="pt-PT" state="translated">Você têm o controlo</target>
+      </trans-unit>
+      <trans-unit id="browser_address_bar_placeholder">
+        <source>Search or enter website name...</source>
+        <target xml:lang="pt-PT" state="translated">Pesquisar ou introduzir nome do site Web...</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_acceptable_ads_description">
+        <source>Choose whether to include nonintrusive, non-animated ads that adhere to strict criteria. *Learn more*</source>
+        <target xml:lang="pt-PT" state="translated">Selecione se pretende incluir anúncios não invasivos e não animados que cumprem com critérios restritos. *Saiba mais*</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_acceptable_ads_title">
+        <source>Acceptable Ads</source>
+        <target xml:lang="pt-PT" state="translated">Anúncios Aceitáveis</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_whitelisted_websites_description">
+        <source>You have turned off ad blocking on these websites and, therefore, will see ads on them.</source>
+        <target xml:lang="pt-PT" state="translated">Desativou o bloqueio de anúncios nestes sites Web e, como tal, verá anúncios nestes.</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_whitelisted_websites_title">
+        <source>Whitelisted Websites</source>
+        <target xml:lang="pt-PT" state="translated">Sites Web na lista branca</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_headline">
+        <source>Ghost Mode</source>
+        <target xml:lang="pt-PT" state="translated">Modo Fantasma</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_subline">
+        <source>While in Ghost Mode, all browser history, search history, web forms, cookies and temporary internet files will not be stored on your device.</source>
+        <target xml:lang="pt-PT" state="translated">No Modo Fantasma, todo o histórico do browser, histórico de pesquisa, formulários da Internet, cookies e ficheiros temporários da Internet não serão armazenados no dispositivo.</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_tip">
+        <source>Tap the icon to deactivate Ghost Mode when you are finished with the session.</source>
+        <target xml:lang="pt-PT" state="translated">Toque no ícone para desativar o Modo Fantasma quando terminar a sessão.</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_button_1">
+        <source>OK</source>
+        <target xml:lang="pt-PT" state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_button_2">
+        <source>Cancel</source>
+        <target xml:lang="pt-PT" state="translated">Cancelar</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_headline">
+        <source>Quit Ghost Mode?</source>
+        <target xml:lang="pt-PT" state="translated">Sair do Modo Fantasma?</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_subline">
+        <source>Your history will not be stored and all active tabs will be closed.</source>
+        <target xml:lang="pt-PT" state="translated">O histórico não será armazenado e todos os separadores ativos serão encerrados.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/Info.plist" source-language="en" datatype="plaintext" target-language="pt-PT">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock Browser</source>
+        <target xml:lang="pt-PT">Adblock Browser</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="pt-PT">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="pt-PT" state="translated">Cancelar</target>
+      </trans-unit>
+      <trans-unit id="Dismiss">
+        <source>Dismiss</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="pt-PT" state="translated">Recusar</target>
+      </trans-unit>
+      <trans-unit id="Open">
+        <source>Open</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="pt-PT" state="translated">Abrir</target>
+      </trans-unit>
+      <trans-unit id="Open in Adblock Browser?">
+        <source>Open in Adblock Browser?</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="pt-PT" state="translated">Abrir no Adblock Browser?</target>
+      </trans-unit>
+      <trans-unit id="URL not found">
+        <source>URL not found</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="pt-PT" state="translated">URL não encontrado</target>
+        <alt-trans>
+          <target xml:lang="pt-PT">Endereço não encontrado</target>
+        </alt-trans>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

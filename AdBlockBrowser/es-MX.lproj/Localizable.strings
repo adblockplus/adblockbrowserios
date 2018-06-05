@@ -1,0 +1,424 @@
+/* Find in page bar */
+"%@ of %@ matches" = "%1$@ de %2$@ coincidencias";
+
+/* App start failure screen */
+"A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "Un error crítico ha impedido que Adblock Browser se inicie. Siga estas instrucciones para salir de la aplicación y volver a intentarlo.";
+
+/* (No Commment) */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
+/* (No Commment) */
+"ADBLOCK VERSION" = "VERSIÓN DE ADBLOCK";
+
+/* (No Commment) */
+"About" = "Acerca de";
+
+/* (No Commment) */
+"Ad blocking" = "Bloqueo de publicidad";
+
+/* Welcome guide screen 1 paragraph */
+"Ad blocking is automatically integrated - no more annoying ads while you surf!" = "El bloqueo de publicidad se integra automáticamente, ¡no más anuncios molestos mientras navegas!";
+
+/* (No Commment) */
+"Ad blocking on this site" = "Bloquear la publicidad en este sitio";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Browser Encountered an Error" = "Adblock Browser ha encontrado un error";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Unexpectedly Quit" = "Adblock se ha cerrado de forma inesperada";
+
+/* Pull up menu option */
+"Add Bookmark" = "Agregar marcador";
+
+/* (No Commment) */
+"Add Bookmark to Dashboard" = "Agregar marcador a la consola";
+
+/* (No Commment) */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "Después de cerrar una pestaña del modo invisible, **el historial de navegación, de búsqueda, de descarga y de los formularios web, al igual que las cookies y los archivos temporales de internet** de esa pestaña, ya no se almacenarán en tu dispositivo.";
+
+/* (No Commment) */
+"All of your bookmarks have been added to the Dashboard." = "Todos sus marcadores se han agregado a la consola.";
+
+/* (No Commment) */
+"Allow some nonintrusive advertising" = "Permitir alguna publicidad no intrusiva";
+
+/* (No Commment) */
+"Always" = "Siempre";
+
+/* Crash/Error Report Sending Modal */
+"Always Send" = "Enviar siempre";
+
+/* Welcome guide screen 2 paragraph */
+"Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." = "Siempre se bloqueará la publicidad molesta, mientras que la no intrusiva se permitirá de forma predeterminada. Esta configuración se puede cambiar en cualquier momento.";
+
+/* Clear history alert message */
+"Are you sure you want to clear history? You cannot undo this action." = "¿Está seguro de querer borrar el historial? Esta acción no se puede deshacer.";
+
+/* Delete Bookmark alert message */
+"Are you sure you want to delete this bookmark?" = "¿Está seguro de que desea eliminar este marcador?";
+
+/* (No Commment) */
+"Ask Me After a Crash or Error" = "Preguntar después de una falla o error";
+
+/* (No Commment) */
+"BLOCKING" = "BLOQUEO";
+
+/* (No Commment) */
+"BROWSER VERSION" = "VERSIÓN DEL NAVEGADOR";
+
+/* Search Engine Selection */
+"Baidu" = "Baidu";
+
+/* Autocomplete suggestions */
+"Baidu search" = "Búsqueda con Baidu";
+
+/* Pull up menu option */
+"Block Ads on this Site" = "Bloquear los anuncios en esta página web";
+
+/* (No Commment) */
+"Block ads for websites in" = "Bloquear los anuncios de las páginas web en";
+
+/* Bookmarks listing */
+"Bookmarked Pages" = "Páginas marcadas";
+
+/* (No Commment) */
+"Bookmarks" = "Marcadores";
+
+/* (No Commment) */
+"Bookmarks loading has failed" = "Error al cargar los marcadores";
+
+/* Welcome guide screen 1 headline */
+"Browse in peace" = "Navegue con tranquilidad";
+
+/* (No Commment) */
+"CRASH AND ERROR REPORTING" = "ENVÍO DE INFORMES DE FALLAS Y ERRORES";
+
+/* Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title */
+"Cancel" = "Cancelar";
+
+/* Clear Browsing Data Confirmation
+   Clear history alert clear button title */
+"Clear" = "Borrar";
+
+/* Clear Browsing Data Option */
+"Clear All" = "Borrar todo";
+
+/* Clear Browsing Data Screen Title */
+"Clear Browsing Data" = "Borrar datos de navegación";
+
+/* Clear Browsing Data Option */
+"Clear Cache" = "Borrar caché";
+
+/* Clear Browsing Data Option */
+"Clear Cookies & Site Data" = "Borrar cookies y datos del sitio";
+
+/* Clear Browsing Data Option */
+"Clear History" = "Borrar historial";
+
+/* Clear history alert title */
+"Clear History?" = "¿Borrar historial?";
+
+/* Tabs view */
+"Close" = "Cerrar";
+
+/* Note of search approval confirmation */
+"Configurable under *Settings > URL Search Suggestions*" = "Configurable en *Ajustes > Sugerencias de búsqueda de URL*";
+
+/* Devbuild setting */
+"Crash Application Now" = "Crash Application Now";
+
+/* Crash Reports Dialogs */
+"Crash Reports" = "Crash Reports";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "Informes de fallas y errores";
+
+/* (No Commment) */
+"Dashboard" = "Consola";
+
+/* Browser history list
+   Delete Bookmark alert delete button title */
+"Delete" = "Borrar";
+
+/* Bookmark deleting button
+   Delete Bookmark alert title */
+"Delete Bookmark" = "Eliminar marcador";
+
+/* Devbuild setting */
+"Dev notification" = "Dev notification";
+
+/* Navigation control title */
+"Devbuild Settings" = "Devbuild Settings";
+
+/* (No Commment) */
+"Disable Anti-Ad blocking Messages" = "Desactivar mensajes antibloqueo";
+
+/* (No Commment) */
+"Disable Malware Domains" = "Desactivar dominios con malware";
+
+/* (No Commment) */
+"Disable Social Media Buttons" = "Desactivar botones de redes sociales";
+
+/* (No Commment) */
+"Disable Tracking" = "Desactivar seguimiento";
+
+/* Question of search approval confirmation */
+"Do you want to see web search results here?" = "¿Quiere ver aquí los resultados de búsqueda en la web?";
+
+/* Crash/Error Report Sending Modal */
+"Don't Send" = "No enviar";
+
+/* Bookmarks listing
+   Find in Page toolbar button */
+"Done" = "Hecho";
+
+/* App start failure screen */
+"Double tap the Home button." = "Toque dos veces el botón de inicio.";
+
+/* Search Engine Selection */
+"DuckDuckGo" = "DuckDuckGo";
+
+/* Autocomplete suggestions */
+"DuckDuckGo search" = "Búsqueda con DuckDuckGo";
+
+/* Bookmark edit
+   Bookmarks listing */
+"Edit" = "Editar";
+
+/* Bookmark editing placeholder */
+"Enter link" = "Introducir enlace";
+
+/* Bookmark editing placeholder */
+"Enter title" = "Introducir título";
+
+/* Devbuild setting */
+"Error prepared for sending" = "Error prepared for sending";
+
+/* (No Commment) */
+"Exceptions" = "Excepciones";
+
+/* Find in page - Autocomplete controller */
+"Find \"%@\" in page" = "Encontrar \"%@\" en la página";
+
+/* Find in page - Autocomplete controller */
+"Find in page (%@ matches)" = "Buscar en la página (%@ coincidencias)";
+
+/* Welcome guide screen 2 button */
+"Finish" = "Terminar";
+
+/* (No Commment) */
+"GENERAL" = "GENERAL";
+
+/* (No Commment) */
+"Ghost Mode" = "Modo invisible";
+
+/* Search Engine Selection */
+"Google" = "Google";
+
+/* Autocomplete suggestions */
+"Google search" = "Búsqueda con Google";
+
+/* Crash Reports Dialogs */
+"Got it" = "Entendido";
+
+/* (No Commment) */
+"Hide all ads" = "Ocultar todos los anuncios";
+
+/* Pull up menu option */
+"History" = "Historial";
+
+/* (No Commment) */
+"Languages" = "Idiomas";
+
+/* (No Commment) */
+"MEMORY PRESSURE" = "MEMORY PRESSURE";
+
+/* (No Commment) */
+"MORE OPTIONS" = "MÁS OPCIONES";
+
+/* (No Commment) */
+"More Blocking Options" = "Más opciones de bloqueo";
+
+/* (No Commment) */
+"Never" = "Nunca";
+
+/* Tab view label */
+"New Tab" = "Nueva pestaña";
+
+/* Devbuild setting */
+"Next App Start Failure" = "Next App Start Failure";
+
+/* Deny Google search */
+"No" = "No";
+
+/* Bookmarks listing */
+"No Bookmarks Available" = "Marcadores no disponibles";
+
+/* (No Commment) */
+"No History Available" = "Historial no disponible";
+
+/* (No Commment) */
+"No websites whitelisted" = "Ninguna web en lista blanca";
+
+/* Devbuild setting */
+"OK" = "Aceptar";
+
+/* (No Commment) */
+"OTHER LANGUAGES" = "OTROS IDIOMAS";
+
+/* Settings - extension enabled status */
+"Off" = "Desactivado";
+
+/* Settings - extension enabled status */
+"On" = "Activado";
+
+/* (No Commment) */
+"Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Solo se envían datos anónimos que contienen información del dispositivo y detalles de fallas o errores. Para más información, consulte nuestra política de privacidad en adblockplus.org.";
+
+/* Welcome guide screen 1 button */
+"Only one more step" = "Solo un paso más";
+
+/* Pull up menu option */
+"Open New Tab" = "Abrir pestaña nueva";
+
+/* (No Commment) */
+"Open privacy policy." = "Abrir política de privacidad";
+
+/* Devbuild setting */
+"Produce Error Now" = "Produce Error Now";
+
+/* Browser history list */
+"Recent History" = "Historial reciente";
+
+/* Pull up menu option */
+"Remove Bookmark" = "Eliminar marcador";
+
+/* App start failure screen */
+"Restart Adblock Browser." = "Reinicie Adblock Browser.";
+
+/* (No Commment) */
+"SEARCH" = "BÚSQUEDA";
+
+/* (No Commment) */
+"SEND CRASH AND ERROR REPORTS" = "ENVIAR INFORMES DE FALLAS Y ERRORES";
+
+/* Search Engine Selection */
+"Search Engine" = "Motor de búsqueda";
+
+/* Autocomplete suggestions */
+"Search History" = "Historial de búsqueda";
+
+/* Crash/Error Report Sending Modal */
+"Send Report" = "Enviar informe";
+
+/* Pull up menu option */
+"Settings" = "Ajustes";
+
+/* Pull up menu option */
+"Share" = "Compartir";
+
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Bookmark editing switch */
+"Show in Dashboard" = "Mostrar en el panel";
+
+/* (No Commment) */
+"Show nonintrusive ads" = "Mostrar anuncios no intrusivos";
+
+/* App start failure screen */
+"Something went wrong." = "Algo no ha funcionado.";
+
+/* TIP - Tabs View */
+"Swipe tabs left to close them." = "Desliza las pestañas hacia la izquierda para cerrarlas.";
+
+/* App start failure screen */
+"Swipe up on Adblock Browser to quit the app." = "Deslice hacia arriba Adblock Browser para salir de la aplicación.";
+
+/* TIP */
+"TIP" = "CONSEJO";
+
+/* Welcome guide screen 2 picture label */
+"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Toque el icono de Menú → Ajustes → Adblock Plus → Anuncios Aceptables";
+
+/* (No Commment) */
+"The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "*Bloqueo de publicidad* y *Más opciones de bloqueo* se basan en listas de filtros. Son un conjunto de reglas que le indican a Adblock Browser que anuncios bloquear.";
+
+/* Clear Browsing Data Confirmation */
+"This action cannot be undone. Are you sure you want to continue?" = "Esta acción no se puede deshacer. ¿Está seguro de que desea continuar?";
+
+/* Undo tooltip */
+"UNDO" = "DESHACER";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "Sugerencias de búsqueda de URL";
+
+/* App start failure screen */
+"Uh-Oh!" = "¡Oh, oh!";
+
+/* Critical abort alert message */
+"Unable to start browser." = "No es posible iniciar el navegador.";
+
+/* (No Commment) */
+"VERSION" = "VERSIÓN";
+
+/* (No Commment) */
+"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Nos gustaría animar a las páginas web a que usen publicidad honesta, no intrusiva. Por eso hemos establecido unas reglas estrictas para identificar los anuncios aceptables que se mostrarán de forma predeterminada. Si todavía quiere bloquear toda la publicidad, puede desactivar esta configuración en cualquier momento.";
+
+/* Crash/Error Report Sending Modal */
+"Would you like to send a report to fix the problem?" = "¿Le gustaría enviar un informe para arreglar el problema?";
+
+/* Allow Google search */
+"Yes" = "Sí";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Puede cambiar esta configuración en cualquier momento en: **Ajustes → Informes de fallas y errores**";
+
+/* Undo tooltip */
+"You closed a tab" = "Has cerrado una pestaña";
+
+/* Welcome guide screen 2 headline */
+"You're in control" = "Usted tiene el control";
+
+/* (No Commment) */
+"browser_address_bar_placeholder" = "Busca o introduce el nombre de una página web...";
+
+/* (No Commment) */
+"exceptions_settings_acceptable_ads_description" = "Elige si quieres incluir anuncios no intrusivos y estáticos que sigan criterios estrictos. *Más información*";
+
+/* (No Commment) */
+"exceptions_settings_acceptable_ads_title" = "Anuncios Aceptables";
+
+/* (No Commment) */
+"exceptions_settings_whitelisted_websites_description" = "Has desactivado el bloqueo de anuncios en estas páginas web y, por lo tanto, verás anuncios.";
+
+/* (No Commment) */
+"exceptions_settings_whitelisted_websites_title" = "Páginas web de la lista blanca";
+
+/* (No Commment) */
+"ghost_mode_banner_headline" = "Modo invisible";
+
+/* (No Commment) */
+"ghost_mode_banner_subline" = "Mientras utilizas el modo invisible, el historial del navegador, el historial de búsqueda, los formularios web, las cookies y los archivos temporales de internet no se almacenarán en tu dispositivo.";
+
+/* (No Commment) */
+"ghost_mode_banner_tip" = "Toca el ícono para desactivar el modo invisible cuando hayas finalizado la sesión.";
+
+/* (No Commment) */
+"leave_notification_button_1" = "Aceptar";
+
+/* (No Commment) */
+"leave_notification_button_2" = "Cancelar";
+
+/* (No Commment) */
+"leave_notification_headline" = "¿Quieres salir del modo invisible?";
+
+/* (No Commment) */
+"leave_notification_subline" = "Tu historial no se almacenará y se cerrarán todas las pestañas activas.";
+

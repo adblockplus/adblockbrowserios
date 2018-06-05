@@ -1,0 +1,3 @@
+[submodule "Crashlytics"]
+	path = Crashlytics
+	url = git@github.com:kitt-browser/crashlytics.git

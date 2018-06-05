@@ -1,0 +1,344 @@
+/* Find in page bar */
+"%@ of %@ matches" = "%1$@ od %2$@ podudaranja";
+
+/* App start failure screen */
+"A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.";
+
+/* Subscription listing section title */
+"ACTIVE FOR WEBSITES IN ..." = "AKTIVNO ZA STRANICE U...";
+
+/* About screen title
+   Settings status option */
+"About" = "O";
+
+/* Acceptable ads setting title
+   Settings - enable/disable acceptable ads */
+"Acceptable Ads" = "Prihvatljive reklame";
+
+/* Settings - show list of subscriptions */
+"Ad blocking" = "Blokiranje reklama";
+
+/* Welcome guide screen 1 paragraph */
+"Ad blocking is automatically integrated - no more annoying ads while you surf!" = "Blokiranje oglasa je automatski integrirano - nema više dosadnih oglasa dok surfate!";
+
+/* (No Commment) */
+"Ad blocking on this site" = "Blokiranje reklama na ovoj stranici";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Browser Encountered an Error" = "Adblock Browser Encountered an Error";
+
+/* Settings - enable/disable ABP extension
+   Settings status option
+   Settings title - Extension name */
+"Adblock Plus" = "Adblock Plus";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Unexpectedly Quit" = "Adblock Unexpectedly Quit";
+
+/* Add bookmark controller */
+"Add Bookmark to Dashboard" = "Dodajte knjižnu oznaku na nadzornu ploču";
+
+/* Ghost mode description */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
+
+/* Add bookmark controller */
+"All of your bookmarks have been added to the Dashboard." = "Sve oznake su dodane na nadzornu ploču.";
+
+/* Acceptable ads switch label */
+"Allow some nonintrusive advertising" = "Dopusti neke nenametljive reklame";
+
+/* Crash/Error reports settings */
+"Always" = "Uvijek";
+
+/* Crash/Error Report Sending Modal */
+"Always Send" = "Always Send";
+
+/* Welcome guide screen 2 paragraph */
+"Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." = "Nametljive reklame su uvijek blokirane, dok se nenametljive reklame prikazuju pod zadano. Možete promijeniti ovu postavku bilo kad.";
+
+/* Clear history alert message */
+"Are you sure you want to clear history? You cannot undo this action." = "Jeste li sigurni da želite očistiti povijest? Ne možete poništiti ovu radnju.";
+
+/* Delete Bookmark alert message */
+"Are you sure you want to delete this bookmark?" = "Jeste li sigurni da želite izbrisati ovu oznaku?";
+
+/* Crash/Error reports settings */
+"Ask Me After a Crash or Error" = "Ask Me After a Crash or Error";
+
+/* Settings section header */
+"BLOCKING" = "BLOKIRANJE";
+
+/* Search Engine Selection */
+"Baidu" = "Baidu";
+
+/* Autocomplete suggestions */
+"Baidu search" = "Baidu pretraga";
+
+/* (No Commment) */
+"Bookmarks" = "Oznake";
+
+/* (No Commment) */
+"Bookmarks loading has failed" = "Učitavanje oznaka nije uspjelo";
+
+/* Welcome guide screen 1 headline */
+"Browse in peace" = "Surfajte u miru";
+
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title */
+"Cancel" = "Odustani";
+
+/* Clear Browsing Data Confirmation
+   Clear history alert clear button title */
+"Clear" = "Očisti";
+
+/* Clear Browsing Data Option */
+"Clear All" = "Očisti sve";
+
+/* Clear Browsing Data Screen Title
+   Settings status option */
+"Clear Browsing Data" = "Očisti podatke pregledavanja";
+
+/* Clear Browsing Data Option */
+"Clear Cache" = "Očisti spremnik memorije";
+
+/* Clear Browsing Data Option */
+"Clear Cookies & Site Data" = "Očisti Kolačiće & podatke stranica";
+
+/* Browser history list
+   Clear Browsing Data Option */
+"Clear History" = "Očisti povijest";
+
+/* Clear history alert title */
+"Clear History?" = "Očistiti povijest?";
+
+/* Note of search approval confirmation */
+"Configurable under *Settings > URL Search Suggestions*" = "Može se konfigurirati pod *Postavke > Prijedlozi URL pretraga*";
+
+/* Crash Reports Dialogs
+   Crash/Error reports settings
+   Settings status option */
+"Crash and Error Reports" = "Crash and Error Reports";
+
+/* (No Commment) */
+"Dashboard" = "Kontrolna ploča";
+
+/* Bookmark delete
+   Delete Bookmark alert delete button title */
+"Delete" = "Izbriši";
+
+/* Bookmark deleting button
+   Delete Bookmark alert title */
+"Delete Bookmark" = "Brisanje oznake";
+
+/* Blocking options - Disable anti-adblocking messages */
+"Disable Anti-Ad blocking Messages" = "Onemogući poruke o blokiranju reklama";
+
+/* Blocking options - Disable malware domains */
+"Disable Malware Domains" = "Onemogući Malware domene";
+
+/* Blocking options - Disable social media buttons */
+"Disable Social Media Buttons" = "Onemoguće gumbe društvenih medija";
+
+/* Blocking options - Disable tracking */
+"Disable Tracking" = "Isključi praćenje";
+
+/* Question of search approval confirmation */
+"Do you want to see web search results here?" = "Želite li vidjeti rezultate pretraživanja web-a ovdje?";
+
+/* Crash/Error Report Sending Modal */
+"Don't Send" = "Don't Send";
+
+/* Add bookmark controller
+   Bookmarks listing
+   Find in Page toolbar button */
+"Done" = "Gotovo";
+
+/* App start failure screen */
+"Double tap the Home button." = "Double tap the Home button.";
+
+/* Search Engine Selection */
+"DuckDuckGo" = "DuckDuckGo";
+
+/* Autocomplete suggestions */
+"DuckDuckGo search" = "DuckDuckGo pretraga";
+
+/* Settings section header */
+"EXCEPTIONS" = "IZNIMKE";
+
+/* Bookmark edit
+   Bookmarks listing */
+"Edit" = "Uredi";
+
+/* Bookmark editing placeholder */
+"Enter link" = "Unesite poveznicu";
+
+/* Bookmark editing placeholder */
+"Enter title" = "Unesite naslov";
+
+/* Settings section header */
+"FILTER LIST UPDATES" = "AŽURIRANJA POPISA FILTERA";
+
+/* Find in page - Autocomplete controller */
+"Find \"%@\" in page" = "Pronađi \"%@\" na stranici";
+
+/* Find in page - Autocomplete controller */
+"Find in page (%@ matches)" = "Pronađi na stranici (%@ podudaranja)";
+
+/* Welcome guide screen 2 button */
+"Finish" = "Završi";
+
+/* Settings section header */
+"GENERAL" = "OPĆENITO";
+
+/* Ghost Mode Title */
+"Ghost Mode" = "Ghost Mode";
+
+/* Search Engine Selection */
+"Google" = "Google";
+
+/* Autocomplete suggestions */
+"Google search" = "Google pretraga";
+
+/* Crash Reports Dialogs */
+"Got it" = "Shvaćam";
+
+/* Pull up menu option */
+"History" = "Povijest";
+
+/* Blocking options screen
+   Settings - show more blocking options */
+"More Blocking Options" = "Više opcija blokiranja";
+
+/* Crash/Error reports settings */
+"Never" = "Nikad";
+
+/* Tab view label */
+"New Tab" = "Nova kartica";
+
+/* Deny Google search */
+"No" = "Ne";
+
+/* Bookmarks listing */
+"No Bookmarks Available" = "Nema dostupnih oznaka";
+
+/* Browser history list */
+"No History Available" = "Nema dostupne povijesti";
+
+/* Whitelist no website whitelisted label */
+"No websites whitelisted" = "Nema dozvoljenih stranica";
+
+/* Devbuild setting */
+"OK" = "OK";
+
+/* Subscription listing section title */
+"OTHER LANGUAGES" = "DRUGI JEZICI";
+
+/* Settings - extension enabled status */
+"Off" = "Isključeno";
+
+/* Settings - extension enabled status */
+"On" = "Uključeno";
+
+/* Crash/Error reports settings */
+"Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.";
+
+/* Welcome guide screen 1 button */
+"Only one more step" = "Još samo jedan korak";
+
+/* Crash/Error reports settings */
+"Open privacy policy." = "Otvorena polica privatnosti.";
+
+/* Settings section header */
+"PRIVACY & SECURITY" = "PRIVATNOST & SIGURNOST";
+
+/* App start failure screen */
+"Restart Adblock Browser." = "Restart Adblock Browser.";
+
+/* Settings section header */
+"SEARCH" = "TRAŽI";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "SEND CRASH AND ERROR REPORTS";
+
+/* Search Engine Selection
+   Settings status option */
+"Search Engine" = "Tražilica";
+
+/* Autocomplete suggestions */
+"Search History" = "Pretraži povijest";
+
+/* Browser address bar hint */
+"Search or enter website name" = "Tražite ili unesite ime stranice";
+
+/* Crash/Error Report Sending Modal */
+"Send Report" = "Send Report";
+
+/* Pull up menu option */
+"Settings" = "Postavke";
+
+/* Pull up menu option */
+"Share" = "Podijeli";
+
+/* Bookmark editing switch */
+"Show in Dashboard" = "Prikaži u kontrolnoj ploči";
+
+/* App start failure screen */
+"Something went wrong." = "Something went wrong.";
+
+/* Subscriptions listing title */
+"Subscriptions" = "Pretplate";
+
+/* App start failure screen */
+"Swipe up on Adblock Browser to quit the app." = "Swipe up on Adblock Browser to quit the app.";
+
+/* Welcome guide screen 2 picture label */
+"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Dodirnite ikonu Izbornika → Postavke → Adblock Plus → Prihvatljive reklame";
+
+/* Settings section footer */
+"The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "*blokiranje reklama* i *više opcija blokiranja* su bazirani na popisima filtera. To su setovi pravila koja govore Adblock pregleniku što blokirati.";
+
+/* Clear Browsing Data Confirmation */
+"This action cannot be undone. Are you sure you want to continue?" = "Ova radnja ne može biti poništena. Jeste li sigurni da želite nastaviti?";
+
+/* Headline of search approval confirmation
+   Settings status option */
+"URL Search Suggestions" = "Prijedlozi URL pretraga";
+
+/* App start failure screen */
+"Uh-Oh!" = "Uh-Oh!";
+
+/* Critical abort alert message */
+"Unable to start browser." = "Unable to start browser.";
+
+/* Settings - enable/disable cellular network for downloading subscriptions */
+"Use Cellular Network" = "Koristi mobilnu mrežu";
+
+/* Section header in About screen */
+"VERSION" = "VERZIJA";
+
+/* Acceptable ads explanation */
+"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Želimo potaknuti web stranice da koriste jednostavno, nenametljivo oglašavanje. Zato smo uspostavili stroge smjernice za identificiranje Prihvatljivih reklama, smjernice koje su prikazane pod zadanim postavkama. Ako želite surfati bez reklama, možete onemogućiti ovu postavku bilo kad.";
+
+/* Settings - show list of whitelisted pages
+   Whitelist title */
+"Whitelisted Websites" = "Dopuštene stranice";
+
+/* Settings section footer */
+"With Adblock Plus, you can block ads or other elements on websites." = "S Adblock Plus-om možete blokirate reklame ili druge elemente na stranici.";
+
+/* Crash/Error Report Sending Modal */
+"Would you like to send a report to fix the problem?" = "Would you like to send a report to fix the problem?";
+
+/* Allow Google search */
+"Yes" = "Da";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "You can change this setting at any time in: **Settings → Crash and Error Reports**";
+
+/* Welcome guide screen 2 headline */
+"You're in control" = "Vi imate kontrolu";
+

@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AdBlockBrowser/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock</source>
+        <target xml:lang="ar">Adblock</target>
+        <alt-trans>
+          <target xml:lang="ar">آدبلوك</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">آدبلوك بلس</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>Adblock Browser</source>
+        <target xml:lang="ar" state="translated">Adblock Browser</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <source>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</source>
+        <target xml:lang="ar">نحن نزود المواقع (مثل خرائط جوجل) بموقعك فقط عند موافقتك. Adblock Browser لا يستخدم المعلومات اللتي تحدد مكانك لأي غرض آخر.</target>
+        <alt-trans>
+          <target xml:lang="ar">نحن نزود المواقع (مثل خرائط جوجل) بموقعك فقط عند موافقتك. متصفح آدبلوك لا يستخدم المعلومات اللتي تحدد مكانك لأي غرض آخر.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">نحن نزود المواقع (مثل خرائط جوجل) بموقعك فقط عند موافقتك. متصفح آدبلوك لا يستخدم موقعك لأي سبب آخر.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">نحن نزود المواقع (مثل خرائط جوجل) بموقعك فقط عند موافقتك. متصفح Adblock لا يستخدم موقعك لأي سبب آخر.</target>
+        </alt-trans>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AdBlockBrowser/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="%@ of %@ matches" approved="yes">
+        <source>%1$@ of %2$@ matches</source>
+        <note>Find in page bar</note>
+        <target xml:lang="ar">%1$@ من %2$@ تطابقات</target>
+      </trans-unit>
+      <trans-unit id="A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." approved="yes">
+        <source>A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="ar">ثمة خطأ فادح منع بدء تشغيل Adblock Browser. اتبع هذه التعليمات لإنهاء التطبيق والمحاولة مجددًا.</target>
+      </trans-unit>
+      <trans-unit id="ADBLOCK BROWSER">
+        <source>Adblock Browser</source>
+        <target xml:lang="ar" state="translated">Adblock Browser</target>
+      </trans-unit>
+      <trans-unit id="ADBLOCK VERSION">
+        <source>ADBLOCK VERSION</source>
+        <target xml:lang="ar" state="needs-translation">ADBLOCK VERSION</target>
+      </trans-unit>
+      <trans-unit id="About" approved="yes">
+        <source>About</source>
+        <target xml:lang="ar">حول</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking" approved="yes">
+        <source>Ad blocking</source>
+        <target xml:lang="ar">حظر الإعلانات</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking is automatically integrated - no more annoying ads while you surf!" approved="yes">
+        <source>Ad blocking is automatically integrated - no more annoying ads while you surf!</source>
+        <note>Welcome guide screen 1 paragraph</note>
+        <target xml:lang="ar">منع الإعلانات مدمج تلقائياً – لا إعلانات مزعجة بعد اللآن!</target>
+        <alt-trans>
+          <target xml:lang="ar">منع الإعلانات يعمل تلقائياً – لا للإعلانات المزعجة بعد اللآن!</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">منع الإعلانات يعمل تلقائياً - لا للاعلانات المزعجة بعد الان!</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">حجب الإعلانات يعمل تلقائياً - لا للاعلانات المزعجة بعد الان!</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">حظر الإعلانات متكامل تلقائياً-لا أكثر-الإعلانات المزعجة أثناء تصفح!</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Ad blocking on this site" approved="yes">
+        <source>Ad blocking on this site</source>
+        <target xml:lang="ar">حجب الإعلانات على هذا الموقع</target>
+        <alt-trans>
+          <target xml:lang="ar">منع الاعلانات على هذا الموقع</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">حجب الاعلانات على هذا الموقع</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">إعلان حظر على هذا الموقع</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Adblock Browser Encountered an Error" approved="yes">
+        <source>Adblock Browser Encountered an Error</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="ar">واجه Adblock Browser خطأً</target>
+      </trans-unit>
+      <trans-unit id="Adblock Unexpectedly Quit" approved="yes">
+        <source>Adblock Unexpectedly Quit</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="ar">تم إنهاء Adblock بشكل غير متوقع</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark">
+        <source>Add Bookmark</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar" state="translated">إضافة إشارة مرجعية</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark to Dashboard">
+        <source>Add Bookmark to Dashboard</source>
+        <target xml:lang="ar" state="translated">إضافة علامة مرجعية إلى لوحة التحكم</target>
+        <alt-trans>
+          <target xml:lang="ar">إضافة إشارة مرجعية إلى لوحة المعلومات</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.">
+        <source>After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</source>
+        <target xml:lang="ar" state="needs-translation">After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</target>
+      </trans-unit>
+      <trans-unit id="All of your bookmarks have been added to the Dashboard.">
+        <source>All of your bookmarks have been added to the Dashboard.</source>
+        <target xml:lang="ar" state="translated">تمت إضافة كل إشاراتك المرجعية إلى لوحة المعلومات.</target>
+      </trans-unit>
+      <trans-unit id="Allow some nonintrusive advertising" approved="yes">
+        <source>Allow some nonintrusive advertising</source>
+        <target xml:lang="ar">السماح ببعض الإعلانات غير التطفلية</target>
+      </trans-unit>
+      <trans-unit id="Always" approved="yes">
+        <source>Always</source>
+        <target xml:lang="ar">دائمًا</target>
+      </trans-unit>
+      <trans-unit id="Always Send" approved="yes">
+        <source>Always Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="ar">أرسل دائمًا</target>
+      </trans-unit>
+      <trans-unit id="Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." approved="yes">
+        <source>Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</source>
+        <note>Welcome guide screen 2 paragraph</note>
+        <target xml:lang="ar">الإعلانات المزعجة يتم حظرها دائماً، بينما يتم السماح للإعلانات الغير متطفلة بشكل إفتراضي. يمكنك تغيير هذا الإعداد في أي وقت.</target>
+        <alt-trans>
+          <target xml:lang="ar">دائماً يتم منع الإعلانات المزعجة، بينما يتم عرض الاعلانات التي لا تخرب تجربة التصفح بشكل افتراضي. يمكنك تغيير هذا الإعداد في أي وقت.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">دائماً يتم حظر الإعلانات المزعجة، بينما يتم عرض إعلانات نونينتروسيفي بشكل افتراضي. يمكنك تغيير هذا الإعداد في أي وقت.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to clear history? You cannot undo this action." approved="yes">
+        <source>Are you sure you want to clear history? You cannot undo this action.</source>
+        <note>Clear history alert message</note>
+        <target xml:lang="ar">هل أنت متأكد من أنك تريد مسح سجل المحفوظات؟ لا يمكنك التراجع عن هذا الإجراء.</target>
+        <alt-trans>
+          <target xml:lang="ar">هل أنت متأكد من أنك تريد مسح محفوظات؟ لا يمكنك التراجع عن هذا الإجراء.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to delete this bookmark?">
+        <source>Are you sure you want to delete this bookmark?</source>
+        <note>Delete Bookmark alert message</note>
+        <target xml:lang="ar" state="translated">هل تريد بالتأكيد حذف هذه الإشارة المرجعية؟</target>
+      </trans-unit>
+      <trans-unit id="Ask Me After a Crash or Error" approved="yes">
+        <source>Ask Me After a Crash or Error</source>
+        <target xml:lang="ar">اسألني بعد حدوث تعطل أو خطأ</target>
+      </trans-unit>
+      <trans-unit id="BLOCKING" approved="yes">
+        <source>BLOCKING</source>
+        <target xml:lang="ar">الحظر</target>
+        <alt-trans>
+          <target xml:lang="ar">حظر</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="BROWSER VERSION">
+        <source>BROWSER VERSION</source>
+        <target xml:lang="ar" state="needs-translation">BROWSER VERSION</target>
+      </trans-unit>
+      <trans-unit id="Baidu" approved="yes">
+        <source>Baidu</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="ar">بايدو</target>
+      </trans-unit>
+      <trans-unit id="Baidu search" approved="yes">
+        <source>Baidu search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="ar">بحث بايدو</target>
+      </trans-unit>
+      <trans-unit id="Block Ads on this Site">
+        <source>Block Ads on this Site</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar" state="translated">حجب الإعلانات في هذا الموقع</target>
+      </trans-unit>
+      <trans-unit id="Block ads for websites in">
+        <source>Block ads for websites in</source>
+        <target xml:lang="ar" state="translated">حجب الإعلانات لمواقع الويب في</target>
+      </trans-unit>
+      <trans-unit id="Bookmarked Pages">
+        <source>Bookmarked Pages</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="ar" state="translated">صفحات ذات إشارة مرجعية</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks" approved="yes">
+        <source>Bookmarks</source>
+        <target xml:lang="ar">المواقع المفضلة</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks loading has failed" approved="yes">
+        <source>Bookmarks loading has failed</source>
+        <target xml:lang="ar">فشل في تحميل المواقع المفضلة</target>
+      </trans-unit>
+      <trans-unit id="Browse in peace" approved="yes">
+        <source>Browse in peace</source>
+        <note>Welcome guide screen 1 headline</note>
+        <target xml:lang="ar">تصفح بأمان</target>
+        <alt-trans>
+          <target xml:lang="ar">تصفح في سلام</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="CRASH AND ERROR REPORTING">
+        <source>CRASH AND ERROR REPORTING</source>
+        <target xml:lang="ar" state="needs-translation">CRASH AND ERROR REPORTING</target>
+      </trans-unit>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source>
+        <note>Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title</note>
+        <target xml:lang="ar">إلغاء</target>
+      </trans-unit>
+      <trans-unit id="Clear" approved="yes">
+        <source>Clear</source>
+        <note>Clear Browsing Data Confirmation
+   Clear history alert clear button title</note>
+        <target xml:lang="ar">مسح</target>
+        <alt-trans>
+          <target xml:lang="ar">واضحة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Clear All" approved="yes">
+        <source>Clear All</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="ar">مسح الكل</target>
+      </trans-unit>
+      <trans-unit id="Clear Browsing Data" approved="yes">
+        <source>Clear Browsing Data</source>
+        <note>Clear Browsing Data Screen Title</note>
+        <target xml:lang="ar">مسح بيانات التصفح</target>
+      </trans-unit>
+      <trans-unit id="Clear Cache" approved="yes">
+        <source>Clear Cache</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="ar">مسح الملفات المؤقتة</target>
+      </trans-unit>
+      <trans-unit id="Clear Cookies &amp; Site Data" approved="yes">
+        <source>Clear Cookies &amp; Site Data</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="ar">مسح ملفات تعريف الإرتباط و بيانات الموقع</target>
+      </trans-unit>
+      <trans-unit id="Clear History" approved="yes">
+        <source>Clear History</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="ar">مسح المحفوظات</target>
+        <alt-trans>
+          <target xml:lang="ar">مسح المحفوظات؟</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Clear History?" approved="yes">
+        <source>Clear History?</source>
+        <note>Clear history alert title</note>
+        <target xml:lang="ar">مسح سجل المحفوظات؟</target>
+        <alt-trans>
+          <target xml:lang="ar">مسح التأريخ ؟</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Tabs view</note>
+        <target xml:lang="ar" state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="Configurable under *Settings &gt; URL Search Suggestions*" approved="yes">
+        <source>Configurable under *Settings &gt; URL Search Suggestions*</source>
+        <note>Note of search approval confirmation</note>
+        <target xml:lang="ar">التعديل من خلال *قائمة الإعدادات و إقتراحات البحث*</target>
+        <alt-trans>
+          <target xml:lang="ar">شكلي تحت *إعدادات &gt; URL بحث الاقتراحات*</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">شكلي تحت * إعدادات &gt; URL بحث الاقتراحات *</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">يمكنك تعطيل/تشغيل إقتراحات البحث من قائمة الإعدادات</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Crash Application Now">
+        <source>Crash Application Now</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar" state="needs-translation">Crash Application Now</target>
+      </trans-unit>
+      <trans-unit id="Crash Reports">
+        <source>Crash Reports</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="ar" state="needs-translation">Crash Reports</target>
+      </trans-unit>
+      <trans-unit id="Crash and Error Reports" approved="yes">
+        <source>Crash and Error Reports</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="ar">تقارير التعطل والخطأ</target>
+      </trans-unit>
+      <trans-unit id="Dashboard" approved="yes">
+        <source>Dashboard</source>
+        <target xml:lang="ar">لوحة المعلومات</target>
+        <alt-trans>
+          <target xml:lang="ar">لوحة التحكم</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Delete" approved="yes">
+        <source>Delete</source>
+        <note>Browser history list
+   Delete Bookmark alert delete button title</note>
+        <target xml:lang="ar">حذف</target>
+      </trans-unit>
+      <trans-unit id="Delete Bookmark" approved="yes">
+        <source>Delete Bookmark</source>
+        <note>Bookmark deleting button
+   Delete Bookmark alert title</note>
+        <target xml:lang="ar">حذف العلامة المرجعية</target>
+        <alt-trans>
+          <target xml:lang="ar">حذف الإشارة المرجعية</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Dev notification">
+        <source>Dev notification</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar" state="needs-translation">Dev notification</target>
+      </trans-unit>
+      <trans-unit id="Devbuild Settings">
+        <source>Devbuild Settings</source>
+        <note>Navigation control title</note>
+        <target xml:lang="ar" state="needs-translation">Devbuild Settings</target>
+      </trans-unit>
+      <trans-unit id="Disable Anti-Ad blocking Messages" approved="yes">
+        <source>Disable Anti-Ad blocking Messages</source>
+        <target xml:lang="ar"> تعطيل رسائل مضادات حاجب الإعلانات</target>
+        <alt-trans>
+          <target xml:lang="ar"> تعطيل رسائل مضادات حاجب الإعلانات</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">تعطيل رسائل مضادات حاجب الإعلانات</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">تعطيل حظر الرسائل الإعلانية لمكافحة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Disable Malware Domains" approved="yes">
+        <source>Disable Malware Domains</source>
+        <target xml:lang="ar"> تعطيل نطاقات البرامج الضارة</target>
+        <alt-trans>
+          <target xml:lang="ar">تعطيل نطاقات البرامج الضارة</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar"> تعطيل نطاقات البرامج الضارة </target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">تعطيل النطاقات الضارة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Disable Social Media Buttons" approved="yes">
+        <source>Disable Social Media Buttons</source>
+        <target xml:lang="ar"> تعطيل أزرار المواقع الإجتماعية</target>
+        <alt-trans>
+          <target xml:lang="ar"> تعطيل أزرار المواقع الإجتماعية </target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">تعطيل أزرار المواقع الإجتماعية</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Disable Tracking" approved="yes">
+        <source>Disable Tracking</source>
+        <target xml:lang="ar"> تعطيل التتبع</target>
+        <alt-trans>
+          <target xml:lang="ar"> تعطيل التتبع </target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">تعطيل التتبع</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Do you want to see web search results here?" approved="yes">
+        <source>Do you want to see web search results here?</source>
+        <note>Question of search approval confirmation</note>
+        <target xml:lang="ar">هل تريد أن ترى نتائج بحث الويب هنا؟</target>
+        <alt-trans>
+          <target xml:lang="ar">هل تريد أن ترى نتائج بحث الويب هنا؟?</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Don't Send" approved="yes">
+        <source>Don't Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="ar">لا ترسل</target>
+      </trans-unit>
+      <trans-unit id="Done" approved="yes">
+        <source>Done</source>
+        <note>Bookmarks listing
+   Find in Page toolbar button</note>
+        <target xml:lang="ar">‏‏تم</target>
+      </trans-unit>
+      <trans-unit id="Double tap the Home button." approved="yes">
+        <source>Double tap the Home button.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="ar">اضغط مرتين على زر الشاشة الرئيسية.</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo" approved="yes">
+        <source>DuckDuckGo</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="ar">دوك دوك جو</target>
+        <alt-trans>
+          <target xml:lang="ar">DuckDuckGo</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo search" approved="yes">
+        <source>DuckDuckGo search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="ar">بحث دوكدوكجو</target>
+        <alt-trans>
+          <target xml:lang="ar">بحث DuckDuckGo</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">البحث DuckDuckGo</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Edit" approved="yes">
+        <source>Edit</source>
+        <note>Bookmark edit
+   Bookmarks listing</note>
+        <target xml:lang="ar">تعديل</target>
+      </trans-unit>
+      <trans-unit id="Enter link" approved="yes">
+        <source>Enter link</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="ar">إدخال الرابط</target>
+        <alt-trans>
+          <target xml:lang="ar">إدخل الرابط</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Enter title" approved="yes">
+        <source>Enter title</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="ar">إدخال العنوان</target>
+        <alt-trans>
+          <target xml:lang="ar">إدخل العنوان</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Error prepared for sending">
+        <source>Error prepared for sending</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar" state="needs-translation">Error prepared for sending</target>
+      </trans-unit>
+      <trans-unit id="Exceptions">
+        <source>Exceptions</source>
+        <target xml:lang="ar" state="translated">استثناءات</target>
+      </trans-unit>
+      <trans-unit id="Find &quot;%@&quot; in page" approved="yes">
+        <source>Find "%@" in page</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="ar">ابحث عن "%@" في الصفحة</target>
+      </trans-unit>
+      <trans-unit id="Find in page (%@ matches)" approved="yes">
+        <source>Find in page (%@ matches)</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="ar">البحث في الصفحة (%@ تطابقات)</target>
+      </trans-unit>
+      <trans-unit id="Finish" approved="yes">
+        <source>Finish</source>
+        <note>Welcome guide screen 2 button</note>
+        <target xml:lang="ar">إنهاء</target>
+      </trans-unit>
+      <trans-unit id="GENERAL" approved="yes">
+        <source>GENERAL</source>
+        <target xml:lang="ar">العام</target>
+        <alt-trans>
+          <target xml:lang="ar">عام</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Ghost Mode">
+        <source>Ghost Mode</source>
+        <target xml:lang="ar" state="translated">وضع التخفي</target>
+      </trans-unit>
+      <trans-unit id="Google" approved="yes">
+        <source>Google</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="ar">جوجل</target>
+        <alt-trans>
+          <target xml:lang="ar">Google</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Google search" approved="yes">
+        <source>Google search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="ar">بحث جوجل</target>
+        <alt-trans>
+          <target xml:lang="ar">البحث Google</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Got it" approved="yes">
+        <source>Got it</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="ar">مفهوم</target>
+        <alt-trans>
+          <target xml:lang="ar">وصلت الفكرة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Hide all ads">
+        <source>Hide all ads</source>
+        <target xml:lang="ar" state="translated">إخفاء كل الإعلانات</target>
+      </trans-unit>
+      <trans-unit id="History" approved="yes">
+        <source>History</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar">سجل المحفوظات</target>
+        <alt-trans>
+          <target xml:lang="ar">التأريخ</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">التاريخ</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Languages">
+        <source>Languages</source>
+        <target xml:lang="ar" state="translated">اللغات</target>
+      </trans-unit>
+      <trans-unit id="MEMORY PRESSURE">
+        <source>MEMORY PRESSURE</source>
+        <target xml:lang="ar" state="needs-translation">MEMORY PRESSURE</target>
+      </trans-unit>
+      <trans-unit id="MORE OPTIONS">
+        <source>MORE OPTIONS</source>
+        <target xml:lang="ar" state="translated">خيارات إضافية</target>
+      </trans-unit>
+      <trans-unit id="More Blocking Options" approved="yes">
+        <source>More Blocking Options</source>
+        <target xml:lang="ar">خيارات الحظر الإضافية</target>
+        <alt-trans>
+          <target xml:lang="ar">خيارات إضافية لحظر</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Never" approved="yes">
+        <source>Never</source>
+        <target xml:lang="ar">‏‏مطلقاً</target>
+      </trans-unit>
+      <trans-unit id="New Tab" approved="yes">
+        <source>New Tab</source>
+        <note>Tab view label</note>
+        <target xml:lang="ar">تبويب جديد</target>
+      </trans-unit>
+      <trans-unit id="Next App Start Failure">
+        <source>Next App Start Failure</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar" state="needs-translation">Next App Start Failure</target>
+      </trans-unit>
+      <trans-unit id="No" approved="yes">
+        <source>No</source>
+        <note>Deny Google search</note>
+        <target xml:lang="ar">لا</target>
+      </trans-unit>
+      <trans-unit id="No Bookmarks Available" approved="yes">
+        <source>No Bookmarks Available</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="ar">المواقع المفضلة ليست متوفرة</target>
+        <alt-trans>
+          <target xml:lang="ar">قائمة المواقع المفضلة خالية</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="No History Available" approved="yes">
+        <source>No History Available</source>
+        <target xml:lang="ar">سجل المحفوظات خالي</target>
+        <alt-trans>
+          <target xml:lang="ar">لا يوجد تأريخ متاح</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">لا يوجد تاريخ متاح</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="No websites whitelisted" approved="yes">
+        <source>No websites whitelisted</source>
+        <target xml:lang="ar">لا توجد مواقع على القائمة البيضاء</target>
+      </trans-unit>
+      <trans-unit id="OK" approved="yes">
+        <source>OK</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar">موافق</target>
+      </trans-unit>
+      <trans-unit id="OTHER LANGUAGES" approved="yes">
+        <source>OTHER LANGUAGES</source>
+        <target xml:lang="ar">لغات أخرى</target>
+      </trans-unit>
+      <trans-unit id="Off" approved="yes">
+        <source>Off</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="ar">تعطيل</target>
+      </trans-unit>
+      <trans-unit id="On" approved="yes">
+        <source>On</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="ar">تشغيل</target>
+        <alt-trans>
+          <target xml:lang="ar">يعمل</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." approved="yes">
+        <source>Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</source>
+        <target xml:lang="ar">لا يتم إرسال سوى بيانات مجهولة الهوية تضم معلومات الجهاز وتفاصيل التعطل أو الخطأ. لمزيد من المعلومات، الرجاء الرجوع إلى سياسة الخصوصية لدينا الموجودة على adblockplus.org.</target>
+      </trans-unit>
+      <trans-unit id="Only one more step" approved="yes">
+        <source>Only one more step</source>
+        <note>Welcome guide screen 1 button</note>
+        <target xml:lang="ar">باقي خطوة واحدة</target>
+        <alt-trans>
+          <target xml:lang="ar">خطوة واحدة فقط</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Open New Tab">
+        <source>Open New Tab</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar" state="translated">فتح علامة تبويب جديدة</target>
+      </trans-unit>
+      <trans-unit id="Open privacy policy." approved="yes">
+        <source>Open privacy policy.</source>
+        <target xml:lang="ar">فتح سياسة الخصوصية</target>
+        <alt-trans>
+          <target xml:lang="ar">فتح سياسة الخصوصية.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Produce Error Now">
+        <source>Produce Error Now</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar" state="needs-translation">Produce Error Now</target>
+      </trans-unit>
+      <trans-unit id="Recent History">
+        <source>Recent History</source>
+        <note>Browser history list</note>
+        <target xml:lang="ar" state="needs-translation">Recent History</target>
+      </trans-unit>
+      <trans-unit id="Remove Bookmark">
+        <source>Remove Bookmark</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar" state="translated">إزالة الإشارة المرجعية</target>
+      </trans-unit>
+      <trans-unit id="Restart Adblock Browser." approved="yes">
+        <source>Restart Adblock Browser.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="ar">أعد تشغيل Adblock Browser.</target>
+      </trans-unit>
+      <trans-unit id="SEARCH" approved="yes">
+        <source>SEARCH</source>
+        <target xml:lang="ar">البحث</target>
+        <alt-trans>
+          <target xml:lang="ar">البحث عن</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="SEND CRASH AND ERROR REPORTS" approved="yes">
+        <source>SEND CRASH AND ERROR REPORTS</source>
+        <target xml:lang="ar">إرسال تقارير التعطل والخطأ</target>
+      </trans-unit>
+      <trans-unit id="Search Engine" approved="yes">
+        <source>Search Engine</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="ar">محرك البحث</target>
+      </trans-unit>
+      <trans-unit id="Search History" approved="yes">
+        <source>Search History</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="ar">البحث في سجل المحفوظات</target>
+        <alt-trans>
+          <target xml:lang="ar">تاريخ البحث</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Send Report" approved="yes">
+        <source>Send Report</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="ar">أرسل تقريرًا</target>
+      </trans-unit>
+      <trans-unit id="Settings" approved="yes">
+        <source>Settings</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar">إعدادات</target>
+      </trans-unit>
+      <trans-unit id="Share" approved="yes">
+        <source>Share</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="ar">المشاركة</target>
+        <alt-trans>
+          <target xml:lang="ar">مشاركة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Show Memory Pressure Indication">
+        <source>Show Memory Pressure Indication</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="ar" state="needs-translation">Show Memory Pressure Indication</target>
+      </trans-unit>
+      <trans-unit id="Show in Dashboard" approved="yes">
+        <source>Show in Dashboard</source>
+        <note>Bookmark editing switch</note>
+        <target xml:lang="ar"> إظهار في لوحة المعلومات</target>
+        <alt-trans>
+          <target xml:lang="ar">إظهار في لوحة المعلومات</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">اظهار في لوحة المعلومات</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Show nonintrusive ads">
+        <source>Show nonintrusive ads</source>
+        <target xml:lang="ar" state="translated">إظهار إعلانات غير تطفلية</target>
+      </trans-unit>
+      <trans-unit id="Something went wrong." approved="yes">
+        <source>Something went wrong.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="ar">حدث خطأ ما.</target>
+      </trans-unit>
+      <trans-unit id="Swipe tabs left to close them.">
+        <source>Swipe tabs left to close them.</source>
+        <note>TIP - Tabs View</note>
+        <target xml:lang="ar" state="needs-translation">Swipe tabs left to close them.</target>
+      </trans-unit>
+      <trans-unit id="Swipe up on Adblock Browser to quit the app." approved="yes">
+        <source>Swipe up on Adblock Browser to quit the app.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="ar">اسحب بإصبعك إلى أعلى فوق Adblock Browser لإنهاء التطبيق.</target>
+        <alt-trans>
+          <target xml:lang="ar">اسحب بإصبعك إلى أعلى فوق Adblock Browser لإنهاء التطبيق.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">اسحب بإصبعك إلى أعلى فوق Adblock Browser لإنهاء التطبيق.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="TIP">
+        <source>TIP</source>
+        <note>TIP</note>
+        <target xml:lang="ar" state="needs-translation">TIP</target>
+      </trans-unit>
+      <trans-unit id="Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" approved="yes">
+        <source>Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</source>
+        <note>Welcome guide screen 2 picture label</note>
+        <target xml:lang="ar">أنقر أيقونة القائمة ← إعدادات ← Adblock Plus ← الإعلانات المقبولة</target>
+        <alt-trans>
+          <target xml:lang="ar">أنقر أيقونة القائمة ← إعدادات ← آد بلوك ← الإعلانات المقبولة</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">أنقر أيقونة القائمة ← إعدادات ← آد بلوك بلس ← الإعلانات المقبولة</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">انقر ايقونة القائمة ← إعدادات ← آد بلوك بلس ← الإعلانات المقبولة</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">انقر ايقونة القائمة ← إعدادات ←Adblock Plus ← الاعلانات المقبولة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." approved="yes">
+        <source>The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</source>
+        <target xml:lang="ar">*حظر الإعلانات* و *خيارات الحظر الإضافية* تستند على قوائم الفلترات. هذه مجموعة من القواعد التي تخبر Adblock Browser ما عليه حجبه.</target>
+        <alt-trans>
+          <target xml:lang="ar">*حظر الإعلانات* و *خيارات الحظر الإضافية* تستند على قوائم الفلترات. هذه مجموعة من القواعد التي تخبر متصفح آدبلوك ما عليه حجبه.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">* حظر الإعلانات * و * خيارات الحظر الاضافية * تستند على قوائم عوامل التصفية. هذه هي مجموعة من القواعد التي تخبر متصفح آدبلوك ما هي الاعلانات التي يجب منعها.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">* حظر الإعلانات * و * خيارات الحظر الاضافية * تستند على قوائم عوامل التصفية. هذه هي مجموعة من القواعد التي تخبر متصفح آدبلوك بلس ما هي الاعلانات التي يجب منعها.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">* حظر الإعلانات * و * أكثر الخيارات حظر * تستند على قوائم عوامل التصفية. هذه هي مجموعة من القواعد التي تخبر مستعرض Adblock لمنع.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone. Are you sure you want to continue?" approved="yes">
+        <source>This action cannot be undone. Are you sure you want to continue?</source>
+        <note>Clear Browsing Data Confirmation</note>
+        <target xml:lang="ar">لا يمكن إلقاء عن هذا الإجراء. هل أنت متأكد من أنك تريد المتابعة؟</target>
+      </trans-unit>
+      <trans-unit id="UNDO">
+        <source>UNDO</source>
+        <note>Undo tooltip</note>
+        <target xml:lang="ar" state="needs-translation">UNDO</target>
+      </trans-unit>
+      <trans-unit id="URL Search Suggestions" approved="yes">
+        <source>URL Search Suggestions</source>
+        <note>Headline of search approval confirmation</note>
+        <target xml:lang="ar"> إعرض إقتراحات البحث</target>
+        <alt-trans>
+          <target xml:lang="ar">إعرض إقتراحات البحث</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">إعرض مقترحات عند كتابة عنوان الموقع</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">اعرض مقترحات عند كتابة عنوان الموقع</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">اقتراحات البحث URL</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Uh-Oh!" approved="yes">
+        <source>Uh-Oh!</source>
+        <note>App start failure screen</note>
+        <target xml:lang="ar">يا لها من ورطة!</target>
+      </trans-unit>
+      <trans-unit id="Unable to start browser." approved="yes">
+        <source>Unable to start browser.</source>
+        <note>Critical abort alert message</note>
+        <target xml:lang="ar">يتعذر بدء تشغيل المستعرض.</target>
+      </trans-unit>
+      <trans-unit id="VERSION" approved="yes">
+        <source>Version</source>
+        <target xml:lang="ar">الإصدار</target>
+      </trans-unit>
+      <trans-unit id="We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." approved="yes">
+        <source>We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</source>
+        <target xml:lang="ar">نود أن نشجع مواقع الويب بإستخدام إعلانات واضحة، غير مؤذية، ولا تخرب تجربة التصفح.
+لذلك وضعنا مبادئ توجيهية صارمة لتحديد الإعلانات المقبولة، والتي تظهر تحت قائمة الإعدادات الإفتراضية. إذا كنت ترغب في تصفح خالي تماما من الإعلانات، يمكنك تَغيير هذا الإعداد في أي وقت.</target>
+        <alt-trans>
+          <target xml:lang="ar">نود أن نشجع مواقع الويب بإستخدام إعلانات واضحة ،غير مؤذية، ولا تخرب تجربة التصفح.
+لذلك وضعنا مبادئ توجيهية صارمة لتحديد "الإعلانات المقبولة"، والتي تظهر تحت قائمة الإعدادات الإفتراضية. إذا كنت ترغب في تصفح خالي تماما من الإعلانات، يمكنك تَغيير هذا الإعداد في أي وقت.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">نود أن نشجع مواقع ويب باستخدام الإعلان مباشرة، اعلانات لا تخرب تجربة التصفح. وهذا هو السبب ،لقد وضعنا مبادئ توجيهية صارمة لتحديد "الإعلانات المقبولة"، والتي تظهر ضمن الإعدادات الافتراضية. إذا كنت ترغب في تصفح خالي تماما من الإعلانات، يمكنك تعطيل هذا الإعداد في أي وقت.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">نود أن نشجع مواقع ويب باستخدام الإعلان مباشرة، نونينتروسيفي. وهذا هو السبب لقد وضعنا مبادئ توجيهية صارمة لتحديد "الإعلانات مقبولة"، والتي تظهر ضمن الإعدادات الافتراضية. إذا كنت ترغب في استعراض خالية من الإعلانات، يمكنك تعطيل هذا الإعداد في أي وقت.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Would you like to send a report to fix the problem?" approved="yes">
+        <source>Would you like to send a report to fix the problem?</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="ar">هل تريد أن ترسل تقريرًا لإصلاح المشكلة؟</target>
+      </trans-unit>
+      <trans-unit id="Yes" approved="yes">
+        <source>Yes</source>
+        <note>Allow Google search</note>
+        <target xml:lang="ar">نعم</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash Reports**">
+        <source>You can change this setting at any time in: **Settings → Crash Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="ar" state="needs-translation">You can change this setting at any time in: **Settings → Crash Reports**</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash and Error Reports**" approved="yes">
+        <source>You can change this setting at any time in: **Settings → Crash and Error Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="ar">يمكنك تغيير هذا الإعداد في أي وقت من: **إعدادات ← تقارير التعطل والخطأ**</target>
+      </trans-unit>
+      <trans-unit id="You closed a tab">
+        <source>You closed a tab</source>
+        <note>Undo tooltip</note>
+        <target xml:lang="ar" state="needs-translation">You closed a tab</target>
+      </trans-unit>
+      <trans-unit id="You're in control" approved="yes">
+        <source>You're in control</source>
+        <note>Welcome guide screen 2 headline</note>
+        <target xml:lang="ar">انت المتحكم</target>
+        <alt-trans>
+          <target xml:lang="ar">حدد إعداداتك بنفسك</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">كنت في السيطرة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="browser_address_bar_placeholder">
+        <source>Search or enter website name...</source>
+        <target xml:lang="ar" state="translated">البحث أو إدخال اسم موقع الويب...</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_acceptable_ads_description">
+        <source>Choose whether to include nonintrusive, non-animated ads that adhere to strict criteria. *Learn more*</source>
+        <target xml:lang="ar" state="translated">اختر إدراج أو عدم إدراج إعلانات غير تطفلية وغير متحركة تلتزم بمعايير صارمة. *معرفة المزيد*</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_acceptable_ads_title">
+        <source>Acceptable Ads</source>
+        <target xml:lang="ar" state="translated">الإعلان المقبول</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_whitelisted_websites_description">
+        <source>You have turned off ad blocking on these websites and, therefore, will see ads on them.</source>
+        <target xml:lang="ar" state="translated">لقد أوقفت تشغيل حجب الإعلانات في مواقع الويب هذه ومن ثم سترى إعلاناتها فيها. *معرفة المزيد*</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_whitelisted_websites_title">
+        <source>Whitelisted Websites</source>
+        <target xml:lang="ar" state="translated">مواقع الويب المدرجة في القوائم البيضاء</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_headline">
+        <source>Ghost Mode</source>
+        <target xml:lang="ar" state="translated">وضع التخفي</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_subline">
+        <source>While in Ghost Mode, all browser history, search history, web forms, cookies and temporary internet files will not be stored on your device.</source>
+        <target xml:lang="ar" state="translated">أثناء تنشيط وضع التخفي، لن يتم تخزين كافة محفوظات المستعرض، ومحفوظات البحث، ونماذج الويب، وملفات تعريف الارتباط، وملفات الإنترنت المؤقتة في جهازك.</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_tip">
+        <source>Tap the icon to deactivate Ghost Mode when you are finished with the session.</source>
+        <target xml:lang="ar" state="translated">انقر فوق الرمز لتعطيل وضع التخفي عندما تنتهي من الجلسة.</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_button_1">
+        <source>OK</source>
+        <target xml:lang="ar" state="translated">موافق</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_button_2">
+        <source>Cancel</source>
+        <target xml:lang="ar" state="translated">إلغاء</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_headline">
+        <source>Quit Ghost Mode?</source>
+        <target xml:lang="ar" state="translated">هل تريد إنهاء وضع التخفي؟</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_subline">
+        <source>Your history will not be stored and all active tabs will be closed.</source>
+        <target xml:lang="ar" state="translated">لن يتم تخزين محفوظاتك وسيتم غلق كل علامات التبويب النشطة.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock Browser</source>
+        <target xml:lang="ar">Adblock Browser</target>
+        <alt-trans>
+          <target xml:lang="ar">متصفح آدبلوك</target>
+        </alt-trans>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="ar">إلغاء</target>
+      </trans-unit>
+      <trans-unit id="Dismiss" approved="yes">
+        <source>Dismiss</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="ar">إغلاق</target>
+        <alt-trans>
+          <target xml:lang="ar">إقالة</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Open" approved="yes">
+        <source>Open</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="ar">فتح</target>
+      </trans-unit>
+      <trans-unit id="Open in Adblock Browser?" approved="yes">
+        <source>Open in Adblock Browser?</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="ar">إفتح في Adblock Browser؟</target>
+        <alt-trans>
+          <target xml:lang="ar">إفتح في متصفّح آدبلوك؟</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">فتح في متصفّح آدبلوك؟</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">فتح في متصفّح Adblock؟</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">فتح في المستعرض Adblock؟?</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">فتح في المستعرض Adblock؟</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="URL not found" approved="yes">
+        <source>URL not found</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="ar">عنوان الرابط غير موجود</target>
+        <alt-trans>
+          <target xml:lang="ar">رابط غير موجود</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="ar">الرابط غير موجود</target>
+        </alt-trans>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

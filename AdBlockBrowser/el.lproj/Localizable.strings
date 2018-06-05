@@ -1,0 +1,424 @@
+/* Find in page bar */
+"%@ of %@ matches" = "%1$@ από %2$@ ευρήματα";
+
+/* App start failure screen */
+"A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "Ένα κρίσιμο σφάλμα απέτρεψε την εκκίνηση της Adblock Browser. Ακολουθήστε αυτές τις οδηγίες για να σταματήσετε την εφαρμογή και να δοκιμάσετε ξανά.";
+
+/* (No Commment) */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
+/* (No Commment) */
+"ADBLOCK VERSION" = "ADBLOCK VERSION";
+
+/* (No Commment) */
+"About" = "Σχετικά";
+
+/* (No Commment) */
+"Ad blocking" = "Φραγή διαφημίσεων";
+
+/* Welcome guide screen 1 paragraph */
+"Ad blocking is automatically integrated - no more annoying ads while you surf!" = "H φραγή διαφημίσεων είναι αυτόματα ενσωματωμένη - όχι πια ενοχλητικές διαφημίσεις, ενώ σερφάρετε!";
+
+/* (No Commment) */
+"Ad blocking on this site" = "Φραγή διαφημίσεων σε αυτό τον ιστότοπο";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Browser Encountered an Error" = "Το Adblock Browser αντιμετώπισε σφάλμα";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Unexpectedly Quit" = "Το Adblock έκλεισε απροσδόκητα";
+
+/* Pull up menu option */
+"Add Bookmark" = "Προσθήκη σελιδοδείκτη";
+
+/* (No Commment) */
+"Add Bookmark to Dashboard" = "Προσθήκη σελιδοδεικτών στο Tαμπλό";
+
+/* (No Commment) */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
+
+/* (No Commment) */
+"All of your bookmarks have been added to the Dashboard." = "Όλοι οι σελιδοδείκτες σας έχουν προστεθεί στον Πίνακα Ελέγχου.";
+
+/* (No Commment) */
+"Allow some nonintrusive advertising" = "Να επιτρέπονται μερικές μη παρεμβατικές διαφημίσεις";
+
+/* (No Commment) */
+"Always" = "Πάντα";
+
+/* Crash/Error Report Sending Modal */
+"Always Send" = "Πάντα αποστολή";
+
+/* Welcome guide screen 2 paragraph */
+"Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." = "Οι ενοχλητικές διαφημίσεις φράσσονται πάντα, ενώ οι μη παρεμβατικές διαφημίσεις εμφανίζονται εκ προεπιλογής. Μπορείτε να αλλάξετε αυτή τη ρύθμιση οποιαδήποτε στιγμή.";
+
+/* Clear history alert message */
+"Are you sure you want to clear history? You cannot undo this action." = "Είστε σίγουροι πως θέλετε να καθαρίσετε το ιστορικό; Δεν μπορείτε να αναιρέσετε αυτήν την ενέργεια.";
+
+/* Delete Bookmark alert message */
+"Are you sure you want to delete this bookmark?" = "Είστε σίγουροι πως θέλετε να διαγράψετε αυτόν τον σελιδοδείκτη;";
+
+/* (No Commment) */
+"Ask Me After a Crash or Error" = "Να Ερωτηθώ Μετά από Kατάρρευση ή σφάλμα";
+
+/* (No Commment) */
+"BLOCKING" = "ΦΡΑΓΗ";
+
+/* (No Commment) */
+"BROWSER VERSION" = "BROWSER VERSION";
+
+/* Search Engine Selection */
+"Baidu" = "Baidu";
+
+/* Autocomplete suggestions */
+"Baidu search" = "Αναζήτηση Baidu";
+
+/* Pull up menu option */
+"Block Ads on this Site" = "Φραγή διαφημίσεων σε αυτόν τον ιστότοπο";
+
+/* (No Commment) */
+"Block ads for websites in" = "Φραγή διαφημίσεων για ιστοτόπους σε";
+
+/* Bookmarks listing */
+"Bookmarked Pages" = "Σελίδες σελιδοδεικτών";
+
+/* (No Commment) */
+"Bookmarks" = "Σελιδοδείκτες";
+
+/* (No Commment) */
+"Bookmarks loading has failed" = "Η φόρτωση των σελιδοδεικτών απέτυχε";
+
+/* Welcome guide screen 1 headline */
+"Browse in peace" = "Περιηγηθείτε με την ησυχία σας";
+
+/* (No Commment) */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title */
+"Cancel" = "Άκυρο";
+
+/* Clear Browsing Data Confirmation
+   Clear history alert clear button title */
+"Clear" = "Καθαρισμός";
+
+/* Clear Browsing Data Option */
+"Clear All" = "Απαλοιφή όλων";
+
+/* Clear Browsing Data Screen Title */
+"Clear Browsing Data" = "Απαλοιφή δεδομένων περιήγησης";
+
+/* Clear Browsing Data Option */
+"Clear Cache" = "Απαλοιφή μνήμης cache";
+
+/* Clear Browsing Data Option */
+"Clear Cookies & Site Data" = "Απαλοιφή cookies & δεδομένων ιστότοπου";
+
+/* Clear Browsing Data Option */
+"Clear History" = "Απαλοιφή ιστορικού";
+
+/* Clear history alert title */
+"Clear History?" = "Καθαρισμός Ιστορικού;";
+
+/* Tabs view */
+"Close" = "Close";
+
+/* Note of search approval confirmation */
+"Configurable under *Settings > URL Search Suggestions*" = "Διαμορφώσιμο από *Ρυθμίσεις > Προτάσεις Αναζήτησης URL*";
+
+/* Devbuild setting */
+"Crash Application Now" = "Crash Application Now";
+
+/* Crash Reports Dialogs */
+"Crash Reports" = "Crash Reports";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "Αναφορές Κατάρρευσης και σφάλματος";
+
+/* (No Commment) */
+"Dashboard" = "Πίνακας Ελέγχου";
+
+/* Browser history list
+   Delete Bookmark alert delete button title */
+"Delete" = "Διαγραφή";
+
+/* Bookmark deleting button
+   Delete Bookmark alert title */
+"Delete Bookmark" = "Διαγραφή Σελιδοδείκτη";
+
+/* Devbuild setting */
+"Dev notification" = "Dev notification";
+
+/* Navigation control title */
+"Devbuild Settings" = "Devbuild Settings";
+
+/* (No Commment) */
+"Disable Anti-Ad blocking Messages" = "Απενεργοποίηση μηνυμάτων κατά του αποκλεισμού διαφημίσεων";
+
+/* (No Commment) */
+"Disable Malware Domains" = "Απενεργοποίηση κακόβουλων τομέων";
+
+/* (No Commment) */
+"Disable Social Media Buttons" = "Απενεργοποίηση κουμπιιών μέσων κοινωνικής δικτύωσης";
+
+/* (No Commment) */
+"Disable Tracking" = "Απενεργοποίηση εντοπισμού";
+
+/* Question of search approval confirmation */
+"Do you want to see web search results here?" = "Θέλετε να βλέπετε αποτελέσματα αναζήτησης ιστού εδώ;";
+
+/* Crash/Error Report Sending Modal */
+"Don't Send" = "Να μην αποστέλλεται";
+
+/* Bookmarks listing
+   Find in Page toolbar button */
+"Done" = "Έγινε";
+
+/* App start failure screen */
+"Double tap the Home button." = "Αγγίξτε δύο φορές το κουμπί Αφετηρίας.";
+
+/* Search Engine Selection */
+"DuckDuckGo" = "DuckDuckGo";
+
+/* Autocomplete suggestions */
+"DuckDuckGo search" = "Αναζήτηση DuckDuckGo";
+
+/* Bookmark edit
+   Bookmarks listing */
+"Edit" = "Επεξεργασία";
+
+/* Bookmark editing placeholder */
+"Enter link" = "Εισάγετε σύνδεσμο";
+
+/* Bookmark editing placeholder */
+"Enter title" = "Εισάγετε τίτλο";
+
+/* Devbuild setting */
+"Error prepared for sending" = "Error prepared for sending";
+
+/* (No Commment) */
+"Exceptions" = "Εξαιρέσεις";
+
+/* Find in page - Autocomplete controller */
+"Find \"%@\" in page" = "Εύρεση \"%@\" στη σελίδα";
+
+/* Find in page - Autocomplete controller */
+"Find in page (%@ matches)" = "Εύρεση στη σελίδα (%@ ευρήματα)";
+
+/* Welcome guide screen 2 button */
+"Finish" = "Ολοκλήρωση";
+
+/* (No Commment) */
+"GENERAL" = "ΓΕΝΙΚΑ";
+
+/* (No Commment) */
+"Ghost Mode" = "Λειτουργία «φάντασμα»";
+
+/* Search Engine Selection */
+"Google" = "Google";
+
+/* Autocomplete suggestions */
+"Google search" = "Αναζήτηση Google";
+
+/* Crash Reports Dialogs */
+"Got it" = "Το κατάλαβα";
+
+/* (No Commment) */
+"Hide all ads" = "Απόκρυψη όλων των διαφημίσεων";
+
+/* Pull up menu option */
+"History" = "Ιστορικό";
+
+/* (No Commment) */
+"Languages" = "Γλώσσες";
+
+/* (No Commment) */
+"MEMORY PRESSURE" = "MEMORY PRESSURE";
+
+/* (No Commment) */
+"MORE OPTIONS" = "ΠΕΡΙΣΣΟΤΕΡΕΣ ΕΠΙΛΟΓΕΣ";
+
+/* (No Commment) */
+"More Blocking Options" = "Περισσότερες Επιλογές Φραγής";
+
+/* (No Commment) */
+"Never" = "Ποτέ";
+
+/* Tab view label */
+"New Tab" = "Νέα Καρτέλα";
+
+/* Devbuild setting */
+"Next App Start Failure" = "Next App Start Failure";
+
+/* Deny Google search */
+"No" = "Όχι";
+
+/* Bookmarks listing */
+"No Bookmarks Available" = "Δεν υπάρχουν Διαθέσιμοι Σελιδοδείκτες";
+
+/* (No Commment) */
+"No History Available" = "Ιστορικό Μη Διαθέσιμο";
+
+/* (No Commment) */
+"No websites whitelisted" = "Καμία ιστοσελίδα στη λίστα επιτρεπόμενων";
+
+/* Devbuild setting */
+"OK" = "ΟΚ";
+
+/* (No Commment) */
+"OTHER LANGUAGES" = "ΑΛΛΕΣ ΓΛΩΣΣΕΣ";
+
+/* Settings - extension enabled status */
+"Off" = "Ανενεργό";
+
+/* Settings - extension enabled status */
+"On" = "Ενεργό";
+
+/* (No Commment) */
+"Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Μόνο ανώνυμοποιημένα δεδομένα που περιέχουν πληροφορίες συσκευής και λεπτομέρειες κατάρρευσης ή σφάλματος αποστέλλονται. Παρακαλούμε ανατρέξτε στην πολιτική απορρήτου μας στο adblockplus.org για περισσότερες πληροφορίες.";
+
+/* Welcome guide screen 1 button */
+"Only one more step" = "Μόνο ένα βήμα ακόμα";
+
+/* Pull up menu option */
+"Open New Tab" = "Άνοιγμα νέας καρτέλας";
+
+/* (No Commment) */
+"Open privacy policy." = "Άνοιγμα πολιτικής απορρήτου";
+
+/* Devbuild setting */
+"Produce Error Now" = "Produce Error Now";
+
+/* Browser history list */
+"Recent History" = "Recent History";
+
+/* Pull up menu option */
+"Remove Bookmark" = "Αφαίρεση σελιδοδείκτη";
+
+/* App start failure screen */
+"Restart Adblock Browser." = "Επανεκκίνηση Adblock Browser.";
+
+/* (No Commment) */
+"SEARCH" = "ΑΝΑΖΗΤΗΣΗ";
+
+/* (No Commment) */
+"SEND CRASH AND ERROR REPORTS" = "ΑΠΟΣΤΟΛΗ ΑΝΑΦΟΡΑΣ ΚΑΤΑΡΡΕΥΣΗΣ ΚΑΙ ΣΦΑΛΜΑΤΟΣ";
+
+/* Search Engine Selection */
+"Search Engine" = "Μηχανή Αναζήτησης";
+
+/* Autocomplete suggestions */
+"Search History" = "Ιστορικό Αναζήτησης";
+
+/* Crash/Error Report Sending Modal */
+"Send Report" = "Αποστολή αναφοράς";
+
+/* Pull up menu option */
+"Settings" = "Ρυθμίσεις";
+
+/* Pull up menu option */
+"Share" = "Κοινοποίηση";
+
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Bookmark editing switch */
+"Show in Dashboard" = "Εμφάνιση στον Πίνακα Ελέγχου";
+
+/* (No Commment) */
+"Show nonintrusive ads" = "Παρουσίαση μη οχληρής διαφήμισης";
+
+/* App start failure screen */
+"Something went wrong." = "Κάτι πήγε στραβά.";
+
+/* TIP - Tabs View */
+"Swipe tabs left to close them." = "Swipe tabs left to close them.";
+
+/* App start failure screen */
+"Swipe up on Adblock Browser to quit the app." = "Σύρετε προς τα πάνω στην Adblock Browser για να σταματήσετε την εφαρμογή.";
+
+/* TIP */
+"TIP" = "TIP";
+
+/* Welcome guide screen 2 picture label */
+"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Πατήστε το εικονίδιο του Μενού → Ρυθμίσεις → Adblock Plus → Αποδεκτές Διαφημίσεις";
+
+/* (No Commment) */
+"The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "Η *φραγή διαφημίσεων* και *περισσότερες επιλογές φραγής* βασίζονται σε λίστες φίλτρων. Αυτά είναι σύνολα κανόνων που λένε στον Περιηγητή Adblock τι να αποκλείσει.";
+
+/* Clear Browsing Data Confirmation */
+"This action cannot be undone. Are you sure you want to continue?" = "Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας. Θέλετε σίγουρα να συνεχίσετε;";
+
+/* Undo tooltip */
+"UNDO" = "UNDO";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "Προτάσεις Αναζήτησης URL";
+
+/* App start failure screen */
+"Uh-Oh!" = "Ωχ, αμάν!";
+
+/* Critical abort alert message */
+"Unable to start browser." = "Αδυναμία εκκίνησης του περιηγητή.";
+
+/* (No Commment) */
+"VERSION" = "ΕΚΔΟΣΗ";
+
+/* (No Commment) */
+"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Θέλουμε να ενθαρρύνουμε τις ιστοσελίδες να χρησιμοποιούν απλή, μη παρεμβατική διαφήμιση. Γι 'αυτό έχουμε θεσπίσει αυστηρές κατευθυντήριες γραμμές για τον εντοπισμό Αποδεκτών Διαφημίσεων, οι οποίες εμφανίζονται στις προεπιλεγμένες ρυθμίσεις. Αν θέλετε να περιηγηθείτε χωρίς-διαφημίσεις, μπορείτε να απενεργοποιήσετε αυτήν τη ρύθμιση ανά πάσα στιγμή.";
+
+/* Crash/Error Report Sending Modal */
+"Would you like to send a report to fix the problem?" = "Θα θέλατε να αποσταλεί αναφορά για διόρθωση του προβλήματος;";
+
+/* Allow Google search */
+"Yes" = "Ναι";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Μπορείτε να αλλάξετε αυτή τη ρύθμιση ανά πάσα στιγμή στις: **Ρυθμίσεις → Αναφορές Κατάρρευσης και σφάλματος**";
+
+/* Undo tooltip */
+"You closed a tab" = "You closed a tab";
+
+/* Welcome guide screen 2 headline */
+"You're in control" = "Εσείς έχετε τον έλεγχο";
+
+/* (No Commment) */
+"browser_address_bar_placeholder" = "Αναζήτηση ή εισαγωγή του ονόματος του ιστοτόπου...";
+
+/* (No Commment) */
+"exceptions_settings_acceptable_ads_description" = "Επιλογή για το αν πρέπει να συμπεριληφθούν μη οχληρές, μη κινούμενες διαφημίσεις που συμμορφώνονται σε αυστηρά κριτήρια. *Μάθετε περισσότερα*";
+
+/* (No Commment) */
+"exceptions_settings_acceptable_ads_title" = "Αποδεκτές διαφημίσεις";
+
+/* (No Commment) */
+"exceptions_settings_whitelisted_websites_description" = "Έχετε απενεργοποιήσει τον αποκλεισμό διαφημίσεων σε αυτούς τους ιστότοπους και, κατά συνέπεια, θα εμφανίζονται διαφημίσεις σε αυτούς.";
+
+/* (No Commment) */
+"exceptions_settings_whitelisted_websites_title" = "Λίστα επιτρεπόμενων ιστότοπων";
+
+/* (No Commment) */
+"ghost_mode_banner_headline" = "Λειτουργία «φάντασμα»";
+
+/* (No Commment) */
+"ghost_mode_banner_subline" = "Κατά τη λειτουργία «φάντασμα», όλο το ιστορικό περιήγησης, το ιστορικό αναζήτησης, οι φόρμες αλληλεπίδρασης, τα ηλεκτρονικό μπισκότα και τα προσωρινά διαδικτυακά αρχεία δεν θα αποθηκεύονται στη συσκευή σας.";
+
+/* (No Commment) */
+"ghost_mode_banner_tip" = "Πατήστε το εικονίδιο για απενεργοποίηση της λειτουργίας «φάντασμα», όταν τελειώσετε την επίσκεψη.";
+
+/* (No Commment) */
+"leave_notification_button_1" = "OK";
+
+/* (No Commment) */
+"leave_notification_button_2" = "Ακύρωση";
+
+/* (No Commment) */
+"leave_notification_headline" = "Έξοδος από τη λειτουργία «φάντασμα»;";
+
+/* (No Commment) */
+"leave_notification_subline" = "Το ιστορικό σας δεν θα αποθηκευτεί και όλες οι ενεργές καρτέλες θα κλείσουν.";
+

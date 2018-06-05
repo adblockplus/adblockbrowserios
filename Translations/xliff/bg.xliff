@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AdBlockBrowser/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock</source>
+        <target xml:lang="bg">Адблок</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <source>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</source>
+        <target xml:lang="bg">Само сайтове като Google Карти получават достъп до местоположението, и то след изрично позволение от ваша страна. Браузърът Adblock не го ползва за никакви други цели.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AdBlockBrowser/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="%@ of %@ matches" approved="yes">
+        <source>%1$@ of %2$@ matches</source>
+        <note>Find in page bar</note>
+        <target xml:lang="bg">%1$@ от %2$@ съвпадения</target>
+      </trans-unit>
+      <trans-unit id="A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." approved="yes">
+        <source>A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="bg">Критична грешка препятства пускането на браузър Adblock. Следвайте стъпките по-долу за изход от приложението и опитайте отново.</target>
+      </trans-unit>
+      <trans-unit id="ACTIVE FOR WEBSITES IN ..." approved="yes">
+        <source>ACTIVE FOR WEBSITES IN ...</source>
+        <note>Subscription listing section title</note>
+        <target xml:lang="bg">ВКЛЮЧЕН ЗА САЙТОВЕ НА…</target>
+      </trans-unit>
+      <trans-unit id="About" approved="yes">
+        <source>About</source>
+        <note>About screen title
+   Settings status option</note>
+        <target xml:lang="bg">За браузъра</target>
+      </trans-unit>
+      <trans-unit id="Acceptable Ads" approved="yes">
+        <source>Acceptable Ads</source>
+        <note>Acceptable ads setting title
+   Settings - enable/disable acceptable ads</note>
+        <target xml:lang="bg">Приемливи реклами</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking" approved="yes">
+        <source>Ad blocking</source>
+        <note>Settings - show list of subscriptions</note>
+        <target xml:lang="bg">Блокиране на реклами</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking is automatically integrated - no more annoying ads while you surf!" approved="yes">
+        <source>Ad blocking is automatically integrated - no more annoying ads while you surf!</source>
+        <note>Welcome guide screen 1 paragraph</note>
+        <target xml:lang="bg">Блокирането е автоматично интегрирано — край на досадните реклами, докато сърфирате!</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking on this site" approved="yes">
+        <source>Ad blocking on this site</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="bg">Блокиране на реклами в сайта</target>
+      </trans-unit>
+      <trans-unit id="Adblock Plus" approved="yes">
+        <source>Adblock Plus</source>
+        <note>Settings - enable/disable ABP extension
+   Settings status option
+   Settings title - Extension name</note>
+        <target xml:lang="bg">Adblock Plus</target>
+      </trans-unit>
+      <trans-unit id="Adblock Browser Encountered an Error" approved="yes">
+        <source>Adblock Browser Encountered an Error</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="bg">Възникнала грешка в браузър Adblock</target>
+      </trans-unit>
+      <trans-unit id="Adblock Unexpectedly Quit" approved="yes">
+        <source>Adblock Unexpectedly Quit</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="bg">Неочакван изход на Adblock</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark to Dashboard" approved="yes">
+        <source>Add Bookmark to Dashboard</source>
+        <note>Add bookmark controller</note>
+        <target xml:lang="bg">Добави отметка към решетката</target>
+      </trans-unit>
+      <trans-unit id="After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.">
+        <source>After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</source>
+        <note>Ghost mode description</note>
+        <target xml:lang="bg" state="needs-translation">After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</target>
+      </trans-unit>
+      <trans-unit id="All of your bookmarks have been added to the Dashboard." approved="yes">
+        <source>All of your bookmarks have been added to the Dashboard.</source>
+        <note>Add bookmark controller</note>
+        <target xml:lang="bg">Всички ваши отметки са добавени към решетката.</target>
+      </trans-unit>
+      <trans-unit id="Allow some nonintrusive advertising" approved="yes">
+        <source>Allow some nonintrusive advertising</source>
+        <note>Acceptable ads switch label</note>
+        <target xml:lang="bg">Позволи определени ненатрапчиви реклами</target>
+      </trans-unit>
+      <trans-unit id="Always" approved="yes">
+        <source>Always</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="bg">винаги</target>
+      </trans-unit>
+      <trans-unit id="Always Send" approved="yes">
+        <source>Always Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="bg">Изпращай винаги</target>
+      </trans-unit>
+      <trans-unit id="Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." approved="yes">
+        <source>Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</source>
+        <note>Welcome guide screen 2 paragraph</note>
+        <target xml:lang="bg">Досадните се блокират винаги, а ненатрапчивите реклами се показват по подразбиране. Настройката може да бъде променена по всяко време.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to clear history? You cannot undo this action." approved="yes">
+        <source>Are you sure you want to clear history? You cannot undo this action.</source>
+        <note>Clear history alert message</note>
+        <target xml:lang="bg">Сигурен ли сте, че изчиствате историята? Отменяне на действието е невъзможно.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to delete this bookmark?" approved="yes">
+        <source>Are you sure you want to delete this bookmark?</source>
+        <note>Delete Bookmark alert message</note>
+        <target xml:lang="bg">Сигурен ли сте, че изтривате отметката?</target>
+      </trans-unit>
+      <trans-unit id="Ask Me After a Crash or Error" approved="yes">
+        <source>Ask Me After a Crash or Error</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="bg">питай след срив/грешка</target>
+      </trans-unit>
+      <trans-unit id="BLOCKING" approved="yes">
+        <source>BLOCKING</source>
+        <note>Settings section header</note>
+        <target xml:lang="bg">БЛОКИРАНЕ</target>
+      </trans-unit>
+      <trans-unit id="Baidu" approved="yes">
+        <source>Baidu</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="bg">Baidu</target>
+      </trans-unit>
+      <trans-unit id="Baidu search" approved="yes">
+        <source>Baidu search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="bg">Търсене с Baidu</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks" approved="yes">
+        <source>Bookmarks</source>
+        <note>Show bookmarks in new tab view</note>
+        <target xml:lang="bg">Отметки</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks loading has failed" approved="yes">
+        <source>Bookmarks loading has failed</source>
+        <note>Bookmarks view warning</note>
+        <target xml:lang="bg">Провалено зареждане на отметки</target>
+      </trans-unit>
+      <trans-unit id="Browse in peace" approved="yes">
+        <source>Browse in peace</source>
+        <note>Welcome guide screen 1 headline</note>
+        <target xml:lang="bg">Безметежно сърфиране</target>
+      </trans-unit>
+      <trans-unit id="CRASH AND ERROR REPORTING">
+        <source>CRASH AND ERROR REPORTING</source>
+        <note>Devbuild setting section header</note>
+        <target xml:lang="bg" state="needs-translation">CRASH AND ERROR REPORTING</target>
+      </trans-unit>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source>
+        <note>Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title</note>
+        <target xml:lang="bg">Отказ</target>
+      </trans-unit>
+      <trans-unit id="Clear" approved="yes">
+        <source>Clear</source>
+        <note>Clear Browsing Data Confirmation
+   Clear history alert clear button title</note>
+        <target xml:lang="bg">Изчисти</target>
+      </trans-unit>
+      <trans-unit id="Clear All" approved="yes">
+        <source>Clear All</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="bg">Изчисти всичко</target>
+      </trans-unit>
+      <trans-unit id="Clear Browsing Data" approved="yes">
+        <source>Clear Browsing Data</source>
+        <note>Clear Browsing Data Screen Title
+   Settings status option</note>
+        <target xml:lang="bg">Изчистване на данни</target>
+      </trans-unit>
+      <trans-unit id="Clear Cache" approved="yes">
+        <source>Clear Cache</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="bg">Изчисти кеша</target>
+      </trans-unit>
+      <trans-unit id="Clear Cookies &amp; Site Data" approved="yes">
+        <source>Clear Cookies &amp; Site Data</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="bg">Изчисти бисквитките и данните</target>
+      </trans-unit>
+      <trans-unit id="Clear History" approved="yes">
+        <source>Clear History</source>
+        <note>Browser history list
+   Clear Browsing Data Option</note>
+        <target xml:lang="bg">Изчисти историята</target>
+      </trans-unit>
+      <trans-unit id="Clear History?" approved="yes">
+        <source>Clear History?</source>
+        <note>Clear history alert title</note>
+        <target xml:lang="bg">Изчистване на историята?</target>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Critical abort alert button</note>
+        <target xml:lang="bg" state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="Configurable under *Settings &gt; URL Search Suggestions*" approved="yes">
+        <source>Configurable under *Settings &gt; URL Search Suggestions*</source>
+        <note>Note of search approval confirmation</note>
+        <target xml:lang="bg">Конфигурирани в *Настройки &gt; Предлагане на адреси*</target>
+      </trans-unit>
+      <trans-unit id="Crash and Error Reports" approved="yes">
+        <source>Crash and Error Reports</source>
+        <note>Crash Reports Dialogs
+   HockeyApp crash reports settings
+   Settings status option</note>
+        <target xml:lang="bg">Доклади за срив/грешка</target>
+      </trans-unit>
+      <trans-unit id="Dashboard" approved="yes">
+        <source>Dashboard</source>
+        <note>Show dashboard in new tab view</note>
+        <target xml:lang="bg">Решетка</target>
+      </trans-unit>
+      <trans-unit id="Delete" approved="yes">
+        <source>Delete</source>
+        <note>Bookmark delete
+   Delete Bookmark alert delete button title</note>
+        <target xml:lang="bg">Изтрий</target>
+      </trans-unit>
+      <trans-unit id="Delete Bookmark" approved="yes">
+        <source>Delete Bookmark</source>
+        <note>Bookmark deleting button
+   Delete Bookmark alert title</note>
+        <target xml:lang="bg">Изтрий отметката</target>
+      </trans-unit>
+      <trans-unit id="Delete History" approved="yes">
+        <source>Delete History</source>
+        <target xml:lang="bg">Изтрий историята</target>
+      </trans-unit>
+      <trans-unit id="Disable Anti-Ad blocking Messages" approved="yes">
+        <source>Disable Anti-Ad blocking Messages</source>
+        <note>Blocking options - Disable anti-adblocking messages</note>
+        <target xml:lang="bg">Забрани съобщенията срещу блокера</target>
+      </trans-unit>
+      <trans-unit id="Disable Malware Domains" approved="yes">
+        <source>Disable Malware Domains</source>
+        <note>Blocking options - Disable malware domains</note>
+        <target xml:lang="bg">Забрани зловредните домейни</target>
+      </trans-unit>
+      <trans-unit id="Disable Social Media Buttons" approved="yes">
+        <source>Disable Social Media Buttons</source>
+        <note>Blocking options - Disable social media buttons</note>
+        <target xml:lang="bg">Забрани бутоните на социалните мрежи</target>
+      </trans-unit>
+      <trans-unit id="Disable Tracking" approved="yes">
+        <source>Disable Tracking</source>
+        <note>Blocking options - Disable tracking</note>
+        <target xml:lang="bg">Забрани следенето от сайтовете</target>
+      </trans-unit>
+      <trans-unit id="Do you want to see web search results here?" approved="yes">
+        <source>Do you want to see web search results here?</source>
+        <note>Question of search approval confirmation</note>
+        <target xml:lang="bg">Да се показват ли резултатите от търсенето?</target>
+      </trans-unit>
+      <trans-unit id="Don't Send" approved="yes">
+        <source>Don't Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="bg">Не изпращай</target>
+      </trans-unit>
+      <trans-unit id="Done" approved="yes">
+        <source>Done</source>
+        <note>Add bookmark controller
+   Bookmarks listing
+   Find in Page toolbar button</note>
+        <target xml:lang="bg">Готово</target>
+      </trans-unit>
+      <trans-unit id="Double tap the Home button." approved="yes">
+        <source>Double tap the Home button.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="bg">Докоснете двукратно бутон Начало.</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo" approved="yes">
+        <source>DuckDuckGo</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="bg">DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo search" approved="yes">
+        <source>DuckDuckGo search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="bg">Търсене с DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="EXCEPTIONS" approved="yes">
+        <source>EXCEPTIONS</source>
+        <note>Settings section header</note>
+        <target xml:lang="bg">ИЗКЛЮЧЕНИЯ</target>
+      </trans-unit>
+      <trans-unit id="Edit" approved="yes">
+        <source>Edit</source>
+        <note>Bookmark edit
+   Bookmarks listing</note>
+        <target xml:lang="bg">Редактирай</target>
+      </trans-unit>
+      <trans-unit id="Enter link" approved="yes">
+        <source>Enter link</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="bg">Въведете препратка</target>
+      </trans-unit>
+      <trans-unit id="Enter title" approved="yes">
+        <source>Enter title</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="bg">Въведете заглавие</target>
+      </trans-unit>
+      <trans-unit id="FILTER LIST UPDATES" approved="yes">
+        <source>FILTER LIST UPDATES</source>
+        <note>Settings section header</note>
+        <target xml:lang="bg">ОБНОВЯВАНЕ НА ФИЛТРИТЕ</target>
+      </trans-unit>
+      <trans-unit id="Find &quot;%@&quot; in page" approved="yes">
+        <source>Find "%@" in page</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="bg">Намиране на „%@“ в страницата</target>
+      </trans-unit>
+      <trans-unit id="Find in page (%@ matches)" approved="yes">
+        <source>Find in page (%@ matches)</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="bg">В страницата (%@ съвпадения)</target>
+      </trans-unit>
+      <trans-unit id="Finish" approved="yes">
+        <source>Finish</source>
+        <note>Welcome guide screen 2 button</note>
+        <target xml:lang="bg">Готово</target>
+      </trans-unit>
+      <trans-unit id="GENERAL" approved="yes">
+        <source>GENERAL</source>
+        <note>Settings section header</note>
+        <target xml:lang="bg">ОБЩИ</target>
+      </trans-unit>
+      <trans-unit id="Ghost Mode">
+        <source>Ghost Mode</source>
+        <note>Ghost Mode Title</note>
+        <target xml:lang="bg" state="needs-translation">Ghost Mode</target>
+      </trans-unit>
+      <trans-unit id="Google" approved="yes">
+        <source>Google</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="bg">Google</target>
+      </trans-unit>
+      <trans-unit id="Google search" approved="yes">
+        <source>Google search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="bg">Търсене с Google</target>
+      </trans-unit>
+      <trans-unit id="Got it" approved="yes">
+        <source>Got it</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="bg">Ясно</target>
+      </trans-unit>
+      <trans-unit id="Hide" approved="yes">
+        <source>Hide</source>
+        <target xml:lang="bg">Скрий</target>
+      </trans-unit>
+      <trans-unit id="History" approved="yes">
+        <source>History</source>
+        <note>Show history in new tab view</note>
+        <target xml:lang="bg">История</target>
+      </trans-unit>
+      <trans-unit id="More Blocking Options" approved="yes">
+        <source>More Blocking Options</source>
+        <note>Blocking options screen
+   Settings - show more blocking options</note>
+        <target xml:lang="bg">Други блокиращи настройки</target>
+      </trans-unit>
+      <trans-unit id="Never" approved="yes">
+        <source>Never</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="bg">никога</target>
+      </trans-unit>
+      <trans-unit id="New Tab" approved="yes">
+        <source>New Tab</source>
+        <note>Tab view label</note>
+        <target xml:lang="bg">Нов раздел</target>
+      </trans-unit>
+      <trans-unit id="No" approved="yes">
+        <source>No</source>
+        <note>Deny Google search</note>
+        <target xml:lang="bg">Не</target>
+      </trans-unit>
+      <trans-unit id="No Bookmarks Available" approved="yes">
+        <source>No Bookmarks Available</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="bg">Няма налични отметки.</target>
+      </trans-unit>
+      <trans-unit id="No Dashboard Items Available" approved="yes">
+        <source>No Dashboard Items Available</source>
+        <target xml:lang="bg">Няма елементи в решетката.</target>
+      </trans-unit>
+      <trans-unit id="No History Available" approved="yes">
+        <source>No History Available</source>
+        <note>Browser history list</note>
+        <target xml:lang="bg">Няма налична история.</target>
+      </trans-unit>
+      <trans-unit id="No websites whitelisted" approved="yes">
+        <source>No websites whitelisted</source>
+        <note>Whitelist no website whitelisted label</note>
+        <target xml:lang="bg">Няма изключени сайтове.</target>
+      </trans-unit>
+      <trans-unit id="OK" approved="yes">
+        <source>OK</source>
+        <target xml:lang="bg">ДА</target>
+      </trans-unit>
+      <trans-unit id="OTHER LANGUAGES" approved="yes">
+        <source>OTHER LANGUAGES</source>
+        <note>Subscription listing section title</note>
+        <target xml:lang="bg">ДРУГИ ЕЗИЦИ</target>
+      </trans-unit>
+      <trans-unit id="Off" approved="yes">
+        <source>Off</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="bg">ИЗКЛ</target>
+      </trans-unit>
+      <trans-unit id="On" approved="yes">
+        <source>On</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="bg">ВКЛ</target>
+      </trans-unit>
+      <trans-unit id="Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." approved="yes">
+        <source>Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="bg">Изпращат се само анонимни данни със сведения за устройството и подробности за срива или грешката. За допълнителна информация, моля, прегледайте нашата политика на поверителност на adblockplus.org.</target>
+      </trans-unit>
+      <trans-unit id="Only one more step" approved="yes">
+        <source>Only one more step</source>
+        <note>Welcome guide screen 1 button</note>
+        <target xml:lang="bg">Още една стъпка</target>
+      </trans-unit>
+      <trans-unit id="Open privacy policy." approved="yes">
+        <source>Open privacy policy.</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="bg">Политика на поверителност</target>
+      </trans-unit>
+      <trans-unit id="PRIVACY &amp; SECURITY" approved="yes">
+        <source>PRIVACY &amp; SECURITY</source>
+        <note>Settings section header</note>
+        <target xml:lang="bg">ПОВЕРИТЕЛНОСТ И СИГУРНОСТ</target>
+      </trans-unit>
+      <trans-unit id="Restart Adblock Browser." approved="yes">
+        <source>Restart Adblock Browser.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="bg">Пуснете повторно браузър Adblock.</target>
+      </trans-unit>
+      <trans-unit id="SEARCH" approved="yes">
+        <source>SEARCH</source>
+        <note>Settings section header</note>
+        <target xml:lang="bg">ТЪРСЕНЕ</target>
+      </trans-unit>
+      <trans-unit id="SEND CRASH AND ERROR REPORTS" approved="yes">
+        <source>SEND CRASH AND ERROR REPORTS</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="bg">ИЗПРАЩАНЕ НА ДОКЛАДИ ЗА СРИВ/ГРЕШКА</target>
+      </trans-unit>
+      <trans-unit id="Search Engine" approved="yes">
+        <source>Search Engine</source>
+        <note>Search Engine Selection
+   Settings status option</note>
+        <target xml:lang="bg">Търсачка</target>
+      </trans-unit>
+      <trans-unit id="Search History" approved="yes">
+        <source>Search History</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="bg">Търсене в историята</target>
+      </trans-unit>
+      <trans-unit id="Search or enter website name" approved="yes">
+        <source>Search or enter website name</source>
+        <note>Browser address bar hint</note>
+        <target xml:lang="bg">Търсене/въвеждане на сайт</target>
+      </trans-unit>
+      <trans-unit id="Send Report" approved="yes">
+        <source>Send Report</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="bg">Изпрати доклада</target>
+      </trans-unit>
+      <trans-unit id="Settings" approved="yes">
+        <source>Settings</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="bg">Настройки</target>
+      </trans-unit>
+      <trans-unit id="Share" approved="yes">
+        <source>Share</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="bg">Споделяне</target>
+      </trans-unit>
+      <trans-unit id="Show in Dashboard" approved="yes">
+        <source>Show in Dashboard</source>
+        <note>Bookmark editing switch</note>
+        <target xml:lang="bg">Показвай в решетката</target>
+      </trans-unit>
+      <trans-unit id="Something went wrong." approved="yes">
+        <source>Something went wrong.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="bg">Нещо се обърка.</target>
+      </trans-unit>
+      <trans-unit id="Subscriptions" approved="yes">
+        <source>Subscriptions</source>
+        <note>Subscriptions listing title</note>
+        <target xml:lang="bg">Абонаменти</target>
+      </trans-unit>
+      <trans-unit id="Swipe up on Adblock Browser to quit the app." approved="yes">
+        <source>Swipe up on Adblock Browser to quit the app.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="bg">Плъзнете нагоре в браузър Adblock за изход от приложението.</target>
+      </trans-unit>
+      <trans-unit id="Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" approved="yes">
+        <source>Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</source>
+        <note>Welcome guide screen 2 picture label</note>
+        <target xml:lang="bg">Докоснете Меню → Настройки → Adblock Plus → Приемливи реклами</target>
+      </trans-unit>
+      <trans-unit id="The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." approved="yes">
+        <source>The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</source>
+        <note>Settings section footer</note>
+        <target xml:lang="bg">*Блокиране на реклами* и *други блокиращи настройки* работят с филтри, т.е. с набори от правила, указващи какво браузърът Adblock трябва да блокира.</target>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone. Are you sure you want to continue?" approved="yes">
+        <source>This action cannot be undone. Are you sure you want to continue?</source>
+        <note>Clear Browsing Data Confirmation</note>
+        <target xml:lang="bg">Отменяне на действието е невъзможно. Сигурен ли сте, че продължавате?</target>
+      </trans-unit>
+      <trans-unit id="URL Search Suggestions" approved="yes">
+        <source>URL Search Suggestions</source>
+        <note>Headline of search approval confirmation
+   Settings status option</note>
+        <target xml:lang="bg">Предлагане на адреси</target>
+      </trans-unit>
+      <trans-unit id="Uh-Oh!" approved="yes">
+        <source>Uh-Oh!</source>
+        <note>App start failure screen</note>
+        <target xml:lang="bg">Леле!</target>
+      </trans-unit>
+      <trans-unit id="Unable to start browser." approved="yes">
+        <source>Unable to start browser.</source>
+        <note>Critical abort alert message</note>
+        <target xml:lang="bg">Невъзможно пускане на браузъра.</target>
+      </trans-unit>
+      <trans-unit id="Use Cellular Network" approved="yes">
+        <source>Use Cellular Network</source>
+        <note>Settings - enable/disable cellular network for downloading subscriptions</note>
+        <target xml:lang="bg">Ползвай мобилната мрежа</target>
+      </trans-unit>
+      <trans-unit id="VERSION" approved="yes">
+        <source>VERSION</source>
+        <note>Section header in About screen</note>
+        <target xml:lang="bg">ВЕРСИЯ</target>
+      </trans-unit>
+      <trans-unit id="We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." approved="yes">
+        <source>We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</source>
+        <note>Acceptable ads explanation</note>
+        <target xml:lang="bg">За да насърчим сайтовете да ползват пряка и ненатрапчива реклама въведохме строги правила за разпознаване на приемливи реклами, които са включени в настройките по подразбиране. Ако предпочитате да сърфирате без реклами, можете да ги забраните по всяко време.</target>
+      </trans-unit>
+      <trans-unit id="Whitelisted Websites" approved="yes">
+        <source>Whitelisted Websites</source>
+        <note>Settings - show list of whitelisted pages
+   Whitelist title</note>
+        <target xml:lang="bg">Изключени сайтове</target>
+      </trans-unit>
+      <trans-unit id="With Adblock Plus, you can block ads or other elements on websites." approved="yes">
+        <source>With Adblock Plus, you can block ads or other elements on websites.</source>
+        <note>Settings section footer</note>
+        <target xml:lang="bg">Adblock Plus ви позволява да блокирате реклами или други елементи в сайтовете.</target>
+      </trans-unit>
+      <trans-unit id="Would you like to send a report to fix the problem?" approved="yes">
+        <source>Would you like to send a report to fix the problem?</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="bg">Ще изпратите ли доклад за поправяне на проблема?</target>
+      </trans-unit>
+      <trans-unit id="Yes" approved="yes">
+        <source>Yes</source>
+        <note>Allow Google search</note>
+        <target xml:lang="bg">Да</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash and Error Reports**" approved="yes">
+        <source>You can change this setting at any time in: **Settings → Crash and Error Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="bg">Променете настройката по всяко време в: **Настройки → Доклади за срив/грешка**.</target>
+      </trans-unit>
+      <trans-unit id="You're in control" approved="yes">
+        <source>You're in control</source>
+        <note>Welcome guide screen 2 headline</note>
+        <target xml:lang="bg">Под ваш контрол</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock Browser</source>
+        <target xml:lang="bg">Браузър Adblock</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="bg">Отказ</target>
+      </trans-unit>
+      <trans-unit id="Dismiss" approved="yes">
+        <source>Dismiss</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="bg">Прекрати</target>
+      </trans-unit>
+      <trans-unit id="Open" approved="yes">
+        <source>Open</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="bg">Отвори</target>
+      </trans-unit>
+      <trans-unit id="Open in Adblock Browser?" approved="yes">
+        <source>Open in Adblock Browser?</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="bg">Отваряне с браузър Adblock?</target>
+      </trans-unit>
+      <trans-unit id="URL not found" approved="yes">
+        <source>URL not found</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="bg">Ненамерен адрес</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,9 @@
+/* (No Commment) */
+"CFBundleDisplayName" = "Adblock";
+
+/* (No Commment) */
+"CFBundleName" = "Adblock Browser";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "Webovým stránkám (např. Google Maps) poskytneme Vaši polohu pouze pokud to dovolíte. Adblock Browser Vaši polohu nepoužije k žádnému jinému účelu.";
+

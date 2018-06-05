@@ -1,0 +1,5 @@
+*.py[co]
+/.idea
+**/integration_tests/results
+**/integration_tests/results_archive
+*.pyc

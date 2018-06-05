@@ -1,0 +1,11 @@
+//
+//  ExtensionShareRelease.xcconfig
+//  AdblockBrowser
+//
+//  Created by Pavel Zdenek on 21/02/2017.
+//  Copyright © 2017 Salsita s.r.o. All rights reserved.
+//
+
+#include "../ReleaseCommonSettings.xcconfig"
+
+SWIFT_ADDITIONAL_FLAGS =

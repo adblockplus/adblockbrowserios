@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ghz-o5-gGd">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ghz-o5-gGd" id="bax-wn-MfT">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="121.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m2d-uP-0YW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="122"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="100052" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL Search Suggestions" textAlignment="justified" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESK-Db-FLN">
+                                <rect key="frame" x="15" y="11" width="166.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="100053" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to see web search results here?" textAlignment="justified" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X5I-My-0bt">
+                                <rect key="frame" x="15" y="31" width="345" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="100054" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Configurable under Settings &gt; URL Search Suggestions" textAlignment="justified" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rbw-lD-EsU">
+                                <rect key="frame" x="15" y="50" width="345" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="D2S-b2-8jH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="100051" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ql-CC-jpk">
+                                <rect key="frame" x="97" y="78" width="67" height="31"/>
+                                <color key="backgroundColor" red="1" green="0.1450980392" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="EMB-Ra-xow"/>
+                                    <constraint firstAttribute="width" constant="67" id="h0D-Lz-Ngr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="100050" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0F-9f-q74">
+                                <rect key="frame" x="15" y="78" width="67" height="31"/>
+                                <color key="backgroundColor" red="0.0" green="0.46274509800000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="77x-aF-uuR"/>
+                                    <constraint firstAttribute="width" constant="67" id="Gxr-Bh-KiM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rbw-lD-EsU" firstAttribute="top" secondItem="X5I-My-0bt" secondAttribute="bottom" constant="2" id="8ur-fl-5sC"/>
+                            <constraint firstAttribute="bottom" secondItem="R0F-9f-q74" secondAttribute="bottom" constant="13" id="AOn-AH-EZn"/>
+                            <constraint firstItem="X5I-My-0bt" firstAttribute="top" secondItem="ESK-Db-FLN" secondAttribute="bottom" constant="3" id="HHg-Ps-SiR"/>
+                            <constraint firstAttribute="trailing" secondItem="X5I-My-0bt" secondAttribute="trailing" constant="15" id="OUp-2S-KoG"/>
+                            <constraint firstItem="rbw-lD-EsU" firstAttribute="trailing" secondItem="X5I-My-0bt" secondAttribute="trailing" id="PIq-dC-PPX"/>
+                            <constraint firstItem="ESK-Db-FLN" firstAttribute="leading" secondItem="R0F-9f-q74" secondAttribute="leading" id="ZeY-Fa-PRM"/>
+                            <constraint firstItem="X5I-My-0bt" firstAttribute="leading" secondItem="ESK-Db-FLN" secondAttribute="leading" id="coT-x0-IS0"/>
+                            <constraint firstItem="7ql-CC-jpk" firstAttribute="leading" secondItem="R0F-9f-q74" secondAttribute="trailing" constant="15" id="dc0-s0-MA6"/>
+                            <constraint firstItem="rbw-lD-EsU" firstAttribute="leading" secondItem="X5I-My-0bt" secondAttribute="leading" id="k31-MN-Mdw"/>
+                            <constraint firstAttribute="bottom" secondItem="7ql-CC-jpk" secondAttribute="bottom" constant="13" id="kDS-dC-woY"/>
+                            <constraint firstItem="ESK-Db-FLN" firstAttribute="leading" secondItem="m2d-uP-0YW" secondAttribute="leading" constant="15" id="lul-Jr-j3k"/>
+                            <constraint firstItem="ESK-Db-FLN" firstAttribute="top" secondItem="m2d-uP-0YW" secondAttribute="top" constant="11" id="nFX-8u-cCw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m2d-uP-0YW" firstAttribute="top" secondItem="bax-wn-MfT" secondAttribute="top" id="Cwn-0W-Vhy"/>
+                    <constraint firstItem="m2d-uP-0YW" firstAttribute="leading" secondItem="bax-wn-MfT" secondAttribute="leading" id="Nga-wH-gGS"/>
+                    <constraint firstAttribute="bottom" secondItem="m2d-uP-0YW" secondAttribute="bottom" id="Ueb-ju-EUy"/>
+                    <constraint firstAttribute="trailing" secondItem="m2d-uP-0YW" secondAttribute="trailing" id="ghE-Pg-bi8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="451" y="854"/>
+        </tableViewCell>
+    </objects>
+</document>

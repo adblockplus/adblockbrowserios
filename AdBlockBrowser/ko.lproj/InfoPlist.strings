@@ -1,0 +1,6 @@
+/* (No Commment) */
+"CFBundleDisplayName" = "Adblock";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "Adblock은 귀하가 위치 정보에 엑세스 하는 것을 허용한 경우에만 웹사이트 (예: 구글 맵) 에게 위치 정보를 전달합니다.";
+

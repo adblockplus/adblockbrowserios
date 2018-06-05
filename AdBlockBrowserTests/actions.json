@@ -1,0 +1,2198 @@
+[
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2743",
+      "tabId": 27,
+      "timeStamp": 1434114907298.996,
+      "type": "main_frame",
+      "url": "http://simple-adblock.com/faq/testing-your-adblocker/"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2746",
+      "tabId": 27,
+      "timeStamp": 1434114907666.05,
+      "type": "stylesheet",
+      "url": "http://simple-adblock.com/wp-content/themes/quadro/style.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2747",
+      "tabId": 27,
+      "timeStamp": 1434114907666.429,
+      "type": "stylesheet",
+      "url": "http://simple-adblock.com/wp-content/themes/quadro/lightblue/assets/css/screen.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2748",
+      "tabId": 27,
+      "timeStamp": 1434114907666.747,
+      "type": "stylesheet",
+      "url": "http://simple-adblock.com/wp-content/themes/quadro/lightblue/assets/css/typography.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2749",
+      "tabId": 27,
+      "timeStamp": 1434114907667.085,
+      "type": "stylesheet",
+      "url": "http://simple-adblock.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2750",
+      "tabId": 27,
+      "timeStamp": 1434114907667.381,
+      "type": "script",
+      "url": "http://simple-adblock.com/wp-includes/js/jquery/jquery.js?ver=1.7.2"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2751",
+      "tabId": 27,
+      "timeStamp": 1434114907667.787,
+      "type": "script",
+      "url": "http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2752",
+      "tabId": 27,
+      "timeStamp": 1434114907668.117,
+      "type": "image",
+      "url": "http://simple-adblock.com/wp-content/themes/quadro/images/logo.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2754",
+      "tabId": 27,
+      "timeStamp": 1434114907668.627,
+      "type": "script",
+      "url": "http://s7.addthis.com/js/250/addthis_widget.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2755",
+      "tabId": 27,
+      "timeStamp": 1434114907668.9639,
+      "type": "script",
+      "url": "http://simple-adblock.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2756",
+      "tabId": 27,
+      "timeStamp": 1434114907669.2751,
+      "type": "script",
+      "url": "http://simple-adblock.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2753",
+      "tabId": 27,
+      "timeStamp": 1434114907870.554,
+      "type": "image",
+      "url": "http://simple-adblock.com/wp-content/uploads/2013/08/adblockplus_128.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2757",
+      "tabId": 27,
+      "timeStamp": 1434114907878.362,
+      "type": "stylesheet",
+      "url": "https://translate.googleapis.com/translate_static/css/translateelement.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2758",
+      "tabId": 27,
+      "timeStamp": 1434114907878.842,
+      "type": "script",
+      "url": "https://translate.googleapis.com/translate_static/js/element/main.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2759",
+      "tabId": 27,
+      "timeStamp": 1434114907894.7908,
+      "type": "script",
+      "url": "http://s7.addthis.com/js/250/addthis_widget.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 11,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2760",
+      "tabId": 27,
+      "timeStamp": 1434114908008.6838,
+      "type": "sub_frame",
+      "url": "http://simple-adblock.com/adblocktest/adblocktest.htm"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2761",
+      "tabId": 27,
+      "timeStamp": 1434114908011.1648,
+      "type": "script",
+      "url": "https://translate.googleapis.com/translate_static/js/element/26/element_main.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2762",
+      "tabId": 27,
+      "timeStamp": 1434114908027.972,
+      "type": "image",
+      "url": "http://simple-adblock.com/wp-content/uploads/2013/08/abp-background.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2763",
+      "tabId": 27,
+      "timeStamp": 1434114908083.812,
+      "type": "script",
+      "url": "http://www.google-analytics.com/ga.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2764",
+      "tabId": 27,
+      "timeStamp": 1434114908134.78,
+      "type": "image",
+      "url": "http://www.google-analytics.com/__utm.gif?utmwv=5.6.4&utms=2&utmn=429409764&utmhn=simple-adblock.com&utmcs=UTF-8&utmsr=1920x1200&utmvp=1265x701&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=18.0%20r0&utmdt=Testing%20your%20adblocker%20%E2%80%93%20Simple%20Adblock&utmhid=802067215&utmr=-&utmp=%2Ffaq%2Ftesting-your-adblocker%2F&utmht=1434114908130&utmac=UA-3881511-10&utmcc=__utma%3D1.197856554.1434035046.1434035046.1434114733.2%3B%2B__utmz%3D1.1434035046.1.1.utmcsr%3Dgoogle%7Cutmccn%3D(organic)%7Cutmcmd%3Dorganic%7Cutmctr%3D(not%2520provided)%3B&utmjid=&utmu=DlAAACAAAAAAAAAAAAAAAAAE~"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2765",
+      "tabId": 27,
+      "timeStamp": 1434114908157.474,
+      "type": "script",
+      "url": "http://s7.addthis.com/static/layers.1d8d971bbd9ad6b9444b.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2766",
+      "tabId": 27,
+      "timeStamp": 1434114908167.971,
+      "type": "script",
+      "url": "http://s7.addthis.com/static/menu.f3687e10ad695785bdbe.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2767",
+      "tabId": 27,
+      "timeStamp": 1434114908168.4539,
+      "type": "script",
+      "url": "http://s7.addthis.com/static/hi-res-css.0d3543bb44e244a26641.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2768",
+      "tabId": 27,
+      "timeStamp": 1434114908178.2998,
+      "type": "script",
+      "url": "http://apis.google.com/js/plusone.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 10,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2769",
+      "tabId": 27,
+      "timeStamp": 1434114908192.875,
+      "type": "sub_frame",
+      "url": "http://s7.addthis.com/static/sh.996b8e89.html#iit=1434114908157&tmr=load%3D1434114907927%26core%3D1434114908004%26main%3D1434114908147%26ifr%3D1434114908165&cb=0&cdn=0&kw=&ab=-&dh=simple-adblock.com&dr=&du=http%3A%2F%2Fsimple-adblock.com%2Ffaq%2Ftesting-your-adblocker%2F&href=http%3A%2F%2Fsimple-adblock.com%2Ffaq%2Ftesting-your-adblocker%2F&dt=Testing%20your%20adblocker%20%E2%80%93%20Simple%20Adblock&dbg=0&cap=tc%3D0%26ab%3D0&inst=1&jsl=33&prod=undefined&lng=en-US&ogt=&pc=men&pub=simpleadblock&ssl=0&sid=557adb5ba3bf247e&srpl=1&srcs=1&srd=1&srf=0.01&srx=1&ver=300&xck=0&xtr=0&og=&aa=0&csi=undefined&toLoJson=uvs%3D557adaacb7b4bfdd001%26chr%3DUTF-8%26md%3D0%26vcl%3D1&rev=v2.1.1-wp&ct=1&xld=1&xd=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2768",
+      "tabId": 27,
+      "timeStamp": 1434114908199.792,
+      "type": "script",
+      "url": "https://apis.google.com/js/plusone.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 12,
+      "method": "GET",
+      "parentFrameId": 11,
+      "requestId": "2770",
+      "tabId": 27,
+      "timeStamp": 1434114908287.694,
+      "type": "sub_frame",
+      "url": "http://simple-adblock.com/adblocktest/files/elementblock.html"
+    }
+  },
+  {
+    "details": {
+      "frameId": 13,
+      "method": "GET",
+      "parentFrameId": 11,
+      "requestId": "2771",
+      "tabId": 27,
+      "timeStamp": 1434114908288.838,
+      "type": "sub_frame",
+      "url": "http://simple-adblock.com/adblocktest/files/elementhide.html"
+    }
+  },
+  {
+    "details": {
+      "frameId": 10,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2772",
+      "tabId": 27,
+      "timeStamp": 1434114908369.94,
+      "type": "script",
+      "url": "http://s7.addthis.com/js/300/addthis_widget.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2773",
+      "tabId": 27,
+      "timeStamp": 1434114908430.4968,
+      "type": "script",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.cs.5S_vlVTCkqk.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCNhc0kFVOOXSiyT5b9m2agLCHzCtQ/t=zcms/cb=gapi.loaded_0"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2774",
+      "tabId": 27,
+      "timeStamp": 1434114908435.123,
+      "type": "script",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.cs.5S_vlVTCkqk.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCNhc0kFVOOXSiyT5b9m2agLCHzCtQ/t=zcms/cb=gapi.loaded_1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 14,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2775",
+      "tabId": 27,
+      "timeStamp": 1434114908442.749,
+      "type": "sub_frame",
+      "url": "https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&count=false&size=small&hl=en-US&origin=http%3A%2F%2Fsimple-adblock.com&url=http%3A%2F%2Fsimple-adblock.com%2Ffaq%2Ftesting-your-adblocker%2F&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.cs.5S_vlVTCkqk.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCNhc0kFVOOXSiyT5b9m2agLCHzCtQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&id=I0_1434114908439&parent=http%3A%2F%2Fsimple-adblock.com&pfname=&rpctoken=33339384"
+    }
+  },
+  {
+    "details": {
+      "frameId": 10,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2776",
+      "tabId": 27,
+      "timeStamp": 1434114908653.708,
+      "type": "script",
+      "url": "http://m.addthis.com/live/red_lojson/300lo.json?1abr3js&colc=1434114908652&si=557adb5ba3bf247e&uid=55390217e95f7265&pub=simpleadblock&rev=v2.1.1-wp&jsl=33&ln=en&pc=men&vpc=&dp=simple-adblock.com&fp=faq%2Ftesting-your-adblocker%2F&aa=0&of=0&uf=0&pd=0&irt=0&ct=1&tct=0&abt=0&lt=484&cdn=0&lnlc=US&whcs=0&tl=c%3D77%2Cm%3D220%2Ci%3D238%2Cxm%3D709%2Cxp%3D714&pi=1&&rb=0&gen=100&callback=_ate.track.hsr&uvs=557adaacb7b4bfdd001&chr=UTF-8&md=0&vcl=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2777",
+      "tabId": 27,
+      "timeStamp": 1434114908673.024,
+      "type": "image",
+      "url": "https://www.google.com/images/icons/product/translate-32.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2778",
+      "tabId": 27,
+      "timeStamp": 1434114908680.9731,
+      "type": "script",
+      "url": "https://translate.googleapis.com/translate_a/l?client=te&alpha=true&hl=en&cb=_callbacks_._0iatmzll3"
+    }
+  },
+  {
+    "details": {
+      "frameId": 15,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2779",
+      "tabId": 27,
+      "timeStamp": 1434114908732.554,
+      "type": "stylesheet",
+      "url": "https://translate.googleapis.com/translate_static/css/translateelement.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 15,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2780",
+      "tabId": 27,
+      "timeStamp": 1434114908732.923,
+      "type": "image",
+      "url": "https://www.google.com/images/cleardot.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 16,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2781",
+      "tabId": 27,
+      "timeStamp": 1434114908803.2998,
+      "type": "sub_frame",
+      "url": "https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fsimple-adblock.com#rpctoken=416116294&forcesecure=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 15,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2782",
+      "tabId": 27,
+      "timeStamp": 1434114908860.805,
+      "type": "image",
+      "url": "https://translate.googleapis.com/translate_static/img/te_ctrl3.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 13,
+      "method": "GET",
+      "parentFrameId": 11,
+      "requestId": "2783",
+      "tabId": 27,
+      "timeStamp": 1434114908890.075,
+      "type": "image",
+      "url": "http://simple-adblock.com/adblocktest/files/notworking.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 13,
+      "method": "GET",
+      "parentFrameId": 11,
+      "requestId": "2784",
+      "tabId": 27,
+      "timeStamp": 1434114908890.6309,
+      "type": "image",
+      "url": "http://simple-adblock.com/adblocktest/files/testok.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 12,
+      "method": "GET",
+      "parentFrameId": 11,
+      "requestId": "2785",
+      "tabId": 27,
+      "timeStamp": 1434114908914.392,
+      "type": "image",
+      "url": "http://simple-adblock.com/adblocktest/files/adbanner.gif"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 14,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2786",
+      "tabId": 27,
+      "timeStamp": 1434114908973.5469,
+      "type": "xmlhttprequest",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.cs.5S_vlVTCkqk.O/m=googleapis_client,iframes_styles_bubble_internal,gapi_iframes_style_common,gapi_iframes_iframer/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCNhc0kFVOOXSiyT5b9m2agLCHzCtQ/t=zcms/cb=gapi.loaded_0"
+    }
+  },
+  {
+    "details": {
+      "frameId": 14,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2787",
+      "tabId": 27,
+      "timeStamp": 1434114908974.557,
+      "type": "xmlhttprequest",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.plusone.en_US.XhIFG_QmQdo.O/m=p1b,p1p/rt=j/sv=1/d=1/ed=1/rs=AGLTcCME3EBo6id2cVvokZvoI_1oIJFGZg/t=zcms/cb=gapi.loaded_1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 16,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2788",
+      "tabId": 27,
+      "timeStamp": 1434114909181.982,
+      "type": "script",
+      "url": "https://apis.google.com/js/api.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 16,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2789",
+      "tabId": 27,
+      "timeStamp": 1434114909182.333,
+      "type": "script",
+      "url": "https://oauth.googleusercontent.com/gadgets/js/core:rpc:shindig.random:shindig.sha1.js?c=2"
+    }
+  },
+  {
+    "details": {
+      "frameId": 16,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "2790",
+      "tabId": 27,
+      "timeStamp": 1434114909182.649,
+      "type": "script",
+      "url": "https://ssl.gstatic.com/accounts/o/3655170095-postmessagerelay.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "2791",
+      "tabId": 27,
+      "timeStamp": 1434114909356.821,
+      "type": "other",
+      "url": "http://simple-adblock.com/favicon.ico"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5480",
+      "tabId": 39,
+      "timeStamp": 1435319463244.67,
+      "type": "stylesheet",
+      "url": "http://gidnes.cz/css/idn3/sph2f.css?rr=074"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5493",
+      "tabId": 39,
+      "timeStamp": 1435319463268.2532,
+      "type": "stylesheet",
+      "url": "http://gidnes.cz/css/n4/reklama.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5484",
+      "tabId": 39,
+      "timeStamp": 1435319463272.107,
+      "type": "image",
+      "url": "http://oidnes.cz/pocasi/15/06/radar/3246333_pacz23.z_max3d.20150626.1145.0_sph_srazky.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5483",
+      "tabId": 39,
+      "timeStamp": 1435319463314.445,
+      "type": "image",
+      "url": "http://gidnes.cz/u/free.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5489",
+      "tabId": 39,
+      "timeStamp": 1435319463426.054,
+      "type": "image",
+      "url": "http://gidnes.cz/u/IWEB56.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5494",
+      "tabId": 39,
+      "timeStamp": 1435319463599.4338,
+      "type": "script",
+      "url": "http://gidnes.cz/js/dtm/cache/satelliteLib-48fbeae0fb292bfc246d8faf8e887c00420fc0c1.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5495",
+      "tabId": 39,
+      "timeStamp": 1435319463627.3179,
+      "type": "script",
+      "url": "http://gidnes.cz/js/gem/xgemius.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5498",
+      "tabId": 39,
+      "timeStamp": 1435319463648.216,
+      "type": "image",
+      "url": "http://gidnes.cz/u/n4/shadeMid.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5500",
+      "tabId": 39,
+      "timeStamp": 1435319463653.074,
+      "type": "image",
+      "url": "http://gidnes.cz/o/sph/icon-sme-2.png?ver=2"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5502",
+      "tabId": 39,
+      "timeStamp": 1435319463679.662,
+      "type": "other",
+      "url": "http://gidnes.cz/fonts/fira4/FiraSans-Regular.woff"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5505",
+      "tabId": 39,
+      "timeStamp": 1435319463682.259,
+      "type": "image",
+      "url": "http://gidnes.cz/o/sph/mask-map.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5506",
+      "tabId": 39,
+      "timeStamp": 1435319463686.1528,
+      "type": "image",
+      "url": "http://gidnes.cz/u/n4/r-head-bigger.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5507",
+      "tabId": 39,
+      "timeStamp": 1435319463698.004,
+      "type": "image",
+      "url": "http://gidnes.cz/o/sph/ico_play_sp5.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5512",
+      "tabId": 39,
+      "timeStamp": 1435319463742.95,
+      "type": "image",
+      "url": "http://data.idnes.cz/selfboxy/Reality/img/7450019_qua.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5514",
+      "tabId": 39,
+      "timeStamp": 1435319463746.412,
+      "type": "image",
+      "url": "http://gidnes.cz/o/fin/sph/dart-sph.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5515",
+      "tabId": 39,
+      "timeStamp": 1435319463772.8628,
+      "type": "image",
+      "url": "http://gidnes.cz/o/sph/blog/logo-blog.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5525",
+      "tabId": 39,
+      "timeStamp": 1435319463822.375,
+      "type": "image",
+      "url": "http://gidnes.cz/u/portal/p-search-inp.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5529",
+      "tabId": 39,
+      "timeStamp": 1435319463884.3,
+      "type": "script",
+      "url": "http://bbcdn.go.cz.bbelements.com/bb/bb_codesnif.js?v=201506170712"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5530",
+      "tabId": 39,
+      "timeStamp": 1435319463884.888,
+      "type": "script",
+      "url": "http://bbcdn.go.cz.bbelements.com/bb/bb_one2n.113.65.77.1.js?v=201505281035"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5531",
+      "tabId": 39,
+      "timeStamp": 1435319463898.9338,
+      "type": "image",
+      "url": "http://i.idnes.cz/15/063/w230/KRR5c2968_vybuchbustehrad.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5539",
+      "tabId": 39,
+      "timeStamp": 1435319464099.7332,
+      "type": "script",
+      "url": "http://www.googletagmanager.com/gtm.js?id=GTM-VFBV"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5544",
+      "tabId": 39,
+      "timeStamp": 1435319464257.134,
+      "type": "script",
+      "url": "http://gacz.hit.gemius.pl/_1435319464256/rexdot.js?l=80&ltime=96&lsdata=MMtx0QmTDeLRnHZWWyA53nkoKqoPJd_x6ySYA_KxW_n.k7/1431343000478/&fpdata=pKV7HCcsjLi0TZZ5sINvtAjtJ5lgncFNxSxNDhnWg6T.e7&vis=1&id=ogTqljMrYxhE2MzBMWyBZaRuzUTGf4LUWB7fdZ0a_3b.I7&fr=1&tz=-120&fv=Shockwave%20Flash%2018.0%20r0&href=http%3A%2F%2Fwww.idnes.cz%2F&ref=&screen=1920x1200r1000&col=24&window=1280x701"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5545",
+      "tabId": 39,
+      "timeStamp": 1435319464283.7578,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/collect?v=1&_v=j37&a=1974404338&t=pageview&_s=1&dl=http%3A%2F%2Fwww.idnes.cz%2F&ul=en-us&de=windows-1250&dt=iDNES.cz%20%E2%80%93%20zpr%C3%A1vy%2C%20kter%C3%BDm%20m%C5%AF%C5%BEete%20v%C4%9B%C5%99it&sd=24-bit&sr=1920x1200&vp=1265x701&je=1&fl=18.0%20r0&_utma=1.160875334.1431343000.1435317282.1435317339.9&_utmz=1.1435317339.9.3.utmcsr%3Dsph.idnes%7Cutmccn%3D(not%2520set)%7Cutmcmd%3Drichtext%7Cutmcct%3Dclanek-box&_utmht=1435319464271&_u=QACCAAABI~&jid=277207371&cid=160875334.1431343000&tid=UA-39787087-19&_r=1&gtm=GTM-VFBV&cd1=guest&cd2=none&z=1999492455"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5550",
+      "tabId": 39,
+      "timeStamp": 1435319464495.784,
+      "type": "image",
+      "url": "http://r.idnes.cz/r.asp?log=hax&r=testfont_cores_4&from=http%3A//www.idnes.cz/&url=http%3A//www.idnes.cz/&rnd=0.824446382233873"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5551",
+      "tabId": 39,
+      "timeStamp": 1435319464497.781,
+      "type": "script",
+      "url": "http://assets.adobedtm.com/4beaca54604aa1db7a7d9296a08d83bee398e7fd/scripts/satellite-54eb0f6f3532370016c10400.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5553",
+      "tabId": 39,
+      "timeStamp": 1435319464532.278,
+      "type": "sub_frame",
+      "url": "http://fast.cpex.demdex.net/dest4.html?d_nsid=3#http%3A%2F%2Fwww.idnes.cz%2F"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5554",
+      "tabId": 39,
+      "timeStamp": 1435319464540.989,
+      "type": "script",
+      "url": "http://cpex.demdex.net/event?d_nsid=3&d_ld=_ts%3D1435319464538&c_pagehostname=www.idnes.cz&c_pagetitle=iDNES.cz%20%E2%80%93%20zpr%C3%A1vy%2C%20kter%C3%BDm%20m%C5%AF%C5%BEete%20v%C4%9B%C5%99it&c_pageurl=http%3A%2F%2Fwww.idnes.cz%2F&c_pagekeywords=dnes%2Cmf%20dnes%2Cidnes%2Czpravodajstv%C3%AD%2Czpr%C3%A1vy%2Csport%2Caktuality%2Cnovinky%2Cfotogalerie%2Cekonomika%2Cpo%C4%8Das%C3%AD&c_pagedescription=Nejnov%C4%9Bj%C5%A1%C3%AD%20zpr%C3%A1vy%20z%20va%C5%A1eho%20kraje%2C%20%C4%8Cesk%C3%A9%20republiky%20a%20cel%C3%A9ho%20sv%C4%9Bta.&c_publisher=Mafra&d_rtbd=json&d_jsonv=1&d_dst=1&d_cb=demdexRequestCallback_cpex_3_1435319464538"
+    }
+  },
+  {
+    "details": {
+      "frameId": 46,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5556",
+      "tabId": 39,
+      "timeStamp": 1435319464766.888,
+      "type": "image",
+      "url": "http://pixel.rubiconproject.com/tap.php?v=104172"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 46,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5557",
+      "tabId": 39,
+      "timeStamp": 1435319464781.542,
+      "type": "image",
+      "url": "http://pixel.rubiconproject.com/tap.php?v=112024"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5559",
+      "tabId": 39,
+      "timeStamp": 1435319465065.5662,
+      "type": "image",
+      "url": "http://pixel.rubiconproject.com/tap.php?v=104172"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5560",
+      "tabId": 39,
+      "timeStamp": 1435319465079.591,
+      "type": "image",
+      "url": "http://pixel.rubiconproject.com/tap.php?v=112024"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5561",
+      "tabId": 39,
+      "timeStamp": 1435319465574.798,
+      "type": "image",
+      "url": "http://pixel.rubiconproject.com/tap.php?v=104172"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5563",
+      "tabId": 39,
+      "timeStamp": 1435319465590.71,
+      "type": "image",
+      "url": "http://pixel.rubiconproject.com/tap.php?v=112024"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": -2,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5566",
+      "tabId": -1,
+      "timeStamp": 1435319467356.18,
+      "type": "other",
+      "url": "http://srv-2015-06-26-11.pixel.parsely.com/plogger/?rand=1435319467350&idsite=mashable.com&url=http%3A%2F%2Fmashable.com%2F&urlref=http%3A%2F%2Fmashable.com%2F&screen=1920x1200%7C1920x1173%7C24&data=%7B%22parsely_uuid%22%3A%22de292d62-96bb-4443-b314-0c39c8345e99%22%2C%22parsely_site_uuid%22%3A%22b9bf5c63-a026-4622-8643-77704fee3732%22%7D&sid=1&surl=http%3A%2F%2Fmashable.com%2F&sref=&sts=1435317911457&slts=0&date=Fri+Jun+26+2015+13%3A51%3A07+GMT%2B0200+(CEST)&action=heartbeat&inc=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5567",
+      "tabId": 41,
+      "timeStamp": 1435319467360.158,
+      "type": "main_frame",
+      "url": "http://mashable.com/"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5570",
+      "tabId": 41,
+      "timeStamp": 1435319467575.02,
+      "type": "script",
+      "url": "http://cdn.optimizely.com/js/58011369.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5572",
+      "tabId": 41,
+      "timeStamp": 1435319467575.803,
+      "type": "script",
+      "url": "http://rack.2.mshcdn.com/assets/advertisement-8b541e000d096cdb1fddb739ef2d8a53.js"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5580",
+      "tabId": 41,
+      "timeStamp": 1435319468186.5981,
+      "type": "other",
+      "url": "http://rack.3.mshcdn.com/assets/mashicons-webfont-655962678c534ecf8f7249753d5d0cb3.woff"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5587",
+      "tabId": 41,
+      "timeStamp": 1435319468294.404,
+      "type": "script",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.cs.Ndv8VPQltrs.O/m=auth/exm=client,follow,plusone,ytsubscribe/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCMMhnshQ8RPj2qp2ALbBFHJJnPwXQ/t=zcms/cb=gapi.loaded_1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 68,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5588",
+      "tabId": 41,
+      "timeStamp": 1435319468301.7148,
+      "type": "sub_frame",
+      "url": "https://www.youtube.com/subscribe_embed?usegapi=1&channel=mashable&origin=http%3A%2F%2Fmashable.com&gsrc=3p&ic=1&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.cs.Ndv8VPQltrs.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCMMhnshQ8RPj2qp2ALbBFHJJnPwXQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&id=I0_1435319468297&parent=http%3A%2F%2Fmashable.com&pfname=&rpctoken=34850346"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5593",
+      "tabId": 41,
+      "timeStamp": 1435319468378.4941,
+      "type": "image",
+      "url": "http://rack.3.mshcdn.com/media/ZgkyMDE1LzA2LzI2L2UxL2ZyYW5jZS44YjNmNy5qcGcKcAl0aHVtYgkxNDM4eAplCWpwZw/4a2bd9cd/002/france.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 70,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5594",
+      "tabId": 41,
+      "timeStamp": 1435319468402.241,
+      "type": "sub_frame",
+      "url": "http://mashable.com/tripleclick.html#http%3A%2F%2Fad.doubleclick.net%2FN6692%2Fadj%2Fmash.to%2Fatf_j_s%2Fhome%3Bsec0%3Dhome%3Bsec1%3Dindex%3Badnum%3D1%3Blocation%3Dleft%3Btile%3D3%3Bbg%3D8f4533%3Bsz%3D300x250%3B!category%3Dexpand%3B!category%3Diframe%3Bord%3D213495258009062%3B"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5598",
+      "tabId": 41,
+      "timeStamp": 1435319468418.042,
+      "type": "image",
+      "url": "http://rack.2.mshcdn.com/media/ZgkyMDE1LzA2LzI2L2Y0L0NvcmJpczQyMjEyLjc4ZjQ0LmpwZwpwCXRodW1iCTE3NXgxNzUjCmUJanBn/89e9354b/6e0/Corbis-42-21246682.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5601",
+      "tabId": 41,
+      "timeStamp": 1435319468420.364,
+      "type": "image",
+      "url": "http://rack.2.mshcdn.com/media/ZgkyMDE1LzA2LzI1LzIzL3lvZ2F0aHVtYi41M2U3NC5qcGcKcAl0aHVtYgkxNzV4MTc1IwplCWpwZw/2875b151/2c3/yogathumb.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5602",
+      "tabId": 41,
+      "timeStamp": 1435319468420.886,
+      "type": "image",
+      "url": "http://rack.3.mshcdn.com/media/ZgkyMDE1LzA2LzI1LzI2L2hhcnJ5c3R5bGVzLjcyMWFjLmpwZwpwCXRodW1iCTE3NXgxNzUjCmUJanBn/000a274f/424/harrystyles1.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5607",
+      "tabId": 41,
+      "timeStamp": 1435319468469.386,
+      "type": "image",
+      "url": "http://rack.1.mshcdn.com/media/ZgkyMDE1LzA2LzI2LzU0L0pLX1Jvd2xpbmcuOGIwY2YuanBnCnAJdGh1bWIJMzU2eDIwNSMKZQlqcGc/8e3b6fea/c51/JK_Rowling.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 71,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5608",
+      "tabId": 41,
+      "timeStamp": 1435319468470.653,
+      "type": "sub_frame",
+      "url": "http://mashable.com/tripleclick.html#http%3A%2F%2Fad.doubleclick.net%2FN6692%2Fadj%2Fmash.to%2Fbtf_j_s%2Fhome%3Bsec0%3Dhome%3Bsec1%3Dindex%3Badnum%3D1%3Blocation%3Dcenter%3Btile%3D4%3Bbg%3D8f4533%3Bsz%3D240x295%3B!category%3Diframe%3B%25ecid!%3Bord%3D213495258009062%3B"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 72,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5611",
+      "tabId": 41,
+      "timeStamp": 1435319468492.988,
+      "type": "sub_frame",
+      "url": "http://mashable.com/tripleclick.html#http%3A%2F%2Fad.doubleclick.net%2FN6692%2Fadj%2Fmash.to%2Fbtf_j_s%2Fhome%3Bsec0%3Dhome%3Bsec1%3Dindex%3Badnum%3D1%3Blocation%3Dright%3Btile%3D5%3Bbg%3D8f4533%3Bsz%3D300x250%3B!category%3Diframe%3Bord%3D213495258009062%3B"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5613",
+      "tabId": 41,
+      "timeStamp": 1435319468507.352,
+      "type": "xmlhttprequest",
+      "url": "http://mashable.com/stories.json?hot_per_page=2&new_per_page=20&rising_per_page=3&new_after=1z89hf"
+    }
+  },
+  {
+    "details": {
+      "frameId": 73,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5614",
+      "tabId": 41,
+      "timeStamp": 1435319468517.89,
+      "type": "sub_frame",
+      "url": "http://mashable.com/tripleclick.html#http%3A%2F%2Fad.doubleclick.net%2FN6692%2Fadj%2Fmash.to%2Fbtf_j_s%2Fhome%3Bsec0%3Dhome%3Bsec1%3Dindex%3Badnum%3D1%3Btile%3D1%3Bsz%3D1x2%3Bord%3D213495258009062%3B"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 74,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5615",
+      "tabId": 41,
+      "timeStamp": 1435319468522.541,
+      "type": "sub_frame",
+      "url": "http://mashable.com/tripleclick.html#http%3A%2F%2Fad.doubleclick.net%2FN6692%2Fadj%2Fmash.to%2Fatf_j_s%2Fhome%3Bsec0%3Dhome%3Bsec1%3Dindex%3Bdcopt%3Dist%3Badnum%3D1%3Btile%3D2%3Bsz%3D970x66%3Bord%3D213495258009062%3B"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5618",
+      "tabId": 41,
+      "timeStamp": 1435319468529.787,
+      "type": "script",
+      "url": "http://assets.pinterest.com/js/pinit_main.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 81,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5629",
+      "tabId": 41,
+      "timeStamp": 1435319469171.274,
+      "type": "sub_frame",
+      "url": "https://platform.linkedin.com/js/xdrpc.html?v=0.0.2000-RC8.48397-1428#xdm_e=http%3A%2F%2Fmashable.com&xdm_c=li_gen_1435319469036_1&xdm_p=1#target=li_gen_1435319469036_1&width=600&height=400&mode=wrapper"
+    }
+  },
+  {
+    "details": {
+      "frameId": 82,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5656",
+      "tabId": 41,
+      "timeStamp": 1435319471409.865,
+      "type": "script",
+      "url": "https://apis.google.com/js/api.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 82,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5658",
+      "tabId": 41,
+      "timeStamp": 1435319471410.684,
+      "type": "script",
+      "url": "https://ssl.gstatic.com/accounts/o/162488195-postmessagerelay.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 77,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5659",
+      "tabId": 41,
+      "timeStamp": 1435319471472.459,
+      "type": "image",
+      "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.4&utms=8&utmn=494762330&utmhn=platform.tumblr.com&utmcs=UTF-8&utmsr=1920x1200&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=18.0%20r0&utmhid=1674203185&utmr=http%3A%2F%2Fmashable.com%2F&utmp=%2Fv2%2Ffollow_button.html&utmht=1435319471467&utmac=UA-97144-8&utmcc=__utma%3D189990958.606327189.1435317911.1435317911.1435317911.1%3B%2B__utmz%3D189990958.1435317911.1.1.utmcsr%3Dmashable.com%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2F%3B&utmjid=&utmu=qhCAAAAAAAAAAAAAAAAAAAAE~"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5661",
+      "tabId": 41,
+      "timeStamp": 1435319471585.713,
+      "type": "script",
+      "url": "https://log.pinterest.com/?guid=MAqvjSYzXHbk&type=pidget&sub=www&button_count=0&follow_count=2&pin_count=0&profile_count=0&board_count=0&via=http%3A%2F%2Fmashable.com%2F&callback=PIN_1435319469476.f.callback[0]"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5672",
+      "tabId": 41,
+      "timeStamp": 1435319472365.616,
+      "type": "image",
+      "url": "https://ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/spacer.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5676",
+      "tabId": 41,
+      "timeStamp": 1435319472436.315,
+      "type": "image",
+      "url": "http://ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropR_3.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 84,
+      "method": "GET",
+      "parentFrameId": 81,
+      "requestId": "5684",
+      "tabId": 41,
+      "timeStamp": 1435319472677.653,
+      "type": "script",
+      "url": "https://static.licdn.com/scds/concat/common/js?h=b8062tzjsznxrww80lo2134j5"
+    }
+  },
+  {
+    "details": {
+      "frameId": -2,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5689",
+      "tabId": -1,
+      "timeStamp": 1435319474306.272,
+      "type": "other",
+      "url": "http://dc83.s290.meetrics.net/bb-mx/submit?/1JcMThr4FLkxBBLklFCTkzFPGfC/AAAAUZKBZDBRksFA"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5691",
+      "tabId": 45,
+      "timeStamp": 1435319474406.7769,
+      "type": "script",
+      "url": "http://www.spiegel.de/layout/jscfg/http/global-V6-8-1.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5694",
+      "tabId": 45,
+      "timeStamp": 1435319474407.553,
+      "type": "script",
+      "url": "http://www.spiegel.de/layout/js/http/netmind-V6-8-1.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5695",
+      "tabId": 45,
+      "timeStamp": 1435319474407.773,
+      "type": "script",
+      "url": "https://script.ioam.de/iam.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5719",
+      "tabId": 45,
+      "timeStamp": 1435319474601.1492,
+      "type": "image",
+      "url": "http://cdn1.spiegel.de/images/image-865824-thumb-pgmi.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5722",
+      "tabId": 45,
+      "timeStamp": 1435319474607.2668,
+      "type": "image",
+      "url": "http://cdn2.spiegel.de/images/image-865981-thumb-bhsq.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5729",
+      "tabId": 45,
+      "timeStamp": 1435319474624.9211,
+      "type": "image",
+      "url": "http://www.spiegel.de/images/image-429040-thumb-kjrq.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5734",
+      "tabId": 45,
+      "timeStamp": 1435319474657.273,
+      "type": "image",
+      "url": "http://www.spiegel.de/images/image-429065-thumbsmall-lfqe.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5735",
+      "tabId": 45,
+      "timeStamp": 1435319474742.547,
+      "type": "image",
+      "url": "http://www.spiegel.de/images/image-429069-thumbsmall-mols.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5749",
+      "tabId": 45,
+      "timeStamp": 1435319474746.409,
+      "type": "image",
+      "url": "http://magazin.spiegel.de/EpubDelivery/image/title/USP/2015/03/120.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5751",
+      "tabId": 45,
+      "timeStamp": 1435319474757.082,
+      "type": "image",
+      "url": "http://magazin.spiegel.de/EpubDelivery/image/title/SP/2015/26/160"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5753",
+      "tabId": 45,
+      "timeStamp": 1435319474768.902,
+      "type": "image",
+      "url": "http://magazin.spiegel.de/EpubDelivery/image/title/SPGE/2015/03/160"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5756",
+      "tabId": 45,
+      "timeStamp": 1435319474819.265,
+      "type": "script",
+      "url": "http://imagesrv.adition.com/js/srp.js"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 5,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5757",
+      "tabId": 45,
+      "timeStamp": 1435319474940.9548,
+      "type": "sub_frame",
+      "url": "http://www.spiegel.de/static/sys/pixel.gif"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5759",
+      "tabId": 45,
+      "timeStamp": 1435319475004.693,
+      "type": "xmlhttprequest",
+      "url": "http://www.spiegel.de/static/sys/v10/bannerad/ad.gif"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5760",
+      "tabId": 45,
+      "timeStamp": 1435319475017.698,
+      "type": "image",
+      "url": "http://c.spiegel.de/nm_trck.gif?url=http%3A//www.spiegel.de/&referrer=&sp.site=1&sp.atyp=1000&sp.szw=1001&sp.aid=18&sp.channel=18&sp.abd=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 6,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5773",
+      "tabId": 45,
+      "timeStamp": 1435319475465.031,
+      "type": "sub_frame",
+      "url": "http://www.spiegel.de/static/happ/hp/slider-autoren/v2/pub/index.html"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5788",
+      "tabId": 45,
+      "timeStamp": 1435319476402.4912,
+      "type": "image",
+      "url": "http://dc82.s290.meetrics.net/bb-mx/submit?/iW9PJBDAAX0zFmjwap00FivF4fF0lFhzFlyFhysF1wAX0zFHjfap00FivF4fF0lFhzFlyFhysF1wAX0zFMrLap00FivF4fF0lFhzFlyFhysF1wAX0zFiTpap00FivF4fF0lFhzFlyFhysF1wAX0zFEPhap00FivF4fF0lFhzFlyFhysF1wAX0zFSOqap00FivF4fF0lFhzFlyFhysF1wAX0zFw9eap00FivF4fF0lFhzFlyFhysF1wAX0zF7BTap00FivF4fF0lFhzFlyFhysF1wAX0zFxk1ap00FivF4fF0lFhzFlyFhysF1wAX0zF+4pap00FivF4fF0lFhzFlyFhysF1wAW0zFc/ap00FivF4fF0lFhzFlyFhysF1wAX0zFTB/ap00FivF4fF0lFhzFlyFhysF1wAX0zFUqPap00FivF4fF0lFhzFlyFhysF1wAX0zFNKTap00FivF4fF0lFhzFlyFhysF1wAX0zFO+3ap00FivF4fF0lFhzFlyFhysF1wATkzFASksFZREGMAUYAmDAlCAjAAMBkKAAAAAGAz1A6MFjBFEGMA9fAmDANAARAAMmjwAAAAAGA4UFJ4BoCFEGMAPgAmDANAALAAMHjfAAAAAGAXSFyxAvBEEGMAhgAmDANAALAAMMrLAAAAAGAyDFsxFZDFEGMAzgAmDANAAbAAMiTpAAAAAGAtiF3TEyCEEGMAFhAmDANAAgAAMEPhAAAAAGAB4BurFvCEEGMAXhAmDANAAPAAMSOqAAAAAGA4sFwwE4DEEGMAphAmDANAAZAAMw9eAAAAAGAjyBVOFQBFEGMA7hAmDANAAVAAM7BTAAAAAGAYPFt3FHCFEGMANiAmDANAAVAAMxk1AAAAAGA0PFPwFFCFEGMAfiAmDAaAANAAM+4pAAAAAGArMEv3A5DEEGMA+iAmDANAAWAAMc/AAAAAAGA40EGGFsDFEGMAQjAmDANAAUAAMTB/AAAAAGA3wFN4FUEFEQCALfAiJAPAAlAAMUqPAIBHyFplFjoFluFshFukFg1EukFgzElpFulFgHEsDNk1GipFnlFy6BgBEunFlsFhgBNlFyrFlsFgmElpFszFjoF0gBupFjoF0gBtlFoyFgtEp0FsBo0F0wF6vAv3E33FuzEwpFlnFlsFukElvB3pFy0FzjFohFm0FvzEv6FphFslFzvBnyFplFjoFluFshFukFtkElyFt6ElpF0wFshFutBm1FlyFtyEl0F01FunFtpEz0FtzEloFytBluFntBhtBxwA0wA31A0uAo0FtsFGArWFa0BLBFEQCAMiAiJAPAAxAAMNKTAUBFVFtTE0yFlpF0mBuiFzwF7DM8iGlyFgGEsDN8jGo0FspFunFl6BgiAJoFygB2lFykFplFu0FglEzgBupFjoF0sBgFE1yFvwFhgBnlFuhFuuF0gB61Fg3ElyFklFuiB2Bo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBwvFspF0pFrvBh1FzsFhuFkvBmsF1lFjoF0sFpuFnlFtpEutBklFytBl1FttEh0F0lFvtBylFu6FptBryFp0FpzFplFy0FtlE1tBrvFssFlnFluFtzEjoFhyFmtBhtBxwA0wA31AwuAo0FtsFGAn0FyyE6BF"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5792",
+      "tabId": 45,
+      "timeStamp": 1435319476429.7,
+      "type": "image",
+      "url": "http://dc82.s290.meetrics.net/bb-mx/submit?/iW9PN9DAAX0zFrqjap00FivF4fF0lFhzFlyFhysF1wAX0zFDIHap00FivF4fF0lFhzFlyFhysF1wAX0zFdGsap00FivF4fF0lFhzFlyFhysF1wAX0zFf0iap00FivF4fF0lFhzFlyFhysF1wAX0zFdGgap00FivF4fF0lFhzFlyFhysF1wAX0zF+Adap00FivF4fF0lFhzFlyFhysF1wAX0zF4Lsap00FivF4fF0lFhzFlyFhysF1wAX0zFRjHap00FivF4fF0lFhzFlyFhysF1wAX0zFmhHap00FivF4fF0lFhzFlyFhysF1wAX0zFYCoap00FivF4fF0lFhzFlyFhysF1wAX0zFNwQap00FivF4fF0lFhzFlyFhysF1wATkzFASksFnSEGMAyFCmDAICAnAAMgXoAFBSlF00F1uFngBklFzgBiCElhFt0FluFihFnnFlyFziB6gAOvFz0FhsFnpFlgBzpFlnF0sBgkElyFgQEh0FlyFuvFz0FlyFgiEslFpiF0BFsBo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBrhFyyFplFylFviElyF1mFzsFliFluFvwEh0FlyFuvFz0FlyFtiE1uFklFzrFhiFpuFl0F0tBrpFwwF0tBuhFosFlzFt2ElyFvyFkuF1uFntBhtBxwA0wA00A2uAo0FtsFGAi0FEoFnCFEGMAcJCmDAICAgAAMrqjAEBNpFssFphFykFluFnlFzjFoDNkmG0gBtpF0mBuiFzwF7EEh0FluF6gAB1FzrF1uFm0FlpFluFgiElkFyvFolFugBF4FpzF0lFu6FluFuBo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBulF06F3lFs0Fv3EliFviEhjFrnFyvF1uFkjFolFjrFtiElpFtyElhFswFhnFltBkpFltBnlFzjFohFlmF0lFtkElyFthE1zFr1FumF0lFplFutBhtBxwAz3A32A1uAo0FtsFGAuyFlzFjDFEGMAuLCmDAICAtAAMDIHABBNpF0tFhjFotBL1FuzF06BgOE10F6lFygB63FpuFnlFugBSlFjoFulFymBuiFzwF76E1yFgMEp2FltBIhFssF16FpuFh0FpvFuBFsBo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBulF06F3lFs0FvnEhtFlzFv0E3pF0jFotBwyFvqFlrF0tBu1F06FlyFtmE1lF00FlyFutBszFktBylFjoFulFytBtpF0tBilFnyFpmFmlFutBhtBxwA0wA20A3uAo0FtsFGAxFFlSFiBFEGMAYPCmDA7BANAAMdGsAAAAAGAusFyEFVBFEGMAdRCmDA7BAXAAMf0iAAAAAGA4vEatFBBFEGMASVCmDAICAbAAMdGgAAAAAGAj2BxaF4CFEGMAkXCmDAICAhAAM+AdAAAAAGA6qFnzBxCFEGMAObCmDAVCAqAAM4LsAAAAAGAzLFKRFiBFEGMAtdCmDAICA0AAMRjHAAAAAGAzTEm6F0CEEGMAXhCmDAICATAAMmhHAAAAAGA53FWMFTCFEGMApjCmDAVCA0AAMYCoAAAAAGA41BYYFDEF"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5793",
+      "tabId": 45,
+      "timeStamp": 1435319476641.104,
+      "type": "image",
+      "url": "http://dc82.s290.meetrics.net/bb-mx/submit?/iW9POMJAAX0zFrckap00FivF4fF0lFhzFlyFhysF1wAX0zFVHvao00FzwFhtFfsFpuFlBFhysF1wAX0zFBURao00FzwFhtFfsFpuFlBFhysF1wAX0zFaR3ao00FzwFhtFfsFpuFlBFhysF1wAX0zFLMwao00FzwFhtFfsFpuFlBFhysF1wAX0zF17Hao00FzwFhtFfsFpuFlBFhysF1wAX0zFgfpao00FzwFhtFfsFpuFlBFhysF1wAX0zF48uao00FzwFhtFfsFpuFlBFhysF1wAX0zFa4bap00FivF4fF0lFhzFlyFhysF1wAX0zFu9tap00FivF4fF0lFhzFlyFhysF1wAll2Fx2A14Aw4ALqiFDKktFLkqFFlqwF45A34A43AOprFfNbD7wkFOhFjoFypFjoF0lFugBtgATQFJFFHFFMgBPOFMJFOFF+p1FkyhE21A0iE3wAthEi1BjtB0yAl2Bt4AkyBytAk4Bj1B51AikFh4BxhELkmFBTkzFASksFzPEGMAgnCmDAICAaAAMNwQAwAVTFtSEhrFl0FluFhiF3lFoyFgTEEJF6gASvFuhFskFgTEr5F3hFsrFlyFzgBBsFi0FyhF1tFaBo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBlpFulFz0FhnFlzFv1EztByhFrlF0lFuhFi3FloFytByvFuhFskFtzEr5F3hFsrFlyFztBhsFi0FyhF1tFthEt5A02A32A1uAo0FtsFGAJCFmqFSBFEGMAypCmDAICAnAAMrckAFBQhFy0F5sFliFluFghE1mFgPEuhFzzFpzFtKEhjFo0F6gAGlFplFyuFsgAmyFltFknFloFluFsgA2vFssFlgBGhFoyF0gB2vFyhF1zFhBEjBo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBlpFulFz0FhnFlzFvvEuhFzzFpzFtqEhjFo0FtjEoyFpzF0pFuhFt0EhtFttBmvF0vFztB6lFpnFluFtwEhyF05FslFilFutBhtB53A30Aw0AuoE0tFsBFGAa5BpYF2BFEQCAxwCiJAQAATAAMVHvAUAR1FllFugB3lFpDNfgCClFzjFolFpkFbAo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBzwFhtFvBEGAayFzCEWBFEQCAGxCiJAQAAmAAMBURAAAAAGAi1B21EwBEEQCAbxCiJAQAAZAAMaR3AZAClFsmFplFzgBupFjoF0gBtlFoyFghEuvFu5FtBFbAo0F0wF6vAv3E33FuzEwpFlnFlsFukElvBzwFhtFvBEGAD3F5HFaBFEQCAwxCiJAQAATAAMLMwAAAAAGAmOFDSFDDFEQCAFyCiJAQAAgAAM17HAAAAAGAk1FxREaBFEQCAayCiJAQAAZAAMgfpAAAAAGAaKFSzB2DEEQCAvyCiJAQAAaAAM48uAAAAAGA6tFxQEVCFEGMAxwCmDA7BAWAAMa4bAAAAAGASyBriEKBFEGMA2yCmDANAAOAAMu9tAAAAAGA1RF0xE0BE"
+    }
+  },
+  {
+    "details": {
+      "frameId": 6,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5795",
+      "tabId": 45,
+      "timeStamp": 1435319476721.926,
+      "type": "image",
+      "url": "http://www.spiegel.de/static/happ/hp/slider-autoren/v1/pub/img/controls.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 6,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5808",
+      "tabId": 45,
+      "timeStamp": 1435319476810.916,
+      "type": "image",
+      "url": "http://www.spiegel.de/static/happ/hp/slider-autoren/v2/pub/autoren/pitzke.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5812",
+      "tabId": 45,
+      "timeStamp": 1435319476932.083,
+      "type": "script",
+      "url": "http://static.chartbeat.com/js/chartbeat.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5826",
+      "tabId": 51,
+      "timeStamp": 1435319481129.528,
+      "type": "script",
+      "url": "http://www.bild.de/code/extra,37970050.6.bild.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5828",
+      "tabId": 51,
+      "timeStamp": 1435319481129.977,
+      "type": "script",
+      "url": "http://ec-ns.sascdn.com/diff/251/pages/bild.js"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5934",
+      "tabId": 51,
+      "timeStamp": 1435319481151.9119,
+      "type": "script",
+      "url": "http://cdn1.smartadserver.com/diff/251/verify.js"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5935",
+      "tabId": 51,
+      "timeStamp": 1435319481152.143,
+      "type": "script",
+      "url": "http://www.bild.de/code/de-bild-linktracking,34463184.5.bild.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5832",
+      "tabId": 51,
+      "timeStamp": 1435319481168.284,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/ein-toter-bei-anschlag-in-fabrik-in-frankreich-41524800/Bild/19.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5827",
+      "tabId": 51,
+      "timeStamp": 1435319481236.012,
+      "type": "script",
+      "url": "http://www.bild.de/community/static/settings"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5833",
+      "tabId": 51,
+      "timeStamp": 1435319481236.146,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/der-neue-bundesliga-spielplan-ist-da-das-sind-die-drei-geilsten-spieltage-46203875-41528016/Bild/2.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5834",
+      "tabId": 51,
+      "timeStamp": 1435319481236.25,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/peter-sloterdijk-8-fragen-an-deutschlands-wichtigsten-philosophen-46196994-41523004/3,w=658,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5840",
+      "tabId": 51,
+      "timeStamp": 1435319481259.216,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/johannes-geis-und-junior-caicara-so-ticken-schalkes-neuzugaenge-46199226-41524124/2,w=658,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5844",
+      "tabId": 51,
+      "timeStamp": 1435319481280.3608,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/neuer-vorschlag-der-geldgeber-so-sollen-die-griechen-in-letzter-minute-gerettet-werden-46203724-41527896/Bild/5.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5852",
+      "tabId": 51,
+      "timeStamp": 1435319481307.863,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/bundeskanzlerin-angela-merkel-60-und-eu-parlamentspraesident-martin-schulz-59-machen-sich-in-brues-46185585-41522178/4,w=122,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5853",
+      "tabId": 51,
+      "timeStamp": 1435319481310.17,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/auf-der-autobahn-griff-das-sek-zu-mutmasslicher-supermarkt-killer-gefasst-46189060-41519742/2,w=122,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5859",
+      "tabId": 51,
+      "timeStamp": 1435319481402.513,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/die-skurrilsten-szenen-der-copa-america-brown-macht-ein-selfie-mit-messi-und-neymar-sieht-nach-ausse-41485174/1,w=323,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5861",
+      "tabId": 51,
+      "timeStamp": 1435319481406.987,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/bei-der-copa-america-steht-gastgeber-chile-nach-dem-10-sieg-gegen-uruguay-im-halbfinale--41509746/1,w=323,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5871",
+      "tabId": 51,
+      "timeStamp": 1435319481440.96,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/lara-46179697-41514074/2,w=323,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5872",
+      "tabId": 51,
+      "timeStamp": 1435319481442.863,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/hannibal-lecter-charles-manson-fritz-haarmann-46133439-41474352/2,w=323,c=0.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5873",
+      "tabId": 51,
+      "timeStamp": 1435319481453.9421,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/bundesjugendspieleweg--mutter-startet-petition-gegen-bundesjugendspiele-46189827-41519978/Bild/2.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5937",
+      "tabId": 51,
+      "timeStamp": 1435319481468.42,
+      "type": "script",
+      "url": "http://rum-static.pingdom.net/prum.min.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5886",
+      "tabId": 51,
+      "timeStamp": 1435319481491.925,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/post-streik-bild-zeigt-die-lange-reise-eines-paeckchens-45987071-41485692/2,c=0,h=106.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5889",
+      "tabId": 51,
+      "timeStamp": 1435319481496.543,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/32866e001cbc1f0e-jpg_34667741_mbqf-1435240707-41515076/1,c=0,h=106.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5938",
+      "tabId": 51,
+      "timeStamp": 1435319481498.458,
+      "type": "image",
+      "url": "http://de.ioam.de/tx.io?st=bild&cp=bild001111122&sv=ke&co=&contentC=001&pt=CP&rf=&r2=&ur=www.bild.de&xy=1920x1200x24&lo=CZ%2FHlavni%20mesto%20Praha&cb=000b&vr=307&id=tmq3wm&lt=1435319481495&ev=&cs=zbptsq&mo=0"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5891",
+      "tabId": 51,
+      "timeStamp": 1435319481508.3489,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/jonas-frey-hat-seinen-ferrari-auf-dem-nuerburgring-zu-schrott-gefahren-46156928-41495634/2,c=0,h=106.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5894",
+      "tabId": 51,
+      "timeStamp": 1435319481512.464,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/ex-nationalspieler-ulf-kirsten-die-3-liga-ist-die-bundesliga-des-ostens-43064107-41521042/2,c=0,h=106.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5939",
+      "tabId": 51,
+      "timeStamp": 1435319481539.222,
+      "type": "image",
+      "url": "http://pixel.bild.de/850416555242498/wt?p=323,Home%2Fbody%2FHome,1,1920x1200,24,1,1435319481532,0,1280x670,1&tz=2&eid=2143531800100481852&one=0&fns=0&la=en&cg1=Home&cg2=Home&mc=ignore%253Dignore%3Bignore%253Dignore%3Bignore%253Dignore%3Bignore%253Dignore&mca=c&cp1=16237890&cp2=2011-03-17%2017%3A19&cp4=BTOSeite&cp6=10001&cp7=Bild-Channel%20Home&cp8=%2F&cp10=15%2F15BL_ls8-1_1%2FBL_ls8-1_1%2FBL_ls8-2_2%2FBL_ls8-1_1%2FBL_ls8-1_1%2FBL_ls8-2_2%2F15TR_tr_tx%2FTB_lv_v15_%2F5TM_h0t1_TM_h0t2x%2F5TR_tr%20blank_lanx%2F&cp12=on%2Fon%2Fhome%2F%2F%2F&cp14=frei&cp15=frei&cs1=gast&cs3=an&cs6=inact2%2FA%2FfakeHome2%2FA&eor=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5912",
+      "tabId": 51,
+      "timeStamp": 1435319481598.5479,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/so-kennt-sie-jeder-gabriele-metzger-als-charlie-schneider-am-tresen-ihres-lokals-44400170-40374716/2,c=0,h=106.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5919",
+      "tabId": 51,
+      "timeStamp": 1435319481619.646,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos-skaliert/bams-trifft-desertierten-isis-kaempfer-46036146-41425026/3,c=0,h=106.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5925",
+      "tabId": 51,
+      "timeStamp": 1435319481636.447,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/1414-app-46201565-41525702/Bild/2.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5931",
+      "tabId": 51,
+      "timeStamp": 1435319481651.288,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/zalando-40844344/Bild/2.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5954",
+      "tabId": 51,
+      "timeStamp": 1435319481843.31,
+      "type": "script",
+      "url": "http://www.bild.de/code/de-bild-rotationteaser,34463216.6.bild.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 4,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5956",
+      "tabId": 51,
+      "timeStamp": 1435319481913.6838,
+      "type": "stylesheet",
+      "url": "http://wetter.bild.de/css/v2/wetterwidget.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5964",
+      "tabId": 51,
+      "timeStamp": 1435319482121.768,
+      "type": "script",
+      "url": "http://www.bild.de/code/de-bild-newsticker,34463182.3.bild.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5967",
+      "tabId": 51,
+      "timeStamp": 1435319482163.874,
+      "type": "xmlhttprequest",
+      "url": "http://www.bild.de/%22/asmi/0-teaser/american-sniper-323x280-mr-anzeige-41426396,contentContextId=16237890,view=adreplacementWrapperReg.bild.html%22"
+    },
+      "result": {
+        "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 4,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "5968",
+      "tabId": 51,
+      "timeStamp": 1435319482210.4111,
+      "type": "other",
+      "url": "http://bilder.bild.de/media/swiss-bc-woff-32534202/Download/1.bild.woff"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5970",
+      "tabId": 51,
+      "timeStamp": 1435319482259.773,
+      "type": "script",
+      "url": "http://www.bild.de/code/de-bild-slider,34463226.4.bild.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5969",
+      "tabId": 51,
+      "timeStamp": 1435319482268.751,
+      "type": "xmlhttprequest",
+      "url": "http://www.bild.de/asmi/0-teaser/werkstatt-tipp-cabrio-993x126-anzeige-41512376,contentContextId=16237890,view=adreplacementWrapperReg.bild.html"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5973",
+      "tabId": 51,
+      "timeStamp": 1435319482296.914,
+      "type": "xmlhttprequest",
+      "url": "http://www.bild.de/%22/asmi/0-teaser/jupiter-ascending-323x280-mr-anzeige-41333906,contentContextId=16237890,view=adreplacementWrapperReg.bild.html%22"
+    },
+    "result": {
+      "cancel": true
+    }
+ },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5973",
+      "tabId": 51,
+      "timeStamp": 1435319482378.326,
+      "type": "xmlhttprequest",
+      "url": "http://www.bild.de/asmi/0-teaser/jupiter-ascending-323x280-mr-anzeige-41333906,contentContextId=16237890,view=adreplacementWrapperReg.bild.html"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5978",
+      "tabId": 51,
+      "timeStamp": 1435319482397.624,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/americansniper-300x250-45986477-5er-41425224/Bild/1.bild.jpg"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5979",
+      "tabId": 51,
+      "timeStamp": 1435319482402.947,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/werkstatt-tipp-cabrio-961x120-46154856-15er-41510012/Bild/1.bild.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5990",
+      "tabId": 51,
+      "timeStamp": 1435319482536.7861,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/pagination-arrows-32545690/Bild/1.bild.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5991",
+      "tabId": 51,
+      "timeStamp": 1435319482557.771,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/miracoli-pesto-300x250-45565382-5er-41127566/Bild/1.bild.jpg"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5993",
+      "tabId": 51,
+      "timeStamp": 1435319482579.428,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/jupiter-ascending-300x250-45817688-5er-41331112/Bild/1.bild.jpg"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5996",
+      "tabId": 51,
+      "timeStamp": 1435319482685.3782,
+      "type": "image",
+      "url": "http://bilder.bild.de/fotos/sparkassen-giro-300x250-45395675-5er-41026890/Bild/1.bild.jpg"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5998",
+      "tabId": 51,
+      "timeStamp": 1435319482719.838,
+      "type": "image",
+      "url": "http://atsfi.de/s.png?b=1"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6000",
+      "tabId": 51,
+      "timeStamp": 1435319482948.101,
+      "type": "image",
+      "url": "http://ww251.smartadserver.com/track/comp.asp?keyword=A2%3D5%3BA8%3D2%3BA1%3D1%3BA3%3D2%3BB2%3D5%3BA7%3D1%3BA0%3D1%3BB1%3D5%3BA9%3D4%3BC1%3D4%3BF7%3D2%3BB3%3D0%3BB6%3D0%3BB7%3D0%3BC6%3D4%3BC8%3D4%3BC9%3D4%3BD1%3D4%3BD3%3D0%3BD4%3D1%3BD5%3D1%3BD8%3D4%3BD9%3D4%3BE8%3D4%3BF1%3D4%3BF2%3D4%3BM0%3D1%3BM1%3D1%3BM3%3D1%3BM4%3D1%3BM5%3D1%3BM6%3D1%3BM7%3D1%3BM8%3D1%3BG2%3D4%3BG3%3D4%3BH1%3D2%3BE1%3D0%3BJ0%3D2%3BJ1%3D1%3BJ2%3D4%3BJ3%3D0%3BJ4%3D2%3BJ6%3D4%3BJ5%3D5%3BK1%3D5%3BN1%3D2%3BN2%3D3%3BN3%3D3%3BN4%3D3%3BN5%3D3%3BN6%3D0%3BN7%3D3%3BN8%3D3%3BN9%3D0%3BN0%3D3%3BK8%3D0%3BI7%3D0%3BI8%3D0%3BI9%3D1%3BK3%3D1%3BK4%3D1%3BK5%3D0%3BK6%3D1%3BK7%3D0%3BL0%3D1%3BL1%3D1%3BM2%3D0%3BM9%3D0%3BA4%3D0%3BA5%3D0%3BA6%3D0%3BB0%3D0%3Bhs_car%3D0%3BE3%3D0%3BV51%3D0%3BV53%3D0%3BV57%3D0%3BS0%3D-1%3BV58%3D0%3BV56%3D0%3BL2%3D3%3BL3%3D0%3BL4%3D3%3BL5%3D3%3BL6%3D3%3BV59%3D0&site=10019"
+    },
+    "result": {
+      "cancel": true
+    }
+  }
+]

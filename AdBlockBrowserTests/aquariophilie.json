@@ -1,0 +1,599 @@
+[
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27203",
+      "tabId": 295,
+      "timeStamp": 1441799936904.1929,
+      "type": "main_frame",
+      "url": "http://www.aquariophilie.org/"
+    }
+  },
+  {
+    "details": {
+      "frameId": -2,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27204",
+      "tabId": -1,
+      "timeStamp": 1441799937327.754,
+      "type": "other",
+      "url": "https://pagead2.googlesyndication.com/activeview?id=osdtos&avi=Beng-PR7wVcDEDszY7Qaaz4KoBgCjtojChgIAABABOAHIAQHIA8MEwhMJEIABGM362skD&cid=5GgYaUMk68G_8_AmOt73jdd7RC0&ti=1&adk=2201152371&p=925,1021,1165,1141&tos=0,0,148640,0,0&mtos=0,0,65246,65246,65246&rs=1&ht=0&tfs=517&tls=195197&fp=client%3Dca-pub-5971533412764335%26url%3Dhttp%253A%252F%252Fwww.aquariophilie.org%252F%26correlator%3D3530777475073%26eid%3D575144605%252C317150304%26oid%3D3&afp=%26format%3D120x240%26output%3Dhtml%26slotname%3D2652573691%26flash%3D18.0.0%26dt%3D1441799740837%26adx%3D1021%26ady%3D925%26ifi%3D1&tdl=414&abd=1-0-279&r=u&bs=1187,1065&bos=1202,1173&ps=1187,1772&ss=1920,1200&tt=163311&pt=31887&deb=1-1-1-76-280-45&tvt=148644&iframe_loc=http%3A%2F%2Fwww.aquariophilie.org%2F&is=120,240&uc=279&tgt=nf&cl=0"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27205",
+      "tabId": 295,
+      "timeStamp": 1441799937396.806,
+      "type": "stylesheet",
+      "url": "http://www.aquariophilie.org/css/bootstrap.min.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27206",
+      "tabId": 295,
+      "timeStamp": 1441799937397.0872,
+      "type": "stylesheet",
+      "url": "http://www.aquariophilie.org/css/main.min.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27207",
+      "tabId": 295,
+      "timeStamp": 1441799937397.328,
+      "type": "stylesheet",
+      "url": "http://www.aquariophilie.org/css/index.min.css"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27208",
+      "tabId": 295,
+      "timeStamp": 1441799937397.6008,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/logo_association_aquariophilie.org.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27215",
+      "tabId": 295,
+      "timeStamp": 1441799937400.117,
+      "type": "script",
+      "url": "http://www.aquariophilie.org/js/jquery-2.1.1.min.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27216",
+      "tabId": 295,
+      "timeStamp": 1441799937400.394,
+      "type": "script",
+      "url": "http://www.aquariophilie.org/js/bootstrap.min.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27217",
+      "tabId": 295,
+      "timeStamp": 1441799937400.573,
+      "type": "script",
+      "url": "http://www.aquariophilie.org/js/main.min.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27218",
+      "tabId": 295,
+      "timeStamp": 1441799937400.788,
+      "type": "script",
+      "url": "http://www.aquariophilie.org/js/index.min.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27219",
+      "tabId": 295,
+      "timeStamp": 1441799937400.991,
+      "type": "script",
+      "url": "http://www.aquariophilie.org/js/picturefill.min.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27214",
+      "tabId": 295,
+      "timeStamp": 1441799937429.508,
+      "type": "script",
+      "url": "http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27210",
+      "tabId": 295,
+      "timeStamp": 1441799937431.5159,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/pages/images/samuelguy_synchiropus_splendidus_0612.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27211",
+      "tabId": 295,
+      "timeStamp": 1441799937433.734,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/pages/images/pdr_1134.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27212",
+      "tabId": 295,
+      "timeStamp": 1441799937434.9338,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/pages/images/erikstras-pipiloti-blue.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27213",
+      "tabId": 295,
+      "timeStamp": 1441799937450.5352,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/images/aquario-de-campo-grande-brazil.jpeg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27209",
+      "tabId": 295,
+      "timeStamp": 1441799937462.885,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/pages/images/Gabrielgab_Herbier-et-recif-Jaubert.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27220",
+      "tabId": 295,
+      "timeStamp": 1441799937508.902,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/index/aquarium-co2-artisanal-230.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27221",
+      "tabId": 295,
+      "timeStamp": 1441799937509.2312,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/index/poisson-symphysodon-discus-500.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27222",
+      "tabId": 295,
+      "timeStamp": 1441799937509.48,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/index/aquascaping-500.jpg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27223",
+      "tabId": 295,
+      "timeStamp": 1441799937513.4531,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/appbar.upload.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27224",
+      "tabId": 295,
+      "timeStamp": 1441799937513.733,
+      "type": "other",
+      "url": "http://www.aquariophilie.org/fonts/glyphicons-halflings-regular.woff2"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27225",
+      "tabId": 295,
+      "timeStamp": 1441799937517.721,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/sprite_asso.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27226",
+      "tabId": 295,
+      "timeStamp": 1441799937540.212,
+      "type": "image",
+      "url": "http://www.aquariophilie.org/img/poisson-2014-04-21-double-mini.svg"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27227",
+      "tabId": 295,
+      "timeStamp": 1441799937573.948,
+      "type": "script",
+      "url": "https://pagead2.googlesyndication.com/pub-config/ca-pub-5971533412764335.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 46,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27228",
+      "tabId": 295,
+      "timeStamp": 1441799937686.565,
+      "type": "sub_frame",
+      "url": "https://googleads.g.doubleclick.net/pagead/html/r20150901/r20150820/zrt_lookup.html"
+    }
+  },
+  {
+    "details": {
+      "frameId": 45,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "27229",
+      "tabId": 295,
+      "timeStamp": 1441799937691.185,
+      "type": "script",
+      "url": "http://pagead2.googlesyndication.com/pagead/js/r20150901/r20150820/show_ads_impl.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27230",
+      "tabId": 295,
+      "timeStamp": 1441799937942.3489,
+      "type": "sub_frame",
+      "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5971533412764335&format=120x240&output=html&h=240&slotname=2652573691&adk=2201152371&w=120&lmt=1441799937&flash=18.0.0&url=http%3A%2F%2Fwww.aquariophilie.org%2F&wgl=1&dt=1441799937554&bpp=125&bdt=199&shv=r20150901&cbv=r20150820&saldr=aa&correlator=5111470753793&frm=20&ga_vid=2037830986.1441799938&ga_sid=1441799938&ga_hid=1461980418&ga_fc=0&pv=2&u_tz=120&u_his=2&u_java=1&u_h=1200&u_w=1920&u_ah=1173&u_aw=1920&u_cd=24&u_nplug=6&u_nmime=8&dff=lucida%20grande&dfs=14&adx=1021&ady=925&biw=1187&bih=1101&eid=575144605%2C317150304&oid=3&rx=0&eae=0&fc=24&brdim=1607%2C23%2C1607%2C23%2C1920%2C23%2C1202%2C1173%2C1202%2C1101&vis=1&rsz=%7C%7Co%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=rsoRdaDVNO&p=http%3A//www.aquariophilie.org&dtd=386"
+    }
+  },
+  {
+    "details": {
+      "frameId": 45,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "27231",
+      "tabId": 295,
+      "timeStamp": 1441799937950.625,
+      "type": "script",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/r20150901/r20150820/expansion_embed.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 45,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "27232",
+      "tabId": 295,
+      "timeStamp": 1441799937977.4849,
+      "type": "script",
+      "url": "https://pagead2.googlesyndication.com/pagead/osd.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27233",
+      "tabId": 295,
+      "timeStamp": 1441799938164.777,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Lora:400&lang=cs"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27234",
+      "tabId": 295,
+      "timeStamp": 1441799938165.131,
+      "type": "image",
+      "url": "https://encrypted-tbn0.gstatic.com/favicon?q=tbn:ANd9GcQdn4wqtkAc3lRF2FY0QXtmwyjgVbrHhlFn5xkc3mT6XTJ0iultXA4_FAN0S2S4-1P5wUr5SpGRl27qcUkDfv7TikCsLIfUOij6U9oFf6qW"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27235",
+      "tabId": 295,
+      "timeStamp": 1441799938165.473,
+      "type": "image",
+      "url": "https://tpc.googlesyndication.com/pagead/images/nessie_icon_tiamat_white.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27236",
+      "tabId": 295,
+      "timeStamp": 1441799938165.8171,
+      "type": "script",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20150901/r20110914/abg.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27237",
+      "tabId": 295,
+      "timeStamp": 1441799938166.1748,
+      "type": "image",
+      "url": "https://tpc.googlesyndication.com/pagead/images/google-logo.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27238",
+      "tabId": 295,
+      "timeStamp": 1441799938311.9358,
+      "type": "image",
+      "url": "https://tpc.googlesyndication.com/pagead/images/nessie_icon_tiamat_white.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27239",
+      "tabId": 295,
+      "timeStamp": 1441799938330.6821,
+      "type": "other",
+      "url": "https://fonts.gstatic.com/s/lora/v9/rAXKWvABQNHjPUk26ixVvvesZW2xOQ-xsNqO47m55DA.woff2"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27240",
+      "tabId": 295,
+      "timeStamp": 1441799938348.884,
+      "type": "script",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20150901/r20110914/abg.js"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27241",
+      "tabId": 295,
+      "timeStamp": 1441799938354.065,
+      "type": "other",
+      "url": "https://fonts.gstatic.com/s/lora/v9/tHQOv8O1rd82EIrTHlzvmhTbgVql8nDJpwnrE27mub0.woff2"
+    }
+  },
+  {
+    "details": {
+      "frameId": 48,
+      "method": "GET",
+      "parentFrameId": 47,
+      "requestId": "27242",
+      "tabId": 295,
+      "timeStamp": 1441799938380.3179,
+      "type": "sub_frame",
+      "url": "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 49,
+      "method": "GET",
+      "parentFrameId": 47,
+      "requestId": "27243",
+      "tabId": 295,
+      "timeStamp": 1441799938382.608,
+      "type": "sub_frame",
+      "url": "https://cm.g.doubleclick.net/push?client=ca-pub-5971533412764335&srn=gdn"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27244",
+      "tabId": 295,
+      "timeStamp": 1441799938395.256,
+      "type": "image",
+      "url": "https://tpc.googlesyndication.com/pagead/images/google-logo.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27245",
+      "tabId": 295,
+      "timeStamp": 1441799938454.2861,
+      "type": "image",
+      "url": "https://tpc.googlesyndication.com/pagead/images/x_button_blue2.png"
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27246",
+      "tabId": 295,
+      "timeStamp": 1441799938519.178,
+      "type": "image",
+      "url": "https://csi.gstatic.com/csi?v=3&s=pagead&action=load,async,iframe1&it=bdt.199,req.386,bpp.125,fb.611,e2e.962&e=3311881&rt=lb.279,ol.351"
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27247",
+      "tabId": 295,
+      "timeStamp": 1441799938572.229,
+      "type": "other",
+      "url": "http://www.aquariophilie.org/favicon.ico"
+    }
+  },
+  {
+    "details": {
+      "frameId": 50,
+      "method": "GET",
+      "parentFrameId": 47,
+      "requestId": "27248",
+      "tabId": 295,
+      "timeStamp": 1441799938585.0571,
+      "type": "script",
+      "url": "https://pagead2.googlesyndication.com/bg/dbyfcFNpPvBBYfIJ5LfgPyekgV7t-iJPBaK8JHSY0-o.js"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "27249",
+      "tabId": 295,
+      "timeStamp": 1441799938716.333,
+      "type": "other",
+      "url": "http://www.aquariophilie.org/favicon.ico"
+    }
+  },
+  {
+    "details": {
+      "frameId": 45,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "27250",
+      "tabId": 295,
+      "timeStamp": 1441799939029.388,
+      "type": "other",
+      "url": "http://pagead2.googlesyndication.com/osd/hbe.swf?id=0~0"
+    },
+    "result": {
+      "cancel": true
+    }
+  },
+  {
+    "details": {
+      "frameId": 47,
+      "method": "GET",
+      "parentFrameId": 45,
+      "requestId": "27252",
+      "tabId": 295,
+      "timeStamp": 1441799942734.029,
+      "type": "image",
+      "url": "https://pagead2.googlesyndication.com/activeview?id=osdim&avi=B8Zm3AR_wVf3NOaOmjAbVm59wAKO2iMKGAgAAEAE4AcgBAcgDwwTCEwkQgAEYzfrayQM&cid=5Gj3On3KY5yM9W-bkDdMSTpyhHM&ti=1&adk=2201152371&p=925,1021,1165,1141&tos=0,0,4173,0,0&mtos=0,0,4173,4173,4173&rs=1&ht=0&tfs=520&tls=4693&swfv=di&fp=client%3Dca-pub-5971533412764335%26url%3Dhttp%253A%252F%252Fwww.aquariophilie.org%252F%26correlator%3D5111470753793%26eid%3D575144605%252C317150304%26oid%3D3&afp=%26format%3D120x240%26output%3Dhtml%26slotname%3D2652573691%26flash%3D18.0.0%26dt%3D1441799937554%26adx%3D1021%26ady%3D925%26ifi%3D1&tdl=435&abd=1-0-14&r=u&bs=1187,1065&bos=1202,1173&ps=1187,1772&ss=1920,1200&tt=4060&pt=633&deb=1-1-1-11-15-37&tvt=4174&iframe_loc=http%3A%2F%2Fwww.aquariophilie.org%2F&is=120,240&uc=14&tgt=nf&cl=0"
+    }
+  }
+]

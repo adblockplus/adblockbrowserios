@@ -1,0 +1,27 @@
+//
+//  ReleaseCommonSettings.xcconfig
+//  AdblockBrowser
+//
+//  Created by Pavel Zdenek on 22/02/2017.
+//  Copyright © 2017 Salsita s.r.o. All rights reserved.
+//
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+// It would be so nice if Xcode allowed us to Archive a build for Eyeo export
+// without requiring to click the God Checkbox "Automatically manage signing".
+// Follows an exact duplicate of Xcode settings when that box is checked.
+// But Archive step says "i'm the boss here, use the checkbox":
+// "
+// Provisioning profile "iOS Team Provisioning Profile: *" is Xcode managed,
+// but signing settings require a manually managed profile.
+// "
+// ABB build can't leave the Automatism checked, because it implies one and only
+// Development Team, while ABB needs two (for devbuilds enterprise distribution
+// and for debug/release builds). THE CHECKBOX MUST BE CHECKED MANUALLY FOR
+// THE ARCHIVE STEP, AND THEN UNCHECKED (OR BETTER YET, GIT REVERTED) AGAIN!
+
+// Eyeo Development
+DEVELOPMENT_TEAM = GRYYZR985A
+CODE_SIGN_IDENTITY = iPhone Developer
+PROVISIONING_PROFILE_SPECIFIER = iOS Team Provisioning Profile: *

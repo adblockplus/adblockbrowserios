@@ -1,0 +1,424 @@
+/* Find in page bar */
+"%@ of %@ matches" = "%1$@ 個匹配（共 %2$@ 個）";
+
+/* App start failure screen */
+"A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "發生關鍵錯誤，Adblock 瀏覽器 無法啟動。請依照以下指示退出應用程式，然後重試。";
+
+/* (No Commment) */
+"ADBLOCK BROWSER" = "Adblock 瀏覽器";
+
+/* (No Commment) */
+"ADBLOCK VERSION" = "ADBLOCK VERSION";
+
+/* (No Commment) */
+"About" = "關於";
+
+/* (No Commment) */
+"Ad blocking" = "廣告過濾";
+
+/* Welcome guide screen 1 paragraph */
+"Ad blocking is automatically integrated - no more annoying ads while you surf!" = "自動集成廣告過濾- 上網時再也沒有煩人的廣告！";
+
+/* (No Commment) */
+"Ad blocking on this site" = "過濾此頁面上的廣告";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Browser Encountered an Error" = "Adblock 瀏覽器 遇到錯誤";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Unexpectedly Quit" = "Adblock 意外退出";
+
+/* Pull up menu option */
+"Add Bookmark" = "添加書籤";
+
+/* (No Commment) */
+"Add Bookmark to Dashboard" = "新增書籤至儀表板";
+
+/* (No Commment) */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
+
+/* (No Commment) */
+"All of your bookmarks have been added to the Dashboard." = "您的所有書籤都已新增至儀表板。";
+
+/* (No Commment) */
+"Allow some nonintrusive advertising" = "允許一些非侵入性的廣告";
+
+/* (No Commment) */
+"Always" = "總是";
+
+/* Crash/Error Report Sending Modal */
+"Always Send" = "總是傳送";
+
+/* Welcome guide screen 2 paragraph */
+"Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." = "煩人的廣告總是被封鎖，但對於非侵入性廣告默認保留。您可以在任何時間更改此設置。";
+
+/* Clear history alert message */
+"Are you sure you want to clear history? You cannot undo this action." = "你確定要清除歷史記錄嗎？您無法撤消此操作。";
+
+/* Delete Bookmark alert message */
+"Are you sure you want to delete this bookmark?" = "您確定要刪除此書籤嗎？";
+
+/* (No Commment) */
+"Ask Me After a Crash or Error" = "發生崩潰或出錯後詢問我";
+
+/* (No Commment) */
+"BLOCKING" = "過濾";
+
+/* (No Commment) */
+"BROWSER VERSION" = "BROWSER VERSION";
+
+/* Search Engine Selection */
+"Baidu" = "百度";
+
+/* Autocomplete suggestions */
+"Baidu search" = "百度搜索";
+
+/* Pull up menu option */
+"Block Ads on this Site" = "在本網站上屏蔽廣告";
+
+/* (No Commment) */
+"Block ads for websites in" = "屏蔽網站的廣告";
+
+/* Bookmarks listing */
+"Bookmarked Pages" = "書籤頁";
+
+/* (No Commment) */
+"Bookmarks" = "書簽";
+
+/* (No Commment) */
+"Bookmarks loading has failed" = "書簽載入失敗";
+
+/* Welcome guide screen 1 headline */
+"Browse in peace" = "安寧瀏覽";
+
+/* (No Commment) */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title */
+"Cancel" = "取消";
+
+/* Clear Browsing Data Confirmation
+   Clear history alert clear button title */
+"Clear" = "清除";
+
+/* Clear Browsing Data Option */
+"Clear All" = "清除所有";
+
+/* Clear Browsing Data Screen Title */
+"Clear Browsing Data" = "清除瀏覽資料";
+
+/* Clear Browsing Data Option */
+"Clear Cache" = "清除快取";
+
+/* Clear Browsing Data Option */
+"Clear Cookies & Site Data" = "清除 cookie 和網站資料";
+
+/* Clear Browsing Data Option */
+"Clear History" = "清除歷史";
+
+/* Clear history alert title */
+"Clear History?" = "清除歷史記錄？";
+
+/* Tabs view */
+"Close" = "Close";
+
+/* Note of search approval confirmation */
+"Configurable under *Settings > URL Search Suggestions*" = "通過 *設定> URL搜索建議 來配置*";
+
+/* Devbuild setting */
+"Crash Application Now" = "Crash Application Now";
+
+/* Crash Reports Dialogs */
+"Crash Reports" = "Crash Reports";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "崩潰和出錯報告";
+
+/* (No Commment) */
+"Dashboard" = "面板";
+
+/* Browser history list
+   Delete Bookmark alert delete button title */
+"Delete" = "刪除";
+
+/* Bookmark deleting button
+   Delete Bookmark alert title */
+"Delete Bookmark" = "刪除書籤";
+
+/* Devbuild setting */
+"Dev notification" = "Dev notification";
+
+/* Navigation control title */
+"Devbuild Settings" = "Devbuild Settings";
+
+/* (No Commment) */
+"Disable Anti-Ad blocking Messages" = "禁用反廣告過濾的消息";
+
+/* (No Commment) */
+"Disable Malware Domains" = "禁用惡意軟件域";
+
+/* (No Commment) */
+"Disable Social Media Buttons" = "禁用社交媒體按鈕";
+
+/* (No Commment) */
+"Disable Tracking" = "禁用跟踪";
+
+/* Question of search approval confirmation */
+"Do you want to see web search results here?" = "你想要在這裡看見網頁搜索結果嗎？";
+
+/* Crash/Error Report Sending Modal */
+"Don't Send" = "不傳送";
+
+/* Bookmarks listing
+   Find in Page toolbar button */
+"Done" = "完成";
+
+/* App start failure screen */
+"Double tap the Home button." = "點兩下主畫面按鈕。";
+
+/* Search Engine Selection */
+"DuckDuckGo" = "DuckDuckGo";
+
+/* Autocomplete suggestions */
+"DuckDuckGo search" = "DuckDuckGo 搜索";
+
+/* Bookmark edit
+   Bookmarks listing */
+"Edit" = "編輯";
+
+/* Bookmark editing placeholder */
+"Enter link" = "輸入有效的鏈接";
+
+/* Bookmark editing placeholder */
+"Enter title" = "輸入標題";
+
+/* Devbuild setting */
+"Error prepared for sending" = "Error prepared for sending";
+
+/* (No Commment) */
+"Exceptions" = "例外情況";
+
+/* Find in page - Autocomplete controller */
+"Find \"%@\" in page" = "在頁面中找到 \"%@\"";
+
+/* Find in page - Autocomplete controller */
+"Find in page (%@ matches)" = "在頁面中尋找（%@個匹配）";
+
+/* Welcome guide screen 2 button */
+"Finish" = "完成";
+
+/* (No Commment) */
+"GENERAL" = "通用";
+
+/* (No Commment) */
+"Ghost Mode" = "幽靈模式";
+
+/* Search Engine Selection */
+"Google" = "谷歌";
+
+/* Autocomplete suggestions */
+"Google search" = "谷歌搜索";
+
+/* Crash Reports Dialogs */
+"Got it" = "已收到";
+
+/* (No Commment) */
+"Hide all ads" = "隱藏所有廣告";
+
+/* Pull up menu option */
+"History" = "歷史";
+
+/* (No Commment) */
+"Languages" = "語言";
+
+/* (No Commment) */
+"MEMORY PRESSURE" = "MEMORY PRESSURE";
+
+/* (No Commment) */
+"MORE OPTIONS" = "更多選擇";
+
+/* (No Commment) */
+"More Blocking Options" = "更多過濾選項";
+
+/* (No Commment) */
+"Never" = "從不";
+
+/* Tab view label */
+"New Tab" = "新標籤";
+
+/* Devbuild setting */
+"Next App Start Failure" = "Next App Start Failure";
+
+/* Deny Google search */
+"No" = "No";
+
+/* Bookmarks listing */
+"No Bookmarks Available" = "沒有可用的書簽";
+
+/* (No Commment) */
+"No History Available" = "沒有可用歷史";
+
+/* (No Commment) */
+"No websites whitelisted" = "沒有網站白名單";
+
+/* Devbuild setting */
+"OK" = "OK";
+
+/* (No Commment) */
+"OTHER LANGUAGES" = "其他語言";
+
+/* Settings - extension enabled status */
+"Off" = "關閉";
+
+/* Settings - extension enabled status */
+"On" = "開啟";
+
+/* (No Commment) */
+"Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "僅傳送包含裝置資訊及崩潰或出錯詳情的匿名資料。請參閱我們的隱私權政策以了解更多資訊，網址為 adblockplus.org。";
+
+/* Welcome guide screen 1 button */
+"Only one more step" = "只有一步之遙";
+
+/* Pull up menu option */
+"Open New Tab" = "打開新標籤頁";
+
+/* (No Commment) */
+"Open privacy policy." = "開啟隱私權政策";
+
+/* Devbuild setting */
+"Produce Error Now" = "Produce Error Now";
+
+/* Browser history list */
+"Recent History" = "Recent History";
+
+/* Pull up menu option */
+"Remove Bookmark" = "刪除書籤";
+
+/* App start failure screen */
+"Restart Adblock Browser." = "重新啟動 Adblock 瀏覽器。";
+
+/* (No Commment) */
+"SEARCH" = "搜索";
+
+/* (No Commment) */
+"SEND CRASH AND ERROR REPORTS" = "發送崩潰和錯誤報告";
+
+/* Search Engine Selection */
+"Search Engine" = "搜尋引擎";
+
+/* Autocomplete suggestions */
+"Search History" = "搜索歷史記錄";
+
+/* Crash/Error Report Sending Modal */
+"Send Report" = "傳送報告";
+
+/* Pull up menu option */
+"Settings" = "設定";
+
+/* Pull up menu option */
+"Share" = "分享";
+
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Bookmark editing switch */
+"Show in Dashboard" = "在面板中顯示";
+
+/* (No Commment) */
+"Show nonintrusive ads" = "顯示非侵入式廣告";
+
+/* App start failure screen */
+"Something went wrong." = "發生錯誤。";
+
+/* TIP - Tabs View */
+"Swipe tabs left to close them." = "Swipe tabs left to close them.";
+
+/* App start failure screen */
+"Swipe up on Adblock Browser to quit the app." = "於 Adblock 瀏覽器 上向上滑動可退出應用程式。";
+
+/* TIP */
+"TIP" = "TIP";
+
+/* Welcome guide screen 2 picture label */
+"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "點擊菜單圖標→ 設定→ Adblock Plus → 可接受廣告";
+
+/* (No Commment) */
+"The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "*廣告過濾* 和*更多過濾選項* 基於過濾規則列表。這些規則告訴Adblock瀏覽器的什麼是需要過濾的。";
+
+/* Clear Browsing Data Confirmation */
+"This action cannot be undone. Are you sure you want to continue?" = "此操作無法復原。確定要繼續嗎？";
+
+/* Undo tooltip */
+"UNDO" = "UNDO";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "URL 搜索建議";
+
+/* App start failure screen */
+"Uh-Oh!" = "糟糕！";
+
+/* Critical abort alert message */
+"Unable to start browser." = "無法啟動瀏覽器。";
+
+/* (No Commment) */
+"VERSION" = "版本";
+
+/* (No Commment) */
+"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "我們想鼓勵網站使用簡單、非侵入式的廣告。這就是為什麼我們已經建立了嚴格的準則來判斷在默認設置下顯示的可接受廣告。如果你想要瀏覽時完全無廣告，您可隨時禁用此設置。";
+
+/* Crash/Error Report Sending Modal */
+"Would you like to send a report to fix the problem?" = "您是否要傳送報告以修復該問題？";
+
+/* Allow Google search */
+"Yes" = "Yes";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "您可以按如下方式變更此設定：**設定 → 崩潰和出錯報告**";
+
+/* Undo tooltip */
+"You closed a tab" = "You closed a tab";
+
+/* Welcome guide screen 2 headline */
+"You're in control" = "選擇權在你手裡";
+
+/* (No Commment) */
+"browser_address_bar_placeholder" = "搜索或輸入網站名稱...";
+
+/* (No Commment) */
+"exceptions_settings_acceptable_ads_description" = "選擇是否包含符合嚴格條件的非侵入式、非動畫廣告。 *了解更多*";
+
+/* (No Commment) */
+"exceptions_settings_acceptable_ads_title" = "可接受廣告";
+
+/* (No Commment) */
+"exceptions_settings_whitelisted_websites_description" = "您已關閉這些網站上的廣告屏蔽功能，因此會在這些網站上看到廣告。";
+
+/* (No Commment) */
+"exceptions_settings_whitelisted_websites_title" = "白名單網站";
+
+/* (No Commment) */
+"ghost_mode_banner_headline" = "幽靈模式";
+
+/* (No Commment) */
+"ghost_mode_banner_subline" = "在幽靈模式下，所有瀏覽器歷史記錄、搜索記錄、網頁表單，Cookie 和臨時互聯網文件均不會存儲在您的設備上。";
+
+/* (No Commment) */
+"ghost_mode_banner_tip" = "完成會話後，點擊圖標以停用幽靈模式。";
+
+/* (No Commment) */
+"leave_notification_button_1" = "確定";
+
+/* (No Commment) */
+"leave_notification_button_2" = "取消";
+
+/* (No Commment) */
+"leave_notification_headline" = "退出幽靈模式？";
+
+/* (No Commment) */
+"leave_notification_subline" = "您的歷史記錄不會被存儲，所有處於活躍狀態的標籤頁將被關閉。";
+

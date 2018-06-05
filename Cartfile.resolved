@@ -1,0 +1,4 @@
+github "CocoaLumberjack/CocoaLumberjack" "3.4.1"
+github "ReactiveX/RxSwift" "3.6.1"
+github "kitt-browser/AttributedMarkdown" "d9ff5e38d630881a39417ba05a03d24a92a08300"
+github "kitt-browser/HockeySDK-iOS" "8c351593603cca8be09773e7241c9f29cb1d1e56"

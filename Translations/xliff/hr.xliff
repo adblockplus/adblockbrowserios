@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AdBlockBrowser/Info.plist" source-language="en" datatype="plaintext" target-language="hr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Adblock</source>
+        <target xml:lang="hr" state="translated">Adblock</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</source>
+        <target xml:lang="hr" state="translated">Stranicama (npr. Google Maps) dajemo pristup Vašoj lokaciji samo uz Vaše dopuštenje. Adblock Preglednik ne koristi Vašu lokaciju za ijednu drugu svrhu.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AdBlockBrowser/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="hr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="%@ of %@ matches">
+        <source>%1$@ of %2$@ matches</source>
+        <note>Find in page bar</note>
+        <target xml:lang="hr" state="translated">%1$@ od %2$@ podudaranja</target>
+      </trans-unit>
+      <trans-unit id="A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.">
+        <source>A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="hr" state="needs-translation">A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</target>
+      </trans-unit>
+      <trans-unit id="ACTIVE FOR WEBSITES IN ...">
+        <source>ACTIVE FOR WEBSITES IN ...</source>
+        <note>Subscription listing section title</note>
+        <target xml:lang="hr" state="translated">AKTIVNO ZA STRANICE U...</target>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <note>About screen title
+   Settings status option</note>
+        <target xml:lang="hr" state="translated">O</target>
+      </trans-unit>
+      <trans-unit id="Acceptable Ads">
+        <source>Acceptable Ads</source>
+        <note>Acceptable ads setting title
+   Settings - enable/disable acceptable ads</note>
+        <target xml:lang="hr" state="translated">Prihvatljive reklame</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking">
+        <source>Ad blocking</source>
+        <note>Settings - show list of subscriptions</note>
+        <target xml:lang="hr" state="translated">Blokiranje reklama</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking is automatically integrated - no more annoying ads while you surf!">
+        <source>Ad blocking is automatically integrated - no more annoying ads while you surf!</source>
+        <note>Welcome guide screen 1 paragraph</note>
+        <target xml:lang="hr" state="translated">Blokiranje oglasa je automatski integrirano - nema više dosadnih oglasa dok surfate!</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking on this site">
+        <source>Ad blocking on this site</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="hr" state="translated">Blokiranje reklama na ovoj stranici</target>
+      </trans-unit>
+      <trans-unit id="Adblock Plus">
+        <source>Adblock Plus</source>
+        <note>Settings - enable/disable ABP extension
+   Settings status option
+   Settings title - Extension name</note>
+        <target xml:lang="hr" state="translated">Adblock Plus</target>
+      </trans-unit>
+      <trans-unit id="Adblock Browser Encountered an Error">
+        <source>Adblock Browser Encountered an Error</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="hr" state="needs-translation">Adblock Browser Encountered an Error</target>
+      </trans-unit>
+      <trans-unit id="Adblock Unexpectedly Quit">
+        <source>Adblock Unexpectedly Quit</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="hr" state="needs-translation">Adblock Unexpectedly Quit</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark to Dashboard">
+        <source>Add Bookmark to Dashboard</source>
+        <note>Add bookmark controller</note>
+        <target xml:lang="hr" state="translated">Dodajte knjižnu oznaku na nadzornu ploču</target>
+      </trans-unit>
+      <trans-unit id="After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.">
+        <source>After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</source>
+        <note>Ghost mode description</note>
+        <target xml:lang="hr" state="needs-translation">After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</target>
+      </trans-unit>
+      <trans-unit id="All of your bookmarks have been added to the Dashboard.">
+        <source>All of your bookmarks have been added to the Dashboard.</source>
+        <note>Add bookmark controller</note>
+        <target xml:lang="hr" state="translated">Sve oznake su dodane na nadzornu ploču.</target>
+      </trans-unit>
+      <trans-unit id="Allow some nonintrusive advertising">
+        <source>Allow some nonintrusive advertising</source>
+        <note>Acceptable ads switch label</note>
+        <target xml:lang="hr" state="translated">Dopusti neke nenametljive reklame</target>
+      </trans-unit>
+      <trans-unit id="Always">
+        <source>Always</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="hr" state="translated">Uvijek</target>
+      </trans-unit>
+      <trans-unit id="Always Send">
+        <source>Always Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="hr" state="needs-translation">Always Send</target>
+      </trans-unit>
+      <trans-unit id="Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.">
+        <source>Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</source>
+        <note>Welcome guide screen 2 paragraph</note>
+        <target xml:lang="hr" state="translated">Nametljive reklame su uvijek blokirane, dok se nenametljive reklame prikazuju pod zadano. Možete promijeniti ovu postavku bilo kad.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to clear history? You cannot undo this action.">
+        <source>Are you sure you want to clear history? You cannot undo this action.</source>
+        <note>Clear history alert message</note>
+        <target xml:lang="hr" state="translated">Jeste li sigurni da želite očistiti povijest? Ne možete poništiti ovu radnju.</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to delete this bookmark?">
+        <source>Are you sure you want to delete this bookmark?</source>
+        <note>Delete Bookmark alert message</note>
+        <target xml:lang="hr" state="translated">Jeste li sigurni da želite izbrisati ovu oznaku?</target>
+      </trans-unit>
+      <trans-unit id="Ask Me After a Crash or Error">
+        <source>Ask Me After a Crash or Error</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="hr" state="needs-translation">Ask Me After a Crash or Error</target>
+      </trans-unit>
+      <trans-unit id="BLOCKING">
+        <source>BLOCKING</source>
+        <note>Settings section header</note>
+        <target xml:lang="hr" state="translated">BLOKIRANJE</target>
+      </trans-unit>
+      <trans-unit id="Baidu">
+        <source>Baidu</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="hr" state="translated">Baidu</target>
+      </trans-unit>
+      <trans-unit id="Baidu search">
+        <source>Baidu search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="hr" state="translated">Baidu pretraga</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <note>Show bookmarks in new tab view</note>
+        <target xml:lang="hr" state="translated">Oznake</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks loading has failed">
+        <source>Bookmarks loading has failed</source>
+        <note>Bookmarks view warning</note>
+        <target xml:lang="hr" state="translated">Učitavanje oznaka nije uspjelo</target>
+      </trans-unit>
+      <trans-unit id="Browse in peace">
+        <source>Browse in peace</source>
+        <note>Welcome guide screen 1 headline</note>
+        <target xml:lang="hr" state="translated">Surfajte u miru</target>
+      </trans-unit>
+      <trans-unit id="CRASH AND ERROR REPORTING">
+        <source>CRASH AND ERROR REPORTING</source>
+        <note>Devbuild setting section header</note>
+        <target xml:lang="hr" state="needs-translation">CRASH AND ERROR REPORTING</target>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title</note>
+        <target xml:lang="hr" state="translated">Odustani</target>
+      </trans-unit>
+      <trans-unit id="Clear">
+        <source>Clear</source>
+        <note>Clear Browsing Data Confirmation
+   Clear history alert clear button title</note>
+        <target xml:lang="hr" state="translated">Očisti</target>
+      </trans-unit>
+      <trans-unit id="Clear All">
+        <source>Clear All</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="hr" state="translated">Očisti sve</target>
+      </trans-unit>
+      <trans-unit id="Clear Browsing Data">
+        <source>Clear Browsing Data</source>
+        <note>Clear Browsing Data Screen Title
+   Settings status option</note>
+        <target xml:lang="hr" state="translated">Očisti podatke pregledavanja</target>
+      </trans-unit>
+      <trans-unit id="Clear Cache">
+        <source>Clear Cache</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="hr" state="translated">Očisti spremnik memorije</target>
+      </trans-unit>
+      <trans-unit id="Clear Cookies &amp; Site Data">
+        <source>Clear Cookies &amp; Site Data</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="hr" state="translated">Očisti Kolačiće &amp; podatke stranica</target>
+      </trans-unit>
+      <trans-unit id="Clear History">
+        <source>Clear History</source>
+        <note>Browser history list
+   Clear Browsing Data Option</note>
+        <target xml:lang="hr" state="translated">Očisti povijest</target>
+      </trans-unit>
+      <trans-unit id="Clear History?">
+        <source>Clear History?</source>
+        <note>Clear history alert title</note>
+        <target xml:lang="hr" state="translated">Očistiti povijest?</target>
+        <alt-trans>
+          <target xml:lang="hr">Očisti povijest?</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Critical abort alert button</note>
+        <target xml:lang="hr" state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="Configurable under *Settings &gt; URL Search Suggestions*">
+        <source>Configurable under *Settings &gt; URL Search Suggestions*</source>
+        <note>Note of search approval confirmation</note>
+        <target xml:lang="hr" state="translated">Može se konfigurirati pod *Postavke &gt; Prijedlozi URL pretraga*</target>
+      </trans-unit>
+      <trans-unit id="Crash and Error Reports">
+        <source>Crash and Error Reports</source>
+        <note>Crash Reports Dialogs
+   HockeyApp crash reports settings
+   Settings status option</note>
+        <target xml:lang="hr" state="needs-translation">Crash and Error Reports</target>
+      </trans-unit>
+      <trans-unit id="Dashboard">
+        <source>Dashboard</source>
+        <note>Show dashboard in new tab view</note>
+        <target xml:lang="hr" state="translated">Kontrolna ploča</target>
+      </trans-unit>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Bookmark delete
+   Delete Bookmark alert delete button title</note>
+        <target xml:lang="hr" state="translated">Izbriši</target>
+      </trans-unit>
+      <trans-unit id="Delete Bookmark">
+        <source>Delete Bookmark</source>
+        <note>Bookmark deleting button
+   Delete Bookmark alert title</note>
+        <target xml:lang="hr" state="translated">Brisanje oznake</target>
+      </trans-unit>
+      <trans-unit id="Delete History">
+        <source>Delete History</source>
+        <target xml:lang="hr" state="translated">Izbrisati povijest</target>
+        <alt-trans>
+          <target xml:lang="hr">Izbriši povijest</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Disable Anti-Ad blocking Messages">
+        <source>Disable Anti-Ad blocking Messages</source>
+        <note>Blocking options - Disable anti-adblocking messages</note>
+        <target xml:lang="hr" state="translated">Onemogući poruke o blokiranju reklama</target>
+      </trans-unit>
+      <trans-unit id="Disable Malware Domains">
+        <source>Disable Malware Domains</source>
+        <note>Blocking options - Disable malware domains</note>
+        <target xml:lang="hr" state="translated">Onemogući Malware domene</target>
+      </trans-unit>
+      <trans-unit id="Disable Social Media Buttons">
+        <source>Disable Social Media Buttons</source>
+        <note>Blocking options - Disable social media buttons</note>
+        <target xml:lang="hr" state="translated">Onemoguće gumbe društvenih medija</target>
+      </trans-unit>
+      <trans-unit id="Disable Tracking">
+        <source>Disable Tracking</source>
+        <note>Blocking options - Disable tracking</note>
+        <target xml:lang="hr" state="translated">Isključi praćenje</target>
+      </trans-unit>
+      <trans-unit id="Do you want to see web search results here?">
+        <source>Do you want to see web search results here?</source>
+        <note>Question of search approval confirmation</note>
+        <target xml:lang="hr" state="translated">Želite li vidjeti rezultate pretraživanja web-a ovdje?</target>
+      </trans-unit>
+      <trans-unit id="Don't Send">
+        <source>Don't Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="hr" state="needs-translation">Don't Send</target>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Add bookmark controller
+   Bookmarks listing
+   Find in Page toolbar button</note>
+        <target xml:lang="hr" state="translated">Gotovo</target>
+      </trans-unit>
+      <trans-unit id="Double tap the Home button.">
+        <source>Double tap the Home button.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="hr" state="needs-translation">Double tap the Home button.</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo">
+        <source>DuckDuckGo</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="hr" state="translated">DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo search">
+        <source>DuckDuckGo search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="hr" state="translated">DuckDuckGo pretraga</target>
+      </trans-unit>
+      <trans-unit id="EXCEPTIONS">
+        <source>EXCEPTIONS</source>
+        <note>Settings section header</note>
+        <target xml:lang="hr" state="translated">IZNIMKE</target>
+      </trans-unit>
+      <trans-unit id="Edit">
+        <source>Edit</source>
+        <note>Bookmark edit
+   Bookmarks listing</note>
+        <target xml:lang="hr" state="translated">Uredi</target>
+      </trans-unit>
+      <trans-unit id="Enter link">
+        <source>Enter link</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="hr" state="translated">Unesite poveznicu</target>
+      </trans-unit>
+      <trans-unit id="Enter title">
+        <source>Enter title</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="hr" state="translated">Unesite naslov</target>
+      </trans-unit>
+      <trans-unit id="FILTER LIST UPDATES">
+        <source>FILTER LIST UPDATES</source>
+        <note>Settings section header</note>
+        <target xml:lang="hr" state="translated">AŽURIRANJA POPISA FILTERA</target>
+      </trans-unit>
+      <trans-unit id="Find &quot;%@&quot; in page">
+        <source>Find "%@" in page</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="hr" state="translated">Pronađi "%@" na stranici</target>
+      </trans-unit>
+      <trans-unit id="Find in page (%@ matches)">
+        <source>Find in page (%@ matches)</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="hr" state="translated">Pronađi na stranici (%@ podudaranja)</target>
+      </trans-unit>
+      <trans-unit id="Finish">
+        <source>Finish</source>
+        <note>Welcome guide screen 2 button</note>
+        <target xml:lang="hr" state="translated">Završi</target>
+      </trans-unit>
+      <trans-unit id="GENERAL">
+        <source>GENERAL</source>
+        <note>Settings section header</note>
+        <target xml:lang="hr" state="translated">OPĆENITO</target>
+      </trans-unit>
+      <trans-unit id="Ghost Mode">
+        <source>Ghost Mode</source>
+        <note>Ghost Mode Title</note>
+        <target xml:lang="hr" state="needs-translation">Ghost Mode</target>
+      </trans-unit>
+      <trans-unit id="Google">
+        <source>Google</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="hr" state="translated">Google</target>
+      </trans-unit>
+      <trans-unit id="Google search">
+        <source>Google search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="hr" state="translated">Google pretraga</target>
+      </trans-unit>
+      <trans-unit id="Got it">
+        <source>Got it</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="hr" state="translated">Shvaćam</target>
+      </trans-unit>
+      <trans-unit id="Hide">
+        <source>Hide</source>
+        <target xml:lang="hr" state="translated">Sakrij</target>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>Show history in new tab view</note>
+        <target xml:lang="hr" state="translated">Povijest</target>
+      </trans-unit>
+      <trans-unit id="More Blocking Options">
+        <source>More Blocking Options</source>
+        <note>Blocking options screen
+   Settings - show more blocking options</note>
+        <target xml:lang="hr" state="translated">Više opcija blokiranja</target>
+      </trans-unit>
+      <trans-unit id="Never">
+        <source>Never</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="hr" state="translated">Nikad</target>
+      </trans-unit>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <note>Tab view label</note>
+        <target xml:lang="hr" state="translated">Nova kartica</target>
+      </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>Deny Google search</note>
+        <target xml:lang="hr" state="translated">Ne</target>
+      </trans-unit>
+      <trans-unit id="No Bookmarks Available">
+        <source>No Bookmarks Available</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="hr" state="translated">Nema dostupnih oznaka</target>
+      </trans-unit>
+      <trans-unit id="No Dashboard Items Available">
+        <source>No Dashboard Items Available</source>
+        <target xml:lang="hr" state="translated">Nema dostupnih stavki</target>
+      </trans-unit>
+      <trans-unit id="No History Available">
+        <source>No History Available</source>
+        <note>Browser history list</note>
+        <target xml:lang="hr" state="translated">Nema dostupne povijesti</target>
+      </trans-unit>
+      <trans-unit id="No websites whitelisted">
+        <source>No websites whitelisted</source>
+        <note>Whitelist no website whitelisted label</note>
+        <target xml:lang="hr" state="translated">Nema dozvoljenih stranica</target>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <target xml:lang="hr" state="translated">OK</target>
+      </trans-unit>
+      <trans-unit id="OTHER LANGUAGES">
+        <source>OTHER LANGUAGES</source>
+        <note>Subscription listing section title</note>
+        <target xml:lang="hr" state="translated">DRUGI JEZICI</target>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="hr" state="translated">Isključeno</target>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="hr" state="translated">Uključeno</target>
+      </trans-unit>
+      <trans-unit id="Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.">
+        <source>Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="hr" state="needs-translation">Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</target>
+      </trans-unit>
+      <trans-unit id="Only one more step">
+        <source>Only one more step</source>
+        <note>Welcome guide screen 1 button</note>
+        <target xml:lang="hr" state="translated">Još samo jedan korak</target>
+      </trans-unit>
+      <trans-unit id="Open privacy policy.">
+        <source>Open privacy policy.</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="hr" state="translated">Otvorena polica privatnosti.</target>
+      </trans-unit>
+      <trans-unit id="PRIVACY &amp; SECURITY">
+        <source>PRIVACY &amp; SECURITY</source>
+        <note>Settings section header</note>
+        <target xml:lang="hr" state="translated">PRIVATNOST &amp; SIGURNOST</target>
+      </trans-unit>
+      <trans-unit id="Restart Adblock Browser.">
+        <source>Restart Adblock Browser.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="hr" state="needs-translation">Restart Adblock Browser.</target>
+      </trans-unit>
+      <trans-unit id="SEARCH">
+        <source>SEARCH</source>
+        <note>Settings section header</note>
+        <target xml:lang="hr" state="translated">TRAŽI</target>
+      </trans-unit>
+      <trans-unit id="SEND CRASH AND ERROR REPORTS">
+        <source>SEND CRASH AND ERROR REPORTS</source>
+        <note>HockeyApp crash reports settings</note>
+        <target xml:lang="hr" state="needs-translation">SEND CRASH AND ERROR REPORTS</target>
+      </trans-unit>
+      <trans-unit id="Search Engine">
+        <source>Search Engine</source>
+        <note>Search Engine Selection
+   Settings status option</note>
+        <target xml:lang="hr" state="translated">Tražilica</target>
+      </trans-unit>
+      <trans-unit id="Search History">
+        <source>Search History</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="hr" state="translated">Pretraži povijest</target>
+      </trans-unit>
+      <trans-unit id="Search or enter website name">
+        <source>Search or enter website name</source>
+        <note>Browser address bar hint</note>
+        <target xml:lang="hr" state="translated">Tražite ili unesite ime stranice</target>
+      </trans-unit>
+      <trans-unit id="Send Report">
+        <source>Send Report</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="hr" state="needs-translation">Send Report</target>
+      </trans-unit>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="hr" state="translated">Postavke</target>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="hr" state="translated">Podijeli</target>
+      </trans-unit>
+      <trans-unit id="Show in Dashboard">
+        <source>Show in Dashboard</source>
+        <note>Bookmark editing switch</note>
+        <target xml:lang="hr" state="translated">Prikaži u kontrolnoj ploči</target>
+      </trans-unit>
+      <trans-unit id="Something went wrong.">
+        <source>Something went wrong.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="hr" state="needs-translation">Something went wrong.</target>
+      </trans-unit>
+      <trans-unit id="Subscriptions">
+        <source>Subscriptions</source>
+        <note>Subscriptions listing title</note>
+        <target xml:lang="hr" state="translated">Pretplate</target>
+      </trans-unit>
+      <trans-unit id="Swipe up on Adblock Browser to quit the app.">
+        <source>Swipe up on Adblock Browser to quit the app.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="hr" state="needs-translation">Swipe up on Adblock Browser to quit the app.</target>
+      </trans-unit>
+      <trans-unit id="Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads">
+        <source>Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</source>
+        <note>Welcome guide screen 2 picture label</note>
+        <target xml:lang="hr" state="translated">Dodirnite ikonu Izbornika → Postavke → Adblock Plus → Prihvatljive reklame</target>
+      </trans-unit>
+      <trans-unit id="The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.">
+        <source>The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</source>
+        <note>Settings section footer</note>
+        <target xml:lang="hr" state="translated">*blokiranje reklama* i *više opcija blokiranja* su bazirani na popisima filtera. To su setovi pravila koja govore Adblock pregleniku što blokirati.</target>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone. Are you sure you want to continue?">
+        <source>This action cannot be undone. Are you sure you want to continue?</source>
+        <note>Clear Browsing Data Confirmation</note>
+        <target xml:lang="hr" state="translated">Ova radnja ne može biti poništena. Jeste li sigurni da želite nastaviti?</target>
+      </trans-unit>
+      <trans-unit id="URL Search Suggestions">
+        <source>URL Search Suggestions</source>
+        <note>Headline of search approval confirmation
+   Settings status option</note>
+        <target xml:lang="hr" state="translated">Prijedlozi URL pretraga</target>
+      </trans-unit>
+      <trans-unit id="Uh-Oh!">
+        <source>Uh-Oh!</source>
+        <note>App start failure screen</note>
+        <target xml:lang="hr" state="needs-translation">Uh-Oh!</target>
+      </trans-unit>
+      <trans-unit id="Unable to start browser.">
+        <source>Unable to start browser.</source>
+        <note>Critical abort alert message</note>
+        <target xml:lang="hr" state="needs-translation">Unable to start browser.</target>
+      </trans-unit>
+      <trans-unit id="Use Cellular Network">
+        <source>Use Cellular Network</source>
+        <note>Settings - enable/disable cellular network for downloading subscriptions</note>
+        <target xml:lang="hr" state="translated">Koristi mobilnu mrežu</target>
+      </trans-unit>
+      <trans-unit id="VERSION">
+        <source>VERSION</source>
+        <note>Section header in About screen</note>
+        <target xml:lang="hr" state="translated">VERZIJA</target>
+      </trans-unit>
+      <trans-unit id="We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.">
+        <source>We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</source>
+        <note>Acceptable ads explanation</note>
+        <target xml:lang="hr" state="translated">Želimo potaknuti web stranice da koriste jednostavno, nenametljivo oglašavanje. Zato smo uspostavili stroge smjernice za identificiranje Prihvatljivih reklama, smjernice koje su prikazane pod zadanim postavkama. Ako želite surfati bez reklama, možete onemogućiti ovu postavku bilo kad.</target>
+      </trans-unit>
+      <trans-unit id="Whitelisted Websites">
+        <source>Whitelisted Websites</source>
+        <note>Settings - show list of whitelisted pages
+   Whitelist title</note>
+        <target xml:lang="hr" state="translated">Dopuštene stranice</target>
+      </trans-unit>
+      <trans-unit id="With Adblock Plus, you can block ads or other elements on websites.">
+        <source>With Adblock Plus, you can block ads or other elements on websites.</source>
+        <note>Settings section footer</note>
+        <target xml:lang="hr" state="translated">S Adblock Plus-om možete blokirate reklame ili druge elemente na stranici.</target>
+      </trans-unit>
+      <trans-unit id="Would you like to send a report to fix the problem?">
+        <source>Would you like to send a report to fix the problem?</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="hr" state="needs-translation">Would you like to send a report to fix the problem?</target>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>Allow Google search</note>
+        <target xml:lang="hr" state="translated">Da</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash and Error Reports**">
+        <source>You can change this setting at any time in: **Settings → Crash and Error Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="hr" state="needs-translation">You can change this setting at any time in: **Settings → Crash and Error Reports**</target>
+      </trans-unit>
+      <trans-unit id="You're in control">
+        <source>You're in control</source>
+        <note>Welcome guide screen 2 headline</note>
+        <target xml:lang="hr" state="translated">Vi imate kontrolu</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/Info.plist" source-language="en" datatype="plaintext" target-language="hr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Adblock Browser</source>
+        <target xml:lang="hr" state="translated">Adblock Preglednik</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="hr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
+    </header>
+    <body>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="hr" state="translated">Odustani</target>
+      </trans-unit>
+      <trans-unit id="Dismiss">
+        <source>Dismiss</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="hr" state="translated">Otpusti</target>
+      </trans-unit>
+      <trans-unit id="Open">
+        <source>Open</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="hr" state="translated">Otvori</target>
+      </trans-unit>
+      <trans-unit id="Open in Adblock Browser?">
+        <source>Open in Adblock Browser?</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="hr" state="translated">Otvori u Adblock pregledniku?</target>
+      </trans-unit>
+      <trans-unit id="URL not found">
+        <source>URL not found</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="hr" state="translated">URL nije pronađen</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

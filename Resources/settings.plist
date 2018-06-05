@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UseWKWebViewIfAvailable</key>
+	<true/>
+	<key>KittCoreBundleName</key>
+	<string>KittCoreBundle</string>
+	<key>ExtensionServerResource_Listing</key>
+	<string>/list</string>
+	<key>ExtensionServerResource_Logger</key>
+	<string>/logger</string>
+	<key>ExtensionServerResource_ResourceHosting</key>
+	<string>/extension</string>
+	<key>ExtensionServerResource_Installation</key>
+	<string>/install</string>
+	<key>EmailAddressForLoggedAppFailures</key>
+	<string>bugs@kitt.com</string>
+	<key>ExtensionServerWhitelistSuffix</key>
+	<string>salsitasoft.com</string>
+	<key>CanCloseLastTab</key>
+	<true/>
+</dict>
+</plist>

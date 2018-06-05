@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AdBlockBrowser/Info.plist" source-language="en" datatype="plaintext" target-language="zh-Hant">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock</source>
+        <target xml:lang="zh-Hant">Adblock</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>Adblock Browser</source>
+        <target xml:lang="zh-Hant" state="translated">Adblock 瀏覽器</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</source>
+        <target xml:lang="zh-Hant" state="translated">倘若您許可，我們只向網站 (如，Google Maps) 提供您位置的訪問權限。Adblock Browser 不會將您的位置用於任何其他目的。</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">倘若您許可，我們只向網站 (如，Google Maps) 提供您位置的許可權。Adblock Browser 不會將您的位置用於任何其他目的。。Adblock 瀏覽器不用於任何其他目的使用您所在的位置。</target>
+        </alt-trans>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AdBlockBrowser/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="zh-Hant">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="%@ of %@ matches">
+        <source>%1$@ of %2$@ matches</source>
+        <note>Find in page bar</note>
+        <target xml:lang="zh-Hant" state="translated">%1$@ 個匹配（共 %2$@ 個）</target>
+      </trans-unit>
+      <trans-unit id="A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." approved="yes">
+        <source>A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="zh-Hant">發生關鍵錯誤，Adblock 瀏覽器 無法啟動。請依照以下指示退出應用程式，然後重試。</target>
+      </trans-unit>
+      <trans-unit id="ADBLOCK BROWSER">
+        <source>Adblock Browser</source>
+        <target xml:lang="zh-Hant" state="translated">Adblock 瀏覽器</target>
+      </trans-unit>
+      <trans-unit id="ADBLOCK VERSION">
+        <source>ADBLOCK VERSION</source>
+        <target xml:lang="zh-Hant" state="needs-translation">ADBLOCK VERSION</target>
+      </trans-unit>
+      <trans-unit id="About" approved="yes">
+        <source>About</source>
+        <target xml:lang="zh-Hant">關於</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking" approved="yes">
+        <source>Ad blocking</source>
+        <target xml:lang="zh-Hant">廣告過濾</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking is automatically integrated - no more annoying ads while you surf!" approved="yes">
+        <source>Ad blocking is automatically integrated - no more annoying ads while you surf!</source>
+        <note>Welcome guide screen 1 paragraph</note>
+        <target xml:lang="zh-Hant">自動集成廣告過濾- 上網時再也沒有煩人的廣告！</target>
+      </trans-unit>
+      <trans-unit id="Ad blocking on this site" approved="yes">
+        <source>Ad blocking on this site</source>
+        <target xml:lang="zh-Hant">過濾此頁面上的廣告</target>
+      </trans-unit>
+      <trans-unit id="Adblock Browser Encountered an Error" approved="yes">
+        <source>Adblock Browser Encountered an Error</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="zh-Hant">Adblock 瀏覽器 遇到錯誤</target>
+      </trans-unit>
+      <trans-unit id="Adblock Unexpectedly Quit" approved="yes">
+        <source>Adblock Unexpectedly Quit</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="zh-Hant">Adblock 意外退出</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark">
+        <source>Add Bookmark</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant" state="translated">添加書籤</target>
+      </trans-unit>
+      <trans-unit id="Add Bookmark to Dashboard">
+        <source>Add Bookmark to Dashboard</source>
+        <target xml:lang="zh-Hant" state="translated">新增書籤至儀表板</target>
+      </trans-unit>
+      <trans-unit id="After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.">
+        <source>After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</source>
+        <target xml:lang="zh-Hant" state="needs-translation">After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.</target>
+      </trans-unit>
+      <trans-unit id="All of your bookmarks have been added to the Dashboard.">
+        <source>All of your bookmarks have been added to the Dashboard.</source>
+        <target xml:lang="zh-Hant" state="translated">您的所有書籤都已新增至儀表板。</target>
+      </trans-unit>
+      <trans-unit id="Allow some nonintrusive advertising">
+        <source>Allow some nonintrusive advertising</source>
+        <target xml:lang="zh-Hant" state="translated">允許一些非侵入性的廣告</target>
+      </trans-unit>
+      <trans-unit id="Always">
+        <source>Always</source>
+        <target xml:lang="zh-Hant" state="translated">總是</target>
+      </trans-unit>
+      <trans-unit id="Always Send" approved="yes">
+        <source>Always Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="zh-Hant">總是傳送</target>
+      </trans-unit>
+      <trans-unit id="Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." approved="yes">
+        <source>Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time.</source>
+        <note>Welcome guide screen 2 paragraph</note>
+        <target xml:lang="zh-Hant">煩人的廣告總是被封鎖，但對於非侵入性廣告默認保留。您可以在任何時間更改此設置。</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to clear history? You cannot undo this action." approved="yes">
+        <source>Are you sure you want to clear history? You cannot undo this action.</source>
+        <note>Clear history alert message</note>
+        <target xml:lang="zh-Hant">你確定要清除歷史記錄嗎？您無法撤消此操作。</target>
+      </trans-unit>
+      <trans-unit id="Are you sure you want to delete this bookmark?">
+        <source>Are you sure you want to delete this bookmark?</source>
+        <note>Delete Bookmark alert message</note>
+        <target xml:lang="zh-Hant" state="translated">您確定要刪除此書籤嗎？</target>
+      </trans-unit>
+      <trans-unit id="Ask Me After a Crash or Error" approved="yes">
+        <source>Ask Me After a Crash or Error</source>
+        <target xml:lang="zh-Hant">發生崩潰或出錯後詢問我</target>
+      </trans-unit>
+      <trans-unit id="BLOCKING" approved="yes">
+        <source>BLOCKING</source>
+        <target xml:lang="zh-Hant">過濾</target>
+      </trans-unit>
+      <trans-unit id="BROWSER VERSION">
+        <source>BROWSER VERSION</source>
+        <target xml:lang="zh-Hant" state="needs-translation">BROWSER VERSION</target>
+      </trans-unit>
+      <trans-unit id="Baidu">
+        <source>Baidu</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="zh-Hant" state="translated">百度</target>
+      </trans-unit>
+      <trans-unit id="Baidu search">
+        <source>Baidu search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="zh-Hant" state="translated">百度搜索</target>
+      </trans-unit>
+      <trans-unit id="Block Ads on this Site">
+        <source>Block Ads on this Site</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant" state="translated">在本網站上屏蔽廣告</target>
+      </trans-unit>
+      <trans-unit id="Block ads for websites in">
+        <source>Block ads for websites in</source>
+        <target xml:lang="zh-Hant" state="translated">屏蔽網站的廣告</target>
+      </trans-unit>
+      <trans-unit id="Bookmarked Pages">
+        <source>Bookmarked Pages</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="zh-Hant" state="translated">書籤頁</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks" approved="yes">
+        <source>Bookmarks</source>
+        <target xml:lang="zh-Hant">書簽</target>
+      </trans-unit>
+      <trans-unit id="Bookmarks loading has failed" approved="yes">
+        <source>Bookmarks loading has failed</source>
+        <target xml:lang="zh-Hant">書簽載入失敗</target>
+      </trans-unit>
+      <trans-unit id="Browse in peace">
+        <source>Browse in peace</source>
+        <note>Welcome guide screen 1 headline</note>
+        <target xml:lang="zh-Hant" state="translated">安寧瀏覽</target>
+      </trans-unit>
+      <trans-unit id="CRASH AND ERROR REPORTING">
+        <source>CRASH AND ERROR REPORTING</source>
+        <target xml:lang="zh-Hant" state="needs-translation">CRASH AND ERROR REPORTING</target>
+      </trans-unit>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source>
+        <note>Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title</note>
+        <target xml:lang="zh-Hant">取消</target>
+      </trans-unit>
+      <trans-unit id="Clear" approved="yes">
+        <source>Clear</source>
+        <note>Clear Browsing Data Confirmation
+   Clear history alert clear button title</note>
+        <target xml:lang="zh-Hant">清除</target>
+      </trans-unit>
+      <trans-unit id="Clear All">
+        <source>Clear All</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="zh-Hant" state="translated">清除所有</target>
+      </trans-unit>
+      <trans-unit id="Clear Browsing Data">
+        <source>Clear Browsing Data</source>
+        <note>Clear Browsing Data Screen Title</note>
+        <target xml:lang="zh-Hant" state="translated">清除瀏覽資料</target>
+      </trans-unit>
+      <trans-unit id="Clear Cache">
+        <source>Clear Cache</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="zh-Hant" state="translated">清除快取</target>
+      </trans-unit>
+      <trans-unit id="Clear Cookies &amp; Site Data">
+        <source>Clear Cookies &amp; Site Data</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="zh-Hant" state="translated">清除 cookie 和網站資料</target>
+      </trans-unit>
+      <trans-unit id="Clear History">
+        <source>Clear History</source>
+        <note>Clear Browsing Data Option</note>
+        <target xml:lang="zh-Hant" state="translated">清除歷史</target>
+      </trans-unit>
+      <trans-unit id="Clear History?" approved="yes">
+        <source>Clear History?</source>
+        <note>Clear history alert title</note>
+        <target xml:lang="zh-Hant">清除歷史記錄？</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">清除歷史記錄?</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Tabs view</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Close</target>
+      </trans-unit>
+      <trans-unit id="Configurable under *Settings &gt; URL Search Suggestions*" approved="yes">
+        <source>Configurable under *Settings &gt; URL Search Suggestions*</source>
+        <note>Note of search approval confirmation</note>
+        <target xml:lang="zh-Hant">通過 *設定&gt; URL搜索建議 來配置*</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">通過 設置&gt; URL搜索建議 來配置</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Crash Application Now">
+        <source>Crash Application Now</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Crash Application Now</target>
+      </trans-unit>
+      <trans-unit id="Crash Reports">
+        <source>Crash Reports</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Crash Reports</target>
+      </trans-unit>
+      <trans-unit id="Crash and Error Reports" approved="yes">
+        <source>Crash and Error Reports</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="zh-Hant">崩潰和出錯報告</target>
+      </trans-unit>
+      <trans-unit id="Dashboard" approved="yes">
+        <source>Dashboard</source>
+        <target xml:lang="zh-Hant">面板</target>
+      </trans-unit>
+      <trans-unit id="Delete" approved="yes">
+        <source>Delete</source>
+        <note>Browser history list
+   Delete Bookmark alert delete button title</note>
+        <target xml:lang="zh-Hant">刪除</target>
+      </trans-unit>
+      <trans-unit id="Delete Bookmark">
+        <source>Delete Bookmark</source>
+        <note>Bookmark deleting button
+   Delete Bookmark alert title</note>
+        <target xml:lang="zh-Hant" state="translated">刪除書籤</target>
+      </trans-unit>
+      <trans-unit id="Dev notification">
+        <source>Dev notification</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Dev notification</target>
+      </trans-unit>
+      <trans-unit id="Devbuild Settings">
+        <source>Devbuild Settings</source>
+        <note>Navigation control title</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Devbuild Settings</target>
+      </trans-unit>
+      <trans-unit id="Disable Anti-Ad blocking Messages" approved="yes">
+        <source>Disable Anti-Ad blocking Messages</source>
+        <target xml:lang="zh-Hant">禁用反廣告過濾的消息</target>
+      </trans-unit>
+      <trans-unit id="Disable Malware Domains" approved="yes">
+        <source>Disable Malware Domains</source>
+        <target xml:lang="zh-Hant">禁用惡意軟件域</target>
+      </trans-unit>
+      <trans-unit id="Disable Social Media Buttons" approved="yes">
+        <source>Disable Social Media Buttons</source>
+        <target xml:lang="zh-Hant">禁用社交媒體按鈕</target>
+      </trans-unit>
+      <trans-unit id="Disable Tracking" approved="yes">
+        <source>Disable Tracking</source>
+        <target xml:lang="zh-Hant">禁用跟踪</target>
+      </trans-unit>
+      <trans-unit id="Do you want to see web search results here?" approved="yes">
+        <source>Do you want to see web search results here?</source>
+        <note>Question of search approval confirmation</note>
+        <target xml:lang="zh-Hant">你想要在這裡看見網頁搜索結果嗎？</target>
+      </trans-unit>
+      <trans-unit id="Don't Send" approved="yes">
+        <source>Don't Send</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="zh-Hant">不傳送</target>
+      </trans-unit>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <note>Bookmarks listing
+   Find in Page toolbar button</note>
+        <target xml:lang="zh-Hant" state="translated">完成</target>
+      </trans-unit>
+      <trans-unit id="Double tap the Home button." approved="yes">
+        <source>Double tap the Home button.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="zh-Hant">點兩下主畫面按鈕。</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo" approved="yes">
+        <source>DuckDuckGo</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="zh-Hant">DuckDuckGo</target>
+      </trans-unit>
+      <trans-unit id="DuckDuckGo search" approved="yes">
+        <source>DuckDuckGo search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="zh-Hant">DuckDuckGo 搜索</target>
+      </trans-unit>
+      <trans-unit id="Edit" approved="yes">
+        <source>Edit</source>
+        <note>Bookmark edit
+   Bookmarks listing</note>
+        <target xml:lang="zh-Hant">編輯</target>
+      </trans-unit>
+      <trans-unit id="Enter link" approved="yes">
+        <source>Enter link</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="zh-Hant">輸入有效的鏈接</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">輸入鏈接</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Enter title" approved="yes">
+        <source>Enter title</source>
+        <note>Bookmark editing placeholder</note>
+        <target xml:lang="zh-Hant">輸入標題</target>
+      </trans-unit>
+      <trans-unit id="Error prepared for sending">
+        <source>Error prepared for sending</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Error prepared for sending</target>
+      </trans-unit>
+      <trans-unit id="Exceptions">
+        <source>Exceptions</source>
+        <target xml:lang="zh-Hant" state="translated">例外情況</target>
+      </trans-unit>
+      <trans-unit id="Find &quot;%@&quot; in page">
+        <source>Find "%@" in page</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="zh-Hant" state="translated">在頁面中找到 "%@"</target>
+      </trans-unit>
+      <trans-unit id="Find in page (%@ matches)">
+        <source>Find in page (%@ matches)</source>
+        <note>Find in page - Autocomplete controller</note>
+        <target xml:lang="zh-Hant" state="translated">在頁面中尋找（%@個匹配）</target>
+      </trans-unit>
+      <trans-unit id="Finish" approved="yes">
+        <source>Finish</source>
+        <note>Welcome guide screen 2 button</note>
+        <target xml:lang="zh-Hant">完成</target>
+      </trans-unit>
+      <trans-unit id="GENERAL" approved="yes">
+        <source>GENERAL</source>
+        <target xml:lang="zh-Hant">通用</target>
+      </trans-unit>
+      <trans-unit id="Ghost Mode">
+        <source>Ghost Mode</source>
+        <target xml:lang="zh-Hant" state="translated">幽靈模式</target>
+      </trans-unit>
+      <trans-unit id="Google" approved="yes">
+        <source>Google</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="zh-Hant">谷歌</target>
+      </trans-unit>
+      <trans-unit id="Google search" approved="yes">
+        <source>Google search</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="zh-Hant">谷歌搜索</target>
+      </trans-unit>
+      <trans-unit id="Got it">
+        <source>Got it</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="zh-Hant" state="translated">已收到</target>
+      </trans-unit>
+      <trans-unit id="Hide all ads">
+        <source>Hide all ads</source>
+        <target xml:lang="zh-Hant" state="translated">隱藏所有廣告</target>
+      </trans-unit>
+      <trans-unit id="History" approved="yes">
+        <source>History</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant">歷史</target>
+      </trans-unit>
+      <trans-unit id="Languages">
+        <source>Languages</source>
+        <target xml:lang="zh-Hant" state="translated">語言</target>
+      </trans-unit>
+      <trans-unit id="MEMORY PRESSURE">
+        <source>MEMORY PRESSURE</source>
+        <target xml:lang="zh-Hant" state="needs-translation">MEMORY PRESSURE</target>
+      </trans-unit>
+      <trans-unit id="MORE OPTIONS">
+        <source>MORE OPTIONS</source>
+        <target xml:lang="zh-Hant" state="translated">更多選擇</target>
+      </trans-unit>
+      <trans-unit id="More Blocking Options" approved="yes">
+        <source>More Blocking Options</source>
+        <target xml:lang="zh-Hant">更多過濾選項</target>
+      </trans-unit>
+      <trans-unit id="Never">
+        <source>Never</source>
+        <target xml:lang="zh-Hant" state="translated">從不</target>
+      </trans-unit>
+      <trans-unit id="New Tab" approved="yes">
+        <source>New Tab</source>
+        <note>Tab view label</note>
+        <target xml:lang="zh-Hant">新標籤</target>
+      </trans-unit>
+      <trans-unit id="Next App Start Failure">
+        <source>Next App Start Failure</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Next App Start Failure</target>
+      </trans-unit>
+      <trans-unit id="No" approved="yes">
+        <source>No</source>
+        <note>Deny Google search</note>
+        <target xml:lang="zh-Hant">No</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">不是</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="No Bookmarks Available" approved="yes">
+        <source>No Bookmarks Available</source>
+        <note>Bookmarks listing</note>
+        <target xml:lang="zh-Hant">沒有可用的書簽</target>
+      </trans-unit>
+      <trans-unit id="No History Available" approved="yes">
+        <source>No History Available</source>
+        <target xml:lang="zh-Hant">沒有可用歷史</target>
+      </trans-unit>
+      <trans-unit id="No websites whitelisted" approved="yes">
+        <source>No websites whitelisted</source>
+        <target xml:lang="zh-Hant">沒有網站白名單</target>
+      </trans-unit>
+      <trans-unit id="OK" approved="yes">
+        <source>OK</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant">OK</target>
+      </trans-unit>
+      <trans-unit id="OTHER LANGUAGES" approved="yes">
+        <source>OTHER LANGUAGES</source>
+        <target xml:lang="zh-Hant">其他語言</target>
+      </trans-unit>
+      <trans-unit id="Off" approved="yes">
+        <source>Off</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="zh-Hant">關閉</target>
+      </trans-unit>
+      <trans-unit id="On" approved="yes">
+        <source>On</source>
+        <note>Settings - extension enabled status</note>
+        <target xml:lang="zh-Hant">開啟</target>
+      </trans-unit>
+      <trans-unit id="Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." approved="yes">
+        <source>Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.</source>
+        <target xml:lang="zh-Hant">僅傳送包含裝置資訊及崩潰或出錯詳情的匿名資料。請參閱我們的隱私權政策以了解更多資訊，網址為 adblockplus.org。</target>
+      </trans-unit>
+      <trans-unit id="Only one more step" approved="yes">
+        <source>Only one more step</source>
+        <note>Welcome guide screen 1 button</note>
+        <target xml:lang="zh-Hant">只有一步之遙</target>
+      </trans-unit>
+      <trans-unit id="Open New Tab">
+        <source>Open New Tab</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant" state="translated">打開新標籤頁</target>
+      </trans-unit>
+      <trans-unit id="Open privacy policy." approved="yes">
+        <source>Open privacy policy.</source>
+        <target xml:lang="zh-Hant">開啟隱私權政策</target>
+      </trans-unit>
+      <trans-unit id="Produce Error Now">
+        <source>Produce Error Now</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Produce Error Now</target>
+      </trans-unit>
+      <trans-unit id="Recent History">
+        <source>Recent History</source>
+        <note>Browser history list</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Recent History</target>
+      </trans-unit>
+      <trans-unit id="Remove Bookmark">
+        <source>Remove Bookmark</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant" state="translated">刪除書籤</target>
+      </trans-unit>
+      <trans-unit id="Restart Adblock Browser." approved="yes">
+        <source>Restart Adblock Browser.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="zh-Hant">重新啟動 Adblock 瀏覽器。</target>
+      </trans-unit>
+      <trans-unit id="SEARCH" approved="yes">
+        <source>SEARCH</source>
+        <target xml:lang="zh-Hant">搜索</target>
+      </trans-unit>
+      <trans-unit id="SEND CRASH AND ERROR REPORTS" approved="yes">
+        <source>SEND CRASH AND ERROR REPORTS</source>
+        <target xml:lang="zh-Hant">發送崩潰和錯誤報告</target>
+      </trans-unit>
+      <trans-unit id="Search Engine" approved="yes">
+        <source>Search Engine</source>
+        <note>Search Engine Selection</note>
+        <target xml:lang="zh-Hant">搜尋引擎</target>
+      </trans-unit>
+      <trans-unit id="Search History" approved="yes">
+        <source>Search History</source>
+        <note>Autocomplete suggestions</note>
+        <target xml:lang="zh-Hant">搜索歷史記錄</target>
+      </trans-unit>
+      <trans-unit id="Send Report" approved="yes">
+        <source>Send Report</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="zh-Hant">傳送報告</target>
+      </trans-unit>
+      <trans-unit id="Settings" approved="yes">
+        <source>Settings</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant">設定</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">設置</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="Share" approved="yes">
+        <source>Share</source>
+        <note>Pull up menu option</note>
+        <target xml:lang="zh-Hant">分享</target>
+      </trans-unit>
+      <trans-unit id="Show Memory Pressure Indication">
+        <source>Show Memory Pressure Indication</source>
+        <note>Devbuild setting</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Show Memory Pressure Indication</target>
+      </trans-unit>
+      <trans-unit id="Show in Dashboard" approved="yes">
+        <source>Show in Dashboard</source>
+        <note>Bookmark editing switch</note>
+        <target xml:lang="zh-Hant">在面板中顯示</target>
+      </trans-unit>
+      <trans-unit id="Show nonintrusive ads">
+        <source>Show nonintrusive ads</source>
+        <target xml:lang="zh-Hant" state="translated">顯示非侵入式廣告</target>
+      </trans-unit>
+      <trans-unit id="Something went wrong." approved="yes">
+        <source>Something went wrong.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="zh-Hant">發生錯誤。</target>
+      </trans-unit>
+      <trans-unit id="Swipe tabs left to close them.">
+        <source>Swipe tabs left to close them.</source>
+        <note>TIP - Tabs View</note>
+        <target xml:lang="zh-Hant" state="needs-translation">Swipe tabs left to close them.</target>
+      </trans-unit>
+      <trans-unit id="Swipe up on Adblock Browser to quit the app." approved="yes">
+        <source>Swipe up on Adblock Browser to quit the app.</source>
+        <note>App start failure screen</note>
+        <target xml:lang="zh-Hant">於 Adblock 瀏覽器 上向上滑動可退出應用程式。</target>
+      </trans-unit>
+      <trans-unit id="TIP">
+        <source>TIP</source>
+        <note>TIP</note>
+        <target xml:lang="zh-Hant" state="needs-translation">TIP</target>
+      </trans-unit>
+      <trans-unit id="Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" approved="yes">
+        <source>Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads</source>
+        <note>Welcome guide screen 2 picture label</note>
+        <target xml:lang="zh-Hant">點擊菜單圖標→ 設定→ Adblock Plus → 可接受廣告</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">點擊菜單圖標→ 設置→ Adblock Plus → 可接受廣告</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." approved="yes">
+        <source>The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block.</source>
+        <target xml:lang="zh-Hant">*廣告過濾* 和*更多過濾選項* 基於過濾規則列表。這些規則告訴Adblock瀏覽器的什麼是需要過濾的。</target>
+      </trans-unit>
+      <trans-unit id="This action cannot be undone. Are you sure you want to continue?">
+        <source>This action cannot be undone. Are you sure you want to continue?</source>
+        <note>Clear Browsing Data Confirmation</note>
+        <target xml:lang="zh-Hant" state="translated">此操作無法復原。確定要繼續嗎？</target>
+      </trans-unit>
+      <trans-unit id="UNDO">
+        <source>UNDO</source>
+        <note>Undo tooltip</note>
+        <target xml:lang="zh-Hant" state="needs-translation">UNDO</target>
+      </trans-unit>
+      <trans-unit id="URL Search Suggestions" approved="yes">
+        <source>URL Search Suggestions</source>
+        <note>Headline of search approval confirmation</note>
+        <target xml:lang="zh-Hant">URL 搜索建議</target>
+      </trans-unit>
+      <trans-unit id="Uh-Oh!" approved="yes">
+        <source>Uh-Oh!</source>
+        <note>App start failure screen</note>
+        <target xml:lang="zh-Hant">糟糕！</target>
+      </trans-unit>
+      <trans-unit id="Unable to start browser." approved="yes">
+        <source>Unable to start browser.</source>
+        <note>Critical abort alert message</note>
+        <target xml:lang="zh-Hant">無法啟動瀏覽器。</target>
+      </trans-unit>
+      <trans-unit id="VERSION" approved="yes">
+        <source>Version</source>
+        <target xml:lang="zh-Hant">版本</target>
+      </trans-unit>
+      <trans-unit id="We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." approved="yes">
+        <source>We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time.</source>
+        <target xml:lang="zh-Hant">我們想鼓勵網站使用簡單、非侵入式的廣告。這就是為什麼我們已經建立了嚴格的準則來判斷在默認設置下顯示的可接受廣告。如果你想要瀏覽時完全無廣告，您可隨時禁用此設置。</target>
+      </trans-unit>
+      <trans-unit id="Would you like to send a report to fix the problem?" approved="yes">
+        <source>Would you like to send a report to fix the problem?</source>
+        <note>Crash/Error Report Sending Modal</note>
+        <target xml:lang="zh-Hant">您是否要傳送報告以修復該問題？</target>
+      </trans-unit>
+      <trans-unit id="Yes" approved="yes">
+        <source>Yes</source>
+        <note>Allow Google search</note>
+        <target xml:lang="zh-Hant">Yes</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">是</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash Reports**">
+        <source>You can change this setting at any time in: **Settings → Crash Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="zh-Hant" state="needs-translation">You can change this setting at any time in: **Settings → Crash Reports**</target>
+      </trans-unit>
+      <trans-unit id="You can change this setting at any time in: **Settings → Crash and Error Reports**" approved="yes">
+        <source>You can change this setting at any time in: **Settings → Crash and Error Reports**</source>
+        <note>Crash Reports Dialogs</note>
+        <target xml:lang="zh-Hant">您可以按如下方式變更此設定：**設定 → 崩潰和出錯報告**</target>
+      </trans-unit>
+      <trans-unit id="You closed a tab">
+        <source>You closed a tab</source>
+        <note>Undo tooltip</note>
+        <target xml:lang="zh-Hant" state="needs-translation">You closed a tab</target>
+      </trans-unit>
+      <trans-unit id="You're in control" approved="yes">
+        <source>You're in control</source>
+        <note>Welcome guide screen 2 headline</note>
+        <target xml:lang="zh-Hant">選擇權在你手裡</target>
+        <alt-trans>
+          <target xml:lang="zh-Hant">控制權在你手裡</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="browser_address_bar_placeholder">
+        <source>Search or enter website name...</source>
+        <target xml:lang="zh-Hant" state="translated">搜索或輸入網站名稱...</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_acceptable_ads_description">
+        <source>Choose whether to include nonintrusive, non-animated ads that adhere to strict criteria. *Learn more*</source>
+        <target xml:lang="zh-Hant" state="translated">選擇是否包含符合嚴格條件的非侵入式、非動畫廣告。 *了解更多*</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_acceptable_ads_title">
+        <source>Acceptable Ads</source>
+        <target xml:lang="zh-Hant" state="translated">可接受廣告</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_whitelisted_websites_description">
+        <source>You have turned off ad blocking on these websites and, therefore, will see ads on them.</source>
+        <target xml:lang="zh-Hant" state="translated">您已關閉這些網站上的廣告屏蔽功能，因此會在這些網站上看到廣告。</target>
+      </trans-unit>
+      <trans-unit id="exceptions_settings_whitelisted_websites_title">
+        <source>Whitelisted Websites</source>
+        <target xml:lang="zh-Hant" state="translated">白名單網站</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_headline">
+        <source>Ghost Mode</source>
+        <target xml:lang="zh-Hant" state="translated">幽靈模式</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_subline">
+        <source>While in Ghost Mode, all browser history, search history, web forms, cookies and temporary internet files will not be stored on your device.</source>
+        <target xml:lang="zh-Hant" state="translated">在幽靈模式下，所有瀏覽器歷史記錄、搜索記錄、網頁表單，Cookie 和臨時互聯網文件均不會存儲在您的設備上。</target>
+      </trans-unit>
+      <trans-unit id="ghost_mode_banner_tip">
+        <source>Tap the icon to deactivate Ghost Mode when you are finished with the session.</source>
+        <target xml:lang="zh-Hant" state="translated">完成會話後，點擊圖標以停用幽靈模式。</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_button_1">
+        <source>OK</source>
+        <target xml:lang="zh-Hant" state="translated">確定</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_button_2">
+        <source>Cancel</source>
+        <target xml:lang="zh-Hant" state="translated">取消</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_headline">
+        <source>Quit Ghost Mode?</source>
+        <target xml:lang="zh-Hant" state="translated">退出幽靈模式？</target>
+      </trans-unit>
+      <trans-unit id="leave_notification_subline">
+        <source>Your history will not be stored and all active tabs will be closed.</source>
+        <target xml:lang="zh-Hant" state="translated">您的歷史記錄不會被存儲，所有處於活躍狀態的標籤頁將被關閉。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/Info.plist" source-language="en" datatype="plaintext" target-language="zh-Hant">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Adblock Browser</source>
+        <target xml:lang="zh-Hant">Adblock 瀏覽器</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ExtensionShare/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="zh-Hant">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="zh-Hant">取消</target>
+      </trans-unit>
+      <trans-unit id="Dismiss" approved="yes">
+        <source>Dismiss</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="zh-Hant">關閉</target>
+      </trans-unit>
+      <trans-unit id="Open" approved="yes">
+        <source>Open</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="zh-Hant">打開</target>
+      </trans-unit>
+      <trans-unit id="Open in Adblock Browser?" approved="yes">
+        <source>Open in Adblock Browser?</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="zh-Hant">在Adblock瀏覽器中打開？</target>
+      </trans-unit>
+      <trans-unit id="URL not found" approved="yes">
+        <source>URL not found</source>
+        <note>Sharing extension popup</note>
+        <target xml:lang="zh-Hant">找不到URL</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,344 @@
+/* Find in page bar */
+"%@ of %@ matches" = "%1$@ of %2$@ matches";
+
+/* App start failure screen */
+"A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.";
+
+/* Subscription listing section title */
+"ACTIVE FOR WEBSITES IN ..." = "ACTIV PENTRU SITE-URILE IN...";
+
+/* About screen title
+   Settings status option */
+"About" = "Despre";
+
+/* Acceptable ads setting title
+   Settings - enable/disable acceptable ads */
+"Acceptable Ads" = "Reclame acceptabile";
+
+/* Settings - show list of subscriptions */
+"Ad blocking" = "Blocarea reclamelor";
+
+/* Welcome guide screen 1 paragraph */
+"Ad blocking is automatically integrated - no more annoying ads while you surf!" = "Blocarea reclamelor este automat integrată - nicio reclamă enervantă în timp ce navighezi!";
+
+/* (No Commment) */
+"Ad blocking on this site" = "Blocarea reclamelor pe acest site";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Browser Encountered an Error" = "Adblock Browser Encountered an Error";
+
+/* Settings - enable/disable ABP extension
+   Settings status option
+   Settings title - Extension name */
+"Adblock Plus" = "Adblock Plus";
+
+/* Crash/Error Report Sending Modal */
+"Adblock Unexpectedly Quit" = "Adblock Unexpectedly Quit";
+
+/* Add bookmark controller */
+"Add Bookmark to Dashboard" = "Add Bookmark to Dashboard";
+
+/* Ghost mode description */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
+
+/* Add bookmark controller */
+"All of your bookmarks have been added to the Dashboard." = "All of your bookmarks have been added to the Dashboard.";
+
+/* Acceptable ads switch label */
+"Allow some nonintrusive advertising" = "Allow some nonintrusive advertising";
+
+/* Crash/Error reports settings */
+"Always" = "Always";
+
+/* Crash/Error Report Sending Modal */
+"Always Send" = "Always Send";
+
+/* Welcome guide screen 2 paragraph */
+"Annoying ads are always blocked, while nonintrusive ads are displayed by default. You can change this setting at any time." = "Reclamele enervante sunt întotdeauna blocate, în timp ce cele neinvazive sunt afişate în mod implicit. Puteţi modifica această setare în orice moment.";
+
+/* Clear history alert message */
+"Are you sure you want to clear history? You cannot undo this action." = "Sunteţi sigur că doriţi să ştergeţi istoricul? Nu puteţi anula această acţiune.";
+
+/* Delete Bookmark alert message */
+"Are you sure you want to delete this bookmark?" = "Are you sure you want to delete this bookmark?";
+
+/* Crash/Error reports settings */
+"Ask Me After a Crash or Error" = "Ask Me After a Crash or Error";
+
+/* Settings section header */
+"BLOCKING" = "BLOCARE";
+
+/* Search Engine Selection */
+"Baidu" = "Baidu";
+
+/* Autocomplete suggestions */
+"Baidu search" = "Căutare Baidu";
+
+/* (No Commment) */
+"Bookmarks" = "Bookmarks";
+
+/* (No Commment) */
+"Bookmarks loading has failed" = "Încărcarea bookmarks nu a reuşit";
+
+/* Welcome guide screen 1 headline */
+"Browse in peace" = "Navigaţi în pace";
+
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Browser address bar cancel
+   Clear history alert cancel button title
+   Delete Bookmark alert cancel button title */
+"Cancel" = "Revocare";
+
+/* Clear Browsing Data Confirmation
+   Clear history alert clear button title */
+"Clear" = "Şterge";
+
+/* Clear Browsing Data Option */
+"Clear All" = "Stergeti tot";
+
+/* Clear Browsing Data Screen Title
+   Settings status option */
+"Clear Browsing Data" = "Eliminaţi istoricul de navigare";
+
+/* Clear Browsing Data Option */
+"Clear Cache" = "Goliţi memoria Cache";
+
+/* Clear Browsing Data Option */
+"Clear Cookies & Site Data" = "Stergeţi Cookie-urile & Datele site-urilor";
+
+/* Browser history list
+   Clear Browsing Data Option */
+"Clear History" = "Stergere istoric";
+
+/* Clear history alert title */
+"Clear History?" = "Stergere istoric?";
+
+/* Note of search approval confirmation */
+"Configurable under *Settings > URL Search Suggestions*" = "Configurabil sub *Setări > sugestii de căutare URL*";
+
+/* Crash Reports Dialogs
+   Crash/Error reports settings
+   Settings status option */
+"Crash and Error Reports" = "Crash and Error Reports";
+
+/* (No Commment) */
+"Dashboard" = "Tablou de bord";
+
+/* Bookmark delete
+   Delete Bookmark alert delete button title */
+"Delete" = "Ştergeţi";
+
+/* Bookmark deleting button
+   Delete Bookmark alert title */
+"Delete Bookmark" = "Delete Bookmark";
+
+/* Blocking options - Disable anti-adblocking messages */
+"Disable Anti-Ad blocking Messages" = "Dezactivaţi mesajele anti-blocare";
+
+/* Blocking options - Disable malware domains */
+"Disable Malware Domains" = "Dezactivaţi site-urile de malware";
+
+/* Blocking options - Disable social media buttons */
+"Disable Social Media Buttons" = "Dezactivaţi butoanele de Social Media";
+
+/* Blocking options - Disable tracking */
+"Disable Tracking" = "Dezactivaţi tracking";
+
+/* Question of search approval confirmation */
+"Do you want to see web search results here?" = "Vrei să vezi rezultatele căutării web aici?";
+
+/* Crash/Error Report Sending Modal */
+"Don't Send" = "Don't Send";
+
+/* Add bookmark controller
+   Bookmarks listing
+   Find in Page toolbar button */
+"Done" = "Done";
+
+/* App start failure screen */
+"Double tap the Home button." = "Double tap the Home button.";
+
+/* Search Engine Selection */
+"DuckDuckGo" = "DuckDuckGo";
+
+/* Autocomplete suggestions */
+"DuckDuckGo search" = "Căutare DuckDuckGo";
+
+/* Settings section header */
+"EXCEPTIONS" = "EXCEPŢII";
+
+/* Bookmark edit
+   Bookmarks listing */
+"Edit" = "Editare";
+
+/* Bookmark editing placeholder */
+"Enter link" = "Introduceţi link-ul";
+
+/* Bookmark editing placeholder */
+"Enter title" = "Introduceţi titlul";
+
+/* Settings section header */
+"FILTER LIST UPDATES" = "ACTUALIZĂRI LISTA FILTRE";
+
+/* Find in page - Autocomplete controller */
+"Find \"%@\" in page" = "Find \"%@\" in page";
+
+/* Find in page - Autocomplete controller */
+"Find in page (%@ matches)" = "Find in page (%@ matches)";
+
+/* Welcome guide screen 2 button */
+"Finish" = "Sfârşit";
+
+/* Settings section header */
+"GENERAL" = "GENERAL";
+
+/* Ghost Mode Title */
+"Ghost Mode" = "Ghost Mode";
+
+/* Search Engine Selection */
+"Google" = "Google";
+
+/* Autocomplete suggestions */
+"Google search" = "Căutare Google";
+
+/* Crash Reports Dialogs */
+"Got it" = "Got it";
+
+/* Pull up menu option */
+"History" = "Istoric";
+
+/* Blocking options screen
+   Settings - show more blocking options */
+"More Blocking Options" = "Mai multe opţiuni de blocare";
+
+/* Crash/Error reports settings */
+"Never" = "Never";
+
+/* Tab view label */
+"New Tab" = "Nou Tab";
+
+/* Deny Google search */
+"No" = "Nu";
+
+/* Bookmarks listing */
+"No Bookmarks Available" = "Bookmarks nedisponibile";
+
+/* Browser history list */
+"No History Available" = "Istoric nedisponibil";
+
+/* Whitelist no website whitelisted label */
+"No websites whitelisted" = "Niciun site în lista de site-uri neblocate";
+
+/* Devbuild setting */
+"OK" = "OK";
+
+/* Subscription listing section title */
+"OTHER LANGUAGES" = "ALTE LIMBI";
+
+/* Settings - extension enabled status */
+"Off" = "Off";
+
+/* Settings - extension enabled status */
+"On" = "On";
+
+/* Crash/Error reports settings */
+"Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information.";
+
+/* Welcome guide screen 1 button */
+"Only one more step" = "Încă un pas";
+
+/* Crash/Error reports settings */
+"Open privacy policy." = "Open privacy policy.";
+
+/* Settings section header */
+"PRIVACY & SECURITY" = "PRIVACY & SECURITY";
+
+/* App start failure screen */
+"Restart Adblock Browser." = "Restart Adblock Browser.";
+
+/* Settings section header */
+"SEARCH" = "CĂUTARE";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "SEND CRASH AND ERROR REPORTS";
+
+/* Search Engine Selection
+   Settings status option */
+"Search Engine" = "Motor de căutare";
+
+/* Autocomplete suggestions */
+"Search History" = "Istoricul căutărilor";
+
+/* Browser address bar hint */
+"Search or enter website name" = "Căutaţi sau introduceți numele site-ului";
+
+/* Crash/Error Report Sending Modal */
+"Send Report" = "Send Report";
+
+/* Pull up menu option */
+"Settings" = "Setări";
+
+/* Pull up menu option */
+"Share" = "Partajează";
+
+/* Bookmark editing switch */
+"Show in Dashboard" = "Arată în tabloul de bord";
+
+/* App start failure screen */
+"Something went wrong." = "Something went wrong.";
+
+/* Subscriptions listing title */
+"Subscriptions" = "Liste de filtre";
+
+/* App start failure screen */
+"Swipe up on Adblock Browser to quit the app." = "Swipe up on Adblock Browser to quit the app.";
+
+/* Welcome guide screen 2 picture label */
+"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Atingeţi icoana meniului → setări → Adblock Plus → anunturi acceptabile";
+
+/* Settings section footer */
+"The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "*blocarea reclamelor* şi *mai multe opţiuni de blocare* se bazează pe listele de filtre. Acestea sunt seturi de reguli care spun browser-ului Adblock ce să blocheze.";
+
+/* Clear Browsing Data Confirmation */
+"This action cannot be undone. Are you sure you want to continue?" = "Această acţiune nu poate fi anulată. Sunteţi sigur că doriţi să continuaţi?";
+
+/* Headline of search approval confirmation
+   Settings status option */
+"URL Search Suggestions" = "Sugestii de căutare URL";
+
+/* App start failure screen */
+"Uh-Oh!" = "Uh-Oh!";
+
+/* Critical abort alert message */
+"Unable to start browser." = "Unable to start browser.";
+
+/* Settings - enable/disable cellular network for downloading subscriptions */
+"Use Cellular Network" = "Utilizare Cellular Network";
+
+/* Section header in About screen */
+"VERSION" = "VERSIUNE";
+
+/* Acceptable ads explanation */
+"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Am dori să încurajăm site-urile să utilizeze publicitatea directă, neinvazivă. De aceea ne-am stabilit criterii stricte pentru a identifica reclamele acceptabile, care sunt incluse la setările implicite. Dacă doriţi să navigaţi fără reclame, aveţi posibilitatea să dezactivaţi această setare în orice moment.";
+
+/* Settings - show list of whitelisted pages
+   Whitelist title */
+"Whitelisted Websites" = "Lista de site-uri neblocate";
+
+/* Settings section footer */
+"With Adblock Plus, you can block ads or other elements on websites." = "Cu Adblock Plus, puteţi să blocaţi reclame sau alte elemente de pe site-uri web.";
+
+/* Crash/Error Report Sending Modal */
+"Would you like to send a report to fix the problem?" = "Would you like to send a report to fix the problem?";
+
+/* Allow Google search */
+"Yes" = "Da";
+
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "You can change this setting at any time in: **Settings → Crash and Error Reports**";
+
+/* Welcome guide screen 2 headline */
+"You're in control" = "Sunteţi în control";
+
