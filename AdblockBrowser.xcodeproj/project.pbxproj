@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292B731D20C7DE220059290F /* KittCore.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = 29A2DF2B20C71636005285DC /* KittCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		292B732020C7DEE60059290F /* KittCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2DF2B20C71636005285DC /* KittCore.framework */; };
+		292B732120C7DF050059290F /* KittCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29A2DF2F20C71636005285DC /* KittCoreBundle.bundle */; };
 		2976CDBC2080BB0B00D20FF7 /* HockeyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */; };
 		29D3BB942077B5C1004305AD /* ABBAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3BB932077B5C1004305AD /* ABBAPIData.swift */; };
 		69013C541BA0577000E312DE /* aquariophilie.json in Resources */ = {isa = PBXBuildFile; fileRef = 69013C4E1BA056F900E312DE /* aquariophilie.json */; };
@@ -157,47 +160,44 @@
 		E968E3A11AB32B4D0002735B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E968E39F1AB32B4D0002735B /* Localizable.strings */; };
 		E9BC27711ACA934F00CB5268 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BC27701ACA934F00CB5268 /* CoreLocation.framework */; };
 		E9C0625C1B34CAFF0041F6D9 /* ControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C062581B34B4140041F6D9 /* ControllersTests.swift */; };
-		E9CD44BB1B27014F005662E0 /* KittCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9CD44B21B26EEBB005662E0 /* KittCoreBundle.bundle */; };
-		E9CD44BC1B271C20005662E0 /* KittCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CD44AE1B26EEBB005662E0 /* KittCore.framework */; };
-		E9E80F7F1DFEE9F200DCCC11 /* KittCore.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = E9CD44AE1B26EEBB005662E0 /* KittCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E9F092781E23EBD400B9795A /* ErrorReportingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F092771E23EBD400B9795A /* ErrorReportingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E91C79821AB2E22700632D61 /* PBXContainerItemProxy */ = {
+		292B731E20C7DEC30059290F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E91C79641AB2E22700632D61 /* Project object */;
+			containerPortal = E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E91C796B1AB2E22700632D61;
-			remoteInfo = AdBlockBrowser;
+			remoteGlobalIDString = E9EC70011B25D79800C4C905;
+			remoteInfo = KittCore;
 		};
-		E9CD44AD1B26EEBB005662E0 /* PBXContainerItemProxy */ = {
+		29A2DF2A20C71636005285DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E9EC70021B25D79800C4C905;
 			remoteInfo = KittCore;
 		};
-		E9CD44AF1B26EEBB005662E0 /* PBXContainerItemProxy */ = {
+		29A2DF2C20C71636005285DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E9EC700D1B25D79800C4C905;
 			remoteInfo = KittCoreTests;
 		};
-		E9CD44B11B26EEBB005662E0 /* PBXContainerItemProxy */ = {
+		29A2DF2E20C71636005285DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E9EC73041B25DA3800C4C905;
 			remoteInfo = KittCoreBundle;
 		};
-		E9CD44B31B26EF6B005662E0 /* PBXContainerItemProxy */ = {
+		E91C79821AB2E22700632D61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */;
+			containerPortal = E91C79641AB2E22700632D61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9EC70011B25D79800C4C905;
-			remoteInfo = KittCore;
+			remoteGlobalIDString = E91C796B1AB2E22700632D61;
+			remoteInfo = AdBlockBrowser;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -228,7 +228,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E9E80F7F1DFEE9F200DCCC11 /* KittCore.framework in Copy frameworks */,
+				292B731D20C7DE220059290F /* KittCore.framework in Copy frameworks */,
 			);
 			name = "Copy frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,7 +581,7 @@
 		E989EE351BA1D19200817367 /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9BC27701ACA934F00CB5268 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		E9C062581B34B4140041F6D9 /* ControllersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllersTests.swift; sourceTree = "<group>"; };
-		E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KittCore.xcodeproj; path = "../kitt-core/KittCore.xcodeproj"; sourceTree = "<group>"; };
+		E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KittCore.xcodeproj; path = "../adblockbrowserios-core/KittCore.xcodeproj"; sourceTree = "<group>"; };
 		E9CD44B71B26F062005662E0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E9CD44BA1B26FC16005662E0 /* Swift-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge.h"; sourceTree = "<group>"; };
 		E9D661341E5C8F440040B0BC /* AdblockBrowserRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdblockBrowserRelease.xcconfig; sourceTree = "<group>"; };
@@ -613,7 +613,7 @@
 				E968E37B1AB2EC7C0002735B /* AVFoundation.framework in Frameworks */,
 				E968E3791AB2EC750002735B /* SystemConfiguration.framework in Frameworks */,
 				E968E3771AB2EC640002735B /* JavaScriptCore.framework in Frameworks */,
-				E9CD44BC1B271C20005662E0 /* KittCore.framework in Frameworks */,
+				292B732020C7DEE60059290F /* KittCore.framework in Frameworks */,
 				E925756D1DEEDBF000B93166 /* CocoaLumberjackSwift.framework in Frameworks */,
 				69A3436B1E71828D00248DF3 /* RxCocoa.framework in Frameworks */,
 				69A343691E71827C00248DF3 /* RxSwift.framework in Frameworks */,
@@ -639,6 +639,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A2DF2520C71635005285DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A2DF2B20C71636005285DC /* KittCore.framework */,
+				29A2DF2D20C71636005285DC /* KittCoreTests.xctest */,
+				29A2DF2F20C71636005285DC /* KittCoreBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		29D3BB922077B59B004305AD /* Generated */ = {
 			isa = PBXGroup;
 			children = (
@@ -1020,16 +1030,6 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		E9CD44A81B26EEBA005662E0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9CD44AE1B26EEBB005662E0 /* KittCore.framework */,
-				E9CD44B01B26EEBB005662E0 /* KittCoreTests.xctest */,
-				E9CD44B21B26EEBB005662E0 /* KittCoreBundle.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1049,7 +1049,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E9CD44B41B26EF6B005662E0 /* PBXTargetDependency */,
+				292B731F20C7DEC30059290F /* PBXTargetDependency */,
 			);
 			name = AdblockBrowser;
 			productName = AdBlockBrowser;
@@ -1141,7 +1141,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E9CD44A81B26EEBA005662E0 /* Products */;
+					ProductGroup = 29A2DF2520C71635005285DC /* Products */;
 					ProjectRef = E9CD44A71B26EEBA005662E0 /* KittCore.xcodeproj */;
 				},
 			);
@@ -1155,25 +1155,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E9CD44AE1B26EEBB005662E0 /* KittCore.framework */ = {
+		29A2DF2B20C71636005285DC /* KittCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KittCore.framework;
-			remoteRef = E9CD44AD1B26EEBB005662E0 /* PBXContainerItemProxy */;
+			remoteRef = 29A2DF2A20C71636005285DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E9CD44B01B26EEBB005662E0 /* KittCoreTests.xctest */ = {
+		29A2DF2D20C71636005285DC /* KittCoreTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = KittCoreTests.xctest;
-			remoteRef = E9CD44AF1B26EEBB005662E0 /* PBXContainerItemProxy */;
+			remoteRef = 29A2DF2C20C71636005285DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E9CD44B21B26EEBB005662E0 /* KittCoreBundle.bundle */ = {
+		29A2DF2F20C71636005285DC /* KittCoreBundle.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = KittCoreBundle.bundle;
-			remoteRef = E9CD44B11B26EEBB005662E0 /* PBXContainerItemProxy */;
+			remoteRef = 29A2DF2E20C71636005285DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1185,7 +1185,7 @@
 			files = (
 				6983A2B31F3C76EE006D6786 /* FindInPageControl.xib in Resources */,
 				E959DE7E1B3CB18700E98E18 /* Localizable.strings in Resources */,
-				E9CD44BB1B27014F005662E0 /* KittCoreBundle.bundle in Resources */,
+				292B732120C7DF050059290F /* KittCoreBundle.bundle in Resources */,
 				69A3437A1E718E9A00248DF3 /* Browser.storyboard in Resources */,
 				6983A2B41F3C76EE006D6786 /* GoogleSearchPrompt.xib in Resources */,
 				E91C79791AB2E22700632D61 /* Images.xcassets in Resources */,
@@ -1436,15 +1436,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		292B731F20C7DEC30059290F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KittCore;
+			targetProxy = 292B731E20C7DEC30059290F /* PBXContainerItemProxy */;
+		};
 		E91C79831AB2E22700632D61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E91C796B1AB2E22700632D61 /* AdblockBrowser */;
 			targetProxy = E91C79821AB2E22700632D61 /* PBXContainerItemProxy */;
-		};
-		E9CD44B41B26EF6B005662E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KittCore;
-			targetProxy = E9CD44B31B26EF6B005662E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
