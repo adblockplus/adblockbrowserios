@@ -21,6 +21,7 @@ import RxSwift
 final class BrowserContainerViewController: ViewController<BrowserContainerViewModel>,
     BrowserControlDelegate,
     FindInPageControlDelegate {
+    @IBOutlet weak var rootView: UIView?
     @IBOutlet weak var backButton: UIButton?
     @IBOutlet weak var forwardButton: UIButton?
     @IBOutlet weak var tabsButton: UIButton?
@@ -253,6 +254,7 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
                 UIView.animate(withDuration: animationDuration) {
                     self?.setNeedsStatusBarAppearanceUpdate()
                     self?.bottomBar?.backgroundColor = isEnabled ? .abbGhostMode : .white
+                    self?.rootView?.backgroundColor = isEnabled ? .abbGhostMode : .white
                 }
             })
             .addDisposableTo(disposeBag)
