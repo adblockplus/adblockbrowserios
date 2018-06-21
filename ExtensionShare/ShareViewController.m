@@ -98,7 +98,7 @@ static NSArray* kAllowedSchemes;
                              style:UIAlertActionStyleCancel
                              handler:^(UIAlertAction *action)
                              {
-                               _dismissBlock(ctrl);
+                                 self->_dismissBlock(ctrl);
                              }];
   [ctrl addAction:dismiss];
   return ctrl;
@@ -117,7 +117,7 @@ static NSArray* kAllowedSchemes;
               style:UIAlertActionStyleCancel
             handler:^(UIAlertAction *action)
             {
-              _dismissBlock(ctrl);
+                self->_dismissBlock(ctrl);
             }];
 
   UIAlertAction *open = [UIAlertAction
@@ -137,7 +137,7 @@ static NSArray* kAllowedSchemes;
           break;
         }
       }
-      _dismissBlock(ctrl);
+        self->_dismissBlock(ctrl);
     }];
   [ctrl addAction:cancel];
   [ctrl addAction:open];
