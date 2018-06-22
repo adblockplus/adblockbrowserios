@@ -571,7 +571,7 @@
         [inputOptionRects addObject:[NSValue valueWithCGRect:optionRect]];
         
         // Offset the option rect
-        switch (_expandedPosition) {
+        switch (self->_expandedPosition) {
             case CYRKeyboardButtonPositionRight:
                 optionRect = CGRectOffset(optionRect, +(offset + spacing), 0);
                 break;
