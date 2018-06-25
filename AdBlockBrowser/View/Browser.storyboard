@@ -752,15 +752,23 @@
                                     <constraint firstItem="u5K-QV-Bf1" firstAttribute="centerX" secondItem="nPC-9w-YXI" secondAttribute="centerX" id="xt2-oo-LJe"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4L-Ot-cy9">
+                                <rect key="frame" x="0.0" y="786" width="375" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="F4L-Ot-cy9" firstAttribute="top" secondItem="2lb-md-M3Z" secondAttribute="bottom" constant="8" symbolic="YES" id="262-eA-c1c"/>
                             <constraint firstItem="nPC-9w-YXI" firstAttribute="leading" secondItem="5ww-3h-9V4" secondAttribute="leading" id="CBR-ww-KvR"/>
                             <constraint firstItem="5ww-3h-9V4" firstAttribute="trailing" secondItem="nPC-9w-YXI" secondAttribute="trailing" id="CQo-aj-DtX"/>
                             <constraint firstItem="2lb-md-M3Z" firstAttribute="leading" secondItem="5ww-3h-9V4" secondAttribute="leading" id="NLY-MP-9WM"/>
                             <constraint firstItem="5ww-3h-9V4" firstAttribute="bottom" secondItem="nPC-9w-YXI" secondAttribute="bottom" id="Uol-90-kZj"/>
                             <constraint firstItem="5ww-3h-9V4" firstAttribute="trailing" secondItem="2lb-md-M3Z" secondAttribute="trailing" id="YB1-ZL-gYG"/>
+                            <constraint firstItem="F4L-Ot-cy9" firstAttribute="leading" secondItem="nPC-9w-YXI" secondAttribute="leading" id="dGY-R2-zGF"/>
                             <constraint firstItem="2lb-md-M3Z" firstAttribute="top" secondItem="POE-0f-1f9" secondAttribute="top" id="qx2-A1-0hR"/>
+                            <constraint firstItem="F4L-Ot-cy9" firstAttribute="trailing" secondItem="nPC-9w-YXI" secondAttribute="trailing" id="rdd-db-hSW"/>
+                            <constraint firstAttribute="bottom" secondItem="F4L-Ot-cy9" secondAttribute="bottom" id="wtf-cm-QZP"/>
                             <constraint firstItem="5ww-3h-9V4" firstAttribute="bottom" secondItem="2lb-md-M3Z" secondAttribute="bottom" id="y3n-DA-eQq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5ww-3h-9V4"/>
@@ -772,6 +780,7 @@
                         <outlet property="favoriteButton" destination="uvk-nj-1JA" id="UJw-Ee-Bev"/>
                         <outlet property="forwardButton" destination="sHW-6q-vT6" id="Rwq-fh-VrZ"/>
                         <outlet property="ghostTabsButton" destination="bpQ-jq-Syl" id="ZBL-ey-2md"/>
+                        <outlet property="homeBarX" destination="F4L-Ot-cy9" id="u9p-Zd-0ZN"/>
                         <outlet property="memoryInfoLabel" destination="u5K-QV-Bf1" id="AJk-BY-Y0V"/>
                         <outlet property="rootView" destination="POE-0f-1f9" id="YjO-SL-ob1"/>
                         <outlet property="tabsButton" destination="8Ag-W4-Y29" id="EQT-me-YHY"/>

@@ -30,6 +30,7 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
     @IBOutlet weak var memoryInfoLabel: UILabel?
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint?
     @IBOutlet weak var bottomBar: UIControl?
+    @IBOutlet weak var homeBarX: UIView!
 
     weak var findInPageControl: FindInPageControl?
 
@@ -255,6 +256,7 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
                     self?.setNeedsStatusBarAppearanceUpdate()
                     self?.bottomBar?.backgroundColor = isEnabled ? .abbGhostMode : .white
                     self?.rootView?.backgroundColor = isEnabled ? .abbGhostMode : .white
+                    self?.homeBarX?.backgroundColor = isEnabled ? .abbGhostMode : .white
                 }
             })
             .addDisposableTo(disposeBag)
