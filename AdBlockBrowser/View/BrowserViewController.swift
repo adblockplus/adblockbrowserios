@@ -58,6 +58,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
     @IBOutlet weak var menuTriangle: TriangleView?
     @IBOutlet weak var menuTriangleTopConstraint: TwoStatesConstraint?
     @IBOutlet weak var statusBar: UIView?
+    @IBOutlet weak var statusBarX: UIView?
     @IBOutlet weak var topRuler: UIView?
     @IBOutlet weak var bottomRuler: UIView?
 
@@ -203,6 +204,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
                 UIView.animate(withDuration: animationDuration) {
                     self?.topAddressBar?.backgroundColor = isEnabled ? .abbGhostMode : .white
                     self?.statusBar?.backgroundColor = isEnabled ? .abbGhostMode  : .white
+                    self?.statusBarX?.backgroundColor = isEnabled ? .abbGhostMode  : .white
                     self?.containerView?.backgroundColor = isEnabled ? .abbGhostMode : .abbLightGray
                     self?.addressBar?.backgroundColor = isEnabled ? .abbCharcoalGray : .abbLightGray
                     self?.tabsView?.backgroundColor = isEnabled ? .abbGhostMode : .abbLightGray

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="n6q-S1-uNd">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n6q-S1-uNd">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,19 +14,15 @@
         <scene sceneID="q8m-Q6-Pp8">
             <objects>
                 <viewController definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="overCurrentContext" id="OPJ-fK-aDl" customClass="BrowserViewController" customModule="AdblockBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ErV-Lh-HQL"/>
-                        <viewControllerLayoutGuide type="bottom" id="2Wn-Ce-0AO"/>
-                    </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="bka-58-Cdu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Xi-wl-JWX">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="700"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vk3-4O-Tbz" userLabel="View For WebView" customClass="WebViewContainer" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="744"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <accessibility key="accessibilityConfiguration" label="">
                                             <accessibilityTraits key="traits" none="YES"/>
@@ -44,31 +42,31 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a82-bh-hQR" userLabel="Bottom Touchable Area" customClass="UIControl">
-                                <rect key="frame" x="0.0" y="716" width="414" height="20"/>
+                                <rect key="frame" x="0.0" y="724" width="375" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="C6D-uI-6cq"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3WC-9L-N7a">
-                                <rect key="frame" x="0.0" y="64" width="414" height="628"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="612"/>
                                 <color key="backgroundColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <segue destination="Wyg-vb-pdF" kind="embed" id="o69-28-gzl"/>
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xZY-FO-Qin" userLabel="Top Ruler">
-                                <rect key="frame" x="0.0" y="64" width="414" height="1"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="1"/>
                                 <color key="backgroundColor" red="0.63137254899999995" green="0.63137254899999995" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="0.5" id="6ba-Ka-bpK"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdi-2j-MRz" userLabel="Tabs View">
-                                <rect key="frame" x="0.0" y="692" width="414" height="628"/>
+                                <rect key="frame" x="0.0" y="700" width="375" height="612"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LbY-gK-Efz" userLabel="Tabs Container View">
-                                        <rect key="frame" x="8" y="0.0" width="398" height="628"/>
+                                        <rect key="frame" x="8" y="0.0" width="359" height="612"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <segue destination="ZuV-xh-DoF" kind="embed" identifier="" id="ruV-SA-1A0"/>
@@ -87,20 +85,20 @@
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="600" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="296" translatesAutoresizingMaskIntoConstraints="NO" id="BAa-n8-YDb" userLabel="Menu" customClass="MenuContainerView" customModule="AdblockBrowser" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="-232" width="414" height="296"/>
+                                <rect key="frame" x="0.0" y="-208" width="375" height="296"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <segue destination="YmH-gB-wwI" kind="embed" id="syl-HC-VbV"/>
                                 </connections>
                             </containerView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFL-nl-tYr" userLabel="Top Bar">
-                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BUP-fv-SK0" customClass="UIControl">
-                                        <rect key="frame" x="10" y="5" width="354" height="29"/>
+                                        <rect key="frame" x="10" y="5" width="315" height="29"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://www.example.com/this/is/padding/do/not/translate" placeholder="Search or enter website name" adjustsFontSizeToFit="NO" minimumFontSize="16" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="MXZ-by-rqo" userLabel="Address Field" customClass="AutocompleteTextField" customModule="AdblockBrowser" customModuleProvider="target">
-                                                <rect key="frame" x="83" y="5" width="322" height="20"/>
+                                                <rect key="frame" x="64" y="5" width="283" height="20"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="0.36862745098039218" green="0.37254901960784315" blue="0.38039215686274508" alpha="1" colorSpace="deviceRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -111,14 +109,14 @@
                                                 </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="500" text="Search or enter address..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUU-Bu-9Q9" userLabel="Address Label">
-                                                <rect key="frame" x="83" y="4" width="188" height="20"/>
+                                                <rect key="frame" x="64" y="4" width="188" height="20"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" red="0.6705882352941176" green="0.67843137254901964" blue="0.68235294117647061" alpha="1" colorSpace="deviceRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXI-aD-ws8" userLabel="Reload Button">
-                                                <rect key="frame" x="318" y="-2" width="33" height="33"/>
+                                                <rect key="frame" x="279" y="-2" width="33" height="33"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="33" id="Jiq-it-71O"/>
                                                     <constraint firstAttribute="width" constant="33" id="sji-bm-6pS"/>
@@ -171,7 +169,7 @@
                                         </connections>
                                     </view>
                                     <button opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwF-iR-11D">
-                                        <rect key="frame" x="340" y="2" width="66" height="36"/>
+                                        <rect key="frame" x="301" y="2" width="66" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="tintColor" red="0.031372549019607843" green="0.61568627450980395" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
@@ -183,7 +181,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="900" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDg-l1-1wW" userLabel="Menu Control">
-                                        <rect key="frame" x="372" y="3" width="34" height="34"/>
+                                        <rect key="frame" x="333" y="3" width="34" height="34"/>
                                         <color key="tintColor" red="0.36862745098039218" green="0.37254901960784315" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
                                         <state key="normal" image="controlMenu-enabled"/>
@@ -192,11 +190,11 @@
                                         </connections>
                                     </button>
                                     <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zbg-kJ-bwA">
-                                        <rect key="frame" x="0.0" y="42" width="414" height="2"/>
+                                        <rect key="frame" x="0.0" y="42" width="375" height="2"/>
                                         <color key="tintColor" red="0.0" green="0.61176470589999998" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </progressView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SS7-97-fCQ" userLabel="menuTriangle" customClass="TriangleView" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="384" y="44" width="10" height="6"/>
+                                        <rect key="frame" x="345" y="44" width="10" height="6"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.21568627450980393" green="0.23529411764705882" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -208,7 +206,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lT-Th-hTA">
-                                        <rect key="frame" x="10" y="40" width="322" height="4"/>
+                                        <rect key="frame" x="10" y="40" width="283" height="4"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="4" id="OjZ-zs-kyN"/>
@@ -251,27 +249,27 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYa-hS-hIc" userLabel="Status Bar">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                                <rect key="frame" x="0.0" y="24" width="375" height="20"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="1Zl-fg-gTj"/>
                                 </constraints>
                             </view>
                             <containerView hidden="YES" opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="kij-LR-nL2">
-                                <rect key="frame" x="0.0" y="64" width="414" height="628"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="612"/>
                                 <connections>
                                     <segue destination="mu1-Jy-XIP" kind="embed" id="mIq-Ng-mef"/>
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tzn-sa-MJy" userLabel="Bottom Ruler">
-                                <rect key="frame" x="0.0" y="691" width="414" height="1"/>
+                                <rect key="frame" x="0.0" y="699" width="375" height="1"/>
                                 <color key="backgroundColor" red="0.63137254899999995" green="0.63137254899999995" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="0.5" id="2BD-lp-WQv"/>
                                 </constraints>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5u-qN-rzH" userLabel="Bottom Bar">
-                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="700" width="375" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="">
                                     <bool key="isElement" value="NO"/>
@@ -281,7 +279,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VMU-0i-s3c" userLabel="Bottom Touchable Area" customClass="UIControl">
-                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="700" width="375" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="DDk-7h-B5u"/>
@@ -290,53 +288,62 @@
                                     <action selector="onBottomAreaTouched:" destination="OPJ-fK-aDl" eventType="touchUpInside" id="Y7g-ka-LQ6"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzZ-g4-HZr" userLabel="Status Bar X">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="a5u-qN-rzH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="BAa-n8-YDb" secondAttribute="bottom" id="15m-al-zno"/>
-                            <constraint firstItem="gFL-nl-tYr" firstAttribute="top" secondItem="ErV-Lh-HQL" secondAttribute="bottom" id="23w-tY-UVz"/>
-                            <constraint firstItem="WYa-hS-hIc" firstAttribute="top" secondItem="ErV-Lh-HQL" secondAttribute="bottom" constant="-20" id="3EY-Gs-uMv"/>
-                            <constraint firstItem="Tzn-sa-MJy" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="5Bc-Hq-Hzu"/>
-                            <constraint firstItem="vdi-2j-MRz" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="5jX-3G-Cnq"/>
+                            <constraint firstItem="gFL-nl-tYr" firstAttribute="top" secondItem="6yb-rq-qJS" secondAttribute="top" id="23w-tY-UVz"/>
+                            <constraint firstItem="GzZ-g4-HZr" firstAttribute="top" secondItem="bka-58-Cdu" secondAttribute="top" id="2o7-Cv-EMu"/>
+                            <constraint firstItem="GzZ-g4-HZr" firstAttribute="trailing" secondItem="WYa-hS-hIc" secondAttribute="trailing" id="2vr-dm-UBe"/>
+                            <constraint firstItem="WYa-hS-hIc" firstAttribute="top" secondItem="6yb-rq-qJS" secondAttribute="top" constant="-20" id="3EY-Gs-uMv"/>
+                            <constraint firstItem="Tzn-sa-MJy" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="5Bc-Hq-Hzu"/>
+                            <constraint firstItem="vdi-2j-MRz" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="5jX-3G-Cnq"/>
                             <constraint firstItem="kij-LR-nL2" firstAttribute="top" secondItem="gFL-nl-tYr" secondAttribute="bottom" id="CjC-PW-gMF"/>
-                            <constraint firstItem="WYa-hS-hIc" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="D9l-qN-tbx"/>
-                            <constraint firstItem="xZY-FO-Qin" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="Ddm-To-hYK"/>
-                            <constraint firstItem="2Wn-Ce-0AO" firstAttribute="top" secondItem="1Xi-wl-JWX" secondAttribute="bottom" id="Dmd-m3-MgR"/>
-                            <constraint firstItem="a82-bh-hQR" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="Fq5-cb-kq7"/>
-                            <constraint firstAttribute="trailing" secondItem="VMU-0i-s3c" secondAttribute="trailing" id="G4O-te-3Y1"/>
-                            <constraint firstItem="a5u-qN-rzH" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="HnC-ig-p4j"/>
+                            <constraint firstItem="WYa-hS-hIc" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="D9l-qN-tbx"/>
+                            <constraint firstItem="xZY-FO-Qin" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="Ddm-To-hYK"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="bottom" secondItem="1Xi-wl-JWX" secondAttribute="bottom" id="Dmd-m3-MgR"/>
+                            <constraint firstItem="GzZ-g4-HZr" firstAttribute="leading" secondItem="WYa-hS-hIc" secondAttribute="leading" id="DwV-1b-9H2"/>
+                            <constraint firstItem="a82-bh-hQR" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="Fq5-cb-kq7"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="VMU-0i-s3c" secondAttribute="trailing" id="G4O-te-3Y1"/>
+                            <constraint firstItem="a5u-qN-rzH" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="HnC-ig-p4j"/>
                             <constraint firstItem="a5u-qN-rzH" firstAttribute="top" secondItem="vdi-2j-MRz" secondAttribute="bottom" priority="250" id="LH1-f2-5Tc"/>
-                            <constraint firstItem="3WC-9L-N7a" firstAttribute="top" secondItem="ErV-Lh-HQL" secondAttribute="bottom" constant="44" id="Msb-32-Kic"/>
-                            <constraint firstAttribute="trailing" secondItem="kij-LR-nL2" secondAttribute="trailing" id="Mtw-hh-Ejv"/>
-                            <constraint firstAttribute="trailing" secondItem="3WC-9L-N7a" secondAttribute="trailing" id="N95-fc-lgA"/>
-                            <constraint firstAttribute="trailing" secondItem="a5u-qN-rzH" secondAttribute="trailing" id="QIv-yS-rFa"/>
-                            <constraint firstAttribute="trailing" secondItem="1Xi-wl-JWX" secondAttribute="trailing" id="Qbh-OQ-nOe"/>
-                            <constraint firstItem="VMU-0i-s3c" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="Qpd-Ji-U3n"/>
+                            <constraint firstItem="3WC-9L-N7a" firstAttribute="top" secondItem="6yb-rq-qJS" secondAttribute="top" constant="44" id="Msb-32-Kic"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="kij-LR-nL2" secondAttribute="trailing" id="Mtw-hh-Ejv"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="3WC-9L-N7a" secondAttribute="trailing" id="N95-fc-lgA"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="a5u-qN-rzH" secondAttribute="trailing" id="QIv-yS-rFa"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="1Xi-wl-JWX" secondAttribute="trailing" id="Qbh-OQ-nOe"/>
+                            <constraint firstItem="VMU-0i-s3c" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="Qpd-Ji-U3n"/>
                             <constraint firstItem="vdi-2j-MRz" firstAttribute="top" secondItem="a5u-qN-rzH" secondAttribute="top" priority="500" id="RgT-yZ-uz0"/>
-                            <constraint firstItem="2Wn-Ce-0AO" firstAttribute="top" secondItem="VMU-0i-s3c" secondAttribute="bottom" id="S16-yw-N1H"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="bottom" secondItem="VMU-0i-s3c" secondAttribute="bottom" id="S16-yw-N1H"/>
                             <constraint firstItem="BAa-n8-YDb" firstAttribute="bottom" secondItem="gFL-nl-tYr" secondAttribute="bottom" priority="500" id="S8i-JN-Jyn"/>
-                            <constraint firstAttribute="trailing" secondItem="BAa-n8-YDb" secondAttribute="trailing" id="SSZ-Wu-rTp"/>
-                            <constraint firstAttribute="trailing" secondItem="a82-bh-hQR" secondAttribute="trailing" id="U2T-Be-28A"/>
-                            <constraint firstAttribute="trailing" secondItem="Tzn-sa-MJy" secondAttribute="trailing" id="UWX-O7-bhP"/>
-                            <constraint firstItem="1Xi-wl-JWX" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="VEJ-rG-6ab"/>
-                            <constraint firstItem="gFL-nl-tYr" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="Y1s-es-6vc"/>
-                            <constraint firstItem="2Wn-Ce-0AO" firstAttribute="top" secondItem="a82-bh-hQR" secondAttribute="bottom" id="b6f-Yg-yw7"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="BAa-n8-YDb" secondAttribute="trailing" id="SSZ-Wu-rTp"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="a82-bh-hQR" secondAttribute="trailing" id="U2T-Be-28A"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="Tzn-sa-MJy" secondAttribute="trailing" id="UWX-O7-bhP"/>
+                            <constraint firstItem="1Xi-wl-JWX" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="VEJ-rG-6ab"/>
+                            <constraint firstItem="gFL-nl-tYr" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="Y1s-es-6vc"/>
+                            <constraint firstItem="WYa-hS-hIc" firstAttribute="top" secondItem="GzZ-g4-HZr" secondAttribute="bottom" id="az2-XN-VDd"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="bottom" secondItem="a82-bh-hQR" secondAttribute="bottom" id="b6f-Yg-yw7"/>
                             <constraint firstItem="BAa-n8-YDb" firstAttribute="top" secondItem="gFL-nl-tYr" secondAttribute="bottom" priority="250" id="bKa-cr-ZAd"/>
-                            <constraint firstItem="3WC-9L-N7a" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="dg3-UW-TOY"/>
-                            <constraint firstAttribute="trailing" secondItem="WYa-hS-hIc" secondAttribute="trailing" id="eGz-1n-mJT"/>
-                            <constraint firstItem="kij-LR-nL2" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="gxX-vd-Kmd"/>
-                            <constraint firstAttribute="trailing" secondItem="gFL-nl-tYr" secondAttribute="trailing" id="hH8-4x-uvL"/>
+                            <constraint firstItem="3WC-9L-N7a" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="dg3-UW-TOY"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="WYa-hS-hIc" secondAttribute="trailing" id="eGz-1n-mJT"/>
+                            <constraint firstItem="kij-LR-nL2" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="gxX-vd-Kmd"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="gFL-nl-tYr" secondAttribute="trailing" id="hH8-4x-uvL"/>
                             <constraint firstItem="a5u-qN-rzH" firstAttribute="top" secondItem="Tzn-sa-MJy" secondAttribute="bottom" id="jTS-rS-wp9"/>
-                            <constraint firstAttribute="trailing" secondItem="xZY-FO-Qin" secondAttribute="trailing" id="jp2-5G-yYi"/>
-                            <constraint firstItem="2Wn-Ce-0AO" firstAttribute="top" secondItem="a5u-qN-rzH" secondAttribute="bottom" id="jsP-VS-JJG"/>
-                            <constraint firstItem="2Wn-Ce-0AO" firstAttribute="top" secondItem="3WC-9L-N7a" secondAttribute="bottom" constant="44" id="kZP-99-suh"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="xZY-FO-Qin" secondAttribute="trailing" id="jp2-5G-yYi"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="bottom" secondItem="a5u-qN-rzH" secondAttribute="bottom" id="jsP-VS-JJG"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="bottom" secondItem="3WC-9L-N7a" secondAttribute="bottom" constant="44" id="kZP-99-suh"/>
                             <constraint firstItem="xZY-FO-Qin" firstAttribute="top" secondItem="gFL-nl-tYr" secondAttribute="bottom" id="lDL-kv-wFX"/>
-                            <constraint firstItem="1Xi-wl-JWX" firstAttribute="top" secondItem="ErV-Lh-HQL" secondAttribute="bottom" id="mzL-lT-8C6"/>
-                            <constraint firstItem="BAa-n8-YDb" firstAttribute="leading" secondItem="bka-58-Cdu" secondAttribute="leading" id="ouQ-YT-6cd"/>
+                            <constraint firstItem="1Xi-wl-JWX" firstAttribute="top" secondItem="6yb-rq-qJS" secondAttribute="top" id="mzL-lT-8C6"/>
+                            <constraint firstItem="BAa-n8-YDb" firstAttribute="leading" secondItem="6yb-rq-qJS" secondAttribute="leading" id="ouQ-YT-6cd"/>
                             <constraint firstItem="a5u-qN-rzH" firstAttribute="top" secondItem="kij-LR-nL2" secondAttribute="bottom" id="szf-2g-iHS"/>
                             <constraint firstItem="vdi-2j-MRz" firstAttribute="height" secondItem="1Xi-wl-JWX" secondAttribute="height" constant="-88" id="yUA-Zx-m3R"/>
-                            <constraint firstAttribute="trailing" secondItem="vdi-2j-MRz" secondAttribute="trailing" id="zmT-wi-4fJ"/>
+                            <constraint firstItem="6yb-rq-qJS" firstAttribute="trailing" secondItem="vdi-2j-MRz" secondAttribute="trailing" id="zmT-wi-4fJ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6yb-rq-qJS"/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="IQ3-31-eus" appends="YES" id="rbq-hL-RoL"/>
                         </connections>
@@ -369,6 +376,7 @@
                         <outlet property="progressBar" destination="zbg-kJ-bwA" id="ib9-hK-UgZ"/>
                         <outlet property="reloadButton" destination="sXI-aD-ws8" id="kke-KN-zdW"/>
                         <outlet property="statusBar" destination="WYa-hS-hIc" id="iEP-CE-FSX"/>
+                        <outlet property="statusBarX" destination="GzZ-g4-HZr" id="Vbn-9T-Tow"/>
                         <outlet property="tabsContainerView" destination="LbY-gK-Efz" id="yOl-Mr-X2U"/>
                         <outlet property="tabsHeightConstraint" destination="yUA-Zx-m3R" id="PYI-oP-2Cn"/>
                         <outlet property="tabsView" destination="vdi-2j-MRz" id="Lxh-RB-V7w"/>
@@ -397,14 +405,14 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-226.40000000000001" y="-234.33283358320841"/>
+            <point key="canvasLocation" x="-226.40000000000001" y="-234.97536945812809"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="A0x-BH-213">
             <objects>
                 <tableViewController id="YmH-gB-wwI" customClass="MenuViewController" customModule="AdblockBrowser" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="gac-VK-oQv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="296"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="296"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.21568627450980393" green="0.23529411764705882" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="separatorColor" red="0.36862745098039218" green="0.37647058823529411" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -413,14 +421,14 @@
                             <tableViewSection id="gyu-6s-DVd">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="56" id="2ab-8v-gle" userLabel="Block Ads on this Site" customClass="MenuCell" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2ab-8v-gle" id="17C-Sf-KfQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="55.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Block Ads on this Site" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwK-n7-G4u">
-                                                    <rect key="frame" x="16" y="19" width="248" height="17"/>
+                                                    <rect key="frame" x="16" y="19" width="303" height="17"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
@@ -429,7 +437,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="40" placeholderIntrinsicHeight="24" translatesAutoresizingMaskIntoConstraints="NO" id="RoW-71-kGc" customClass="SwitchView" customModule="AdblockBrowser" customModuleProvider="target">
-                                                    <rect key="frame" x="264" y="15" width="40" height="24"/>
+                                                    <rect key="frame" x="319" y="15" width="40" height="24"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.77647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
@@ -459,14 +467,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="48" id="WO8-im-LJN" userLabel="Open New Tab" customClass="MenuCell" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="414" height="48"/>
+                                        <rect key="frame" x="0.0" y="56" width="375" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WO8-im-LJN" id="Pm4-8t-6pl">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="47"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Open New Tab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BB6-54-8Yc">
-                                                    <rect key="frame" x="48" y="15" width="272" height="17"/>
+                                                    <rect key="frame" x="48" y="15" width="327" height="17"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
@@ -493,17 +501,17 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="center" selectionStyle="default" indentationWidth="10" rowHeight="48" id="y12-LM-OgO" userLabel="Settings" customClass="MenuCell" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="104" width="414" height="48"/>
+                                        <rect key="frame" x="0.0" y="104" width="375" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y12-LM-OgO" id="DjI-uz-YdB">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="47"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmarkIconActive" translatesAutoresizingMaskIntoConstraints="NO" id="urL-C0-OtY">
                                                     <rect key="frame" x="16" y="16" width="16" height="16"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Add Bookmark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dis-FW-Xse">
-                                                    <rect key="frame" x="48" y="15" width="272" height="17"/>
+                                                    <rect key="frame" x="48" y="15" width="327" height="17"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
@@ -527,17 +535,17 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="center" selectionStyle="default" indentationWidth="10" rowHeight="48" id="fSf-Dl-547" userLabel="Share" customClass="MenuCell" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="152" width="414" height="48"/>
+                                        <rect key="frame" x="0.0" y="152" width="375" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fSf-Dl-547" id="tWT-6u-Kai">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="47"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shareIcon" translatesAutoresizingMaskIntoConstraints="NO" id="4Fe-oq-8cp">
                                                     <rect key="frame" x="16" y="16" width="16" height="16"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp1-o7-a0j" userLabel="Share">
-                                                    <rect key="frame" x="48" y="15" width="272" height="17"/>
+                                                    <rect key="frame" x="48" y="15" width="327" height="17"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
@@ -561,17 +569,17 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="center" selectionStyle="default" indentationWidth="10" rowHeight="48" id="wUd-6h-QK3" userLabel="History" customClass="MenuCell" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="200" width="414" height="48"/>
+                                        <rect key="frame" x="0.0" y="200" width="375" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wUd-6h-QK3" id="FSc-HV-thd">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="47"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="historyIcon" translatesAutoresizingMaskIntoConstraints="NO" id="N2h-Bh-3GB">
                                                     <rect key="frame" x="16" y="16" width="16" height="16"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pU-rq-tUy" userLabel="History">
-                                                    <rect key="frame" x="48" y="15" width="272" height="17"/>
+                                                    <rect key="frame" x="48" y="15" width="327" height="17"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
@@ -595,17 +603,17 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="center" selectionStyle="default" indentationWidth="10" rowHeight="48" id="t3h-i9-FVh" userLabel="Settings" customClass="MenuCell" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="248" width="414" height="48"/>
+                                        <rect key="frame" x="0.0" y="248" width="375" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t3h-i9-FVh" id="gDP-h4-QCv">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="47"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settingsIcon" translatesAutoresizingMaskIntoConstraints="NO" id="AYw-B1-2K9">
                                                     <rect key="frame" x="16" y="16" width="16" height="16"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4L-4s-ngg">
-                                                    <rect key="frame" x="48" y="15" width="272" height="17"/>
+                                                    <rect key="frame" x="48" y="15" width="327" height="17"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="NO"/>
                                                     </accessibility>
@@ -650,58 +658,54 @@
         <scene sceneID="jnR-Q5-g2e">
             <objects>
                 <viewController id="n6q-S1-uNd" customClass="BrowserContainerViewController" customModule="AdblockBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gHP-fY-2Lz"/>
-                        <viewControllerLayoutGuide type="bottom" id="TeQ-jj-RVS"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="POE-0f-1f9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lb-md-M3Z">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
                                 <connections>
                                     <segue destination="nYl-yS-WJA" kind="embed" id="Z2P-d7-NcF"/>
                                 </connections>
                             </containerView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPC-9w-YXI" userLabel="Bottom Bar" customClass="UIControl">
-                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="734" width="375" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfg-Bg-f1K" userLabel="Back Button">
-                                        <rect key="frame" x="-10" y="0.0" width="87" height="44"/>
+                                        <rect key="frame" x="-10" y="0.0" width="79" height="44"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <state key="normal" image="ArrowLeft">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHW-6q-vT6" userLabel="Forward Button">
-                                        <rect key="frame" x="77" y="0.0" width="87" height="44"/>
+                                        <rect key="frame" x="69" y="0.0" width="79" height="44"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <state key="normal" image="ArrowRight">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ag-W4-Y29" userLabel="Tabs Button" customClass="CenteredButton" customModule="AdblockBrowser" customModuleProvider="target">
-                                        <rect key="frame" x="164" y="0.0" width="86" height="44"/>
+                                        <rect key="frame" x="148" y="0.0" width="79" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <inset key="titleEdgeInsets" minX="-2" minY="3" maxX="2" maxY="-3"/>
                                         <state key="normal" image="TabsIcon"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpQ-jq-Syl" userLabel="Ghost Tabs Button">
-                                        <rect key="frame" x="250" y="0.0" width="87" height="44"/>
+                                        <rect key="frame" x="227" y="0.0" width="79" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <state key="normal" image="GhostIcon"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvk-nj-1JA" userLabel="Favorite Button">
-                                        <rect key="frame" x="337" y="0.0" width="87" height="44"/>
+                                        <rect key="frame" x="306" y="0.0" width="79" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <state key="normal" image="FavoritesIcon"/>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memory pressure 123/456 max 999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5K-QV-Bf1">
-                                        <rect key="frame" x="0.0" y="34" width="414" height="10"/>
+                                        <rect key="frame" x="0.0" y="34" width="375" height="10"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="10" id="69I-pg-ya1"/>
                                         </constraints>
@@ -748,17 +752,26 @@
                                     <constraint firstItem="u5K-QV-Bf1" firstAttribute="centerX" secondItem="nPC-9w-YXI" secondAttribute="centerX" id="xt2-oo-LJe"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4L-Ot-cy9" userLabel="Home Bar X">
+                                <rect key="frame" x="0.0" y="786" width="375" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nPC-9w-YXI" firstAttribute="leading" secondItem="POE-0f-1f9" secondAttribute="leading" id="CBR-ww-KvR"/>
-                            <constraint firstAttribute="trailing" secondItem="nPC-9w-YXI" secondAttribute="trailing" id="CQo-aj-DtX"/>
-                            <constraint firstItem="2lb-md-M3Z" firstAttribute="leading" secondItem="POE-0f-1f9" secondAttribute="leading" id="NLY-MP-9WM"/>
-                            <constraint firstItem="TeQ-jj-RVS" firstAttribute="top" secondItem="nPC-9w-YXI" secondAttribute="bottom" id="Uol-90-kZj"/>
-                            <constraint firstAttribute="trailing" secondItem="2lb-md-M3Z" secondAttribute="trailing" id="YB1-ZL-gYG"/>
+                            <constraint firstItem="F4L-Ot-cy9" firstAttribute="top" secondItem="2lb-md-M3Z" secondAttribute="bottom" constant="8" symbolic="YES" id="262-eA-c1c"/>
+                            <constraint firstItem="nPC-9w-YXI" firstAttribute="leading" secondItem="5ww-3h-9V4" secondAttribute="leading" id="CBR-ww-KvR"/>
+                            <constraint firstItem="5ww-3h-9V4" firstAttribute="trailing" secondItem="nPC-9w-YXI" secondAttribute="trailing" id="CQo-aj-DtX"/>
+                            <constraint firstItem="2lb-md-M3Z" firstAttribute="leading" secondItem="5ww-3h-9V4" secondAttribute="leading" id="NLY-MP-9WM"/>
+                            <constraint firstItem="5ww-3h-9V4" firstAttribute="bottom" secondItem="nPC-9w-YXI" secondAttribute="bottom" id="Uol-90-kZj"/>
+                            <constraint firstItem="5ww-3h-9V4" firstAttribute="trailing" secondItem="2lb-md-M3Z" secondAttribute="trailing" id="YB1-ZL-gYG"/>
+                            <constraint firstItem="F4L-Ot-cy9" firstAttribute="leading" secondItem="nPC-9w-YXI" secondAttribute="leading" id="dGY-R2-zGF"/>
                             <constraint firstItem="2lb-md-M3Z" firstAttribute="top" secondItem="POE-0f-1f9" secondAttribute="top" id="qx2-A1-0hR"/>
-                            <constraint firstItem="TeQ-jj-RVS" firstAttribute="top" secondItem="2lb-md-M3Z" secondAttribute="bottom" id="y3n-DA-eQq"/>
+                            <constraint firstItem="F4L-Ot-cy9" firstAttribute="trailing" secondItem="nPC-9w-YXI" secondAttribute="trailing" id="rdd-db-hSW"/>
+                            <constraint firstAttribute="bottom" secondItem="F4L-Ot-cy9" secondAttribute="bottom" id="wtf-cm-QZP"/>
+                            <constraint firstItem="5ww-3h-9V4" firstAttribute="bottom" secondItem="2lb-md-M3Z" secondAttribute="bottom" id="y3n-DA-eQq"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="5ww-3h-9V4"/>
                     </view>
                     <connections>
                         <outlet property="backButton" destination="Nfg-Bg-f1K" id="pKI-Wl-cbN"/>
@@ -767,13 +780,15 @@
                         <outlet property="favoriteButton" destination="uvk-nj-1JA" id="UJw-Ee-Bev"/>
                         <outlet property="forwardButton" destination="sHW-6q-vT6" id="Rwq-fh-VrZ"/>
                         <outlet property="ghostTabsButton" destination="bpQ-jq-Syl" id="ZBL-ey-2md"/>
+                        <outlet property="homeBarX" destination="F4L-Ot-cy9" id="u9p-Zd-0ZN"/>
                         <outlet property="memoryInfoLabel" destination="u5K-QV-Bf1" id="AJk-BY-Y0V"/>
+                        <outlet property="rootView" destination="POE-0f-1f9" id="YjO-SL-ob1"/>
                         <outlet property="tabsButton" destination="8Ag-W4-Y29" id="EQT-me-YHY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Mu-bJ-iGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2012" y="-234"/>
+            <point key="canvasLocation" x="-2012" y="-234.23645320197045"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qx0-yO-rFH">
@@ -782,11 +797,9 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PNv-BP-UNc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ryo-fy-M9t">
-                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
