@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hi there</title>
+	</head>
+	<body>
+		<script>
+			document.write("TEST");
+      function push(path) {
+        window.history.pushState({}, path, path)
+      }
+
+		</script>
+		<input id="first" type="button" onclick="push('first.html')" value="First" >
+    <input id="second" type="button" onclick="push('second.html')" value="Second" >
+    <input id="third" type="button" onclick="push('third.html')" value="Third" >
+    <input id="back" type="button" onclick="window.history.back()" value="Back" >
+    <input id="forward" type="button" onclick="window.history.forward()" value="Forward" >
+    <input id="windowOpenButton" type="button" onclick="window.open('popup2.html', '_blank');" value="Forward" >
+    <a id="windowOpen" href="http://kitt.org/popup1.html" target="_blank">Link</a>
+	</body>
+</html>

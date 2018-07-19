@@ -1,0 +1,35 @@
+{
+  "name": "TestExtension",
+  "description": "TestExtension",
+  "version": "0.1.0",
+  "author": "Jan Dedecek",
+  "manifest_version": 2,
+  "icons": {
+    "48": "images/reader.png"
+  },
+  "browser_action": {
+    "default_icon": "images/reader.png",
+    "default_popup": "html/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/test.include.js",
+      "js/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "js/content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "permissions": [
+    "http://*.embed.ly/",
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

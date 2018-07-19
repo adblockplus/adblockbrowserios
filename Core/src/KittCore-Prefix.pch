@@ -1,0 +1,24 @@
+//
+// Prefix header for all source files of the 'Kitt' target in the 'Kitt' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifdef __OPTIMIZE__
+#define NSLog(...) {}
+#else
+#define NSLog(...) NSLog(__VA_ARGS__)
+#endif
+
+#define BundleLocalizedString(key, comment) \
+  NSLocalizedStringFromTableInBundle(key, nil, [Settings coreBundle], comment)
+
