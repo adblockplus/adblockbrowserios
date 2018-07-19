@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "description": "test",
+  "version": "0.0.0",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "default_locale": "cs"
+}

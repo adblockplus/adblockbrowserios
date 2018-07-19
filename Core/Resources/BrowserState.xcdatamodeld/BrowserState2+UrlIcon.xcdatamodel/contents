@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bookmark" representedClassName="Bookmark" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateLastOpened" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="icon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UrlIcon" inverseName="bookmark" inverseEntity="UrlIcon" syncable="YES"/>
+    </entity>
+    <entity name="ChromeTabData" representedClassName="ChromeTabData" syncable="YES">
+        <attribute name="active" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="activeCounter" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="documentTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restorableState" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="opener" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChromeTabData" inverseName="opening" inverseEntity="ChromeTabData" syncable="YES"/>
+        <relationship name="opening" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ChromeTabData" inverseName="opener" inverseEntity="ChromeTabData" syncable="YES"/>
+        <relationship name="window" maxCount="1" deletionRule="Nullify" destinationEntity="ChromeWindowData" inverseName="tabs" inverseEntity="ChromeWindowData" syncable="YES"/>
+    </entity>
+    <entity name="ChromeWindowData" representedClassName="ChromeWindowData" syncable="YES">
+        <attribute name="identifier" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="tabs" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ChromeTabData" inverseName="window" inverseEntity="ChromeTabData" syncable="YES"/>
+    </entity>
+    <entity name="HistoryUrl" representedClassName="HistoryUrl" syncable="YES">
+        <attribute name="lastVisited" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visitCounter" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="icon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UrlIcon" inverseName="url" inverseEntity="UrlIcon" syncable="YES"/>
+        <relationship name="tab" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TabHistoryItem" inverseName="url" inverseEntity="TabHistoryItem" syncable="YES"/>
+    </entity>
+    <entity name="OmniboxQuery" representedClassName="OmniboxQuery" syncable="YES">
+        <attribute name="phrase" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="TabHistoryItem" representedClassName="TabHistoryItem" syncable="YES">
+        <attribute name="isCurrent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tabId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="url" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoryUrl" inverseName="tab" inverseEntity="HistoryUrl" syncable="YES"/>
+    </entity>
+    <entity name="UrlIcon" representedClassName="UrlIcon" syncable="YES">
+        <attribute name="iconData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="iconUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="bookmark" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bookmark" inverseName="icon" inverseEntity="Bookmark" syncable="YES"/>
+        <relationship name="url" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HistoryUrl" inverseName="icon" inverseEntity="HistoryUrl" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bookmark" positionX="18" positionY="63" width="128" height="120"/>
+        <element name="ChromeTabData" positionX="18" positionY="90" width="128" height="165"/>
+        <element name="ChromeWindowData" positionX="9" positionY="81" width="128" height="75"/>
+        <element name="HistoryUrl" positionX="0" positionY="0" width="128" height="133"/>
+        <element name="OmniboxQuery" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="TabHistoryItem" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="UrlIcon" positionX="0" positionY="0" width="128" height="133"/>
+    </elements>
+</model>

@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "description": "test",
+  "version": "0.0.0",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "content_scripts": [{
+    "all_frames": true,
+    "matches": ["*"],
+    "js": ["test.js"]
+  }, {
+    "all_frames": true,
+    "matches": ["*"],
+    "js": ["test.js"]
+  }],
+  "background": {
+    "scripts": ["test.js"]
+  }
+}

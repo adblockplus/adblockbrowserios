@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16B2555" minimumToolsVersion="Xcode 4.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="2.0">
+    <entity name="Extension" representedClassName="Extension" syncable="YES">
+        <attribute name="enabled" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="extensionId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="storage" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ExtensionStorage" inverseName="extension" inverseEntity="ExtensionStorage" syncable="YES"/>
+    </entity>
+    <entity name="ExtensionStorage" representedClassName="ExtensionStorage" syncable="YES">
+        <attribute name="key" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="extension" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Extension" inverseName="storage" inverseEntity="Extension" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Extension" positionX="-36" positionY="36" width="128" height="90"/>
+        <element name="ExtensionStorage" positionX="-54" positionY="-9" width="128" height="90"/>
+    </elements>
+</model>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hi there</title>
+  </head>
+  <body>
+    <script>
+      document.write("TEST");
+      function windowOpenAndClose()
+      {
+        window.open('popup4.html', '_blank');
+        window.close();
+      }
+      function windowCloseAndOpen()
+      {
+        window.close();
+        window.open('popup4.html', '_blank');
+      }
+      </script>
+    <input id="windowOpenAndClose" type="button" onclick="windowOpenAndClose()" value="Window open" >
+    <input id="windowCloseAndOpen" type="button" onclick="windowCloseAndOpen()" value="Window close" >
+  </body>
+</html>

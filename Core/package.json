@@ -1,0 +1,11 @@
+{
+  "name": "kitt-core",
+  "version": "2.1.0-dev",
+  "private": true,
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "rollup": "^0.41.6",
+    "typescript": "~2.5.3",
+    "uglify-js": "^2.8.22"
+  }
+}
