@@ -1,5 +1,5 @@
 ### Added
-List new features.
+List new features
 
 ### Changed
 List changes in existing functionality
@@ -11,4 +11,4 @@ List any bug fixes
 List removed features
 
 ### Testing Notes
-Information that would be usful for testers
+Information that would be useful for testers
