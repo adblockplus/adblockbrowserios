@@ -159,39 +159,28 @@ final class HockeyEventDefaultsHandler: NSObject, EventHandlingStatusAccess, UIA
                                         comment: "Crash/Error Report Sending Modal")
 
         self.userInputHandler = userInputHandler
-        let alertView = UIAlertView(title: title, message: message, delegate: self,
-                                    cancelButtonTitle: NSLocalizedString("Don't Send", comment: "Crash/Error Report Sending Modal"),
-                                    otherButtonTitles: NSLocalizedString("Send Report", comment: "Crash/Error Report Sending Modal"),
-                                    NSLocalizedString("Always Send", comment: "Crash/Error Report Sending Modal")
-        )
-        alertView.show()
-    }
-
-    // MARK: - UIAlertViewDelegate
-    // Needed only until UIAlertController is applicable
-
-    func alertView(_ alertView: UIAlertView, clickedButtonAt buttonIndex: Int) {
-        guard let userInputHandler = userInputHandler else {
-            Log.error("Crash/Error reporting modal shown but userInputHandler not assigned")
-            return
-        }
-
-        let userInputHandlerWithHint = { (userInput: BITCrashManagerUserInput) in
-            self.showStatusChangeHintFlag = true
-            userInputHandler(userInput)
-            self.showStatusChangeHintFlag = false
-        }
-
-        switch buttonIndex {
-        case 0: // Cancel/Don't Send
+        let alertView = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let cancelButton = UIAlertAction(title: NSLocalizedString("Don't Send", comment: "Crash/Error Report Sending Modal"),
+                                         style: .cancel) { _ in
             userInputHandler(.dontSend)
-        case 1: // Send
-            userInputHandler(.send)
-        case 2: // Always Send
-            userInputHandlerWithHint(.alwaysSend)
-        default:
-            userInputHandlerWithHint(.dontSend)
         }
-        self.userInputHandler = nil
+        let sendButton = UIAlertAction(title: NSLocalizedString("Send Report", comment: "Crash/Error Report Sending Modal"),
+                                       style: .default) { _ in
+            userInputHandler(.send)
+        }
+        let alwaysSendButton = UIAlertAction(title: NSLocalizedString("Always Send", comment: "Crash/Error Report Sending Modal"),
+                                             style: .default) { _ in
+            userInputHandler(.send)
+        }
+        alertView.addAction(cancelButton)
+        alertView.addAction(sendButton)
+        alertView.addAction(alwaysSendButton)
+
+        guard let windowReference = UIApplication.shared.delegate?.window,
+            let root = windowReference?.rootViewController else {
+                return
+        }
+
+        alertView.show(root, sender: nil)
     }
 }
