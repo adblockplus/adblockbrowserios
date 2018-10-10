@@ -61,7 +61,7 @@ final class EditBookmarkViewController: ViewController<EditBookmarkViewModel>, U
         showInDashboardLabel?.text = NSLocalizedString("Show in Dashboard",
                                                        comment: "Bookmark editing switch")
         deleteBookmarkButton?.setTitle(NSLocalizedString("Delete Bookmark",
-                                                         comment: "Bookmark deleting button"), for: UIControlState())
+                                                         comment: "Bookmark deleting button"), for: UIControl.State())
     }
 
     override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
@@ -98,7 +98,7 @@ final class EditBookmarkViewController: ViewController<EditBookmarkViewModel>, U
     func updateStyle(to isGhostModeEnabled: Bool) {
         statusBar?.backgroundColor = isGhostModeEnabled ? .abbGhostMode : .white
         navigationBar?.titleTextAttributes = [
-            NSAttributedStringKey.foregroundColor: isGhostModeEnabled ? UIColor.white : UIColor.abbSlateGray
+            NSAttributedString.Key.foregroundColor: isGhostModeEnabled ? UIColor.white : UIColor.abbSlateGray
         ]
         navigationBar?.barTintColor = isGhostModeEnabled ? .abbGhostMode : .white
 

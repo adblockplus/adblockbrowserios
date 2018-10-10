@@ -159,11 +159,11 @@ final class AutocompleteViewController: TableViewController<AutocompleteViewMode
             separator.translatesAutoresizingMaskIntoConstraints = false
             tableView?.superview?.addSubview(separator)
             tableView?.superview?.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[separator]-0-|",
-                                                                                options: NSLayoutFormatOptions(),
+                                                                                options: NSLayoutConstraint.FormatOptions(),
                                                                                 metrics: nil,
                                                                                 views: ["separator": separator]))
             tableView?.superview?.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[separator(0.5)]",
-                                                                                options: NSLayoutFormatOptions(),
+                                                                                options: NSLayoutConstraint.FormatOptions(),
                                                                                 metrics: nil,
                                                                                 views: ["separator": separator]))
         }
@@ -283,7 +283,7 @@ final class AutocompleteViewController: TableViewController<AutocompleteViewMode
                                              comment: "Note of search approval confirmation")
 
             let attributes = [
-                NSNumber(value: EMPH.rawValue): [NSAttributedStringKey.font: UIFont.italicSystemFont(ofSize: 12)]
+                NSNumber(value: EMPH.rawValue): [NSAttributedString.Key.font: UIFont.italicSystemFont(ofSize: 12)]
             ]
 
             let noteAttributedText = attributedStringFromMarkdown(noteText, attributes: attributes)
@@ -292,9 +292,9 @@ final class AutocompleteViewController: TableViewController<AutocompleteViewMode
             (cell.contentView.viewWithTag(questionLabelTag) as? UILabel)?.text = questionText
             (cell.contentView.viewWithTag(noteLabelTag) as? UILabel)?.attributedText = noteAttributedText
             (cell.contentView.viewWithTag(yesButtonTag) as? UIButton)?.setTitle(NSLocalizedString("Yes", comment: "Allow Google search"),
-                                                                                for: UIControlState())
+                                                                                for: UIControl.State())
             (cell.contentView.viewWithTag(noButtonTag) as? UIButton)?.setTitle(NSLocalizedString("No", comment: "Deny Google search"),
-                                                                               for: UIControlState())
+                                                                               for: UIControl.State())
         case .findInPage:
             cell = tableView.dequeueReusableCell(withIdentifier: "AutocompleteCell", for: indexPath)
             cell.imageView?.image = nil

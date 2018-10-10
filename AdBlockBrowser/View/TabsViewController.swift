@@ -83,11 +83,11 @@ final class TabsViewController: TableViewController<TabsViewModel> {
 
             view.addSubview(toast)
             view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|",
-                                                               options: NSLayoutFormatOptions(),
+                                                               options: NSLayoutConstraint.FormatOptions(),
                                                                metrics: nil,
                                                                views: ["view": toast]))
             view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:[view]-15-|",
-                                                               options: NSLayoutFormatOptions(),
+                                                               options: NSLayoutConstraint.FormatOptions(),
                                                                metrics: nil,
                                                                views: ["view": toast]))
             view.layoutIfNeeded()
@@ -154,7 +154,7 @@ final class TabsViewController: TableViewController<TabsViewModel> {
         }
     }
 
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete, case .some(.tab(let tab)) = viewModel?.entry(at: indexPath) {
             viewModel?.hide(tab: tab)
         }
@@ -192,7 +192,7 @@ final class TabsViewController: TableViewController<TabsViewModel> {
         return NSLocalizedString("Close", comment: "Tabs view")
     }
 
-    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         if case .some(.tab(_)) = viewModel?.entry(at: indexPath) {
             return .delete
         } else {

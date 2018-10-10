@@ -43,7 +43,7 @@ final class ClearDataViewController: SettingsTableViewController<ClearDataViewMo
                 continue
             }
             button.titleLabel?.numberOfLines = 2
-            button.setTitle(clearMethodLabel(method), for: UIControlState.normal)
+            button.setTitle(clearMethodLabel(method), for: UIControl.State.normal)
         }
     }
 

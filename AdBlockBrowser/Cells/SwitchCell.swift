@@ -28,7 +28,7 @@ protocol SwitchCellDelegate: NSObjectProtocol {
 
 final class SwitchCell: TableViewCell {
     private let `switch` = UISwitch()
-    private let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    private let activityIndicator = UIActivityIndicatorView(style: .gray)
 
     var type = SwitchCellAccessoryType.switch {
         didSet {

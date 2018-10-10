@@ -42,7 +42,7 @@ class WelcomeController: UIViewController {
                                               comment: "Welcome guide screen 1 headline")
         screen1ParagraphLabel?.text = localize("Ad blocking is automatically integrated - no more annoying ads while you surf!",
                                                comment: "Welcome guide screen 1 paragraph")
-        screen1Button?.setTitle(localize("Only one more step", comment: "Welcome guide screen 1 button"), for: UIControlState())
+        screen1Button?.setTitle(localize("Only one more step", comment: "Welcome guide screen 1 button"), for: UIControl.State())
         screen2HeadlineLabel?.text = localize("You're in control",
                                               comment: "Welcome guide screen 2 headline")
         screen2ParagraphLabel?.text =
@@ -50,7 +50,7 @@ class WelcomeController: UIViewController {
                      comment: "Welcome guide screen 2 paragraph")
         screen2PictureLabel?.text = localize("onboarding_exceptions_navigation_path",
                                              comment: "Welcome guide screen 2 picture label")
-        screen2Button?.setTitle(localize("Finish", comment: "Welcome guide screen 2 button"), for: UIControlState())
+        screen2Button?.setTitle(localize("Finish", comment: "Welcome guide screen 2 button"), for: UIControl.State())
     }
 
     @IBAction func onOneMoreStepTouch(_ sender: UIView?) {

@@ -123,8 +123,8 @@ final class HockeyEventDefaultsHandler: NSObject, EventHandlingStatusAccess, UIA
                                        comment: "Crash Reports Dialogs")
 
         let attributes = [
-            NSNumber(value: STRONG.rawValue): [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17)] as Any,
-            NSNumber(value: PARA.rawValue): [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 17)]
+            NSNumber(value: STRONG.rawValue): [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17)] as Any,
+            NSNumber(value: PARA.rawValue): [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17)]
         ]
 
         let attributedMessage = attributedStringFromMarkdown(message, attributes: attributes)

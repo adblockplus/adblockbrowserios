@@ -97,7 +97,7 @@ final class DashboardViewController: CollectionViewController<DashboardViewModel
     override func collectionView(_ collectionView: UICollectionView,
                                  viewForSupplementaryElementOfKind kind: String,
                                  at indexPath: IndexPath) -> UICollectionReusableView {
-        if kind == UICollectionElementKindSectionFooter {
+        if kind == UICollectionView.elementKindSectionFooter {
             return collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                    withReuseIdentifier: "TipFooterView",
                                                                    for: indexPath)

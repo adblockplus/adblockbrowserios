@@ -25,7 +25,7 @@ class KeyboardAccessory: UIInputView, UIInputViewAudioFeedback {
         // is equal to UIInputView. Strangely both XCode 6.1 and XCode 6.3 allow compilation
         // of partial constructor (just frame:) but the instance is very broken then!
         // (buttons array crashing with EXC_BAD_ACCESS)
-        let keyboardAccessory = KeyboardAccessory(frame: accessoryFrame, inputViewStyle: UIInputViewStyle.default)
+        let keyboardAccessory = KeyboardAccessory(frame: accessoryFrame, inputViewStyle: UIInputView.Style.default)
         keyboardAccessory.addButton(":", extraTyping: nil, widthMultiplier: 1)
         keyboardAccessory.addButton("/", extraTyping: nil, widthMultiplier: 1)
         keyboardAccessory.addButton("-", extraTyping: nil, widthMultiplier: 1)
@@ -146,7 +146,7 @@ class KeyboardAccessory: UIInputView, UIInputViewAudioFeedback {
         // Remove any existing constraints
         removeConstraints(constraints)
 
-        let orientationMetric = modelMetric[UIInterfaceOrientationIsPortrait(orientation) ?
+        let orientationMetric = modelMetric[orientation.isPortrait ?
             KeyboardOrientation.portrait : KeyboardOrientation.landscape ]!
 
         // Left and right horizontal centering spacers
@@ -178,7 +178,7 @@ class KeyboardAccessory: UIInputView, UIInputViewAudioFeedback {
         horizVFL += "|"
         addConstraints(
             NSLayoutConstraint.constraints(
-                withVisualFormat: horizVFL, options: NSLayoutFormatOptions(), metrics: horizMetrics, views: bindings))
+                withVisualFormat: horizVFL, options: NSLayoutConstraint.FormatOptions(), metrics: horizMetrics, views: bindings))
 
         let top = Float(6)
         let vertMetrics = [
@@ -192,7 +192,7 @@ class KeyboardAccessory: UIInputView, UIInputViewAudioFeedback {
             let vertVFL = "V:|-top-[\(buttonName)(height)]-bottom-|"
             addConstraints(
                 NSLayoutConstraint.constraints(
-                    withVisualFormat: vertVFL, options: NSLayoutFormatOptions(), metrics: vertMetrics, views: bindings))
+                    withVisualFormat: vertVFL, options: NSLayoutConstraint.FormatOptions(), metrics: vertMetrics, views: bindings))
         }
     }
 }
