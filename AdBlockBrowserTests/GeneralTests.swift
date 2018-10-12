@@ -36,8 +36,8 @@ class GeneralTests: XCTestCase {
 
         // create a dictionary to hold your custom attributes for any Markdown types
         let attributes = [
-            NSNumber(value: EMPH.rawValue): [NSAttributedStringKey.font: emFont],
-            NSNumber(value: STRONG.rawValue): [NSAttributedStringKey.font: strongFont]
+            NSNumber(value: EMPH.rawValue): [NSAttributedString.Key.font: emFont],
+            NSNumber(value: STRONG.rawValue): [NSAttributedString.Key.font: strongFont]
         ]
 
         for testCase in testCases {
@@ -54,14 +54,14 @@ class GeneralTests: XCTestCase {
             XCTAssert(testCase.output == result, "texts should be equal")
 
             var range = NSRange()
-            var font = prettyText.attribute(NSAttributedStringKey.font,
+            var font = prettyText.attribute(NSAttributedString.Key.font,
                                             at: testCase.italicRange.location,
                                             effectiveRange: &range) as? UIFont
 
             XCTAssert(font == emFont && range.length == testCase.italicRange.length,
                       "texts should use italic font")
 
-            font = prettyText.attribute(NSAttributedStringKey.font,
+            font = prettyText.attribute(NSAttributedString.Key.font,
                                         at: testCase.boldRange.location,
                                         effectiveRange: &range) as? UIFont
 

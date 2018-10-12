@@ -35,9 +35,9 @@ extension UIViewController {
                 factory,
                 activityItems: activityItems,
                 excludedActivities: [
-                    UIActivityType.assignToContact,
-                    UIActivityType.postToWeibo,
-                    UIActivityType.addToReadingList],
+                    UIActivity.ActivityType.assignToContact,
+                    UIActivity.ActivityType.postToWeibo,
+                    UIActivity.ActivityType.addToReadingList],
                 completion: { completed, _ -> Void in
                     // error was ignored in the original code too
                     completion(completed)

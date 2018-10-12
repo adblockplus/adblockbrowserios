@@ -24,7 +24,7 @@ final class CenteredButton: UIButton {
         rect.size.height = min(rect.height, contentRect.height)
         rect.origin.x = (contentRect.width - rect.width) / 2
         rect.origin.y = (contentRect.height - rect.height) / 2
-        return UIEdgeInsetsInsetRect(rect, titleEdgeInsets)
+        return rect.inset(by: titleEdgeInsets)
     }
 
     override func imageRect(forContentRect contentRect: CGRect) -> CGRect {
@@ -33,7 +33,7 @@ final class CenteredButton: UIButton {
         rect.size.height = min(rect.height, contentRect.height)
         rect.origin.x = (contentRect.width - rect.width) / 2
         rect.origin.y = (contentRect.height - rect.height) / 2
-        return UIEdgeInsetsInsetRect(rect, imageEdgeInsets)
+        return rect.inset(by: imageEdgeInsets)
     }
 
     override init(frame: CGRect) {

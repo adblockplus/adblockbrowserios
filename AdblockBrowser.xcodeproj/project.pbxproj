@@ -1106,13 +1106,13 @@
 					E91C796B1AB2E22700632D61 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = GRYYZR985A;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
 					E91C79801AB2E22700632D61 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = G5LEUTX2F6;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = E91C796B1AB2E22700632D61;
 					};
@@ -1821,8 +1821,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
 				PROVISIONING_PROFILE_SPECIFIER = "Dev Adblock Browser";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1844,8 +1843,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) $(SWIFT_ADDITIONAL_FLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1868,8 +1866,7 @@
 				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdblockBrowserTests;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdblockBrowser.app/AdblockBrowser";
 			};
 			name = Debug;
@@ -1888,8 +1885,7 @@
 				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdblockBrowserTests;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdblockBrowser.app/AdblockBrowser";
 			};
 			name = Release;
@@ -2006,8 +2002,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.devbuilds.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Devbuild;
@@ -2026,8 +2021,7 @@
 				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdblockBrowserTests;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdblockBrowser.app/AdblockBrowser";
 			};
 			name = Devbuild;

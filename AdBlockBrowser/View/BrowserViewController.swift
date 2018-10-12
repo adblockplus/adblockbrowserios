@@ -304,11 +304,11 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
                 banner.translatesAutoresizingMaskIntoConstraints = false
                 view.addSubview(banner)
                 view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[banner]-0-|",
-                                                                   options: NSLayoutFormatOptions(),
+                                                                   options: NSLayoutConstraint.FormatOptions(),
                                                                    metrics: nil,
                                                                    views: ["banner": banner]))
                 view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[banner]-0-|",
-                                                                   options: NSLayoutFormatOptions(),
+                                                                   options: NSLayoutConstraint.FormatOptions(),
                                                                    metrics: nil,
                                                                    views: ["banner": banner]))
 
@@ -385,11 +385,11 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
         navigationController?.navigationBar.backgroundColor = .white
 
         if let container = autocompleteContainer {
-            view.bringSubview(toFront: container)
+            view.bringSubviewToFront(container)
         }
 
         let cancel = NSLocalizedString("Cancel", comment: "Browser address bar cancel")
-        cancelButton?.setTitle(cancel, for: UIControlState())
+        cancelButton?.setTitle(cancel, for: UIControl.State())
 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -591,7 +591,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
 
     // MARK: - UIWebViewDelegate
 
-    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
         if let url = request.url {
             if url == request.mainDocumentURL {
                 if url != viewModel?.currentURL.value {
@@ -1033,7 +1033,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
             scrollViewController.initializeScrollViewInsets(aWebView.scrollView)
             // Someone has to be owner of WebView, otherwise it's preview is not updated
             view.addSubview(aWebView)
-            view.sendSubview(toBack: aWebView)
+            view.sendSubviewToBack(aWebView)
 
             SAContentWebView.prepare(aWebView,
                                      contextMenuDataSource: viewModel?.contextMenuDataSource,
@@ -1098,16 +1098,16 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
             // There are four layout constrint
             let params = [
                 // width equality with superview
-                (firstAttribute: NSLayoutAttribute.width, secondAttribute: NSLayoutAttribute.width, identifier: emptyString),
+                (firstAttribute: NSLayoutConstraint.Attribute.width, secondAttribute: NSLayoutConstraint.Attribute.width, identifier: emptyString),
                 // height equality with superview
-                (firstAttribute: NSLayoutAttribute.height, secondAttribute: NSLayoutAttribute.height, identifier: emptyString),
+                (firstAttribute: NSLayoutConstraint.Attribute.height, secondAttribute: NSLayoutConstraint.Attribute.height, identifier: emptyString),
                 // horizontal center
-                (firstAttribute: NSLayoutAttribute.centerX,
-                 secondAttribute: NSLayoutAttribute.centerX,
+                (firstAttribute: NSLayoutConstraint.Attribute.centerX,
+                 secondAttribute: NSLayoutConstraint.Attribute.centerX,
                  identifier: webViewCenterXConstraintIdentifier),
                 // vertical center
-                (firstAttribute: NSLayoutAttribute.centerY,
-                 secondAttribute: NSLayoutAttribute.centerY,
+                (firstAttribute: NSLayoutConstraint.Attribute.centerY,
+                 secondAttribute: NSLayoutConstraint.Attribute.centerY,
                  identifier: webViewCenterYConstraintIdentifier)
             ]
 
@@ -1171,7 +1171,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
 
     fileprivate func initializeWebView(_ webView: UIWebView, forceRelayout force: Bool = false) {
         webView.scrollView.delegate = scrollViewController
-        webView.scrollView.decelerationRate = UIScrollViewDecelerationRateNormal
+        webView.scrollView.decelerationRate = UIScrollView.DecelerationRate.normal
         webView.scrollView.scrollsToTop = true
         webView.scrollView.backgroundColor = .clear
 
@@ -1277,7 +1277,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
                 let attachment = NSTextAttachment()
                 attachment.image = lockImage
 
-                let attributes = [ NSAttributedStringKey.foregroundColor: urlColor ]
+                let attributes = [ NSAttributedString.Key.foregroundColor: urlColor ]
 
                 let mutableString = NSMutableAttributedString()
                 mutableString.append(NSAttributedString(attachment: attachment))
@@ -1345,6 +1345,6 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
 
 private func addressFieldPlaceholder(`for` isGhostModeEnabled: Bool) -> NSAttributedString {
     let placeholder = localize("browser_address_bar_placeholder", comment: "Browser address bar")
-    return NSAttributedString(string: placeholder, attributes: [NSAttributedStringKey.foregroundColor: isGhostModeEnabled ? #colorLiteral(red: 0.4784313725, green: 0.4745098039, blue: 0.4705882353, alpha: 1) : #colorLiteral(red: 0.737254902, green: 0.7450980392, blue: 0.7607843137, alpha: 1)])
+    return NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor: isGhostModeEnabled ? #colorLiteral(red: 0.4784313725, green: 0.4745098039, blue: 0.4705882353, alpha: 1) : #colorLiteral(red: 0.737254902, green: 0.7450980392, blue: 0.7607843137, alpha: 1)])
     // swiftlint:disable:next file_length
 }

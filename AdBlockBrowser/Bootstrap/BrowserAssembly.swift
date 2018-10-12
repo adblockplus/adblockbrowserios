@@ -206,7 +206,7 @@ class BrowserAssembly {
 
                 if let image = UIImage(named: installedBookmark.favicon),
                     let icon = browserStateData.insertNewObject(forEntityClass: UrlIcon.self) as? UrlIcon {
-                    icon.iconData = UIImagePNGRepresentation(image)
+                    icon.iconData = image.pngData()
                     icon.iconUrl = "adblockplus://\(installedBookmark.favicon).png"
                     icon.size = NSNumber(value: Int16(image.size.width))
                     bookmark.icon = icon

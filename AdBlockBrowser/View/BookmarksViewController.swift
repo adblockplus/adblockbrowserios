@@ -50,7 +50,7 @@ final class BookmarksViewController: ViewController<BookmarksViewModel>,
             .drive(onNext: { [weak self] isGhostModeEnabled in
                 self?.view.backgroundColor = isGhostModeEnabled ? .abbGhostMode: .white
                 self?.navigationBar?.titleTextAttributes = [
-                    NSAttributedStringKey.foregroundColor: isGhostModeEnabled ? UIColor.white : UIColor.abbSlateGray
+                    NSAttributedString.Key.foregroundColor: isGhostModeEnabled ? UIColor.white : UIColor.abbSlateGray
                 ]
                 self?.navigationBar?.barTintColor = isGhostModeEnabled ? .abbGhostMode : .white
                 // show/hide bottom seperator
@@ -154,7 +154,7 @@ final class BookmarksViewController: ViewController<BookmarksViewModel>,
         return viewModel?.isEditing.value ?? false
     }
 
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete, let bookmark = viewModel?.bookmark(for: indexPath) {
             viewModel?.delete(bookmark: bookmark)
         }

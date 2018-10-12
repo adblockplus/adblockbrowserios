@@ -78,8 +78,8 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
         let detailText = "\(information) *\(ppFormatted)*"
 
         let innerAttributes = [
-            NSAttributedStringKey.link: URL(string: "https://adblockplus.org/privacy")! as Any,
-            NSAttributedStringKey.foregroundColor: #colorLiteral(red: 0, green: 0.462745098, blue: 1, alpha: 1)
+            NSAttributedString.Key.link: URL(string: "https://adblockplus.org/privacy")! as Any,
+            NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0, green: 0.462745098, blue: 1, alpha: 1)
         ]
 
         let attributes = [NSNumber(value: EMPH.rawValue): innerAttributes]
@@ -89,7 +89,7 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
         if let attrString = attrString, let font = footer.detailTextLabel?.font {
             let attributedText = NSMutableAttributedString(attributedString: attrString)
             let range = NSRange(location: 0, length: attributedText.length)
-            attributedText.addAttribute(NSAttributedStringKey.font, value: font, range: range)
+            attributedText.addAttribute(NSAttributedString.Key.font, value: font, range: range)
             footer.attributedDetailText = attributedText
         } else {
             footer.detailText = detailText

@@ -314,7 +314,7 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
     }
 
     var browserViewController: BrowserViewController? {
-        for child in childViewControllers {
+        for child in children {
             if let childViewController = (child as? UINavigationController)?.viewControllers.first as? BrowserViewController {
                 return childViewController
             }
