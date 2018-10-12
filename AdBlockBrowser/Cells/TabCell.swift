@@ -73,7 +73,7 @@ final class TabViewCell: UITableViewCell {
         case .some("documentTitle"):
             titleLabel?.text = key as? String
         case .some("URL"):
-            var label: String? = nil
+            var label: String?
             if let url = key as? URL {
                 if !(url as NSURL).shouldBeHidden() {
                     label = url.displayableHostname

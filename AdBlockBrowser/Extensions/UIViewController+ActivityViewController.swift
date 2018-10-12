@@ -41,7 +41,7 @@ extension UIViewController {
                 completion: { completed, _ -> Void in
                     // error was ignored in the original code too
                     completion(completed)
-            }
+                }
             )
             // iPad implements activity controller as popover and it needs positioning anchor.
             // The anchoring makes no visual difference on iPhone but prevents iPad from crashing.

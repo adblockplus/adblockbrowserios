@@ -199,8 +199,8 @@ extension NSRegularExpression {
     func match(_ text: String) -> [String]? {
         return self
         .firstMatch(in: text, options: [], range: NSRange(location: 0, length: text.count))
-        .map { (result) in
-            return (1 ..< result.numberOfRanges).map { (index) in
+        .map { result in
+            return (1 ..< result.numberOfRanges).map { index in
                 return (text as NSString).substring(with: result.range(at: index))
             }
         }

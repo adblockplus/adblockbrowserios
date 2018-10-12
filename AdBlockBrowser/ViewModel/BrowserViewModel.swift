@@ -208,7 +208,7 @@ final class BrowserViewModel: ViewModelProtocol {
 
             bookmark.url = currentURL.value?.absoluteString
 
-            var title: String? = nil
+            var title: String?
             if let documentTitle = activeTab.value?.documentTitle {
                 title = documentTitle
             } else {

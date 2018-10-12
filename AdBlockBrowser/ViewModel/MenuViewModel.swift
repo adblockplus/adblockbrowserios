@@ -64,9 +64,9 @@ final class MenuViewModel: ViewModelProtocol {
         Observable.combineLatest(isExtensionEnabled.asObservable(), url) {
             (enabled: $0, url: $1)
         }
-            .subscribe(onNext: { [weak self] (combinedLatest) in
+            .subscribe(onNext: { [weak self] combinedLatest in
                 if combinedLatest.enabled, let url = combinedLatest.url {
-                    self?.extensionFacade.isSiteWhitelisted(url.absoluteString) { (boolValue, _) in
+                    self?.extensionFacade.isSiteWhitelisted(url.absoluteString) { boolValue, _ in
                         self?.isPageWhitelisted.value = boolValue
                     }
                 } else {

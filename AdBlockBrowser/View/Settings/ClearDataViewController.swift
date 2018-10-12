@@ -76,7 +76,7 @@ final class ClearDataViewController: SettingsTableViewController<ClearDataViewMo
             title: clearTitle,
             style: .destructive, handler: { _ in
                 self.clearMethodFunction(method)()
-        }))
+            }))
         // Buttons of type .Cancel are always on the first left position, but design requires it on the right
         alert.addAction(UIAlertAction(title: LocalizationResources.alertCancelText(), style: .default, handler: nil))
         UIHandler.presentModal(alert, inController: self)

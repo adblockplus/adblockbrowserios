@@ -123,9 +123,9 @@ final class BrowserContainerViewModel: ViewModelProtocol, ComponentsInitializabl
             .addDisposableTo(disposeBag)
 
         self.tabsCount = currentTabsModel.asObservable()
-            .flatMapLatest { (tabs) -> Observable<Int> in
+            .flatMapLatest { tabs -> Observable<Int> in
                 let tabs = tabs
-                return tabs.events.asObservable().map { [weak tabs] (_) in
+                return tabs.events.asObservable().map { [weak tabs] _ in
                     return tabs?.count ?? 0
                 }
             }

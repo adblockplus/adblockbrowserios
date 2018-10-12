@@ -607,7 +607,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if viewModel?.searchPhrase.value == nil {
-            var url: URL? = nil
+            var url: URL?
             addressField?.commitAutocompleteSuggestion()
             if let text = addressField?.text {
                 viewModel?.chrome.focusedWindow?.historyManager?.omniboxHistoryUpdatePhrase(text)

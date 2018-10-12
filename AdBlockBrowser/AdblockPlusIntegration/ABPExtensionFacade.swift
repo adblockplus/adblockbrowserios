@@ -120,7 +120,7 @@ class ABPExtensionFacade: NSObject, ABPExtensionFacadeProtocol {
     func getListedSubscriptions(_ retvalHandler: @escaping ([String: ListedSubscription]?, Error?) -> Void) {
         let script = "listedSubscriptions"
         query(script, retvalHandler: { (results: [String: AnyObject]?, error: Error?) -> Void in
-            var subscriptions: [String: ListedSubscription]? = nil
+            var subscriptions: [String: ListedSubscription]?
             if let results = results {
                 subscriptions = [:]
                 results.forEach({ url, subscription -> Void in
@@ -138,7 +138,7 @@ class ABPExtensionFacade: NSObject, ABPExtensionFacadeProtocol {
     func getAvailableSubscriptions(_ retvalHandler: @escaping ([AvailableSubscription]?, Error?) -> Void) {
         let script = "availableSubscriptions"
         query(script, retvalHandler: { (results: [AnyObject]?, error: Error?) -> Void in
-            var subscriptions: [AvailableSubscription]? = nil
+            var subscriptions: [AvailableSubscription]?
             if let results = results {
                 subscriptions = []
                 results.forEach({ subscription -> Void in
