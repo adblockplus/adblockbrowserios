@@ -19,8 +19,7 @@
 public func longestCommonSubsequence<C>(_ sequence1: C,
                                         _ sequence2: C) -> [(Int, Int)] where C: Collection,
                                                                               C.Iterator.Element: Equatable,
-                                                                              C.Index == Int,
-                                                                              C.IndexDistance == Int {
+                                                                              C.Index == Int {
     let row = Array(repeating: (length: 0, indices: (i: -1, j: -1)), count: Int(sequence2.count))
     var matrix: [[(length: Int, indices: (i: Int, j: Int))]] = Array(repeating: row, count: sequence1.count)
 
