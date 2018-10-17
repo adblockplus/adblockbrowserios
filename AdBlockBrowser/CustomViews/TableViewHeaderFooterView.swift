@@ -61,7 +61,7 @@ final class TableViewHeaderFooterView: UITableViewHeaderFooterView {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        _textLabel.frame = UIEdgeInsetsInsetRect(contentView.bounds, insets)
+        _textLabel.frame = contentView.bounds.inset(by: insets)
     }
 
     override func sizeThatFits(_ size: CGSize) -> CGSize {

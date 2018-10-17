@@ -20,7 +20,7 @@ import Foundation
 final class SettingsHeader: UITableViewHeaderFooterView {
     private let customTextLabel = UILabel()
     private let customDetailTextLabel = UILabel()
-    private let customActivityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+    private let customActivityIndicatorView = UIActivityIndicatorView(style: .gray)
 
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)

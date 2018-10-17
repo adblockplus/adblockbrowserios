@@ -41,7 +41,7 @@ extension UIScrollView {
                 backgroundView.tag = webViewBackgroundTag
                 backgroundView.backgroundColor = UIColor.white
                 addSubview(backgroundView)
-                sendSubview(toBack: backgroundView)
+                sendSubviewToBack(backgroundView)
             }
             backgroundView.frame = CGRect(origin: CGPoint.zero, size: contentSize)
         }

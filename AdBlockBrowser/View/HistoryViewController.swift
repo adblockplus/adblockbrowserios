@@ -148,8 +148,8 @@ final class HistoryViewController: ViewController<HistoryViewModel>,
         let dateString = dateFormatter.string(from: date).uppercased()
 
         let attributes = [
-            NSAttributedStringKey.foregroundColor: UIColor.abbSlateGray,
-            NSAttributedStringKey.font: UIFont.systemFont(ofSize: 13)
+            NSAttributedString.Key.foregroundColor: UIColor.abbSlateGray,
+            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13)
         ]
 
         header.textLabel?.attributedText = NSAttributedString(string: dateString, attributes: attributes)

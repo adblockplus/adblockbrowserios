@@ -132,8 +132,8 @@ final class ExceptionsViewController: SettingsTableViewController<ExceptionsView
         }
 
         let innerAttributes = [
-            NSAttributedStringKey.link: URL(string: "https://acceptableads.com/users")! as Any,
-            NSAttributedStringKey.foregroundColor: #colorLiteral(red: 0, green: 0.462745098, blue: 1, alpha: 1)
+            NSAttributedString.Key.link: URL(string: "https://acceptableads.com/users")! as Any,
+            NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0, green: 0.462745098, blue: 1, alpha: 1)
         ]
 
         let attributes = [NSNumber(value: EMPH.rawValue): innerAttributes]
@@ -143,7 +143,7 @@ final class ExceptionsViewController: SettingsTableViewController<ExceptionsView
         if let attrString = attrString, let font = header.detailTextLabel?.font {
             let attributedText = NSMutableAttributedString(attributedString: attrString)
             let range = NSRange(location: 0, length: attributedText.length)
-            attributedText.addAttribute(NSAttributedStringKey.font, value: font, range: range)
+            attributedText.addAttribute(NSAttributedString.Key.font, value: font, range: range)
             header.attributedDetailText = attributedText
         } else {
             header.detailText = detailText
@@ -178,7 +178,7 @@ final class ExceptionsViewController: SettingsTableViewController<ExceptionsView
         tableView.reloadSections(IndexSet(integer: section.rawValue), with: .none)
     }
 
-    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         if Sections(rawValue: indexPath.section) == .some(.whitelistedSites) {
             return .delete
         } else {
@@ -186,7 +186,7 @@ final class ExceptionsViewController: SettingsTableViewController<ExceptionsView
         }
     }
 
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete, Sections(rawValue: indexPath.section) == .some(.whitelistedSites) {
             viewModel?.removeSite(at: indexPath.row)
         }
@@ -250,5 +250,5 @@ func extractUrl(at location: CGPoint, from label: UILabel) -> URL? {
     var range = NSRange()
     let attributes = attributedText.attributes(at: characterIndex, effectiveRange: &range)
 
-    return attributes[NSAttributedStringKey.link] as? URL
+    return attributes[NSAttributedString.Key.link] as? URL
 }

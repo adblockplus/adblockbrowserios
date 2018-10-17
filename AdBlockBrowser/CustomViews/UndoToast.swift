@@ -48,7 +48,7 @@ final class UndoToast: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         addSubview(label)
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[label]-8-|",
-                                                      options: NSLayoutFormatOptions(),
+                                                      options: NSLayoutConstraint.FormatOptions(),
                                                       metrics: nil,
                                                       views: ["label": label]))
 
@@ -61,11 +61,11 @@ final class UndoToast: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         addSubview(button)
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[button]-0-|",
-                                                      options: NSLayoutFormatOptions(),
+                                                      options: NSLayoutConstraint.FormatOptions(),
                                                       metrics: nil,
                                                       views: ["button": button]))
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[label]-(>=8)-[button]-0-|",
-                                                      options: NSLayoutFormatOptions(),
+                                                      options: NSLayoutConstraint.FormatOptions(),
                                                       metrics: nil,
                                                       views: ["button": button, "label": label]))
     }

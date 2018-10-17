@@ -49,7 +49,7 @@ final class FindInPageControl: UIView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        doneButton?.setTitle(NSLocalizedString("Done", comment: "Find in Page toolbar button"), for: UIControlState())
+        doneButton?.setTitle(NSLocalizedString("Done", comment: "Find in Page toolbar button"), for: UIControl.State())
     }
 
     func clearMatches() {

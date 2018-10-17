@@ -83,7 +83,7 @@ private final class ReloaderView: UIView {
         animations.animations = [pathAnimation, boundsAnimation]
         animations.isRemovedOnCompletion = false
         animations.duration = duration
-        animations.fillMode = kCAFillModeForwards
+        animations.fillMode = CAMediaTimingFillMode.forwards
 
         _radius = radius
         circleLayer.add(animations, forKey: "scale")
@@ -284,7 +284,7 @@ final class WebViewContainer: UIView, UIGestureRecognizerDelegate {
                                delay: 0,
                                usingSpringWithDamping: 1,
                                initialSpringVelocity: springVelocity,
-                               options: UIViewAnimationOptions(),
+                               options: UIView.AnimationOptions(),
                                animations: { () in
 
                                 self.webView?.layer.shadowOpacity = 0.0
