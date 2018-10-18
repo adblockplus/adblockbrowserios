@@ -24,7 +24,6 @@
  exactly the same way as "Info.plist file" setting, with the same path relation
  */
 
-#import "CYRKeyboardButton.h"
 #import "UIImage+animatedGIF.h"
 #import "MacroSettingsExpander.h"
 

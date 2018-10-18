@@ -430,12 +430,11 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
             }
         }
 
-        KeyboardAccessory.attachTo(addressField, parentFrame: self.view.frame)
+        addressField?.keyboardType = .webSearch
     }
 
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         coordinator.animate(alongsideTransition: nil) { [weak self] _ in
-            (self?.addressField?.inputAccessoryView as? KeyboardAccessory)?.setNeedsUpdateConstraints()
 
             if let webView = self?.webView {
                 self?.initializeWebView(webView, forceRelayout: true)
