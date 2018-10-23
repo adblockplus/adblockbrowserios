@@ -25,8 +25,6 @@
 // configuration (debug, devbuild, release).
 + (NSString *)hockeyAppIdentifier;
 
-+ (void)crash_BadAccess;
-
 + (void)crash_Selector;
 
 + (void)crash_ArrayOutOfBounds;
