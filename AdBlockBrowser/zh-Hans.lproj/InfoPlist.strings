@@ -1,9 +1,12 @@
-/* (No Commment) */
-"CFBundleDisplayName" = "Adblock";
-
-/* (No Commment) */
+/* Bundle name */
 "CFBundleName" = "Adblock 浏览器";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Adblock 浏览器想要访问您的相机，以便您能够拍摄和上传照片。";
 
 /* (No Commment) */
 "NSLocationWhenInUseUsageDescription" = "我们只在您许可的情况下向网站（如百度地图）提供访问您位置的权限。Adblock Browser 不会将您的位置用于任何其他目的。";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "Adblock 浏览器想要访问您的相簿，以便您能够上传照片。";
 

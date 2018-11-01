@@ -4,16 +4,12 @@
 /* App start failure screen */
 "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "Adblock Browser se nepodařilo spustit, jelikož se vyskytla kritická chyba. Pomocí následujících pokynů vypněte aplikaci a zkuste to znovu.";
 
-/* (No Commment) */
-"ADBLOCK BROWSER" = "Adblock Browser";
-
-/* (No Commment) */
-"ADBLOCK VERSION" = "ADBLOCK VERSION";
-
-/* (No Commment) */
+/* About screen title
+   Settings status option */
 "About" = "O aplikaci";
 
-/* (No Commment) */
+/* Settings - show list of subscriptionsSettings - cell title
+  Ad blocking Settings - cell title */
 "Ad blocking" = "Blokování reklam";
 
 /* Welcome guide screen 1 paragraph */
@@ -22,28 +18,38 @@
 /* (No Commment) */
 "Ad blocking on this site" = "Blokování reklam na této stránce";
 
+/* Settings - section header
+ Ad blocking Settings - section header */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
 /* Crash/Error Report Sending Modal */
 "Adblock Browser Encountered an Error" = "Adblock Browser narazil na chybu";
 
 /* Crash/Error Report Sending Modal */
-"Adblock Unexpectedly Quit" = "Adblock se neočekávaně vypnul";
+"Adblock Unexpectedly Quit" = "Adblock Browser se neočekávaně vypnul";
+
+/* Section header in About screen */
+"ADBLOCK VERSION" = "ADBLOCK VERSION";
 
 /* Pull up menu option */
 "Add Bookmark" = "Přidat záložku";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "Add Bookmark to Dashboard" = "Přidat záložku do rozcestníku";
 
-/* (No Commment) */
+/* Tabs view cell */
+"add_new_tab" = "Přidat novou kartu";
+
+/* Ghost mode description */
 "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "All of your bookmarks have been added to the Dashboard." = "Všechny záložky byly přidány do rozcestníku.";
 
-/* (No Commment) */
+/* Acceptable ads switch label */
 "Allow some nonintrusive advertising" = "Povolit nerušivou reklamu";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Always" = "Vždy";
 
 /* Crash/Error Report Sending Modal */
@@ -58,14 +64,8 @@
 /* Delete Bookmark alert message */
 "Are you sure you want to delete this bookmark?" = "Jste si jisti, že chcete odstranit tuto záložku?";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Ask Me After a Crash or Error" = "Zeptejte se mě po pádu nebo chybě";
-
-/* (No Commment) */
-"BLOCKING" = "BLOKOVÁNÍ";
-
-/* (No Commment) */
-"BROWSER VERSION" = "BROWSER VERSION";
 
 /* Search Engine Selection */
 "Baidu" = "Baidu";
@@ -73,11 +73,14 @@
 /* Autocomplete suggestions */
 "Baidu search" = "Vyhledávání Baidu";
 
+/* Languages Settings - section header */
+"Block ads for websites in" = "Blokovat reklamy pro webové stránky";
+
 /* Pull up menu option */
 "Block Ads on this Site" = "Blokovat reklamy na tomto webu";
 
-/* (No Commment) */
-"Block ads for websites in" = "Blokovat reklamy pro webové stránky";
+/* Settings section header */
+"BLOCKING" = "BLOKOVÁNÍ";
 
 /* Bookmarks listing */
 "Bookmarked Pages" = "Založené stránky";
@@ -91,8 +94,11 @@
 /* Welcome guide screen 1 headline */
 "Browse in peace" = "Surfujte s klidem";
 
-/* (No Commment) */
-"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+/* Section header in About screen */
+"BROWSER VERSION" = "BROWSER VERSION";
+
+/* Browser address bar */
+"browser_address_bar_placeholder" = "Vyhledat nebo zadat název webových stránek ...";
 
 /* Browser address bar cancel
    Clear history alert cancel button title
@@ -127,17 +133,23 @@
 /* Note of search approval confirmation */
 "Configurable under *Settings > URL Search Suggestions*" = "Nastavitelné pod *Nastavení > Návrhy hledání URL*";
 
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "Hlášení o pádu a chybě";
+
 /* Devbuild setting */
 "Crash Application Now" = "Crash Application Now";
 
 /* Crash Reports Dialogs */
 "Crash Reports" = "Crash Reports";
 
-/* Crash Reports Dialogs */
-"Crash and Error Reports" = "Hlášení o pádu a chybě";
-
 /* (No Commment) */
 "Dashboard" = "Rozcestník";
+
+/* Dashboard tip footer text */
+"dashboard_tip_text" = "Položku lze upravit klepnutím a přidržením.";
 
 /* Browser history list
    Delete Bookmark alert delete button title */
@@ -153,16 +165,16 @@
 /* Navigation control title */
 "Devbuild Settings" = "Devbuild Settings";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable anti-adblocking messages */
 "Disable Anti-Ad blocking Messages" = "Zakázat protiblokovací zprávy";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable malware domains */
 "Disable Malware Domains" = "Zakázat malwarové domény";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable social media buttons */
 "Disable Social Media Buttons" = "Zakázat tlačítka sociálních sítí";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable tracking */
 "Disable Tracking" = "Zakázat sledování";
 
 /* Question of search approval confirmation */
@@ -197,11 +209,20 @@
 /* Devbuild setting */
 "Error prepared for sending" = "Error prepared for sending";
 
-/* (No Commment) */
+/* Exceptions settings - title */
 "Exceptions" = "Výjimky";
 
-/* Find in page - Autocomplete controller */
-"Find \"%@\" in page" = "Najít na stránce \"%@\"";
+/* Exceptions settings - section description */
+"exceptions_settings_acceptable_ads_description" = "Máte možnost zvolit, zda chcete zahrnout neintruzivní, neanimované reklamy, které splňují přísná kritéria. *Další informace*";
+
+/* Exceptions settings - section title */
+"exceptions_settings_acceptable_ads_title" = "Nerušivé reklamy";
+
+/* Exceptions settings - section description */
+"exceptions_settings_whitelisted_websites_description" = "Na těchto webech jste deaktivovali blokování reklam, a proto se na nich budou zobrazovat reklamy.";
+
+/* Exceptions settings - section title */
+"exceptions_settings_whitelisted_websites_title" = "Povolené webové stránky";
 
 /* Find in page - Autocomplete controller */
 "Find in page (%@ matches)" = "Najít na stránce (%@ nálezů)";
@@ -209,11 +230,20 @@
 /* Welcome guide screen 2 button */
 "Finish" = "Dokončit";
 
-/* (No Commment) */
+/* Settings - section header */
 "GENERAL" = "OBECNÉ";
 
-/* (No Commment) */
+/* Ghost Mode Title */
 "Ghost Mode" = "Režim Ghost";
+
+/* Ghost mode banner */
+"ghost_mode_banner_headline" = "Režim Ghost";
+
+/* Ghost mode banner */
+"ghost_mode_banner_subline" = "V režimu Ghost se ve vašem zařízení nebude ukládat historie prohlížeče, historie vyhledávání, webové formuláře, soubory cookie ani dočasné internetové soubory.";
+
+/* Ghost mode banner */
+"ghost_mode_banner_tip" = "Klepnutím na ikonu lze při ukončení relace režim Ghost deaktivovat.";
 
 /* Search Engine Selection */
 "Google" = "Google";
@@ -224,25 +254,37 @@
 /* Crash Reports Dialogs */
 "Got it" = "Rozumím";
 
-/* (No Commment) */
+/* Exceptions settings - acceptable ads option */
 "Hide all ads" = "Skrýt všechny reklamy";
 
 /* Pull up menu option */
 "History" = "Historie";
 
-/* (No Commment) */
+/* Languages Settings - title */
 "Languages" = "Jazyky";
 
-/* (No Commment) */
+/* Leave notification */
+"leave_notification_button_1" = "OK";
+
+/* Leave notification */
+"leave_notification_button_2" = "Zrušit";
+
+/* Leave notification */
+"leave_notification_headline" = "Ukončit režim Ghost?";
+
+/* Leave notification */
+"leave_notification_subline" = "Vaše historie se neuloží a všechny aktivní karty se zavřou.";
+
+/* Devbuild setting section header */
 "MEMORY PRESSURE" = "MEMORY PRESSURE";
 
-/* (No Commment) */
-"MORE OPTIONS" = "VÍCE MOŽNOSTÍ";
-
-/* (No Commment) */
+/* Blocking options screen */
 "More Blocking Options" = "Více možností blokování";
 
-/* (No Commment) */
+/* Ad blocking Settings - section header */
+"MORE OPTIONS" = "VÍCE MOŽNOSTÍ";
+
+/* Crash/Error reports settings */
 "Never" = "Nikdy";
 
 /* Tab view label */
@@ -257,25 +299,25 @@
 /* Bookmarks listing */
 "No Bookmarks Available" = "Žádné dostupné záložky";
 
-/* (No Commment) */
+/* Browser history list */
 "No History Available" = "Žádná předchozí historie";
 
-/* (No Commment) */
+/* Whitelist no website whitelisted label */
 "No websites whitelisted" = "Žádné neblokované stránky";
-
-/* Devbuild setting */
-"OK" = "OK";
-
-/* (No Commment) */
-"OTHER LANGUAGES" = "DALŠÍ JAZYKY";
 
 /* Settings - extension enabled status */
 "Off" = "Vyp";
 
+/* Devbuild setting */
+"OK" = "OK";
+
 /* Settings - extension enabled status */
 "On" = "Zap";
 
-/* (No Commment) */
+/* Welcome guide screen 2 picture label */
+"onboarding_exceptions_navigation_path" = "Klepněte na ikonu menu -> Nastavení -> Blokování reklam -> Výjimky";
+
+/* Crash/Error reports settings */
 "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Jsou odesílána pouze anonymní data o zařízení a detailech pádu nebo chyby. Informujte se o našich zásadách ochrany osobních údajů na stránkách adblockplus.org.";
 
 /* Welcome guide screen 1 button */
@@ -284,8 +326,11 @@
 /* Pull up menu option */
 "Open New Tab" = "Otevřít novou kartu";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Open privacy policy." = "Otevřít prohlášení o ochraně";
+
+/* Languages Settings - section header */
+"OTHER LANGUAGES" = "DALŠÍ JAZYKY";
 
 /* Devbuild setting */
 "Produce Error Now" = "Produce Error Now";
@@ -299,17 +344,17 @@
 /* App start failure screen */
 "Restart Adblock Browser." = "Restartujte Adblock Browser.";
 
-/* (No Commment) */
+/* Settings - section header */
 "SEARCH" = "VYHLEDÁVÁNÍ";
-
-/* (No Commment) */
-"SEND CRASH AND ERROR REPORTS" = "ODESLAT HLÁŠENÍ O PÁDU A CHYBĚ";
 
 /* Search Engine Selection */
 "Search Engine" = "Poskytovatel";
 
 /* Autocomplete suggestions */
 "Search History" = "Historie hledání";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "ODESLAT HLÁŠENÍ O PÁDU A CHYBĚ";
 
 /* Crash/Error Report Sending Modal */
 "Send Report" = "Odeslat hlášení";
@@ -320,13 +365,13 @@
 /* Pull up menu option */
 "Share" = "Sdílet";
 
-/* Devbuild setting */
-"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
-
 /* Bookmark editing switch */
 "Show in Dashboard" = "Zobrazit v rozcestníku";
 
-/* (No Commment) */
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Exceptions settings - acceptable ads option */
 "Show nonintrusive ads" = "Zobrazit neintruzivní reklamy";
 
 /* App start failure screen */
@@ -338,23 +383,14 @@
 /* App start failure screen */
 "Swipe up on Adblock Browser to quit the app." = "Přejeďte v Adblock Browser prstem nahoru a vypněte aplikaci.";
 
-/* TIP */
-"TIP" = "TIP";
-
-/* Welcome guide screen 2 picture label */
-"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Klepněte na ikonu menu → Nastavení → Adblock Plus → Přijatelné reklamy";
-
-/* (No Commment) */
+/* Settings section footer */
 "The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "*Blokování reklam* a *Další možnosti blokování* jsou založeny na principu filterlistů. Jedná se o sady pravidel, které Adblock Browseru říkají, co má blokovat.";
 
 /* Clear Browsing Data Confirmation */
 "This action cannot be undone. Are you sure you want to continue?" = "Tuto akci nelze vrátit. Chcete pokračovat?";
 
-/* Undo tooltip */
-"UNDO" = "UNDO";
-
-/* Headline of search approval confirmation */
-"URL Search Suggestions" = "Návrhy hledání URL";
+/* TIP */
+"TIP" = "TIP";
 
 /* App start failure screen */
 "Uh-Oh!" = "Jejda!";
@@ -362,10 +398,16 @@
 /* Critical abort alert message */
 "Unable to start browser." = "Prohlížeč nelze spustit.";
 
-/* (No Commment) */
+/* Undo tooltip */
+"UNDO" = "UNDO";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "Návrhy hledání URL";
+
+/* Section header in About screenSettings - section header */
 "VERSION" = "VERZE";
 
-/* (No Commment) */
+/* Acceptable ads explanation */
 "We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Rádi bychom podpořili webové stránky v používání přímočaré, neobtěžující reklamy. Proto jsme stanovili přísná pravidla identifikace přijatelné reklamy, a tyto se v našem základním nastavení zobrazují. Pokud chcete blokovat veškeré reklamy, můžete zobrazování zakázat během pár vteřin.";
 
 /* Crash/Error Report Sending Modal */
@@ -375,50 +417,14 @@
 "Yes" = "Ano";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Toto nastavení můžete kdykoli změnit: **Nastavení → Hlášení o pádu a chybě**";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Toto nastavení můžete kdykoli změnit: **Nastavení → Hlášení o pádu a chybě**";
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
 
 /* Undo tooltip */
 "You closed a tab" = "You closed a tab";
 
 /* Welcome guide screen 2 headline */
 "You're in control" = "Vy to ovládáte";
-
-/* (No Commment) */
-"browser_address_bar_placeholder" = "Vyhledat nebo zadat název webových stránek ...";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_description" = "Máte možnost zvolit, zda chcete zahrnout neintruzivní, neanimované reklamy, které splňují přísná kritéria. *Další informace*";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_title" = "Nerušivé reklamy";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_description" = "Na těchto webech jste deaktivovali blokování reklam, a proto se na nich budou zobrazovat reklamy.";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_title" = "Povolené webové stránky";
-
-/* (No Commment) */
-"ghost_mode_banner_headline" = "Režim Ghost";
-
-/* (No Commment) */
-"ghost_mode_banner_subline" = "V režimu Ghost se ve vašem zařízení nebude ukládat historie prohlížeče, historie vyhledávání, webové formuláře, soubory cookie ani dočasné internetové soubory.";
-
-/* (No Commment) */
-"ghost_mode_banner_tip" = "Klepnutím na ikonu lze při ukončení relace režim Ghost deaktivovat.";
-
-/* (No Commment) */
-"leave_notification_button_1" = "OK";
-
-/* (No Commment) */
-"leave_notification_button_2" = "Zrušit";
-
-/* (No Commment) */
-"leave_notification_headline" = "Ukončit režim Ghost?";
-
-/* (No Commment) */
-"leave_notification_subline" = "Vaše historie se neuloží a všechny aktivní karty se zavřou.";
 

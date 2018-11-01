@@ -4,16 +4,12 @@
 /* App start failure screen */
 "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "ثمة خطأ فادح منع بدء تشغيل Adblock Browser. اتبع هذه التعليمات لإنهاء التطبيق والمحاولة مجددًا.";
 
-/* (No Commment) */
-"ADBLOCK BROWSER" = "Adblock Browser";
-
-/* (No Commment) */
-"ADBLOCK VERSION" = "ADBLOCK VERSION";
-
-/* (No Commment) */
+/* About screen title
+   Settings status option */
 "About" = "حول";
 
-/* (No Commment) */
+/* Settings - show list of subscriptionsSettings - cell title
+  Ad blocking Settings - cell title */
 "Ad blocking" = "حظر الإعلانات";
 
 /* Welcome guide screen 1 paragraph */
@@ -22,28 +18,38 @@
 /* (No Commment) */
 "Ad blocking on this site" = "حجب الإعلانات على هذا الموقع";
 
+/* Settings - section header
+ Ad blocking Settings - section header */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
 /* Crash/Error Report Sending Modal */
 "Adblock Browser Encountered an Error" = "واجه Adblock Browser خطأً";
 
 /* Crash/Error Report Sending Modal */
-"Adblock Unexpectedly Quit" = "تم إنهاء Adblock بشكل غير متوقع";
+"Adblock Unexpectedly Quit" = "تم إنهاء Adblock Browser بشكل غير متوقع";
+
+/* Section header in About screen */
+"ADBLOCK VERSION" = "ADBLOCK VERSION";
 
 /* Pull up menu option */
 "Add Bookmark" = "إضافة إشارة مرجعية";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "Add Bookmark to Dashboard" = "إضافة علامة مرجعية إلى لوحة التحكم";
 
-/* (No Commment) */
+/* Tabs view cell */
+"add_new_tab" = "إضافة تبويب جديد";
+
+/* Ghost mode description */
 "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "All of your bookmarks have been added to the Dashboard." = "تمت إضافة كل إشاراتك المرجعية إلى لوحة المعلومات.";
 
-/* (No Commment) */
+/* Acceptable ads switch label */
 "Allow some nonintrusive advertising" = "السماح ببعض الإعلانات غير التطفلية";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Always" = "دائمًا";
 
 /* Crash/Error Report Sending Modal */
@@ -58,14 +64,8 @@
 /* Delete Bookmark alert message */
 "Are you sure you want to delete this bookmark?" = "هل تريد بالتأكيد حذف هذه الإشارة المرجعية؟";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Ask Me After a Crash or Error" = "اسألني بعد حدوث تعطل أو خطأ";
-
-/* (No Commment) */
-"BLOCKING" = "الحظر";
-
-/* (No Commment) */
-"BROWSER VERSION" = "BROWSER VERSION";
 
 /* Search Engine Selection */
 "Baidu" = "بايدو";
@@ -73,11 +73,14 @@
 /* Autocomplete suggestions */
 "Baidu search" = "بحث بايدو";
 
+/* Languages Settings - section header */
+"Block ads for websites in" = "حجب الإعلانات لمواقع الويب في";
+
 /* Pull up menu option */
 "Block Ads on this Site" = "حجب الإعلانات في هذا الموقع";
 
-/* (No Commment) */
-"Block ads for websites in" = "حجب الإعلانات لمواقع الويب في";
+/* Settings section header */
+"BLOCKING" = "الحظر";
 
 /* Bookmarks listing */
 "Bookmarked Pages" = "صفحات ذات إشارة مرجعية";
@@ -91,8 +94,11 @@
 /* Welcome guide screen 1 headline */
 "Browse in peace" = "تصفح بأمان";
 
-/* (No Commment) */
-"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+/* Section header in About screen */
+"BROWSER VERSION" = "BROWSER VERSION";
+
+/* Browser address bar */
+"browser_address_bar_placeholder" = "البحث أو إدخال اسم موقع الويب...";
 
 /* Browser address bar cancel
    Clear history alert cancel button title
@@ -127,17 +133,23 @@
 /* Note of search approval confirmation */
 "Configurable under *Settings > URL Search Suggestions*" = "التعديل من خلال *قائمة الإعدادات و إقتراحات البحث*";
 
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "تقارير التعطل والخطأ";
+
 /* Devbuild setting */
 "Crash Application Now" = "Crash Application Now";
 
 /* Crash Reports Dialogs */
 "Crash Reports" = "Crash Reports";
 
-/* Crash Reports Dialogs */
-"Crash and Error Reports" = "تقارير التعطل والخطأ";
-
 /* (No Commment) */
 "Dashboard" = "لوحة المعلومات";
+
+/* Dashboard tip footer text */
+"dashboard_tip_text" = "استمر في الضغط على عنصر ما ليتم تعديله.";
 
 /* Browser history list
    Delete Bookmark alert delete button title */
@@ -153,16 +165,16 @@
 /* Navigation control title */
 "Devbuild Settings" = "Devbuild Settings";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable anti-adblocking messages */
 "Disable Anti-Ad blocking Messages" = " تعطيل رسائل مضادات حاجب الإعلانات";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable malware domains */
 "Disable Malware Domains" = " تعطيل نطاقات البرامج الضارة";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable social media buttons */
 "Disable Social Media Buttons" = " تعطيل أزرار المواقع الإجتماعية";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable tracking */
 "Disable Tracking" = " تعطيل التتبع";
 
 /* Question of search approval confirmation */
@@ -197,11 +209,20 @@
 /* Devbuild setting */
 "Error prepared for sending" = "Error prepared for sending";
 
-/* (No Commment) */
+/* Exceptions settings - title */
 "Exceptions" = "استثناءات";
 
-/* Find in page - Autocomplete controller */
-"Find \"%@\" in page" = "ابحث عن \"%@\" في الصفحة";
+/* Exceptions settings - section description */
+"exceptions_settings_acceptable_ads_description" = "اختر إدراج أو عدم إدراج إعلانات غير تطفلية وغير متحركة تلتزم بمعايير صارمة. *معرفة المزيد*";
+
+/* Exceptions settings - section title */
+"exceptions_settings_acceptable_ads_title" = "الإعلان المقبول";
+
+/* Exceptions settings - section description */
+"exceptions_settings_whitelisted_websites_description" = "لقد أوقفت تشغيل حجب الإعلانات في مواقع الويب هذه ومن ثم سترى إعلاناتها فيها. *معرفة المزيد*";
+
+/* Exceptions settings - section title */
+"exceptions_settings_whitelisted_websites_title" = "مواقع الويب المدرجة في القوائم البيضاء";
 
 /* Find in page - Autocomplete controller */
 "Find in page (%@ matches)" = "البحث في الصفحة (%@ تطابقات)";
@@ -209,11 +230,20 @@
 /* Welcome guide screen 2 button */
 "Finish" = "إنهاء";
 
-/* (No Commment) */
+/* Settings - section header */
 "GENERAL" = "العام";
 
-/* (No Commment) */
+/* Ghost Mode Title */
 "Ghost Mode" = "وضع التخفي";
+
+/* Ghost mode banner */
+"ghost_mode_banner_headline" = "وضع التخفي";
+
+/* Ghost mode banner */
+"ghost_mode_banner_subline" = "أثناء تنشيط وضع التخفي، لن يتم تخزين كافة محفوظات المستعرض، ومحفوظات البحث، ونماذج الويب، وملفات تعريف الارتباط، وملفات الإنترنت المؤقتة في جهازك.";
+
+/* Ghost mode banner */
+"ghost_mode_banner_tip" = "انقر فوق الرمز لتعطيل وضع التخفي عندما تنتهي من الجلسة.";
 
 /* Search Engine Selection */
 "Google" = "جوجل";
@@ -224,25 +254,37 @@
 /* Crash Reports Dialogs */
 "Got it" = "مفهوم";
 
-/* (No Commment) */
+/* Exceptions settings - acceptable ads option */
 "Hide all ads" = "إخفاء كل الإعلانات";
 
 /* Pull up menu option */
 "History" = "سجل المحفوظات";
 
-/* (No Commment) */
+/* Languages Settings - title */
 "Languages" = "اللغات";
 
-/* (No Commment) */
+/* Leave notification */
+"leave_notification_button_1" = "موافق";
+
+/* Leave notification */
+"leave_notification_button_2" = "إلغاء";
+
+/* Leave notification */
+"leave_notification_headline" = "هل تريد إنهاء وضع التخفي؟";
+
+/* Leave notification */
+"leave_notification_subline" = "لن يتم تخزين محفوظاتك وسيتم غلق كل علامات التبويب النشطة.";
+
+/* Devbuild setting section header */
 "MEMORY PRESSURE" = "MEMORY PRESSURE";
 
-/* (No Commment) */
-"MORE OPTIONS" = "خيارات إضافية";
-
-/* (No Commment) */
+/* Blocking options screen */
 "More Blocking Options" = "خيارات الحظر الإضافية";
 
-/* (No Commment) */
+/* Ad blocking Settings - section header */
+"MORE OPTIONS" = "خيارات إضافية";
+
+/* Crash/Error reports settings */
 "Never" = "‏‏مطلقاً";
 
 /* Tab view label */
@@ -257,25 +299,25 @@
 /* Bookmarks listing */
 "No Bookmarks Available" = "المواقع المفضلة ليست متوفرة";
 
-/* (No Commment) */
+/* Browser history list */
 "No History Available" = "سجل المحفوظات خالي";
 
-/* (No Commment) */
+/* Whitelist no website whitelisted label */
 "No websites whitelisted" = "لا توجد مواقع على القائمة البيضاء";
-
-/* Devbuild setting */
-"OK" = "موافق";
-
-/* (No Commment) */
-"OTHER LANGUAGES" = "لغات أخرى";
 
 /* Settings - extension enabled status */
 "Off" = "تعطيل";
 
+/* Devbuild setting */
+"OK" = "موافق";
+
 /* Settings - extension enabled status */
 "On" = "تشغيل";
 
-/* (No Commment) */
+/* Welcome guide screen 2 picture label */
+"onboarding_exceptions_navigation_path" = "اضغط على رمز القائمة -> إعدادات -> حظر الإعلانات -> استثناءات";
+
+/* Crash/Error reports settings */
 "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "لا يتم إرسال سوى بيانات مجهولة الهوية تضم معلومات الجهاز وتفاصيل التعطل أو الخطأ. لمزيد من المعلومات، الرجاء الرجوع إلى سياسة الخصوصية لدينا الموجودة على adblockplus.org.";
 
 /* Welcome guide screen 1 button */
@@ -284,8 +326,11 @@
 /* Pull up menu option */
 "Open New Tab" = "فتح علامة تبويب جديدة";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Open privacy policy." = "فتح سياسة الخصوصية";
+
+/* Languages Settings - section header */
+"OTHER LANGUAGES" = "لغات أخرى";
 
 /* Devbuild setting */
 "Produce Error Now" = "Produce Error Now";
@@ -299,17 +344,17 @@
 /* App start failure screen */
 "Restart Adblock Browser." = "أعد تشغيل Adblock Browser.";
 
-/* (No Commment) */
+/* Settings - section header */
 "SEARCH" = "البحث";
-
-/* (No Commment) */
-"SEND CRASH AND ERROR REPORTS" = "إرسال تقارير التعطل والخطأ";
 
 /* Search Engine Selection */
 "Search Engine" = "محرك البحث";
 
 /* Autocomplete suggestions */
 "Search History" = "البحث في سجل المحفوظات";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "إرسال تقارير التعطل والخطأ";
 
 /* Crash/Error Report Sending Modal */
 "Send Report" = "أرسل تقريرًا";
@@ -320,13 +365,13 @@
 /* Pull up menu option */
 "Share" = "المشاركة";
 
-/* Devbuild setting */
-"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
-
 /* Bookmark editing switch */
 "Show in Dashboard" = " إظهار في لوحة المعلومات";
 
-/* (No Commment) */
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Exceptions settings - acceptable ads option */
 "Show nonintrusive ads" = "إظهار إعلانات غير تطفلية";
 
 /* App start failure screen */
@@ -338,23 +383,14 @@
 /* App start failure screen */
 "Swipe up on Adblock Browser to quit the app." = "اسحب بإصبعك إلى أعلى فوق Adblock Browser لإنهاء التطبيق.";
 
-/* TIP */
-"TIP" = "TIP";
-
-/* Welcome guide screen 2 picture label */
-"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "أنقر أيقونة القائمة ← إعدادات ← Adblock Plus ← الإعلانات المقبولة";
-
-/* (No Commment) */
+/* Settings section footer */
 "The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "*حظر الإعلانات* و *خيارات الحظر الإضافية* تستند على قوائم الفلترات. هذه مجموعة من القواعد التي تخبر Adblock Browser ما عليه حجبه.";
 
 /* Clear Browsing Data Confirmation */
 "This action cannot be undone. Are you sure you want to continue?" = "لا يمكن إلقاء عن هذا الإجراء. هل أنت متأكد من أنك تريد المتابعة؟";
 
-/* Undo tooltip */
-"UNDO" = "UNDO";
-
-/* Headline of search approval confirmation */
-"URL Search Suggestions" = " إعرض إقتراحات البحث";
+/* TIP */
+"TIP" = "TIP";
 
 /* App start failure screen */
 "Uh-Oh!" = "يا لها من ورطة!";
@@ -362,10 +398,16 @@
 /* Critical abort alert message */
 "Unable to start browser." = "يتعذر بدء تشغيل المستعرض.";
 
-/* (No Commment) */
+/* Undo tooltip */
+"UNDO" = "UNDO";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = " إعرض إقتراحات البحث";
+
+/* Section header in About screenSettings - section header */
 "VERSION" = "الإصدار";
 
-/* (No Commment) */
+/* Acceptable ads explanation */
 "We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "نود أن نشجع مواقع الويب بإستخدام إعلانات واضحة، غير مؤذية، ولا تخرب تجربة التصفح.
 لذلك وضعنا مبادئ توجيهية صارمة لتحديد الإعلانات المقبولة، والتي تظهر تحت قائمة الإعدادات الإفتراضية. إذا كنت ترغب في تصفح خالي تماما من الإعلانات، يمكنك تَغيير هذا الإعداد في أي وقت.";
 
@@ -376,50 +418,14 @@
 "Yes" = "نعم";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "يمكنك تغيير هذا الإعداد في أي وقت من: **إعدادات ← تقارير التعطل والخطأ**";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "يمكنك تغيير هذا الإعداد في أي وقت من: **إعدادات ← تقارير التعطل والخطأ**";
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
 
 /* Undo tooltip */
 "You closed a tab" = "You closed a tab";
 
 /* Welcome guide screen 2 headline */
 "You're in control" = "انت المتحكم";
-
-/* (No Commment) */
-"browser_address_bar_placeholder" = "البحث أو إدخال اسم موقع الويب...";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_description" = "اختر إدراج أو عدم إدراج إعلانات غير تطفلية وغير متحركة تلتزم بمعايير صارمة. *معرفة المزيد*";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_title" = "الإعلان المقبول";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_description" = "لقد أوقفت تشغيل حجب الإعلانات في مواقع الويب هذه ومن ثم سترى إعلاناتها فيها. *معرفة المزيد*";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_title" = "مواقع الويب المدرجة في القوائم البيضاء";
-
-/* (No Commment) */
-"ghost_mode_banner_headline" = "وضع التخفي";
-
-/* (No Commment) */
-"ghost_mode_banner_subline" = "أثناء تنشيط وضع التخفي، لن يتم تخزين كافة محفوظات المستعرض، ومحفوظات البحث، ونماذج الويب، وملفات تعريف الارتباط، وملفات الإنترنت المؤقتة في جهازك.";
-
-/* (No Commment) */
-"ghost_mode_banner_tip" = "انقر فوق الرمز لتعطيل وضع التخفي عندما تنتهي من الجلسة.";
-
-/* (No Commment) */
-"leave_notification_button_1" = "موافق";
-
-/* (No Commment) */
-"leave_notification_button_2" = "إلغاء";
-
-/* (No Commment) */
-"leave_notification_headline" = "هل تريد إنهاء وضع التخفي؟";
-
-/* (No Commment) */
-"leave_notification_subline" = "لن يتم تخزين محفوظاتك وسيتم غلق كل علامات التبويب النشطة.";
 

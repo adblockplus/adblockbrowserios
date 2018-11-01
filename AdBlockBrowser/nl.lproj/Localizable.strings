@@ -4,16 +4,12 @@
 /* App start failure screen */
 "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "Door een kritieke fout kan Adblock Browser niet starten. Volg deze stappen om de app af te sluiten en het opnieuw te proberen.";
 
-/* (No Commment) */
-"ADBLOCK BROWSER" = "Adblock Browser";
-
-/* (No Commment) */
-"ADBLOCK VERSION" = "ADBLOCK VERSION";
-
-/* (No Commment) */
+/* About screen title
+   Settings status option */
 "About" = "Over";
 
-/* (No Commment) */
+/* Settings - show list of subscriptionsSettings - cell title
+  Ad blocking Settings - cell title */
 "Ad blocking" = "Advertentieblokkering";
 
 /* Welcome guide screen 1 paragraph */
@@ -22,28 +18,38 @@
 /* (No Commment) */
 "Ad blocking on this site" = "Advertentieblokkering op deze website";
 
+/* Settings - section header
+ Ad blocking Settings - section header */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
 /* Crash/Error Report Sending Modal */
 "Adblock Browser Encountered an Error" = "Er is een fout opgetreden in Adblock Browser";
 
 /* Crash/Error Report Sending Modal */
-"Adblock Unexpectedly Quit" = "Adblock is onverwacht beëindigd";
+"Adblock Unexpectedly Quit" = "Adblock Browser is onverwacht beëindigd";
+
+/* Section header in About screen */
+"ADBLOCK VERSION" = "ADBLOCK-VERSIE";
 
 /* Pull up menu option */
-"Add Bookmark" = "Voeg een favoriet toe";
+"Add Bookmark" = "Bladwijzer toevoegen";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "Add Bookmark to Dashboard" = "Bladwijzer toevoegen aan dashboard";
 
-/* (No Commment) */
-"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
+/* Tabs view cell */
+"add_new_tab" = "Nieuw tabblad toevoegen";
 
-/* (No Commment) */
+/* Ghost mode description */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "Na het sluiten van een tabblad in Ghost-modus worden de **browsergeschiedenis, zoekgeschiedenis, downloadgeschiedenis, webformuliergeschiedenis, cookies en tijdelijke internetbestanden** binnen dit tabblad van uw apparaat verwijderd.";
+
+/* Add bookmark controller */
 "All of your bookmarks have been added to the Dashboard." = "Al uw bladwijzers zijn aan het dashboard toegevoegd.";
 
-/* (No Commment) */
+/* Acceptable ads switch label */
 "Allow some nonintrusive advertising" = "Enkele niet-opdringerige advertenties toestaan";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Always" = "Altijd";
 
 /* Crash/Error Report Sending Modal */
@@ -58,14 +64,8 @@
 /* Delete Bookmark alert message */
 "Are you sure you want to delete this bookmark?" = "Weet u zeker dat u deze bladwijzer wilt verwijderen?";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Ask Me After a Crash or Error" = "Vragen na een crash of fout";
-
-/* (No Commment) */
-"BLOCKING" = "BLOKKEREN";
-
-/* (No Commment) */
-"BROWSER VERSION" = "BROWSER VERSION";
 
 /* Search Engine Selection */
 "Baidu" = "Baidu";
@@ -73,14 +73,17 @@
 /* Autocomplete suggestions */
 "Baidu search" = "Zoeken bij Baidu";
 
+/* Languages Settings - section header */
+"Block ads for websites in" = "Advertenties blokkeren voor websites in";
+
 /* Pull up menu option */
 "Block Ads on this Site" = "Advertenties op deze website blokkeren";
 
-/* (No Commment) */
-"Block ads for websites in" = "Blokkeer advertenties voor websites in";
+/* Settings section header */
+"BLOCKING" = "BLOKKEREN";
 
 /* Bookmarks listing */
-"Bookmarked Pages" = "Favoriete Pagina's";
+"Bookmarked Pages" = "Pagina's met bladwijzer";
 
 /* (No Commment) */
 "Bookmarks" = "Bladwijzers";
@@ -91,8 +94,11 @@
 /* Welcome guide screen 1 headline */
 "Browse in peace" = "Surfen in vrede";
 
-/* (No Commment) */
-"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+/* Section header in About screen */
+"BROWSER VERSION" = "BROWSERVERSIE";
+
+/* Browser address bar */
+"browser_address_bar_placeholder" = "Voer zoekterm of websitenaam in...";
 
 /* Browser address bar cancel
    Clear history alert cancel button title
@@ -122,10 +128,16 @@
 "Clear History?" = "Geschiedenis wissen?";
 
 /* Tabs view */
-"Close" = "Close";
+"Close" = "Sluiten";
 
 /* Note of search approval confirmation */
 "Configurable under *Settings > URL Search Suggestions*" = "Instelbaar onder *Instellingen > URL-zoeksuggesties*";
+
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "CRASH- EN FOUTRAPPORTAGE";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "Crash- en foutrapporten";
 
 /* Devbuild setting */
 "Crash Application Now" = "Crash Application Now";
@@ -133,11 +145,11 @@
 /* Crash Reports Dialogs */
 "Crash Reports" = "Crash Reports";
 
-/* Crash Reports Dialogs */
-"Crash and Error Reports" = "Crash- en foutrapporten";
-
 /* (No Commment) */
 "Dashboard" = "Dashboard";
+
+/* Dashboard tip footer text */
+"dashboard_tip_text" = "Tik en houd een item vast om het te wijzigen.";
 
 /* Browser history list
    Delete Bookmark alert delete button title */
@@ -153,16 +165,16 @@
 /* Navigation control title */
 "Devbuild Settings" = "Devbuild Settings";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable anti-adblocking messages */
 "Disable Anti-Ad blocking Messages" = "Anti-blokkeringsmeldingen uitschakelen";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable malware domains */
 "Disable Malware Domains" = "Malwaredomeinen uitschakelen";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable social media buttons */
 "Disable Social Media Buttons" = "Sociale-mediaknoppen uitschakelen";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable tracking */
 "Disable Tracking" = "Tracking uitschakelen";
 
 /* Question of search approval confirmation */
@@ -197,11 +209,20 @@
 /* Devbuild setting */
 "Error prepared for sending" = "Error prepared for sending";
 
-/* (No Commment) */
+/* Exceptions settings - title */
 "Exceptions" = "Uitzonderingen";
 
-/* Find in page - Autocomplete controller */
-"Find \"%@\" in page" = "'%@' zoeken op pagina";
+/* Exceptions settings - section description */
+"exceptions_settings_acceptable_ads_description" = "Kies of u niet-opdringerige, niet-bewegende advertenties wilt opnemen die aan strenge criteria voldoen. *Meer info*";
+
+/* Exceptions settings - section title */
+"exceptions_settings_acceptable_ads_title" = "Acceptabele advertenties";
+
+/* Exceptions settings - section description */
+"exceptions_settings_whitelisted_websites_description" = "U hebt het blokkeren van advertenties op deze websites uitgeschakeld, waardoor u er advertenties op ziet.";
+
+/* Exceptions settings - section title */
+"exceptions_settings_whitelisted_websites_title" = "Websites op witte lijst";
 
 /* Find in page - Autocomplete controller */
 "Find in page (%@ matches)" = "Zoeken op pagina (%@ overeenkomsten)";
@@ -209,11 +230,20 @@
 /* Welcome guide screen 2 button */
 "Finish" = "Voltooien";
 
-/* (No Commment) */
+/* Settings - section header */
 "GENERAL" = "ALGEMEEN";
 
-/* (No Commment) */
-"Ghost Mode" = "Ghost-Modus";
+/* Ghost Mode Title */
+"Ghost Mode" = "Ghost-modus";
+
+/* Ghost mode banner */
+"ghost_mode_banner_headline" = "Ghost-Modus";
+
+/* Ghost mode banner */
+"ghost_mode_banner_subline" = "In Ghost-modus worden geen browser- en zoekgeschiedenis, webformulieren, cookies en tijdelijke internetbestanden op uw apparaat opgeslagen.";
+
+/* Ghost mode banner */
+"ghost_mode_banner_tip" = "Tik op het pictogram om de Ghost-modus uit te schakelen wanneer u klaar bent met de sessie.";
 
 /* Search Engine Selection */
 "Google" = "Google";
@@ -224,25 +254,37 @@
 /* Crash Reports Dialogs */
 "Got it" = "Begrepen";
 
-/* (No Commment) */
-"Hide all ads" = "Verberg alle advertenties";
+/* Exceptions settings - acceptable ads option */
+"Hide all ads" = "Alle advertenties verbergen";
 
 /* Pull up menu option */
 "History" = "Geschiedenis";
 
-/* (No Commment) */
+/* Languages Settings - title */
 "Languages" = "Talen";
 
-/* (No Commment) */
+/* Leave notification */
+"leave_notification_button_1" = "OK";
+
+/* Leave notification */
+"leave_notification_button_2" = "Annuleer";
+
+/* Leave notification */
+"leave_notification_headline" = "Ghost-modus afsluiten?";
+
+/* Leave notification */
+"leave_notification_subline" = "Uw geschiedenis wordt niet opgeslagen, en alle actieve tabbladen worden gesloten.";
+
+/* Devbuild setting section header */
 "MEMORY PRESSURE" = "MEMORY PRESSURE";
 
-/* (No Commment) */
-"MORE OPTIONS" = "MEER OPTIES";
-
-/* (No Commment) */
+/* Blocking options screen */
 "More Blocking Options" = "Meer blokkeringsopties";
 
-/* (No Commment) */
+/* Ad blocking Settings - section header */
+"MORE OPTIONS" = "MEER OPTIES";
+
+/* Crash/Error reports settings */
 "Never" = "Nooit";
 
 /* Tab view label */
@@ -257,59 +299,62 @@
 /* Bookmarks listing */
 "No Bookmarks Available" = "Geen bladwijzers beschikbaar";
 
-/* (No Commment) */
+/* Browser history list */
 "No History Available" = "Geen geschiedenis beschikbaar";
 
-/* (No Commment) */
+/* Whitelist no website whitelisted label */
 "No websites whitelisted" = "Geen websites op witte lijst";
-
-/* Devbuild setting */
-"OK" = "OK";
-
-/* (No Commment) */
-"OTHER LANGUAGES" = "ANDERE TALEN";
 
 /* Settings - extension enabled status */
 "Off" = "Uit";
 
+/* Devbuild setting */
+"OK" = "OK";
+
 /* Settings - extension enabled status */
 "On" = "Aan";
 
-/* (No Commment) */
+/* Welcome guide screen 2 picture label */
+"onboarding_exceptions_navigation_path" = "Tik op het menupictogram -> Instellingen -> Advertentieblokkering -> Uitzonderingen";
+
+/* Crash/Error reports settings */
 "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Er worden alleen geanonimiseerde gegevens met informatie over het apparaat en crash- of foutdetails verzonden. Raadpleeg ons privacybeleid op adblockplus.org voor meer informatie.";
 
 /* Welcome guide screen 1 button */
 "Only one more step" = "Nog maar één stap";
 
 /* Pull up menu option */
-"Open New Tab" = "Open Nieuwe Tab";
+"Open New Tab" = "Nieuw tabblad openen";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Open privacy policy." = "Privacybeleid openen";
+
+/* Languages Settings - section header */
+"OTHER LANGUAGES" = "ANDERE TALEN";
 
 /* Devbuild setting */
 "Produce Error Now" = "Produce Error Now";
 
 /* Browser history list */
-"Recent History" = "Recent History";
+"Recent History" = "Recente geschiedenis";
 
 /* Pull up menu option */
-"Remove Bookmark" = "Verwijder Favoriet";
+"Remove Bookmark" = "Bladwijzer verwijderen";
 
 /* App start failure screen */
 "Restart Adblock Browser." = "Start Adblock Browser opnieuw.";
 
-/* (No Commment) */
+/* Settings - section header */
 "SEARCH" = "ZOEKEN";
-
-/* (No Commment) */
-"SEND CRASH AND ERROR REPORTS" = "CRASH- EN FOUTRAPPORTEN VERZENDEN";
 
 /* Search Engine Selection */
 "Search Engine" = "Zoekmachine";
 
 /* Autocomplete suggestions */
 "Search History" = "Zoekgeschiedenis";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "CRASH- EN FOUTRAPPORTEN VERZENDEN";
 
 /* Crash/Error Report Sending Modal */
 "Send Report" = "Rapport verzenden";
@@ -320,41 +365,32 @@
 /* Pull up menu option */
 "Share" = "Delen";
 
-/* Devbuild setting */
-"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
-
 /* Bookmark editing switch */
 "Show in Dashboard" = "Tonen In dashboard";
 
-/* (No Commment) */
-"Show nonintrusive ads" = "Toon niet-opdringerige advertenties";
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Exceptions settings - acceptable ads option */
+"Show nonintrusive ads" = "Niet-opdringerige advertenties tonen";
 
 /* App start failure screen */
 "Something went wrong." = "Er is iets fout gegaan.";
 
 /* TIP - Tabs View */
-"Swipe tabs left to close them." = "Swipe tabs left to close them.";
+"Swipe tabs left to close them." = "Veeg tabbladen naar links om ze te sluiten.";
 
 /* App start failure screen */
 "Swipe up on Adblock Browser to quit the app." = "Veeg omhoog in Adblock Browser om de app af te sluiten.";
 
-/* TIP */
-"TIP" = "TIP";
-
-/* Welcome guide screen 2 picture label */
-"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Tik op het menupictogram → Instellingen → Adblock Plus → Acceptabele advertenties";
-
-/* (No Commment) */
+/* Settings section footer */
 "The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "De *advertentieblokkering* en *meer blokkeringsopties* zijn gebaseerd op filterlijsten. Dit zijn regelsets die Adblock Browser vertellen wat te blokkeren.";
 
 /* Clear Browsing Data Confirmation */
 "This action cannot be undone. Are you sure you want to continue?" = "Deze actie kan niet ongedaan worden gemaakt. Weet u zeker dat u wilt doorgaan?";
 
-/* Undo tooltip */
-"UNDO" = "UNDO";
-
-/* Headline of search approval confirmation */
-"URL Search Suggestions" = "URL-zoeksuggesties";
+/* TIP */
+"TIP" = "TIP";
 
 /* App start failure screen */
 "Uh-Oh!" = "Oeps!";
@@ -362,11 +398,17 @@
 /* Critical abort alert message */
 "Unable to start browser." = "Kan de browser niet starten.";
 
-/* (No Commment) */
+/* Undo tooltip */
+"UNDO" = "ONGEDAAN MAKEN";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "URL-zoeksuggesties";
+
+/* Section header in About screenSettings - section header */
 "VERSION" = "VERSIE";
 
-/* (No Commment) */
-"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "We zouden websites willen aanmoedigen eenvoudige, niet-opdringerige advertenties te gebruiken. Daarom hebben we strikte richtlijnen opgesteld om acceptabele advertenties te herkennen die bij gebruik van de standaardinstellingen worden getoond. Als u advertentievrij wilt surfen, kunt u deze instelling op elk gewenst moment uitschakelen.";
+/* Acceptable ads explanation */
+"We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "We willen websites graag aanmoedigen eenvoudige, niet-opdringerige advertenties te gebruiken. Daarom hebben we strenge richtlijnen opgesteld om acceptabele advertenties te herkennen, die bij gebruik van de standaardinstellingen worden getoond. Als u advertentievrij wilt surfen, kunt u deze instelling op elk gewenst moment uitschakelen.";
 
 /* Crash/Error Report Sending Modal */
 "Would you like to send a report to fix the problem?" = "Wilt u een rapport verzenden om het probleem te verhelpen?";
@@ -375,50 +417,14 @@
 "Yes" = "Ja";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
-
-/* Crash Reports Dialogs */
 "You can change this setting at any time in: **Settings → Crash and Error Reports**" = "U kunt deze instelling altijd wijzigen in **Instellingen → Crash- en foutrapporten**";
 
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+
 /* Undo tooltip */
-"You closed a tab" = "You closed a tab";
+"You closed a tab" = "U hebt een tabblad gesloten";
 
 /* Welcome guide screen 2 headline */
 "You're in control" = "U bent de baas";
-
-/* (No Commment) */
-"browser_address_bar_placeholder" = "Zoek of geef een website naam in...";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_description" = "Kies of de niet-opdringerige, niet-geanimeerde advertenties op te nemen die voldoen aan strikte criteria. *Meer informatie*";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_title" = "Acceptabele Advertenties";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_description" = "U hebt het blokkeren van advertenties uitgeschakeld op deze websites en daarom ziet u advertenties erop.";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_title" = "Vertrouwde Websites";
-
-/* (No Commment) */
-"ghost_mode_banner_headline" = "Ghost-Modus";
-
-/* (No Commment) */
-"ghost_mode_banner_subline" = "Terwijl u de Ghost-Modus gebruikt worden alle browser-en zoekgeschiedenis, webformulieren, cookies en tijdelijke internet-bestanden niet opgeslagen op uw apparaat.";
-
-/* (No Commment) */
-"ghost_mode_banner_tip" = "Tik op het pictogram om de Ghost-Modus uit te schakelen wanneer u klaar bent met de sessie.";
-
-/* (No Commment) */
-"leave_notification_button_1" = "OK";
-
-/* (No Commment) */
-"leave_notification_button_2" = "Annuleer";
-
-/* (No Commment) */
-"leave_notification_headline" = "Stoppen Met Ghost-Modus?";
-
-/* (No Commment) */
-"leave_notification_subline" = "Uw geschiedenis wordt niet opgeslagen en alle actieve tabs worden gesloten.";
 

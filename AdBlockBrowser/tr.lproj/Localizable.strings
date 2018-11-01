@@ -4,16 +4,12 @@
 /* App start failure screen */
 "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "Kritik bir hata, Adblock Browser’ın başlamasını engelledi. Uygulamadan çıkıp, tekrar denemek için aşağıdaki talimatları izleyin.";
 
-/* (No Commment) */
-"ADBLOCK BROWSER" = "Adblock Browser";
-
-/* (No Commment) */
-"ADBLOCK VERSION" = "ADBLOCK VERSION";
-
-/* (No Commment) */
+/* About screen title
+   Settings status option */
 "About" = "Hakkında";
 
-/* (No Commment) */
+/* Settings - show list of subscriptionsSettings - cell title
+  Ad blocking Settings - cell title */
 "Ad blocking" = "Reklam engelleme";
 
 /* Welcome guide screen 1 paragraph */
@@ -22,28 +18,38 @@
 /* (No Commment) */
 "Ad blocking on this site" = "Bu sitede reklam engelle";
 
+/* Settings - section header
+ Ad blocking Settings - section header */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
 /* Crash/Error Report Sending Modal */
 "Adblock Browser Encountered an Error" = "Adblock Browser, Bir Hatayla Karşılaştı";
 
 /* Crash/Error Report Sending Modal */
-"Adblock Unexpectedly Quit" = "Adblock, Beklenmedik Şekilde Kapandı";
+"Adblock Unexpectedly Quit" = "Adblock Browser, Beklenmedik Şekilde Kapandı";
+
+/* Section header in About screen */
+"ADBLOCK VERSION" = "ADBLOCK SÜRÜMÜ";
 
 /* Pull up menu option */
 "Add Bookmark" = "Yer İmi Ekle";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "Add Bookmark to Dashboard" = "Panoya yer işareti ekle";
 
-/* (No Commment) */
-"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
+/* Tabs view cell */
+"add_new_tab" = "Yeni Sekme Ekle";
 
-/* (No Commment) */
+/* Ghost mode description */
+"After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "Bir Gizli Modu sekmesini kapattıktan sonra, bu sekmedeki **tarayıcı geçmişi, arama geçmişi, indirme geçmişi, web formu geçmişi, çerezler ve geçici internet dosyaları** artık cihazınızda saklanmayacaktır.";
+
+/* Add bookmark controller */
 "All of your bookmarks have been added to the Dashboard." = "Tüm yer imleri paneline eklenmiştir.";
 
-/* (No Commment) */
+/* Acceptable ads switch label */
 "Allow some nonintrusive advertising" = "Rahatsız etmeyen bazı reklamlara izin ver";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Always" = "Her zaman";
 
 /* Crash/Error Report Sending Modal */
@@ -58,14 +64,8 @@
 /* Delete Bookmark alert message */
 "Are you sure you want to delete this bookmark?" = "Bu yer imini silmek istediğinizden emin misiniz?";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Ask Me After a Crash or Error" = "Bir Çökme veya Hatadan Sonra Bana Sor";
-
-/* (No Commment) */
-"BLOCKING" = "ENGELLEME";
-
-/* (No Commment) */
-"BROWSER VERSION" = "BROWSER VERSION";
 
 /* Search Engine Selection */
 "Baidu" = "Baidu";
@@ -73,11 +73,14 @@
 /* Autocomplete suggestions */
 "Baidu search" = "Baidu arama";
 
+/* Languages Settings - section header */
+"Block ads for websites in" = "Şu bölgedeki web siteleri için reklamları engelle";
+
 /* Pull up menu option */
 "Block Ads on this Site" = "Bu sitedeki reklamları engelle";
 
-/* (No Commment) */
-"Block ads for websites in" = "Şu bölgedeki web siteleri için reklamları engelle";
+/* Settings section header */
+"BLOCKING" = "ENGELLEME";
 
 /* Bookmarks listing */
 "Bookmarked Pages" = "Yer İmli Sayfalar";
@@ -91,8 +94,11 @@
 /* Welcome guide screen 1 headline */
 "Browse in peace" = "Huzurlu gezin";
 
-/* (No Commment) */
-"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+/* Section header in About screen */
+"BROWSER VERSION" = "TARAYICI SÜRÜMÜ";
+
+/* Browser address bar */
+"browser_address_bar_placeholder" = "Arama yapın ya da web sitesinin adını girin...";
 
 /* Browser address bar cancel
    Clear history alert cancel button title
@@ -122,10 +128,16 @@
 "Clear History?" = "Geçmişi Temizle?";
 
 /* Tabs view */
-"Close" = "Close";
+"Close" = "Kapat";
 
 /* Note of search approval confirmation */
 "Configurable under *Settings > URL Search Suggestions*" = "Altında yapılandırılabilir *ayarları > URL arama önerileri*";
+
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "ÇÖKME VE HATA RAPORLARI GÖNDER";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "Çökme ve Hata Raporları";
 
 /* Devbuild setting */
 "Crash Application Now" = "Crash Application Now";
@@ -133,11 +145,11 @@
 /* Crash Reports Dialogs */
 "Crash Reports" = "Crash Reports";
 
-/* Crash Reports Dialogs */
-"Crash and Error Reports" = "Çökme ve Hata Raporları";
-
 /* (No Commment) */
 "Dashboard" = "Pano";
+
+/* Dashboard tip footer text */
+"dashboard_tip_text" = "Değiştirmek istediğiniz öğeyi basılı tutun.";
 
 /* Browser history list
    Delete Bookmark alert delete button title */
@@ -153,16 +165,16 @@
 /* Navigation control title */
 "Devbuild Settings" = "Devbuild Settings";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable anti-adblocking messages */
 "Disable Anti-Ad blocking Messages" = "Anti-Reklam engelleme mesajlarını kapat";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable malware domains */
 "Disable Malware Domains" = "Kötü amaçlı yazılım etki alanlarını devre dışı bırak";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable social media buttons */
 "Disable Social Media Buttons" = "Sosyal medya düğmeleri devre dışı bırak";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable tracking */
 "Disable Tracking" = "İzlemeyi devre dışı bırak";
 
 /* Question of search approval confirmation */
@@ -197,11 +209,20 @@
 /* Devbuild setting */
 "Error prepared for sending" = "Error prepared for sending";
 
-/* (No Commment) */
+/* Exceptions settings - title */
 "Exceptions" = "İstisnalar";
 
-/* Find in page - Autocomplete controller */
-"Find \"%@\" in page" = "Sayfada “%@” bul";
+/* Exceptions settings - section description */
+"exceptions_settings_acceptable_ads_description" = "Sıkı ölçütlere uygun zorla girmeyen reklamların ve animasyonlu olmayan reklamların dahil edilip edilmeyeceğini belirleyin. *Daha fazla bilgi*";
+
+/* Exceptions settings - section title */
+"exceptions_settings_acceptable_ads_title" = "Kabul edilebilir reklamlar";
+
+/* Exceptions settings - section description */
+"exceptions_settings_whitelisted_websites_description" = "Bu web sitelerinden reklam engellemeyi kapattığınız için, bu siteleri ziyaret ettiğinizde reklamlar göreceksiniz.";
+
+/* Exceptions settings - section title */
+"exceptions_settings_whitelisted_websites_title" = "Güvenilir Listesindeki Web Siteleri";
 
 /* Find in page - Autocomplete controller */
 "Find in page (%@ matches)" = "Sayfada bul (%@ sonuç)";
@@ -209,11 +230,20 @@
 /* Welcome guide screen 2 button */
 "Finish" = "Bitiş";
 
-/* (No Commment) */
+/* Settings - section header */
 "GENERAL" = "GENEL";
 
-/* (No Commment) */
+/* Ghost Mode Title */
 "Ghost Mode" = "Gizli Mod";
+
+/* Ghost mode banner */
+"ghost_mode_banner_headline" = "Gizli Mod";
+
+/* Ghost mode banner */
+"ghost_mode_banner_subline" = "Gizli Moddayken, tarayıcı geçmişi, arama geçmişi, web sitesi formları, çerezler ve geçici internet dosyalarının hiçbiri cihazınıza kaydedilmez.";
+
+/* Ghost mode banner */
+"ghost_mode_banner_tip" = "Oturumunuz sona erdikten sonra, Gizli Modu devre dışı bırakmak için simgeye dokunun.";
 
 /* Search Engine Selection */
 "Google" = "Google";
@@ -224,25 +254,37 @@
 /* Crash Reports Dialogs */
 "Got it" = "Anladım";
 
-/* (No Commment) */
+/* Exceptions settings - acceptable ads option */
 "Hide all ads" = "Tüm reklamları gizle";
 
 /* Pull up menu option */
 "History" = "Geçmiş";
 
-/* (No Commment) */
+/* Languages Settings - title */
 "Languages" = "Diller";
 
-/* (No Commment) */
+/* Leave notification */
+"leave_notification_button_1" = "Tamam";
+
+/* Leave notification */
+"leave_notification_button_2" = "İptal et";
+
+/* Leave notification */
+"leave_notification_headline" = "Gizli Moddan çıkmak istiyor musunuz?";
+
+/* Leave notification */
+"leave_notification_subline" = "Oturum geçmişiniz kaydedilmeyecek ve aktif olan tüm sekmeler kapatılacaktır.";
+
+/* Devbuild setting section header */
 "MEMORY PRESSURE" = "MEMORY PRESSURE";
 
-/* (No Commment) */
-"MORE OPTIONS" = "DAHA FAZLA SEÇENEK";
-
-/* (No Commment) */
+/* Blocking options screen */
 "More Blocking Options" = "Daha fazla engelleme seçenekleri";
 
-/* (No Commment) */
+/* Ad blocking Settings - section header */
+"MORE OPTIONS" = "DAHA FAZLA SEÇENEK";
+
+/* Crash/Error reports settings */
 "Never" = "Asla";
 
 /* Tab view label */
@@ -257,25 +299,25 @@
 /* Bookmarks listing */
 "No Bookmarks Available" = "Kullanılabilir yer imi yok";
 
-/* (No Commment) */
+/* Browser history list */
 "No History Available" = "Geçmiş bulunamadı";
 
-/* (No Commment) */
+/* Whitelist no website whitelisted label */
 "No websites whitelisted" = "Beyaz listede hiç websitesi yok";
-
-/* Devbuild setting */
-"OK" = "Tamam";
-
-/* (No Commment) */
-"OTHER LANGUAGES" = "DİĞER DİLLER";
 
 /* Settings - extension enabled status */
 "Off" = "Kapalı";
 
+/* Devbuild setting */
+"OK" = "Tamam";
+
 /* Settings - extension enabled status */
 "On" = "Üzerinde";
 
-/* (No Commment) */
+/* Welcome guide screen 2 picture label */
+"onboarding_exceptions_navigation_path" = "Dokunun menü simgesi -> Ayarlar -> Reklam engelleme -> İstisnalar öğesine";
+
+/* Crash/Error reports settings */
 "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Yalnızca aygıt bilgi ve çökme veya hata ayrıntıları içeren anonim veri gönderilir. Daha fazla bilgi için lütfen adblockplus.org altındaki gizlilik politikamıza bakın.";
 
 /* Welcome guide screen 1 button */
@@ -284,14 +326,17 @@
 /* Pull up menu option */
 "Open New Tab" = "Yeni Sekme Aç";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Open privacy policy." = "Gizlilik politikasını açın";
+
+/* Languages Settings - section header */
+"OTHER LANGUAGES" = "DİĞER DİLLER";
 
 /* Devbuild setting */
 "Produce Error Now" = "Produce Error Now";
 
 /* Browser history list */
-"Recent History" = "Recent History";
+"Recent History" = "Yakın geçmiş";
 
 /* Pull up menu option */
 "Remove Bookmark" = "Yer İmini Kaldır";
@@ -299,17 +344,17 @@
 /* App start failure screen */
 "Restart Adblock Browser." = "Adblock Browser’ı yeniden başlatın.";
 
-/* (No Commment) */
+/* Settings - section header */
 "SEARCH" = "ARAMA";
-
-/* (No Commment) */
-"SEND CRASH AND ERROR REPORTS" = "ÇÖKME VE HATA RAPORLARI GÖNDER";
 
 /* Search Engine Selection */
 "Search Engine" = "Arama motoru";
 
 /* Autocomplete suggestions */
 "Search History" = "Arama geçmişi";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "ÇÖKME VE HATA RAPORLARI GÖNDER";
 
 /* Crash/Error Report Sending Modal */
 "Send Report" = "Raporu Gönder";
@@ -320,41 +365,32 @@
 /* Pull up menu option */
 "Share" = "Paylaş";
 
-/* Devbuild setting */
-"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
-
 /* Bookmark editing switch */
 "Show in Dashboard" = "Panoda göster";
 
-/* (No Commment) */
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Exceptions settings - acceptable ads option */
 "Show nonintrusive ads" = "Zorla girmeyen reklamları göster";
 
 /* App start failure screen */
 "Something went wrong." = "Bir hata oluştu.";
 
 /* TIP - Tabs View */
-"Swipe tabs left to close them." = "Swipe tabs left to close them.";
+"Swipe tabs left to close them." = "Kapatmak için sekmeleri kaydırın.";
 
 /* App start failure screen */
 "Swipe up on Adblock Browser to quit the app." = "Uygulamadan çıkmak için, Adblock Browser’da yukarı sürükleyin.";
 
-/* TIP */
-"TIP" = "TIP";
-
-/* Welcome guide screen 2 picture label */
-"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Dokunun menü simgesini → Ayarlar → Adblock Plus → Rahatsız Etmeyen Reklamlar";
-
-/* (No Commment) */
+/* Settings section footer */
 "The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "* Reklam engelleme * ve * daha fazla engelleme seçenekleri * filtre listelerini temel alır. Bu Adblock'a ne engellemesini söylediği kurallar kümesidir.";
 
 /* Clear Browsing Data Confirmation */
 "This action cannot be undone. Are you sure you want to continue?" = "Bu eylem geri alınamaz. Devam etmek istediğinizden emin misiniz?";
 
-/* Undo tooltip */
-"UNDO" = "UNDO";
-
-/* Headline of search approval confirmation */
-"URL Search Suggestions" = "URL arama önerileri";
+/* TIP */
+"TIP" = "ÖNERİ";
 
 /* App start failure screen */
 "Uh-Oh!" = "Eyvah!";
@@ -362,10 +398,16 @@
 /* Critical abort alert message */
 "Unable to start browser." = "Tarayıcı başlatılamıyor.";
 
-/* (No Commment) */
+/* Undo tooltip */
+"UNDO" = "GERİ AL";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "URL arama önerileri";
+
+/* Section header in About screenSettings - section header */
 "VERSION" = "Sürüm";
 
-/* (No Commment) */
+/* Acceptable ads explanation */
 "We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Basit, müdahaleci olmayan reklamlar için Web sitelerini teşvik etmek istiyoruz. Bu yüzden hepimiz kabul edilebilir reklamlar, varsayılan ayarlar altında gösterilir tanımlamak için sıkı kurallar kabul ettik. Reklamsız göz atmak istiyorsanız, bu ayarı istediğiniz zaman devre dışı bırakabilirsiniz.";
 
 /* Crash/Error Report Sending Modal */
@@ -375,50 +417,14 @@
 "Yes" = "Evet";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
-
-/* Crash Reports Dialogs */
 "You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Bu ayarı istediğiniz zaman değiştirebilirsiniz: **Ayarlar → Çökme ve Hata Raporları**";
 
+/* Crash Reports Dialogs */
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+
 /* Undo tooltip */
-"You closed a tab" = "You closed a tab";
+"You closed a tab" = "Bir sekmeyi kapattın";
 
 /* Welcome guide screen 2 headline */
 "You're in control" = "Kontrol sende";
-
-/* (No Commment) */
-"browser_address_bar_placeholder" = "Arama yapın ya da web sitesinin adını girin...";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_description" = "Sıkı ölçütlere uygun zorla girmeyen reklamların ve animasyonlu olmayan reklamların dahil edilip edilmeyeceğini belirleyin. *Daha fazla bilgi*";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_title" = "Kabul edilebilir reklamlar";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_description" = "Bu web sitelerinden reklam engellemeyi kapattığınız için, bu siteleri ziyaret ettiğinizde reklamlar göreceksiniz.";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_title" = "Güvenilir Listesindeki Web Siteleri";
-
-/* (No Commment) */
-"ghost_mode_banner_headline" = "Gizli Mod";
-
-/* (No Commment) */
-"ghost_mode_banner_subline" = "Gizli Moddayken, tarayıcı geçmişi, arama geçmişi, web sitesi formları, çerezler ve geçici internet dosyalarının hiçbiri cihazınıza kaydedilmez.";
-
-/* (No Commment) */
-"ghost_mode_banner_tip" = "Oturumunuz sona erdikten sonra, Gizli Modu devre dışı bırakmak için simgeye dokunun.";
-
-/* (No Commment) */
-"leave_notification_button_1" = "Tamam";
-
-/* (No Commment) */
-"leave_notification_button_2" = "İptal et";
-
-/* (No Commment) */
-"leave_notification_headline" = "Gizli Moddan çıkmak istiyor musunuz?";
-
-/* (No Commment) */
-"leave_notification_subline" = "Oturum geçmişiniz kaydedilmeyecek ve aktif olan tüm sekmeler kapatılacaktır.";
 

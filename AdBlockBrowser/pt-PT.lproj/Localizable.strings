@@ -4,16 +4,12 @@
 /* App start failure screen */
 "A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again." = "Um erro crítico impediu o Adblock Browser de arrancar. Siga estas instruções para terminar a aplicação e tente novamente.";
 
-/* (No Commment) */
-"ADBLOCK BROWSER" = "Adblock Browser";
-
-/* (No Commment) */
-"ADBLOCK VERSION" = "ADBLOCK VERSION";
-
-/* (No Commment) */
+/* About screen title
+   Settings status option */
 "About" = "Acerca de";
 
-/* (No Commment) */
+/* Settings - show list of subscriptionsSettings - cell title
+  Ad blocking Settings - cell title */
 "Ad blocking" = "Bloqueio de anúncios";
 
 /* Welcome guide screen 1 paragraph */
@@ -22,28 +18,38 @@
 /* (No Commment) */
 "Ad blocking on this site" = "Bloqueio de anúncios neste site";
 
+/* Settings - section header
+ Ad blocking Settings - section header */
+"ADBLOCK BROWSER" = "Adblock Browser";
+
 /* Crash/Error Report Sending Modal */
 "Adblock Browser Encountered an Error" = "O Adblock Browser encontrou um erro";
 
 /* Crash/Error Report Sending Modal */
-"Adblock Unexpectedly Quit" = "O Adblock terminou inesperadamente";
+"Adblock Unexpectedly Quit" = "O Adblock Browser terminou inesperadamente";
+
+/* Section header in About screen */
+"ADBLOCK VERSION" = "ADBLOCK VERSION";
 
 /* Pull up menu option */
 "Add Bookmark" = "Adicionar marcador";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "Add Bookmark to Dashboard" = "Adicionar marcador ao painel";
 
-/* (No Commment) */
+/* Tabs view cell */
+"add_new_tab" = "Adicionar novo separador";
+
+/* Ghost mode description */
 "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device." = "After closing a Ghost Mode tab, the **browser history, search history, download history, web form history, cookies and temporary internet files** within this tab will no longer be stored on your device.";
 
-/* (No Commment) */
+/* Add bookmark controller */
 "All of your bookmarks have been added to the Dashboard." = "Todos os seus marcadores foram adicionados ao painel.";
 
-/* (No Commment) */
+/* Acceptable ads switch label */
 "Allow some nonintrusive advertising" = "Permitir alguma publicidade não-invasiva";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Always" = "Sempre";
 
 /* Crash/Error Report Sending Modal */
@@ -58,14 +64,8 @@
 /* Delete Bookmark alert message */
 "Are you sure you want to delete this bookmark?" = "Tem a certeza de que pretende eliminar este marcador?";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Ask Me After a Crash or Error" = "Pergunte-me depois de uma falha ou erro";
-
-/* (No Commment) */
-"BLOCKING" = "BLOQUEAR";
-
-/* (No Commment) */
-"BROWSER VERSION" = "BROWSER VERSION";
 
 /* Search Engine Selection */
 "Baidu" = "Baidu";
@@ -73,11 +73,14 @@
 /* Autocomplete suggestions */
 "Baidu search" = "Pesquisa Baidu";
 
+/* Languages Settings - section header */
+"Block ads for websites in" = "Bloquear anúncios de sites Web em";
+
 /* Pull up menu option */
 "Block Ads on this Site" = "Bloquear os anúncios neste site";
 
-/* (No Commment) */
-"Block ads for websites in" = "Bloquear anúncios de sites Web em";
+/* Settings section header */
+"BLOCKING" = "BLOQUEAR";
 
 /* Bookmarks listing */
 "Bookmarked Pages" = "Páginas marcadas";
@@ -91,8 +94,11 @@
 /* Welcome guide screen 1 headline */
 "Browse in peace" = "Navegue em paz";
 
-/* (No Commment) */
-"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+/* Section header in About screen */
+"BROWSER VERSION" = "BROWSER VERSION";
+
+/* Browser address bar */
+"browser_address_bar_placeholder" = "Pesquisar ou introduzir nome do site Web...";
 
 /* Browser address bar cancel
    Clear history alert cancel button title
@@ -127,17 +133,23 @@
 /* Note of search approval confirmation */
 "Configurable under *Settings > URL Search Suggestions*" = "Configurável em *Definições > Sugestões de Pesquisa de URL*";
 
+/* Devbuild setting section header */
+"CRASH AND ERROR REPORTING" = "CRASH AND ERROR REPORTING";
+
+/* Crash Reports Dialogs */
+"Crash and Error Reports" = "Relatório de falhas e erros";
+
 /* Devbuild setting */
 "Crash Application Now" = "Crash Application Now";
 
 /* Crash Reports Dialogs */
 "Crash Reports" = "Crash Reports";
 
-/* Crash Reports Dialogs */
-"Crash and Error Reports" = "Relatório de falhas e erros";
-
 /* (No Commment) */
 "Dashboard" = "Painel";
+
+/* Dashboard tip footer text */
+"dashboard_tip_text" = "Toque sem soltar num item para o modificar.";
 
 /* Browser history list
    Delete Bookmark alert delete button title */
@@ -153,16 +165,16 @@
 /* Navigation control title */
 "Devbuild Settings" = "Devbuild Settings";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable anti-adblocking messages */
 "Disable Anti-Ad blocking Messages" = "Desativar as Mensagens de Bloqueio Antianúncios";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable malware domains */
 "Disable Malware Domains" = "Desativar os Domínios de Malware";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable social media buttons */
 "Disable Social Media Buttons" = "Desativar os Botões das Redes Sociais";
 
-/* (No Commment) */
+/* Ad blocking Settings - Disable tracking */
 "Disable Tracking" = "Desativar o Controlo";
 
 /* Question of search approval confirmation */
@@ -197,11 +209,20 @@
 /* Devbuild setting */
 "Error prepared for sending" = "Error prepared for sending";
 
-/* (No Commment) */
+/* Exceptions settings - title */
 "Exceptions" = "Exceções";
 
-/* Find in page - Autocomplete controller */
-"Find \"%@\" in page" = "Encontrar \"%@\" na página";
+/* Exceptions settings - section description */
+"exceptions_settings_acceptable_ads_description" = "Selecione se pretende incluir anúncios não invasivos e não animados que cumprem com critérios restritos. *Saiba mais*";
+
+/* Exceptions settings - section title */
+"exceptions_settings_acceptable_ads_title" = "Anúncios Aceitáveis";
+
+/* Exceptions settings - section description */
+"exceptions_settings_whitelisted_websites_description" = "Desativou o bloqueio de anúncios nestes sites Web e, como tal, verá anúncios nestes.";
+
+/* Exceptions settings - section title */
+"exceptions_settings_whitelisted_websites_title" = "Sites Web na lista branca";
 
 /* Find in page - Autocomplete controller */
 "Find in page (%@ matches)" = "Encontrar na página (%@ ocorrências)";
@@ -209,11 +230,20 @@
 /* Welcome guide screen 2 button */
 "Finish" = "Concluir";
 
-/* (No Commment) */
+/* Settings - section header */
 "GENERAL" = "GERAL";
 
-/* (No Commment) */
+/* Ghost Mode Title */
 "Ghost Mode" = "Modo Fantasma";
+
+/* Ghost mode banner */
+"ghost_mode_banner_headline" = "Modo Fantasma";
+
+/* Ghost mode banner */
+"ghost_mode_banner_subline" = "No Modo Fantasma, todo o histórico do browser, histórico de pesquisa, formulários da Internet, cookies e ficheiros temporários da Internet não serão armazenados no dispositivo.";
+
+/* Ghost mode banner */
+"ghost_mode_banner_tip" = "Toque no ícone para desativar o Modo Fantasma quando terminar a sessão.";
 
 /* Search Engine Selection */
 "Google" = "Google";
@@ -224,25 +254,37 @@
 /* Crash Reports Dialogs */
 "Got it" = "Entendido";
 
-/* (No Commment) */
+/* Exceptions settings - acceptable ads option */
 "Hide all ads" = "Ocultar todos os anúncios";
 
 /* Pull up menu option */
 "History" = "Histórico";
 
-/* (No Commment) */
+/* Languages Settings - title */
 "Languages" = "Idiomas";
 
-/* (No Commment) */
+/* Leave notification */
+"leave_notification_button_1" = "OK";
+
+/* Leave notification */
+"leave_notification_button_2" = "Cancelar";
+
+/* Leave notification */
+"leave_notification_headline" = "Sair do Modo Fantasma?";
+
+/* Leave notification */
+"leave_notification_subline" = "O histórico não será armazenado e todos os separadores ativos serão encerrados.";
+
+/* Devbuild setting section header */
 "MEMORY PRESSURE" = "MEMORY PRESSURE";
 
-/* (No Commment) */
-"MORE OPTIONS" = "MAIS OPÇÕES";
-
-/* (No Commment) */
+/* Blocking options screen */
 "More Blocking Options" = "Mais Opções de Bloqueio";
 
-/* (No Commment) */
+/* Ad blocking Settings - section header */
+"MORE OPTIONS" = "MAIS OPÇÕES";
+
+/* Crash/Error reports settings */
 "Never" = "Nunca";
 
 /* Tab view label */
@@ -257,25 +299,25 @@
 /* Bookmarks listing */
 "No Bookmarks Available" = "Não Há Marcadores Disponíveis";
 
-/* (No Commment) */
+/* Browser history list */
 "No History Available" = "Sem Histórico Disponível";
 
-/* (No Commment) */
+/* Whitelist no website whitelisted label */
 "No websites whitelisted" = "Não há nenhum website na lista branca";
-
-/* Devbuild setting */
-"OK" = "OK";
-
-/* (No Commment) */
-"OTHER LANGUAGES" = "OUTRAS LÍNGUAS";
 
 /* Settings - extension enabled status */
 "Off" = "Desligado";
 
+/* Devbuild setting */
+"OK" = "OK";
+
 /* Settings - extension enabled status */
 "On" = "Ligado";
 
-/* (No Commment) */
+/* Welcome guide screen 2 picture label */
+"onboarding_exceptions_navigation_path" = "Toque no ícone Menu -> Definições -> Bloqueio de anúncios -> Exceções";
+
+/* Crash/Error reports settings */
 "Only anonymized data containing device information and crash or error details are sent. Please refer to our privacy policy at adblockplus.org for more information." = "Só informações anônimas contendo dados do dispositivo e da falha ou erro enviadas. Obtenha mais informações sobre a nossa política de privacidade no site adblockplus.org.";
 
 /* Welcome guide screen 1 button */
@@ -284,8 +326,11 @@
 /* Pull up menu option */
 "Open New Tab" = "Abrir novo separador";
 
-/* (No Commment) */
+/* Crash/Error reports settings */
 "Open privacy policy." = "Abra a política de privacidade";
+
+/* Languages Settings - section header */
+"OTHER LANGUAGES" = "OUTRAS LÍNGUAS";
 
 /* Devbuild setting */
 "Produce Error Now" = "Produce Error Now";
@@ -299,17 +344,17 @@
 /* App start failure screen */
 "Restart Adblock Browser." = "Reinicie o Adblock Browser.";
 
-/* (No Commment) */
+/* Settings - section header */
 "SEARCH" = "PESQUISA";
-
-/* (No Commment) */
-"SEND CRASH AND ERROR REPORTS" = "ENVIAR RELATÓRIO DE FALHAS E ERROS";
 
 /* Search Engine Selection */
 "Search Engine" = "Motor de Pesquisa";
 
 /* Autocomplete suggestions */
 "Search History" = "Histórico de Pesquisa";
+
+/* Crash/Error reports settings */
+"SEND CRASH AND ERROR REPORTS" = "ENVIAR RELATÓRIO DE FALHAS E ERROS";
 
 /* Crash/Error Report Sending Modal */
 "Send Report" = "Enviar relatório";
@@ -320,13 +365,13 @@
 /* Pull up menu option */
 "Share" = "Partilhar";
 
-/* Devbuild setting */
-"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
-
 /* Bookmark editing switch */
 "Show in Dashboard" = "Mostrar no Painel";
 
-/* (No Commment) */
+/* Devbuild setting */
+"Show Memory Pressure Indication" = "Show Memory Pressure Indication";
+
+/* Exceptions settings - acceptable ads option */
 "Show nonintrusive ads" = "Mostrar anúncios não invasivos";
 
 /* App start failure screen */
@@ -338,23 +383,14 @@
 /* App start failure screen */
 "Swipe up on Adblock Browser to quit the app." = "Arraste o dedo para cima no Adblock Browser para terminar a aplicação.";
 
-/* TIP */
-"TIP" = "TIP";
-
-/* Welcome guide screen 2 picture label */
-"Tap the Menu icon → Settings → Adblock Plus → Acceptable Ads" = "Toque no ícone Menu → Definições → Adblock Plus → Anúncios Aceitáveis";
-
-/* (No Commment) */
+/* Settings section footer */
 "The *ad blocking* and *more blocking options* are based on filter lists. These are sets of rules that tell Adblock Browser what to block." = "O *bloqueio de anúncios* e *mais opções de bloqueio* baseiam-se nas listas de filtros. Estas são conjuntos de regras que dizem ao Adblock Browser o que deve bloquear.";
 
 /* Clear Browsing Data Confirmation */
 "This action cannot be undone. Are you sure you want to continue?" = "Esta ação não pode ser anulada. Tem a certeza de que pretende continuar?";
 
-/* Undo tooltip */
-"UNDO" = "UNDO";
-
-/* Headline of search approval confirmation */
-"URL Search Suggestions" = "Sugestões de Pesquisa de URL";
+/* TIP */
+"TIP" = "TIP";
 
 /* App start failure screen */
 "Uh-Oh!" = "Oh não!";
@@ -362,10 +398,16 @@
 /* Critical abort alert message */
 "Unable to start browser." = "Impossível iniciar o browser.";
 
-/* (No Commment) */
+/* Undo tooltip */
+"UNDO" = "UNDO";
+
+/* Headline of search approval confirmation */
+"URL Search Suggestions" = "Sugestões de Pesquisa de URL";
+
+/* Section header in About screenSettings - section header */
 "VERSION" = "VERSÃO";
 
-/* (No Commment) */
+/* Acceptable ads explanation */
 "We'd like to encourage websites to use straightforward, nonintrusive advertising. That's why we've established strict guidelines to identify Acceptable Ads, which are shown under default settings. If you wish to browse ad-free, you can disable this setting at any time." = "Gostaríamos de incentivar os websites a utilizarem publicidade direta e não intrusiva. É por isso que estabelecemos diretrizes rígidas para identificação dos Anúncios Aceitáveis, que são mostrados nas predefinições. Se quiser navegar sem publicidade, pode desativar esta definição a qualquer momento.";
 
 /* Crash/Error Report Sending Modal */
@@ -375,50 +417,14 @@
 "Yes" = "Sim";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
+"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Você pode mudar esta configuração a qualquer momento em: **Definições → Relatório de falhas e erros**";
 
 /* Crash Reports Dialogs */
-"You can change this setting at any time in: **Settings → Crash and Error Reports**" = "Você pode mudar esta configuração a qualquer momento em: **Definições → Relatório de falhas e erros**";
+"You can change this setting at any time in: **Settings → Crash Reports**" = "You can change this setting at any time in: **Settings → Crash Reports**";
 
 /* Undo tooltip */
 "You closed a tab" = "You closed a tab";
 
 /* Welcome guide screen 2 headline */
 "You're in control" = "Você têm o controlo";
-
-/* (No Commment) */
-"browser_address_bar_placeholder" = "Pesquisar ou introduzir nome do site Web...";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_description" = "Selecione se pretende incluir anúncios não invasivos e não animados que cumprem com critérios restritos. *Saiba mais*";
-
-/* (No Commment) */
-"exceptions_settings_acceptable_ads_title" = "Anúncios Aceitáveis";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_description" = "Desativou o bloqueio de anúncios nestes sites Web e, como tal, verá anúncios nestes.";
-
-/* (No Commment) */
-"exceptions_settings_whitelisted_websites_title" = "Sites Web na lista branca";
-
-/* (No Commment) */
-"ghost_mode_banner_headline" = "Modo Fantasma";
-
-/* (No Commment) */
-"ghost_mode_banner_subline" = "No Modo Fantasma, todo o histórico do browser, histórico de pesquisa, formulários da Internet, cookies e ficheiros temporários da Internet não serão armazenados no dispositivo.";
-
-/* (No Commment) */
-"ghost_mode_banner_tip" = "Toque no ícone para desativar o Modo Fantasma quando terminar a sessão.";
-
-/* (No Commment) */
-"leave_notification_button_1" = "OK";
-
-/* (No Commment) */
-"leave_notification_button_2" = "Cancelar";
-
-/* (No Commment) */
-"leave_notification_headline" = "Sair do Modo Fantasma?";
-
-/* (No Commment) */
-"leave_notification_subline" = "O histórico não será armazenado e todos os separadores ativos serão encerrados.";
 
