@@ -36,13 +36,6 @@
     return isUnset ? nil : haId;
 }
 
-+ (void) crash_BadAccess {
-    int *x = NULL;
-    *x = 42;
-    // prevent compiler from possibly removing unused variable
-    NSLog(@"%p",x);
-}
-
 + (void) crash_Selector {
     NSObject *obj = [NSObject new];
     SEL nonexistentSelector = NSSelectorFromString(@"nonexistentFunction");
