@@ -45,7 +45,7 @@
                BlueprintIdentifier = "E9EC700C1B25D79800C4C905"
                BuildableName = "KittCoreTests.xctest"
                BlueprintName = "KittCoreTests"
-               ReferencedContainer = "container:../kitt-core/KittCore.xcodeproj">
+               ReferencedContainer = "container:../adblockbrowserios-core/KittCore.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
