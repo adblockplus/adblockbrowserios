@@ -10,6 +10,11 @@
 		292B731D20C7DE220059290F /* KittCore.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = 29A2DF2B20C71636005285DC /* KittCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		292B732020C7DEE60059290F /* KittCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2DF2B20C71636005285DC /* KittCore.framework */; };
 		292B732120C7DF050059290F /* KittCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29A2DF2F20C71636005285DC /* KittCoreBundle.bundle */; };
+		294342B22195A82B0099D5C8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B12195A82B0099D5C8 /* AboutViewController.swift */; };
+		294342B82195C0120099D5C8 /* ImprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B72195C0120099D5C8 /* ImprintViewController.swift */; };
+		294342BA2195C02D0099D5C8 /* ImprintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B92195C02D0099D5C8 /* ImprintViewModel.swift */; };
+		294342BC2195C2F50099D5C8 /* UIView+LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */; };
+		294342C12195C8700099D5C8 /* imprint.html in Resources */ = {isa = PBXBuildFile; fileRef = 294342C02195C8700099D5C8 /* imprint.html */; };
 		2976CDBC2080BB0B00D20FF7 /* HockeyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */; };
 		29D3BB942077B5C1004305AD /* ABBAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3BB932077B5C1004305AD /* ABBAPIData.swift */; };
 		69013C541BA0577000E312DE /* aquariophilie.json in Resources */ = {isa = PBXBuildFile; fileRef = 69013C4E1BA056F900E312DE /* aquariophilie.json */; };
@@ -232,6 +237,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		294342B12195A82B0099D5C8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		294342B72195C0120099D5C8 /* ImprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintViewController.swift; sourceTree = "<group>"; };
+		294342B92195C02D0099D5C8 /* ImprintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintViewModel.swift; sourceTree = "<group>"; };
+		294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutConstraints.swift"; sourceTree = "<group>"; };
+		294342C02195C8700099D5C8 /* imprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = imprint.html; sourceTree = "<group>"; };
 		2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyAppTests.swift; sourceTree = "<group>"; };
 		29D3BB932077B5C1004305AD /* ABBAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABBAPIData.swift; sourceTree = "<group>"; };
 		69013C4E1BA056F900E312DE /* aquariophilie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aquariophilie.json; sourceTree = "<group>"; };
@@ -672,11 +682,13 @@
 		692242201F29E2D600AFD1E2 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				294342B12195A82B0099D5C8 /* AboutViewController.swift */,
 				694493621F30897C00294EE7 /* AdblockingSettingsViewController.swift */,
 				694493601F3087AB00294EE7 /* ClearDataViewController.swift */,
 				69D1E8AB1F55AA7D00979568 /* CrashReportsViewController.swift */,
 				69D1E8AF1F55AB3E00979568 /* DevSettingsViewController.swift */,
 				694493631F30897C00294EE7 /* ExceptionsViewController.swift */,
+				294342B72195C0120099D5C8 /* ImprintViewController.swift */,
 				694493701F308B8100294EE7 /* SearchEnginesViewController.swift */,
 				692242231F29E31400AFD1E2 /* Settings.storyboard */,
 				694493641F30897C00294EE7 /* SettingsTableViewController.swift */,
@@ -694,6 +706,7 @@
 				69095C1D1F55ABFF00FD4DF9 /* CrashReportsViewModel.swift */,
 				69095C1F1F55B68700FD4DF9 /* DevSettingsViewModel.swift */,
 				692242261F2A0AFC00AFD1E2 /* ExceptionsViewModel.swift */,
+				294342B92195C02D0099D5C8 /* ImprintViewModel.swift */,
 				694493731F308C0400294EE7 /* SearchEnginesViewModel.swift */,
 				6944936A1F3089ED00294EE7 /* SubscriptionsViewModel.swift */,
 				692242281F2A0B3200AFD1E2 /* TopSettingsViewModel.swift */,
@@ -719,7 +732,6 @@
 		695C0BB61E72AD9E005E9002 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				692242251F2A0AD600AFD1E2 /* Settings */,
 				694C981A1F3C9C600069C64A /* AutocompleteViewModel.swift */,
 				69077E7F1F41CAC200A76029 /* BookmarksBaseViewModel.swift */,
 				69AF5EA01EF87FB800ADC665 /* BookmarksViewModel.swift */,
@@ -729,6 +741,7 @@
 				69AF5EA41EF893DF00ADC665 /* EditBookmarkViewModel.swift */,
 				6919BC371E7FFAA3004B866A /* HistoryViewModel.swift */,
 				699CDB4C1E76CA8600ABA67F /* MenuViewModel.swift */,
+				692242251F2A0AD600AFD1E2 /* Settings */,
 				69DF78E51EA8E01300B86F18 /* TabsViewModel.swift */,
 				6983A2EE1F3C7BFE006D6786 /* ViewModelProtocol.swift */,
 			);
@@ -747,13 +760,13 @@
 		6983A2971F3C766C006D6786 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				6983A2F01F3C7C35006D6786 /* MemoryWatchdog.swift */,
 				6983A2D61F3C7A79006D6786 /* Appearance.swift */,
 				6983A2991F3C766C006D6786 /* DaemonDriverUserDefaults.swift */,
 				6983A29B1F3C766C006D6786 /* Localization.swift */,
 				6983A29C1F3C766C006D6786 /* LongestCommonSubsequence.swift */,
 				6983A2CF1F3C7A1F006D6786 /* MacroSettingsExpander.h */,
 				6983A2D01F3C7A1F006D6786 /* MacroSettingsExpander.m */,
+				6983A2F01F3C7C35006D6786 /* MemoryWatchdog.swift */,
 				6983A2D11F3C7A1F006D6786 /* ScrollViewController.swift */,
 				6983A2D21F3C7A1F006D6786 /* TabPreviewPersistence.swift */,
 				6983A29D1F3C766C006D6786 /* TwoStatesConstraint.swift */,
@@ -768,13 +781,14 @@
 			children = (
 				6983A2C91F3C794A006D6786 /* Array+AdblockPlus.swift */,
 				6983A2CA1F3C794A006D6786 /* ChromeTab+AdblockBrowser.swift */,
-				6983A2CB1F3C794A006D6786 /* URL+AdblockBrowser.swift */,
 				6983A2BD1F3C790D006D6786 /* NSObject+MethodSwizzling.swift */,
 				6983A2BE1F3C790D006D6786 /* SAContentWebView+AdblockPlus.swift */,
 				6983A2BF1F3C790D006D6786 /* SAContentWebView+TabPreview.swift */,
 				6983A2C01F3C790D006D6786 /* UIScrollView+Background.swift */,
+				294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */,
 				6983A2C11F3C790D006D6786 /* UIViewController+ActivityViewController.swift */,
 				6983A2C21F3C790D006D6786 /* UIViewController+Inject.swift */,
+				6983A2CB1F3C794A006D6786 /* URL+AdblockBrowser.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -816,7 +830,6 @@
 		69A343741E718DE300248DF3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				692242201F29E2D600AFD1E2 /* Settings */,
 				694C981C1F3C9D110069C64A /* AutocompleteViewController.swift */,
 				69AF5E9E1EF87F5A00ADC665 /* BookmarksViewController.swift */,
 				69A343791E718E9A00248DF3 /* Browser.storyboard */,
@@ -827,6 +840,7 @@
 				6919BC2F1E7FF6EA004B866A /* HistoryViewController.swift */,
 				694C981D1F3C9D110069C64A /* Main.storyboard */,
 				699CDB481E76CA6900ABA67F /* MenuViewController.swift */,
+				692242201F29E2D600AFD1E2 /* Settings */,
 				69DF78E31EA8DFF600B86F18 /* TabsViewController.swift */,
 				6919BC351E7FF77F004B866A /* ViewControllerHelpers.swift */,
 			);
@@ -980,6 +994,7 @@
 			isa = PBXGroup;
 			children = (
 				691673471ABC80EC00297642 /* adblockplus.crx */,
+				294342C02195C8700099D5C8 /* imprint.html */,
 				E968E38E1AB31FA00002735B /* settings.plist */,
 			);
 			path = Resources;
@@ -988,18 +1003,18 @@
 		E968E3951AB323B90002735B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				69A3436A1E71828D00248DF3 /* RxCocoa.framework */,
-				69A343681E71827C00248DF3 /* RxSwift.framework */,
 				E92D1E731E26D0690077973A /* AttributedMarkdown.framework */,
+				E968E37A1AB2EC7C0002735B /* AVFoundation.framework */,
 				E92575821DEF1B6B00B93166 /* CocoaLumberjack.framework */,
 				E925756A1DEEDBF000B93166 /* CocoaLumberjackSwift.framework */,
-				E925756B1DEEDBF000B93166 /* HockeySDK.framework */,
 				E9CD44B71B26F062005662E0 /* CoreData.framework */,
 				E9BC27701ACA934F00CB5268 /* CoreLocation.framework */,
-				E968E37C1AB2EC850002735B /* MessageUI.framework */,
-				E968E37A1AB2EC7C0002735B /* AVFoundation.framework */,
-				E968E3781AB2EC750002735B /* SystemConfiguration.framework */,
+				E925756B1DEEDBF000B93166 /* HockeySDK.framework */,
 				E968E3761AB2EC640002735B /* JavaScriptCore.framework */,
+				E968E37C1AB2EC850002735B /* MessageUI.framework */,
+				69A3436A1E71828D00248DF3 /* RxCocoa.framework */,
+				69A343681E71827C00248DF3 /* RxSwift.framework */,
+				E968E3781AB2EC750002735B /* SystemConfiguration.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -1161,6 +1176,7 @@
 				E959DE7E1B3CB18700E98E18 /* Localizable.strings in Resources */,
 				292B732120C7DF050059290F /* KittCoreBundle.bundle in Resources */,
 				69A3437A1E718E9A00248DF3 /* Browser.storyboard in Resources */,
+				294342C12195C8700099D5C8 /* imprint.html in Resources */,
 				6983A2B41F3C76EE006D6786 /* GoogleSearchPrompt.xib in Resources */,
 				E91C79791AB2E22700632D61 /* Images.xcassets in Resources */,
 				6983A2E41F3C7B9F006D6786 /* Bootstrap.storyboard in Resources */,
@@ -1224,7 +1240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Manage API access data.\nAPI_DATA_ENV_VARS=\"ABB-Secret-API-Env-Vars.sh\"\nif [ -f ./$API_DATA_ENV_VARS ]\nthen\nsource ./$API_DATA_ENV_VARS\nelse\necho \"warning: API data not found. The app will run but will not have access to API functions.\"\nfi\nsourcery --templates . --sources . --output ./Generated/ --args hockeyAppIdDebug=\\\"$HOCKEY_APP_ID_DEBUG\\\",hockeyAppIdDevBuild=\\\"$HOCKEY_APP_ID_DEVBUILD\\\",hockeyAppIdRelease=\\\"$HOCKEY_APP_ID_RELEASE\\\"";
+			shellScript = "# Manage API access data.\nAPI_DATA_ENV_VARS=\"ABB-Secret-API-Env-Vars.sh\"\nif [ -f ./$API_DATA_ENV_VARS ]\nthen\nsource ./$API_DATA_ENV_VARS\nelse\necho \"warning: API data not found. The app will run but will not have access to API functions.\"\nfi\nsourcery --templates . --sources . --output ./Generated/ --args hockeyAppIdDebug=\\\"$HOCKEY_APP_ID_DEBUG\\\",hockeyAppIdDevBuild=\\\"$HOCKEY_APP_ID_DEVBUILD\\\",hockeyAppIdRelease=\\\"$HOCKEY_APP_ID_RELEASE\\\"\n";
 		};
 		E92575A01DF0405600B93166 /* Carthage copy frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1282,12 +1298,14 @@
 				69AF5EA31EF893AD00ADC665 /* EditBookmarkViewController.swift in Sources */,
 				699248751F67CFD3006110DD /* EventSendingFunnel.swift in Sources */,
 				692242271F2A0AFC00AFD1E2 /* ExceptionsViewModel.swift in Sources */,
+				294342BA2195C02D0099D5C8 /* ImprintViewModel.swift in Sources */,
 				699CDB4D1E76CA8600ABA67F /* MenuViewModel.swift in Sources */,
 				6932E3EB1EEEF0CF009F31BF /* GhostModeBanner.swift in Sources */,
 				6913B11F1F614D3B001A5EA5 /* HockeyEventSender.swift in Sources */,
 				69DF79051EAA460D00B86F18 /* TipCell.swift in Sources */,
 				6983A2B11F3C76EE006D6786 /* AutocompleteTextField.swift in Sources */,
 				6919BC361E7FF77F004B866A /* ViewControllerHelpers.swift in Sources */,
+				294342BC2195C2F50099D5C8 /* UIView+LayoutConstraints.swift in Sources */,
 				6983A2C51F3C790D006D6786 /* SAContentWebView+TabPreview.swift in Sources */,
 				6983A2A11F3C766C006D6786 /* DaemonDriverUserDefaults.swift in Sources */,
 				694493661F30897C00294EE7 /* ExceptionsViewController.swift in Sources */,
@@ -1319,6 +1337,7 @@
 				6983A2CE1F3C794A006D6786 /* URL+AdblockBrowser.swift in Sources */,
 				6983A2A31F3C766C006D6786 /* Localization.swift in Sources */,
 				6964203C1F2200AB00A4110A /* SettingsHeader.swift in Sources */,
+				294342B22195A82B0099D5C8 /* AboutViewController.swift in Sources */,
 				69D72E731ECDA173005E9983 /* BrowserContainerViewController.swift in Sources */,
 				69077E7C1F41BC4700A76029 /* SimpleFetchedResultsAdapter.swift in Sources */,
 				6983A2E91F3C7B9F006D6786 /* WelcomeController.swift in Sources */,
@@ -1333,6 +1352,7 @@
 				6983A2E21F3C7B9F006D6786 /* ABPExtensionFacade.swift in Sources */,
 				69DF78E41EA8DFF600B86F18 /* TabsViewController.swift in Sources */,
 				69AF5EA71EF8990700ADC665 /* BookmarkCell.swift in Sources */,
+				294342B82195C0120099D5C8 /* ImprintViewController.swift in Sources */,
 				694C98291F3CA1410069C64A /* DebugReporting.swift in Sources */,
 				69D72E771ECDA1E8005E9983 /* BrowserContainerViewModel.swift in Sources */,
 				6983A2C41F3C790D006D6786 /* SAContentWebView+AdblockPlus.swift in Sources */,

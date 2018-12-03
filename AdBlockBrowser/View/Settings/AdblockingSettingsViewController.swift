@@ -67,6 +67,8 @@ final class AdblockingSettingsViewController: SettingsTableViewController<Adbloc
         languagesLabel?.text = localize("Languages", comment: "Ad blocking Settings - enable/disable acceptable ads")
     }
 
+    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: nil)
         switch segue.destination {
