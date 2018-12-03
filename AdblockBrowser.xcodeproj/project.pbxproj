@@ -1240,7 +1240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Manage API access data.\nAPI_DATA_ENV_VARS=\"ABB-Secret-API-Env-Vars.sh\"\nif [ -f ./$API_DATA_ENV_VARS ]\nthen\nsource ./$API_DATA_ENV_VARS\nelse\necho \"warning: API data not found. The app will run but will not have access to API functions.\"\nfi\nsourcery --templates . --sources . --output ./Generated/ --args hockeyAppIdDebug=\\\"$HOCKEY_APP_ID_DEBUG\\\",hockeyAppIdDevBuild=\\\"$HOCKEY_APP_ID_DEVBUILD\\\",hockeyAppIdRelease=\\\"$HOCKEY_APP_ID_RELEASE\\\"\n";
+			shellScript = "# Manage API access data.\nAPI_DATA_ENV_VARS=\"ABB-Secret-API-Env-Vars.sh\"\nif [ -f ./$API_DATA_ENV_VARS ]\nthen\nsource ./$API_DATA_ENV_VARS\nelse\necho \"warning: API data not found. The app will run but will not have access to API functions.\"\nfi\nsourcery --templates . --sources . --output ./Generated/ --args hockeyAppIdDebug=\\\"$HOCKEY_APP_ID_DEBUG\\\",hockeyAppIdDevBuild=\\\"$HOCKEY_APP_ID_DEVBUILD\\\",hockeyAppIdRelease=\\\"$HOCKEY_APP_ID_RELEASE\\\"";
 		};
 		E92575A01DF0405600B93166 /* Carthage copy frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
