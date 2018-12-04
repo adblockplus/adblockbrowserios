@@ -4,9 +4,6 @@ Adblock Browser for iOS
 
 A web browser for iOS that includes content blocking, provided by AdBlock Plus
 
-Building
-————
-
 ### Requirements
 
 Note: Adblock Browser requires [ABBCore](https://gitlab.com/eyeo/adblockplus/adblockbrowserios-core) to be cloned into the parent directory from Adblock Browser (this repository).
