@@ -1,4 +1,4 @@
-# adblockplus-ios
+# adblockbrowserios
 Adblock Browser for iOS
 =======================
 
