@@ -17,11 +17,10 @@
 
 import Foundation
 
-class AboutViewController: UITableViewController {
-    let margins = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
-
+final class AboutViewController: SettingsTableViewController<AboutViewModel> {
     let links = ["https://adblockplus.org/privacy",
-                 "https://adblockplus.org/terms"]
+                 "https://adblockplus.org/terms",
+                 "https://adblockplus.org/impressum"]
 
     override func viewDidLoad() {
         tableView.register(SettingsHeader.self, forHeaderFooterViewReuseIdentifier: "header")
@@ -53,13 +52,9 @@ class AboutViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.cellForRow(at: indexPath)?.isSelected = false
 
-        switch indexPath.row {
-        case 0, 1:
-            if let uwUrl = URL(string: (links[indexPath.row])) {
-                self.openURL(uwUrl)
-            }
-        default:
-            break
+        if let uwUrl = URL(string: (links[indexPath.row])) {
+            viewModel?.openURL(uwUrl)
+            dismiss(animated: true, completion: nil)
         }
     }
 
@@ -79,18 +74,5 @@ class AboutViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         view.preservesSuperviewLayoutMargins = false
         view.layoutMargins = margins
-    }
-}
-
-extension UIViewController {
-    /// Open a URL in Safari using the appropriate call for the current iOS version.
-    /// - Parameter url: A URL.
-    func openURL(_ url: URL) {
-        if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url,
-                                      options: [:])
-        } else {
-            UIApplication.shared.openURL(url)
-        }
     }
 }

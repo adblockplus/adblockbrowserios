@@ -653,9 +653,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="TT6-m0-III" kind="show" identifier="pushToImprintVC" id="z3t-Jv-sPm"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -670,25 +667,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iEY-Nm-3Tq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2951" y="1704"/>
-        </scene>
-        <!--Imprint-->
-        <scene sceneID="aMo-fE-P5e">
-            <objects>
-                <viewController title="!Imprint" id="TT6-m0-III" userLabel="Imprint" customClass="ImprintViewController" customModule="AdblockBrowser" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xEb-rY-Tc2"/>
-                        <viewControllerLayoutGuide type="bottom" id="oEs-EG-gAj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wJU-AG-7it">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Imprint" id="M45-7t-jug" userLabel="!Imprint"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QBn-Pw-r7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2951.1999999999998" y="2424.7376311844082"/>
         </scene>
         <!--Devbuild Settings-->
         <scene sceneID="F4n-GZ-qae">

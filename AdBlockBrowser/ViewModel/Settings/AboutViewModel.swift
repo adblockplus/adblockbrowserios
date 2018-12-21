@@ -15,17 +15,21 @@
  * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/// ViewModel for Imprint.
-struct ImprintViewModel {
-    var imprint: URLRequest? {
-        guard let path = Bundle.main.url(forResource: "imprint",
-                                         withExtension: "html")
-        else {
-            return nil
-        }
-        return URLRequest(url: path)
+import Foundation
+
+final class AboutViewModel: ViewModelProtocol, ComponentsInitializable {
+    let components: ControllerComponents
+
+    init(components: ControllerComponents) {
+        self.components = components
     }
-    let eyeoInfoEmail = "info@eyeo.com"
-    let mailSubject = ""
-    let mailBody = ""
+
+    /// Open a URL in Safari using the appropriate call for the current iOS version.
+    /// - Parameter url: A URL.
+    func openURL(_ url: URL) {
+        if let tab = components.chrome.focusedWindow?.add(tabWithURL: url, atIndex: 0) {
+            tab.active = true
+            tab.window.focused = true
+        }
+    }
 }

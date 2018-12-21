@@ -11,11 +11,10 @@
 		292B732020C7DEE60059290F /* KittCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2DF2B20C71636005285DC /* KittCore.framework */; };
 		292B732120C7DF050059290F /* KittCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29A2DF2F20C71636005285DC /* KittCoreBundle.bundle */; };
 		294342B22195A82B0099D5C8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B12195A82B0099D5C8 /* AboutViewController.swift */; };
-		294342B82195C0120099D5C8 /* ImprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B72195C0120099D5C8 /* ImprintViewController.swift */; };
-		294342BA2195C02D0099D5C8 /* ImprintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B92195C02D0099D5C8 /* ImprintViewModel.swift */; };
 		294342BC2195C2F50099D5C8 /* UIView+LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */; };
 		294342C12195C8700099D5C8 /* imprint.html in Resources */ = {isa = PBXBuildFile; fileRef = 294342C02195C8700099D5C8 /* imprint.html */; };
 		2976CDBC2080BB0B00D20FF7 /* HockeyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */; };
+		29BD987621CD024600E067F9 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD987521CD024600E067F9 /* AboutViewModel.swift */; };
 		29D3BB942077B5C1004305AD /* ABBAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3BB932077B5C1004305AD /* ABBAPIData.swift */; };
 		69013C541BA0577000E312DE /* aquariophilie.json in Resources */ = {isa = PBXBuildFile; fileRef = 69013C4E1BA056F900E312DE /* aquariophilie.json */; };
 		69013C561BA0769800E312DE /* campfyre.json in Resources */ = {isa = PBXBuildFile; fileRef = 69013C551BA0769800E312DE /* campfyre.json */; };
@@ -238,11 +237,10 @@
 
 /* Begin PBXFileReference section */
 		294342B12195A82B0099D5C8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		294342B72195C0120099D5C8 /* ImprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintViewController.swift; sourceTree = "<group>"; };
-		294342B92195C02D0099D5C8 /* ImprintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintViewModel.swift; sourceTree = "<group>"; };
 		294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutConstraints.swift"; sourceTree = "<group>"; };
 		294342C02195C8700099D5C8 /* imprint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = imprint.html; sourceTree = "<group>"; };
 		2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyAppTests.swift; sourceTree = "<group>"; };
+		29BD987521CD024600E067F9 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 		29D3BB932077B5C1004305AD /* ABBAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABBAPIData.swift; sourceTree = "<group>"; };
 		69013C4E1BA056F900E312DE /* aquariophilie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aquariophilie.json; sourceTree = "<group>"; };
 		69013C551BA0769800E312DE /* campfyre.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = campfyre.json; sourceTree = "<group>"; };
@@ -688,7 +686,6 @@
 				69D1E8AB1F55AA7D00979568 /* CrashReportsViewController.swift */,
 				69D1E8AF1F55AB3E00979568 /* DevSettingsViewController.swift */,
 				694493631F30897C00294EE7 /* ExceptionsViewController.swift */,
-				294342B72195C0120099D5C8 /* ImprintViewController.swift */,
 				694493701F308B8100294EE7 /* SearchEnginesViewController.swift */,
 				692242231F29E31400AFD1E2 /* Settings.storyboard */,
 				694493641F30897C00294EE7 /* SettingsTableViewController.swift */,
@@ -701,12 +698,12 @@
 		692242251F2A0AD600AFD1E2 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				29BD987521CD024600E067F9 /* AboutViewModel.swift */,
 				6922422A1F2A0CC500AFD1E2 /* AdblockingSettingsViewModel.swift */,
 				694493681F3089AC00294EE7 /* ClearDataViewModel.swift */,
 				69095C1D1F55ABFF00FD4DF9 /* CrashReportsViewModel.swift */,
 				69095C1F1F55B68700FD4DF9 /* DevSettingsViewModel.swift */,
 				692242261F2A0AFC00AFD1E2 /* ExceptionsViewModel.swift */,
-				294342B92195C02D0099D5C8 /* ImprintViewModel.swift */,
 				694493731F308C0400294EE7 /* SearchEnginesViewModel.swift */,
 				6944936A1F3089ED00294EE7 /* SubscriptionsViewModel.swift */,
 				692242281F2A0B3200AFD1E2 /* TopSettingsViewModel.swift */,
@@ -1298,7 +1295,7 @@
 				69AF5EA31EF893AD00ADC665 /* EditBookmarkViewController.swift in Sources */,
 				699248751F67CFD3006110DD /* EventSendingFunnel.swift in Sources */,
 				692242271F2A0AFC00AFD1E2 /* ExceptionsViewModel.swift in Sources */,
-				294342BA2195C02D0099D5C8 /* ImprintViewModel.swift in Sources */,
+				29BD987621CD024600E067F9 /* AboutViewModel.swift in Sources */,
 				699CDB4D1E76CA8600ABA67F /* MenuViewModel.swift in Sources */,
 				6932E3EB1EEEF0CF009F31BF /* GhostModeBanner.swift in Sources */,
 				6913B11F1F614D3B001A5EA5 /* HockeyEventSender.swift in Sources */,
@@ -1352,7 +1349,6 @@
 				6983A2E21F3C7B9F006D6786 /* ABPExtensionFacade.swift in Sources */,
 				69DF78E41EA8DFF600B86F18 /* TabsViewController.swift in Sources */,
 				69AF5EA71EF8990700ADC665 /* BookmarkCell.swift in Sources */,
-				294342B82195C0120099D5C8 /* ImprintViewController.swift in Sources */,
 				694C98291F3CA1410069C64A /* DebugReporting.swift in Sources */,
 				69D72E771ECDA1E8005E9983 /* BrowserContainerViewModel.swift in Sources */,
 				6983A2C41F3C790D006D6786 /* SAContentWebView+AdblockPlus.swift in Sources */,
