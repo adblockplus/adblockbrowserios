@@ -84,7 +84,7 @@ final class BrowserContainerViewModel: ViewModelProtocol, ComponentsInitializabl
             .flatMapLatest { tab -> Observable<Bool> in
                 if let tab = tab {
                     return tab.webView.rx
-                        .observe(Bool.self, #keyPath(UIWebView.canGoBack))
+                        .observe(Bool.self, #keyPath(WKWebView.canGoBack))
                         .map { $0 ?? false }
                 } else {
                     return Observable.just(false)
@@ -96,7 +96,7 @@ final class BrowserContainerViewModel: ViewModelProtocol, ComponentsInitializabl
             .flatMapLatest { tab -> Observable<Bool> in
                 if let tab = tab {
                     return tab.webView.rx
-                        .observe(Bool.self, #keyPath(UIWebView.canGoForward))
+                        .observe(Bool.self, #keyPath(WKWebView.canGoForward))
                         .map { $0 ?? false }
                 } else {
                     return Observable.just(false)

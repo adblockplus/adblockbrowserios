@@ -68,17 +68,17 @@ extension SAContentWebView {
     // SAContentWebView does not provides way to attach persistent event handler.
     // Method swizzling is reasonable solution in this limited time.
     static func swizzleWebViewDelegateMethods() {
-        SAContentWebView.self.swizzle(method: #selector(UIWebViewDelegate.webViewDidStartLoad(_:)),
-                                      for: #selector(SAContentWebView.abp_webViewDidStartLoad(_:)))
-        SAContentWebView.self.swizzle(method: #selector(UIWebViewDelegate.webViewDidFinishLoad(_:)),
-                                      for: #selector(SAContentWebView.abp_webViewDidFinishLoad(_:)))
+        SAContentWebView.self.swizzle(method: #selector(WKNavigationDelegate.webView(_:didStartProvisionalNavigation:)),
+                                      for: #selector(SAContentWebView.abp_webView(_:didStartProvisionalNavigation:)))
+        SAContentWebView.self.swizzle(method: #selector(WKNavigationDelegate.webView(_:didFinish:)),
+                                      for: #selector(SAContentWebView.abp_webView(_:didFinish:)))
     }
 
     // MARK: - Method Swizzling
 
     @objc
-    fileprivate func abp_webViewDidStartLoad(_ webView: UIWebView) {
-        self.abp_webViewDidStartLoad(webView)
+    fileprivate func abp_webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        self.abp_webView(webView, didStartProvisionalNavigation: navigation)
 
         // Update screenshot (also to clear it when loading a new page)
         if let contentWebView = webView as? SAContentWebView {
@@ -87,12 +87,13 @@ extension SAContentWebView {
     }
 
     @objc
-    fileprivate func abp_webViewDidFinishLoad(_ webView: UIWebView) {
-        self.abp_webViewDidFinishLoad(webView)
+    fileprivate func abp_webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        self.abp_webView(webView, didFinish: navigation)
 
         // Update screenshot
         if let contentWebView = webView as? SAContentWebView {
             contentWebView.updatePreview()
         }
     }
+
 }

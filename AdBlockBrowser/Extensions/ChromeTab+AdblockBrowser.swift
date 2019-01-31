@@ -56,9 +56,9 @@ extension ChromeTab {
         webView.stopLoading()
 
         if let url = url {
-            webView.loadRequest(URLRequest(url: url))
+            webView.load(URLRequest(url: url));
         } else if let url = Foundation.URL(string: "about:blank") {
-            webView.loadRequest(URLRequest(url: url))
+            webView.load(URLRequest(url: url));
         }
     }
 }

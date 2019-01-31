@@ -150,7 +150,7 @@ final class WebViewContainer: UIView, UIGestureRecognizerDelegate {
     var startPoint = CGPoint.zero
     var canAdvance = false
 
-    var webView: UIWebView? {
+    var webView: WKWebView? {
         didSet {
             let webViewFrame = bounds
             let shadowFrame = CGRect(x: -10,

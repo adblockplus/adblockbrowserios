@@ -25,13 +25,14 @@ let webViewCenterYConstraintIdentifier = "centerYConstraint"
 
 // swiftlint:disable:next type_body_length
 final class BrowserViewController: ViewController<BrowserViewModel>,
-    UIWebViewDelegate,
+    WKNavigationDelegate,
     UITextFieldDelegate,
     UIGestureRecognizerDelegate,
     UINavigationControllerDelegate,
     BrowserControlDelegate,
     ActiveContentViewDelegate,
-    DownloadsUIFeedbackDelegate {
+DownloadsUIFeedbackDelegate {
+
     var scrollViewController = ScrollViewController()
 
     // MARK: - Outlets
@@ -589,17 +590,16 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
     }
 
     // MARK: - UIWebViewDelegate
-
-    func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
-        if let url = request.url {
-            if url == request.mainDocumentURL {
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        if let url = navigationAction.request.url {
+            if url == navigationAction.request.mainDocumentURL {
                 if url != viewModel?.currentURL.value {
                     openToolbars()
                 }
             }
         }
 
-        return true
+        decisionHandler(.allow)
     }
 
     // MARK: - UITextFieldDelegate
@@ -912,11 +912,11 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
         }
     }
 
-    func showNewTab(with url: URL?, fromSource source: UIWebView?) {
+    func showNewTab(with url: URL?, fromSource source: WKWebView?) {
         showNewTab(with: url, fromSource: source, from: nil)
     }
 
-    func showNewTab(with url: URL?, fromSource source: UIWebView?, from frame: KittFrame?) {
+    func showNewTab(with url: URL?, fromSource source: WKWebView?, from frame: KittFrame?) {
         if let sourceTab = (source as? SAContentWebView)?.chromeTab {
             showNewTabWithURL(url, fromTab: sourceTab, fromFrame: frame)
         } else {
@@ -1018,7 +1018,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
 
     // MARK: - Private
 
-    fileprivate func createNewTabInBackground(_ url: URL?, fromSource source: UIWebView?) {
+    fileprivate func createNewTabInBackground(_ url: URL?, fromSource source: WKWebView?) {
         let sourceTab = (source as? SAContentWebView)?.chromeTab
 
         if let window = viewModel?.chrome.focusedWindow, let tab = createNewTab(url as NSURL?, inWindow: window, fromSource: sourceTab) {
@@ -1168,7 +1168,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
         }
     }
 
-    fileprivate func initializeWebView(_ webView: UIWebView, forceRelayout force: Bool = false) {
+    fileprivate func initializeWebView(_ webView: WKWebView, forceRelayout force: Bool = false) {
         webView.scrollView.delegate = scrollViewController
         webView.scrollView.decelerationRate = UIScrollView.DecelerationRate.normal
         webView.scrollView.scrollsToTop = true
@@ -1189,7 +1189,7 @@ final class BrowserViewController: ViewController<BrowserViewModel>,
         }
     }
 
-    fileprivate func updateWebViewSizes(_ aWebView: UIWebView) {
+    fileprivate func updateWebViewSizes(_ aWebView: WKWebView) {
         let scrollView = aWebView.scrollView
 
         let topBarOffset = topConstraint?.constant ?? 0

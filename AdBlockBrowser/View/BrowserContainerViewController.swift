@@ -305,11 +305,11 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
         browserViewController?.load(url)
     }
 
-    func showNewTab(with url: URL!, fromSource source: UIWebView!) {
+    func showNewTab(with url: URL!, fromSource source: WKWebView!) {
         browserViewController?.showNewTab(with: url, fromSource: source)
     }
 
-    func showNewTab(with url: URL!, fromSource source: UIWebView!, from frame: KittCore.KittFrame!) {
+    func showNewTab(with url: URL!, fromSource source: WKWebView!, from frame: KittCore.KittFrame!) {
         browserViewController?.showNewTab(with: url, fromSource: source, from: frame)
     }
 

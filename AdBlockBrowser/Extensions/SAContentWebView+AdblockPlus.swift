@@ -36,9 +36,9 @@ extension SAContentWebView {
         stopLoading()
 
         if let url = url {
-            loadRequest(URLRequest(url: url as URL))
+            load(URLRequest(url: url as URL))
         } else if let url = NSURL(string: "about:blank") {
-            loadRequest(URLRequest(url: url as URL))
+            load(URLRequest(url: url as URL))
         }
     }
 
@@ -88,9 +88,10 @@ extension SAContentWebView {
 
         // Pending Webview has never been displayed, so it has to be initialized
         if !aWebView.isInitialized() {
-            aWebView.scalesPageToFit = true
+            //TODO: Scalespagetofit missing from WKWebView.
+//            aWebView.scalesPageToFit = true
             aWebView.isMultipleTouchEnabled = true
-            aWebView.dataDetectorTypes = UIDataDetectorTypes()
+            aWebView.configuration.dataDetectorTypes = WKDataDetectorTypes()
             aWebView.contentScriptLoaderDelegate = contentScriptLoaderDelegate
             aWebView.webNavigationEventsDelegate = webNavigationEventsDelegate
             aWebView.prepareTabIdAttachment()
