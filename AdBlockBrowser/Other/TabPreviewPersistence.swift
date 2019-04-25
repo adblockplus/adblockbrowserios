@@ -152,7 +152,7 @@ final class TabPreviewPersistence: NSObject {
             if let preview = change?[NSKeyValueChangeKey.newKey] as? UIImage,
                 let tab = object as? ChromeTab,
                 let watcher = windowsToTabs[tab.window],
-                let index = watcher.array.index(of: tab),
+                let index = watcher.array.firstIndex(of: tab),
                 let imageURL = imageURLFor((Int(tab.window.identifier), index)) {
                 _ = write(preview, to: imageURL)
             }
@@ -165,7 +165,7 @@ final class TabPreviewPersistence: NSObject {
 
     fileprivate func write(_ preview: UIImage, to url: URL) -> Bool {
         let data = preview.pngData()
-        guard (try? data?.write(to: url)) != nil else {
+        guard (((try? data?.write(to: url)) as ()??)) != nil else {
             return false
         }
         return true

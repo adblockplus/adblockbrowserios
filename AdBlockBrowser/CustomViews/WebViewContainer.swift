@@ -168,7 +168,7 @@ final class WebViewContainer: UIView, UIGestureRecognizerDelegate {
     }
 
     var webViewConstraint: NSLayoutConstraint? {
-        let index = constraints.index { constraint -> Bool in
+        let index = constraints.firstIndex { constraint -> Bool in
             return constraint.identifier == webViewCenterXConstraintIdentifier && constraint.firstItem === self.webView
         }
         if let index = index {

@@ -198,7 +198,7 @@ final class AutocompleteViewController: TableViewController<AutocompleteViewMode
                 for (key, obj) in results {
                     if let suggestions = obj as? [OmniboxSuggestion], suggestions.count > 0,
                         let number = (key as? NSNumber)?.uint32Value,
-                        let index = self?.sectionFactory.index(where: { $0.type.rawValue == number }),
+                        let index = self?.sectionFactory.firstIndex(where: { $0.type.rawValue == number }),
                         let mold = self?.sectionFactory[index] {
                         var moldCopy = mold
                         // take the right section definition from factory and attach the

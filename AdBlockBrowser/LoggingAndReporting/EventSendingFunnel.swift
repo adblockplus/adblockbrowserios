@@ -111,7 +111,7 @@ public final class EventSendingFunnel {
 
     private func registerImplementation(error: StringCodeConvertibleError, _ forcedRegisteringCompletion: (() -> Void)?) {
         assert(Thread.isMainThread)
-        if let index = backlog.index(where: { $0.event.shortCode == error.shortCode }) {
+        if let index = backlog.firstIndex(where: { $0.event.shortCode == error.shortCode }) {
             // event code already registered, increment grouping count
             let entry = backlog[index]
             backlog[index] = EventBacklogEntry(event: entry.event, count: entry.count + 1)
