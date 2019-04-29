@@ -165,7 +165,7 @@ final class TabPreviewPersistence: NSObject {
 
     fileprivate func write(_ preview: UIImage, to url: URL) -> Bool {
         let data = preview.pngData()
-        guard (((try? data?.write(to: url)) as ()??)) != nil else {
+        guard (try? data?.write(to: url)) != nil else {
             return false
         }
         return true
