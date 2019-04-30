@@ -32,12 +32,12 @@ private final class ReloaderView: UIView {
         }
     }
 
-    var _radius: CGFloat = 0
+    var classRadius: CGFloat = 0
 
     var radius: CGFloat {
-        get { return _radius; }
+        get { return classRadius; }
         set (radius) {
-            _radius = radius
+            classRadius = radius
             circleLayer.path = createPathWith(radius)
             circleLayer.bounds = CGRect(x: -radius, y: -radius, width: 2 * radius, height: 2 * radius)
             circleLayer.removeAnimation(forKey: "scale")
@@ -85,7 +85,7 @@ private final class ReloaderView: UIView {
         animations.duration = duration
         animations.fillMode = CAMediaTimingFillMode.forwards
 
-        _radius = radius
+        classRadius = radius
         circleLayer.add(animations, forKey: "scale")
     }
 
