@@ -1,4 +1,4 @@
-github "kitt-browser/HockeySDK-iOS" "feature/metrics-telemetry-filter"
+git "https://gitlab.com/eyeo/adblockplus/ios-libraries/HockeySDK-iOS" "noissue/hockey-xcode-102"
 github "CocoaLumberjack/CocoaLumberjack"
-github "kitt-browser/AttributedMarkdown" "master"
-github "ReactiveX/RxSwift" ~> 3.4
+git "https://gitlab.com/eyeo/adblockplus/ios-libraries/AttributedMarkdown" "master"
+git "https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift" ~> 4.0
