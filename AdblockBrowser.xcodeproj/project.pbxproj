@@ -1112,10 +1112,9 @@
 			};
 			buildConfigurationList = E91C79671AB2E22700632D61 /* Build configuration list for PBXProject "AdblockBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				cs,
 				de,
@@ -1165,6 +1164,7 @@
 				ta,
 				te,
 				vi,
+				Base,
 			);
 			mainGroup = E91C79631AB2E22700632D61;
 			productRefGroup = E91C796D1AB2E22700632D61 /* Products */;
@@ -1766,7 +1766,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "AdBlockBrowser/Swift-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1826,7 +1826,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "AdBlockBrowser/Swift-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2010,7 +2010,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "AdBlockBrowser/Swift-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Devbuild;
