@@ -17,6 +17,7 @@
 
 import UIKit
 
+// swiftlint:disable identifier_name
 private final class ReloaderView: UIView {
     let imageView = UIImageView(image: UIImage(named: "back_inactive"))
 
@@ -32,12 +33,12 @@ private final class ReloaderView: UIView {
         }
     }
 
-    var classRadius: CGFloat = 0
+    var _radius: CGFloat = 0
 
     var radius: CGFloat {
-        get { return classRadius; }
+        get { return _radius; }
         set (radius) {
-            classRadius = radius
+            _radius = radius
             circleLayer.path = createPathWith(radius)
             circleLayer.bounds = CGRect(x: -radius, y: -radius, width: 2 * radius, height: 2 * radius)
             circleLayer.removeAnimation(forKey: "scale")
@@ -85,7 +86,7 @@ private final class ReloaderView: UIView {
         animations.duration = duration
         animations.fillMode = CAMediaTimingFillMode.forwards
 
-        classRadius = radius
+        _radius = radius
         circleLayer.add(animations, forKey: "scale")
     }
 
@@ -332,3 +333,4 @@ final class WebViewContainer: UIView, UIGestureRecognizerDelegate {
         return true
     }
 }
+// swiftlint:enable identifier_name
