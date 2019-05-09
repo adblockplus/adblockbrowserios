@@ -17,7 +17,6 @@
 
 import UIKit
 
-// swiftlint:disable identifier_name
 private final class ReloaderView: UIView {
     let imageView = UIImageView(image: UIImage(named: "back_inactive"))
 
@@ -33,6 +32,7 @@ private final class ReloaderView: UIView {
         }
     }
 
+    // swiftlint:disable:next identifier_name
     var _radius: CGFloat = 0
 
     var radius: CGFloat {
@@ -333,4 +333,3 @@ final class WebViewContainer: UIView, UIGestureRecognizerDelegate {
         return true
     }
 }
-// swiftlint:enable identifier_name
