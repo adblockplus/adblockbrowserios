@@ -1092,13 +1092,13 @@
 					E91C796B1AB2E22700632D61 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = GRYYZR985A;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 					E91C79801AB2E22700632D61 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = G5LEUTX2F6;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 						TestTargetID = E91C796B1AB2E22700632D61;
 					};
@@ -1112,7 +1112,7 @@
 			};
 			buildConfigurationList = E91C79671AB2E22700632D61 /* Build configuration list for PBXProject "AdblockBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -1121,6 +1121,50 @@
 				ar,
 				zh_Hans,
 				hu,
+				bg,
+				bn,
+				el,
+				fr,
+				hr,
+				id,
+				it,
+				nb,
+				nl,
+				pl,
+				ro,
+				sk,
+				th,
+				tr,
+				uk,
+				ru,
+				sl,
+				lv,
+				es,
+				ca,
+				"es-MX",
+				he,
+				hi,
+				ja,
+				sr,
+				"zh-Hant",
+				pt,
+				"pt-PT",
+				da,
+				et,
+				fa,
+				fi,
+				fil,
+				gu,
+				ko,
+				lt,
+				ml,
+				ms,
+				sv,
+				sw,
+				ta,
+				te,
+				vi,
+				Base,
 			);
 			mainGroup = E91C79631AB2E22700632D61;
 			productRefGroup = E91C796D1AB2E22700632D61 /* Products */;
@@ -1722,7 +1766,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "AdBlockBrowser/Swift-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1782,7 +1826,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "AdBlockBrowser/Swift-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1807,7 +1851,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
 				PROVISIONING_PROFILE_SPECIFIER = "Dev Adblock Browser";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1829,7 +1873,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) $(SWIFT_ADDITIONAL_FLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1852,7 +1896,7 @@
 				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdblockBrowserTests;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdblockBrowser.app/AdblockBrowser";
 			};
 			name = Debug;
@@ -1871,7 +1915,7 @@
 				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdblockBrowserTests;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdblockBrowser.app/AdblockBrowser";
 			};
 			name = Release;
@@ -1966,7 +2010,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "AdBlockBrowser/Swift-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Devbuild;
@@ -1988,7 +2032,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.devbuilds.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Devbuild;
@@ -2007,7 +2051,7 @@
 				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AdblockBrowserTests;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdblockBrowser.app/AdblockBrowser";
 			};
 			name = Devbuild;
