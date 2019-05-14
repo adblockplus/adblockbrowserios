@@ -32,6 +32,7 @@ private final class ReloaderView: UIView {
         }
     }
 
+    // swiftlint:disable:next identifier_name
     var _radius: CGFloat = 0
 
     var radius: CGFloat {
