@@ -24,6 +24,8 @@ final class TopSettingsViewController: SettingsTableViewController<TopSettingsVi
     @IBOutlet weak var searchSuggestionsLabel: UILabel?
     @IBOutlet weak var versionLabel: UILabel?
     @IBOutlet weak var crashAndErrorReportsLabel: UILabel?
+    let sectionGeneral = 3
+    let sectionGeneralRows = 2
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -95,13 +97,13 @@ final class TopSettingsViewController: SettingsTableViewController<TopSettingsVi
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // only interested in 4th section
-        if section == 3 {
+        if section == sectionGeneral {
             #if DEVBUILD_FEATURES
                 // show everything
                 return super.tableView(tableView, numberOfRowsInSection: section)
             #else
                 // hide devbuild menu by default
-                return 1
+                return sectionGeneralRows
             #endif
         } else {
             return super.tableView(tableView, numberOfRowsInSection: section)
