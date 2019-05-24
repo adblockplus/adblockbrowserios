@@ -44,19 +44,20 @@ public typealias UserInputHandler = (BITCrashManagerUserInput) -> Void
  UserInputHandler for access from the delegate.
  */
 final class HockeyEventDefaultsHandler: NSObject, EventHandlingStatusAccess, UIAlertViewDelegate {
+    private var rawCrashManagerStatus = UInt(UserDefaults.standard.integer(forKey: keyStatusCrashManager))
     private var userInputHandler: UserInputHandler?
-
-    private var rawCrashManagerStatus = UInt(UserDefaults.standard.integer(forKey: "BITCrashManagerStatusOldValue"))
+    static let keyStatusCrashManager = "BITCrashManagerStatus"
 
     var eventHandlingStatus: EventHandlingStatus {
         get {
-            let status = BITCrashManagerStatus(rawValue: rawCrashManagerStatus) ?? .disabled
-            switch status {
+            switch BITCrashManagerStatus(rawValue: rawCrashManagerStatus) ?? .disabled {
             case .alwaysAsk:
                 return .alwaysAsk
             case .autoSend:
                 return .autoSend
             case .disabled:
+                return .disabled
+            default:
                 return .disabled
             }
         }
@@ -71,7 +72,7 @@ final class HockeyEventDefaultsHandler: NSObject, EventHandlingStatusAccess, UIA
             case .disabled:
                 status = .disabled
             }
-            BITHockeyManager.shared().crashManager.crashManagerStatus = status
+            UserDefaults.standard.set(status.rawValue, forKey: HockeyEventDefaultsHandler.keyStatusCrashManager)
         }
     }
 
