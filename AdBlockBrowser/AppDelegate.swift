@@ -63,6 +63,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 self.inhibitApp(with: $0, failureController: bootstrapController)
             }
         )
+
+        FabricWrapper.setup()
+
         return true
     }
 

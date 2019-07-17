@@ -1,3 +1,6 @@
+binary "https://building42.github.io/Specs/Carthage/iOS/Answers.json" "1.4.0"
+binary "https://building42.github.io/Specs/Carthage/iOS/Crashlytics.json" "3.13.4"
+binary "https://building42.github.io/Specs/Carthage/iOS/Fabric.json" "1.10.2"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/AttributedMarkdown" "d9ff5e38d630881a39417ba05a03d24a92a08300"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/HockeySDK-iOS" "25033fc4f2b2eb426e9d35f19ae5c4498dbff8ac"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift" "4.5.0"

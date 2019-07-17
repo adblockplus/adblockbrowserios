@@ -12,6 +12,11 @@
 		292B732120C7DF050059290F /* KittCoreBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29A2DF2F20C71636005285DC /* KittCoreBundle.bundle */; };
 		294342B22195A82B0099D5C8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342B12195A82B0099D5C8 /* AboutViewController.swift */; };
 		294342BC2195C2F50099D5C8 /* UIView+LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */; };
+		2962DE3622DF2E7F006B24F6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2962DE3422DF2E7F006B24F6 /* Fabric.framework */; };
+		2962DE3722DF2E7F006B24F6 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2962DE3522DF2E7F006B24F6 /* Crashlytics.framework */; };
+		2962DE3922DF2F3D006B24F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2962DE3822DF2F3D006B24F6 /* libz.tbd */; };
+		2962DE3B22DF2F44006B24F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2962DE3A22DF2F44006B24F6 /* libc++.tbd */; };
+		2962DE3E22DF2FE1006B24F6 /* FabricWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962DE3D22DF2FE1006B24F6 /* FabricWrapper.swift */; };
 		2976CDBC2080BB0B00D20FF7 /* HockeyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */; };
 		29BD987621CD024600E067F9 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD987521CD024600E067F9 /* AboutViewModel.swift */; };
 		29D3BB942077B5C1004305AD /* ABBAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3BB932077B5C1004305AD /* ABBAPIData.swift */; };
@@ -237,6 +242,11 @@
 /* Begin PBXFileReference section */
 		294342B12195A82B0099D5C8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		294342BB2195C2F50099D5C8 /* UIView+LayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutConstraints.swift"; sourceTree = "<group>"; };
+		2962DE3422DF2E7F006B24F6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Carthage/Build/iOS/Fabric.framework; sourceTree = SOURCE_ROOT; };
+		2962DE3522DF2E7F006B24F6 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Carthage/Build/iOS/Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		2962DE3822DF2F3D006B24F6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2962DE3A22DF2F44006B24F6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2962DE3D22DF2FE1006B24F6 /* FabricWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricWrapper.swift; sourceTree = "<group>"; };
 		2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyAppTests.swift; sourceTree = "<group>"; };
 		29BD987521CD024600E067F9 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 		29D3BB932077B5C1004305AD /* ABBAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABBAPIData.swift; sourceTree = "<group>"; };
@@ -602,6 +612,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2962DE3B22DF2F44006B24F6 /* libc++.tbd in Frameworks */,
+				2962DE3922DF2F3D006B24F6 /* libz.tbd in Frameworks */,
 				E92D1E741E26D0690077973A /* AttributedMarkdown.framework in Frameworks */,
 				E968E37D1AB2EC850002735B /* MessageUI.framework in Frameworks */,
 				E9BC27711ACA934F00CB5268 /* CoreLocation.framework in Frameworks */,
@@ -612,6 +624,8 @@
 				E925756D1DEEDBF000B93166 /* CocoaLumberjackSwift.framework in Frameworks */,
 				69A3436B1E71828D00248DF3 /* RxCocoa.framework in Frameworks */,
 				69A343691E71827C00248DF3 /* RxSwift.framework in Frameworks */,
+				2962DE3722DF2E7F006B24F6 /* Crashlytics.framework in Frameworks */,
+				2962DE3622DF2E7F006B24F6 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +648,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2962DE3C22DF2FD0006B24F6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2962DE3D22DF2FE1006B24F6 /* FabricWrapper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		29A2DF2520C71635005285DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -904,6 +926,7 @@
 		E91C796E1AB2E22700632D61 /* AdblockBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				2962DE3C22DF2FD0006B24F6 /* Helpers */,
 				6983A2D81F3C7B9F006D6786 /* AdblockPlusIntegration */,
 				E91C79711AB2E22700632D61 /* AppDelegate.swift */,
 				6983A2DB1F3C7B9F006D6786 /* Bootstrap */,
@@ -997,6 +1020,10 @@
 		E968E3951AB323B90002735B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2962DE3A22DF2F44006B24F6 /* libc++.tbd */,
+				2962DE3822DF2F3D006B24F6 /* libz.tbd */,
+				2962DE3522DF2E7F006B24F6 /* Crashlytics.framework */,
+				2962DE3422DF2E7F006B24F6 /* Fabric.framework */,
 				E92D1E731E26D0690077973A /* AttributedMarkdown.framework */,
 				E968E37A1AB2EC7C0002735B /* AVFoundation.framework */,
 				E92575821DEF1B6B00B93166 /* CocoaLumberjack.framework */,
@@ -1020,6 +1047,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E91C798B1AB2E22700632D61 /* Build configuration list for PBXNativeTarget "AdblockBrowser" */;
 			buildPhases = (
+				2962DE3022DF2AA1006B24F6 /* Populate Plist with API Data */,
 				E91C79681AB2E22700632D61 /* Sources */,
 				E91C79691AB2E22700632D61 /* Frameworks */,
 				E91C796A1AB2E22700632D61 /* Resources */,
@@ -1027,7 +1055,7 @@
 				E9E80F7C1DFEE9CC00DCCC11 /* Copy frameworks */,
 				E92575A01DF0405600B93166 /* Carthage copy frameworks */,
 				298BC4122077CEC4007D2A3C /* Run SwiftLint */,
-				29D3BB912077B22F004305AD /* Manage API Data */,
+				2962DE3322DF2ADF006B24F6 /* Fabric */,
 			);
 			buildRules = (
 			);
@@ -1251,6 +1279,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2962DE3022DF2AA1006B24F6 /* Populate Plist with API Data */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Populate Plist with API Data";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/Scripts/api-key-setup.sh\n";
+		};
+		2962DE3322DF2ADF006B24F6 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"\"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)\"",
+			);
+			name = Fabric;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Initialise Fabric.\nAPI_DATA_ENV_VARS=\"ABB-Secret-API-Env-Vars.sh\"\nif [ -f ./$API_DATA_ENV_VARS ]\nthen\nsource ./$API_DATA_ENV_VARS\n$PROJECT_DIR/Carthage/Build/iOS/Fabric.framework/run $FABRIC_API_KEY $FABRIC_BUILD_SECRET\nelse\necho \"warning: API data for Fabric not found. The app will run but will not make use of Fabric.\"\nfi\n";
+		};
 		298BC4122077CEC4007D2A3C /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1264,20 +1329,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "SWIFTLINT=\"/usr/local/bin/swiftlint\"\nif [ -f $SWIFTLINT ]\nthen\n    $SWIFTLINT\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		29D3BB912077B22F004305AD /* Manage API Data */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Manage API Data";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Manage API access data.\nAPI_DATA_ENV_VARS=\"ABB-Secret-API-Env-Vars.sh\"\nif [ -f ./$API_DATA_ENV_VARS ]\nthen\nsource ./$API_DATA_ENV_VARS\nelse\necho \"warning: API data not found. The app will run but will not have access to API functions.\"\nfi\nsourcery --templates . --sources . --output ./Generated/ --args hockeyAppIdDebug=\\\"$HOCKEY_APP_ID_DEBUG\\\",hockeyAppIdDevBuild=\\\"$HOCKEY_APP_ID_DEVBUILD\\\",hockeyAppIdRelease=\\\"$HOCKEY_APP_ID_RELEASE\\\"\n";
 		};
 		E92575A01DF0405600B93166 /* Carthage copy frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1297,7 +1348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 			showEnvVarsInLog = 0;
 		};
 		E92575A11DF0418300B93166 /* Carthage copy frameworks */ = {
@@ -1418,6 +1469,7 @@
 				694493741F308C0400294EE7 /* SearchEnginesViewModel.swift in Sources */,
 				69077E801F41CAC200A76029 /* BookmarksBaseViewModel.swift in Sources */,
 				694493651F30897C00294EE7 /* AdblockingSettingsViewController.swift in Sources */,
+				2962DE3E22DF2FE1006B24F6 /* FabricWrapper.swift in Sources */,
 				69D1E8AC1F55AA7D00979568 /* CrashReportsViewController.swift in Sources */,
 				69F0B7231F02565F00A82ED2 /* HistoryCell.swift in Sources */,
 				6983A2C31F3C790D006D6786 /* NSObject+MethodSwizzling.swift in Sources */,
