@@ -21,11 +21,10 @@ final class CrashReportsViewModel: ViewModelProtocol, ComponentsInitializable {
     let components: ControllerComponents
 
     weak var browserControlDelegate: BrowserControlDelegate?
-    weak var statusAccess: EventHandlingStatusAccess?
 
     required init(components: ControllerComponents) {
         self.components = components
         self.browserControlDelegate = components.browserController
-        self.statusAccess = components.eventHandlingStatusAccess
+//        self.statusAccess = components.eventHandlingStatusAccess
     }
 }

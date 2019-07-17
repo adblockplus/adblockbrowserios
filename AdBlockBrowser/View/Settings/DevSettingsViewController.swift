@@ -16,7 +16,6 @@
  */
 
 import Foundation
-import HockeySDK
 
 #if canImport(Crashlytics)
 import Crashlytics
@@ -74,14 +73,13 @@ final class DevSettingsViewController: SettingsTableViewController<DevSettingsVi
     }
 
     @IBAction func onCrashAppButtonClicked(_ sender: UIButton) {
-//        BITHockeyManager.shared().crashManager.generateTestCrash()
         #if canImport(Fabric)
             Crashlytics.sharedInstance().crash()
         #endif
     }
 
     @IBAction func onProduceErrorButtonClicked(sender: UIButton) {
-        Log.critical(TestingError.devbuildTest)
+        print(TestingError.devbuildTest)
         let alert = UIAlertController(
             title: NSLocalizedString("Dev notification", comment: "Devbuild setting"),
             message: NSLocalizedString("Error prepared for sending", comment: "Devbuild setting"),

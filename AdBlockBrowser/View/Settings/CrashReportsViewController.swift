@@ -28,11 +28,11 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = super.tableView(tableView, cellForRowAt: indexPath)
-        let currentStatus = viewModel?.statusAccess?.eventHandlingStatus ?? .disabled
-        if let status = status(from: indexPath.row) {
-            cell.accessoryType = currentStatus == status ? .checkmark : .none
-            cell.textLabel?.text = title(for: status)
-        }
+//        let currentStatus = viewModel?.statusAccess?.eventHandlingStatus ?? .disabled
+//        if let status = status(from: indexPath.row) {
+//            cell.accessoryType = currentStatus == status ? .checkmark : .none
+//            cell.textLabel?.text = title(for: status)
+//        }
         return cell
     }
 
@@ -115,10 +115,10 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let status = status(from: indexPath.row) {
-            viewModel?.statusAccess?.eventHandlingStatus = status
-            tableView.reloadData()
-        }
+//        if let status = status(from: indexPath.row) {
+//            viewModel?.statusAccess?.eventHandlingStatus = status
+//            tableView.reloadData()
+//        }
     }
 
     // MARK: - Actions
@@ -144,6 +144,7 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
         dismiss(animated: true, completion: nil)
     }
 
+    /*
     // MARK: - Private
 
     private func status(from index: Int) -> EventHandlingStatus? {
@@ -169,4 +170,5 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
             return localize("Ask Me After a Crash or Error", comment: "Crash/Error reports settings")
         }
     }
+     */
 }

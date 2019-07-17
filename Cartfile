@@ -1,4 +1,3 @@
-git "https://gitlab.com/eyeo/adblockplus/ios-libraries/HockeySDK-iOS" "feature/metrics-telemetry-filter"
 github "CocoaLumberjack/CocoaLumberjack"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/AttributedMarkdown" "master"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift" ~> 4.0

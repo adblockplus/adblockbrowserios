@@ -91,12 +91,12 @@ final class AdblockingSettingsViewController: SettingsTableViewController<Adbloc
 
         viewModel.extensionFacade.getListedSubscriptions { [weak self] (listedSubscriptions: [String: ListedSubscription]?, error: Error?) in
             if let error = error {
-                Log.error("Listed subscriptions query returned \(error)")
+                print("Listed subscriptions query returned \(error)")
                 return
             }
 
             guard let listedSubscriptions = listedSubscriptions else {
-                Log.warn("Listed subscriptions query returned nil dictionary")
+                print("Listed subscriptions query returned nil dictionary")
                 return
             }
 

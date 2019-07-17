@@ -26,8 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // browser is ready only after potential welcome screens, so it's asynchronous event
     typealias BrowserReadyHandler = (BrowserContainerViewController) -> Void
     var browserReadyHandlers = [BrowserReadyHandler]()
-    // Dedicated container for logging and crash reporting
-    fileprivate let debugReporting = DebugReporting()
 
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         return Settings.testLaunchOptions(launchOptions, contains: nil)
@@ -55,8 +53,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         bootstrapController.makeComponents(
             onFinished: {
                 self.components = $0
-                self.components?.eventHandlingStatusAccess = self.debugReporting.statusAccess
-                self.components?.debugReporting = self.debugReporting
                 return self.components
             },
             onError: {
@@ -70,6 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func inhibitApp(with error: BootstrapError, failureController: UIViewController?) {
+        /*
         debugReporting.confirmAppAbortReport(with: error, modalPresentingController: window?.rootViewController) {
             guard
                 let failureController = failureController,
@@ -78,6 +75,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             self.changeRootController(ctrl)
         }
+         */
     }
 
     // deprecated since iOS9

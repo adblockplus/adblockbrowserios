@@ -140,9 +140,7 @@ class BrowserAssembly {
             fulltextSearchObserver: fulltextSearchObserver,
             chrome: chrome,
             // this is a default initializer so browserController must be provided regardless of optionality
-            browserController: nil,
-            eventHandlingStatusAccess: nil,
-            debugReporting: nil)
+            browserController: nil)
     }
 
     // MARK: - Private

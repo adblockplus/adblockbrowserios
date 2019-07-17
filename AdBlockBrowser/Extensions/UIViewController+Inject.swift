@@ -49,13 +49,6 @@ struct ControllerComponents: ExtensionControlComponents {
             bridgeSwitchboard.browserControlDelegate = browserController
         }
     }
-
-    // Controllers throughout the app need browserController as dependency, but it's available
-    // later than browser assembly, hence var
-    // (and weak because the primary strong holder is DebugReporter)
-    weak var eventHandlingStatusAccess: EventHandlingStatusAccess?
-
-    weak var debugReporting: DebugReporting?
 }
 
 protocol ControllerComponentsInjectable {

@@ -288,7 +288,9 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
             })
             .addDisposableTo(disposeBag)
 
+        /*
         #if DEVBUILD_FEATURES
+
             if let watchdog = viewModel.components.debugReporting?.watchdog {
                 watchdog.rx.observe(MemoryValues.self, #keyPath(MemoryWatchdog.lastRecordedValues))
                     .subscribe(onNext: { [weak self] values in
@@ -296,7 +298,10 @@ final class BrowserContainerViewController: ViewController<BrowserContainerViewM
                     })
                     .addDisposableTo(disposeBag)
             }
+
         #endif
+         */
+        
     }
 
     // MARK: - BrowserControlDelegate
