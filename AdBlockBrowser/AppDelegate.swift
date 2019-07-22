@@ -32,6 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        // Initialise Fabric for crash reporting.
+        FabricManager.shared.setup()
+
         var url: NSURL?
         guard Settings.testLaunchOptions(launchOptions, contains: &url) else {
             return false
@@ -59,8 +63,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 self.inhibitApp(with: $0, failureController: bootstrapController)
             }
         )
-
-        FabricWrapper.setup()
 
         return true
     }
