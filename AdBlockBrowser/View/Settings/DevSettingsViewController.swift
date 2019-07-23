@@ -79,7 +79,7 @@ final class DevSettingsViewController: SettingsTableViewController<DevSettingsVi
     }
 
     @IBAction func onProduceErrorButtonClicked(sender: UIButton) {
-        print(TestingError.devbuildTest)
+        Log.critical(TestingError.devbuildTest)
         let alert = UIAlertController(
             title: NSLocalizedString("Dev notification", comment: "Devbuild setting"),
             message: NSLocalizedString("Error prepared for sending", comment: "Devbuild setting"),

@@ -25,6 +25,5 @@ final class CrashReportsViewModel: ViewModelProtocol, ComponentsInitializable {
     required init(components: ControllerComponents) {
         self.components = components
         self.browserControlDelegate = components.browserController
-//        self.statusAccess = components.eventHandlingStatusAccess
     }
 }

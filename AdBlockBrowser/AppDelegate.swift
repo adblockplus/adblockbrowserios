@@ -68,16 +68,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func inhibitApp(with error: BootstrapError, failureController: UIViewController?) {
-        /*
-        debugReporting.confirmAppAbortReport(with: error, modalPresentingController: window?.rootViewController) {
-            guard
-                let failureController = failureController,
-                let ctrl = failureController.storyboard?.instantiateViewController(withIdentifier: "Failure") else {
-                    return
-            }
-            self.changeRootController(ctrl)
+
+        // Send the error message to the Crash Reporting Manager to deal with.
+        FabricManager.shared.forwardErrorToManager(error: error)
+
+        // Then redirect the user to the Failure VC so they know what's going on.
+        guard let failureController = failureController,
+            let controller = failureController.storyboard?.instantiateViewController(withIdentifier: "Failure") else {
+                return
         }
-         */
+        self.changeRootController(controller)
     }
 
     // deprecated since iOS9

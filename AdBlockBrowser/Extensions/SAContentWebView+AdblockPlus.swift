@@ -64,7 +64,7 @@ extension SAContentWebView {
              */
             if aWebView.isInitialized() { {
                 guard let tab = aWebView.chromeTab else {
-                    print("Preparing content webview but it has no ChromeTab attached")
+                    Log.error("Preparing content webview but it has no ChromeTab attached")
                     return
                 }
                 guard let openerTab = tab.openerTab else {
@@ -72,7 +72,7 @@ extension SAContentWebView {
                     return
                 }
                 guard let openerFrameId = tab.openerFrame?.frameId else {
-                    print("Content webview has opener tab but not opener frame, can't invoke webNavigation")
+                    Log.error("Content webview has opener tab but not opener frame, can't invoke webNavigation")
                     return
                 }
                 webNavigationEventsDelegate?.createdNavigationTarget(

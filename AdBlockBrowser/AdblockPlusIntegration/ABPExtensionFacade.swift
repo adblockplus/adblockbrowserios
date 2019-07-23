@@ -125,7 +125,7 @@ class ABPExtensionFacade: NSObject, ABPExtensionFacadeProtocol {
                 subscriptions = [:]
                 results.forEach({ url, subscription -> Void in
                     guard let deserializedSub = ListedSubscription(object: subscription) else {
-                        print("Failed deserializing listed subscription \(url)")
+                        Log.error("Failed deserializing listed subscription \(url)")
                         return
                     }
                     subscriptions?[url] = deserializedSub
@@ -144,7 +144,7 @@ class ABPExtensionFacade: NSObject, ABPExtensionFacadeProtocol {
                 results.forEach({ subscription -> Void in
                     guard let deserializedSub = AvailableSubscription(object: subscription) else {
                         let subscriptionURL = subscription.value(forKey: "url") as? String ?? "unknown URL"
-                        print("Failed deserializing available subscription for \(subscriptionURL)")
+                        Log.error("Failed deserializing available subscription for \(subscriptionURL)")
                         return
                     }
                     subscriptions?.append(deserializedSub)
