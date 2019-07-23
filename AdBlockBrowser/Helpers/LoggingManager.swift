@@ -18,9 +18,54 @@
 import CocoaLumberjackSwift
 import Foundation
 
-/// NSObject inheritance is needed only for @objc exportability
-@objc
-public class LumberjackFormatter: NSObject, DDLogFormatter {
+class LoggingManager: LoggerSink {
+    private static var instance: LoggingManager?
+
+    static func createInstance() {
+        if instance == nil {
+            instance = LoggingManager()
+        }
+    }
+
+    private init() {
+
+        // Set the default level.
+        dynamicLogLevel = .warning
+
+        // Instantiate the loggers!
+        if let ttyLogger = DDTTYLogger.sharedInstance {
+            ttyLogger.logFormatter = LumberjackFormatter()
+            DDLog.add(ttyLogger)
+        }
+        if let osLogger = DDOSLogger.sharedInstance {
+            osLogger.logFormatter = LumberjackFormatter()
+            DDLog.add(osLogger)
+        }
+    }
+
+    static func debug(_ message: String) {
+        DDLogDebug(message)
+    }
+
+    static func info(_ message: String) {
+        DDLogInfo(message)
+    }
+
+    static func warn(_ message: String) {
+        DDLogWarn(message)
+    }
+
+    static func error(_ message: String) {
+        DDLogError(message)
+    }
+
+    static func critical(_ error: StringCodeConvertibleError) {
+        DDLogError(error.shortCode)
+        FabricManager.shared.forwardErrorToManager(error: error)
+    }
+}
+
+class LumberjackFormatter: NSObject, DDLogFormatter {
     private let dateFormatter = DateFormatter()
 
     public override init() {

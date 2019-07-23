@@ -16,7 +16,13 @@
  */
 
 import Foundation
-import HockeySDK
+
+#if canImport(Crashlytics)
+import Crashlytics
+#endif
+#if canImport(Fabric)
+import Fabric
+#endif
 
 let defaultsKeyShowMemoryPressure = "ShowMemoryPressure"
 
@@ -67,7 +73,9 @@ final class DevSettingsViewController: SettingsTableViewController<DevSettingsVi
     }
 
     @IBAction func onCrashAppButtonClicked(_ sender: UIButton) {
-        BITHockeyManager.shared().crashManager.generateTestCrash()
+        #if canImport(Fabric)
+            Crashlytics.sharedInstance().crash()
+        #endif
     }
 
     @IBAction func onProduceErrorButtonClicked(sender: UIButton) {

@@ -28,10 +28,9 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = super.tableView(tableView, cellForRowAt: indexPath)
-        let currentStatus = viewModel?.statusAccess?.eventHandlingStatus ?? .disabled
-        if let status = status(from: indexPath.row) {
-            cell.accessoryType = currentStatus == status ? .checkmark : .none
-            cell.textLabel?.text = title(for: status)
+        if let status = FabricManager.shared.status(from: indexPath.row) {
+            cell.accessoryType = FabricManager.shared.crashReportingStatus == status ? .checkmark : .none
+            cell.textLabel?.text = FabricManager.shared.title(for: status)
         }
         return cell
     }
@@ -115,10 +114,8 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let status = status(from: indexPath.row) {
-            viewModel?.statusAccess?.eventHandlingStatus = status
-            tableView.reloadData()
-        }
+        FabricManager.shared.crashReportingStatus = CrashReportingStatus(rawValue: indexPath.row)!
+        tableView.reloadData()
     }
 
     // MARK: - Actions
@@ -142,31 +139,5 @@ final class CrashReportsViewController: SettingsTableViewController<CrashReports
 
         viewModel?.browserControlDelegate?.showNewTab(with: url, fromSource: nil)
         dismiss(animated: true, completion: nil)
-    }
-
-    // MARK: - Private
-
-    private func status(from index: Int) -> EventHandlingStatus? {
-        switch index {
-        case 0:
-            return .autoSend
-        case 1:
-            return .disabled
-        case 2:
-            return .alwaysAsk
-        default:
-            return nil
-        }
-    }
-
-    private func title(for status: EventHandlingStatus) -> String {
-        switch status {
-        case .autoSend:
-            return localize("Always", comment: "Crash/Error reports settings")
-        case .disabled:
-            return localize("Never", comment: "Crash/Error reports settings")
-        case .alwaysAsk:
-            return localize("Ask Me After a Crash or Error", comment: "Crash/Error reports settings")
-        }
     }
 }

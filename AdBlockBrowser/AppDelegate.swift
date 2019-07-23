@@ -26,14 +26,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // browser is ready only after potential welcome screens, so it's asynchronous event
     typealias BrowserReadyHandler = (BrowserContainerViewController) -> Void
     var browserReadyHandlers = [BrowserReadyHandler]()
-    // Dedicated container for logging and crash reporting
-    fileprivate let debugReporting = DebugReporting()
 
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         return Settings.testLaunchOptions(launchOptions, contains: nil)
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        // Initialise Fabric for crash reporting.
+        FabricManager.shared.setup()
+
         var url: NSURL?
         guard Settings.testLaunchOptions(launchOptions, contains: &url) else {
             return false
@@ -55,26 +57,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         bootstrapController.makeComponents(
             onFinished: {
                 self.components = $0
-                self.components?.eventHandlingStatusAccess = self.debugReporting.statusAccess
-                self.components?.debugReporting = self.debugReporting
                 return self.components
             },
             onError: {
                 self.inhibitApp(with: $0, failureController: bootstrapController)
             }
         )
+
         return true
     }
 
     private func inhibitApp(with error: BootstrapError, failureController: UIViewController?) {
-        debugReporting.confirmAppAbortReport(with: error, modalPresentingController: window?.rootViewController) {
-            guard
-                let failureController = failureController,
-                let ctrl = failureController.storyboard?.instantiateViewController(withIdentifier: "Failure") else {
-                    return
-            }
-            self.changeRootController(ctrl)
+
+        // Send the error message to the Crash Reporting Manager to deal with.
+        FabricManager.shared.forwardErrorToManager(error: error)
+
+        // Then redirect the user to the Failure VC so they know what's going on.
+        guard let failureController = failureController,
+            let controller = failureController.storyboard?.instantiateViewController(withIdentifier: "Failure") else {
+                return
         }
+        self.changeRootController(controller)
     }
 
     // deprecated since iOS9

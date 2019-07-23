@@ -1,4 +1,7 @@
-git "https://gitlab.com/eyeo/adblockplus/ios-libraries/HockeySDK-iOS" "feature/metrics-telemetry-filter"
 github "CocoaLumberjack/CocoaLumberjack"
+github "OnceApp/ONCEAlertController"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/AttributedMarkdown" "master"
 git "https://gitlab.com/eyeo/adblockplus/ios-libraries/RxSwift" ~> 4.0
+binary "https://building42.github.io/Specs/Carthage/iOS/Fabric.json"
+binary "https://building42.github.io/Specs/Carthage/iOS/Answers.json"
+binary "https://building42.github.io/Specs/Carthage/iOS/Crashlytics.json"

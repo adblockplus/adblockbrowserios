@@ -25,7 +25,6 @@
  */
 
 #import "UIImage+animatedGIF.h"
-#import "MacroSettingsExpander.h"
 
 #import <KittCore/Utils.h>
 #import <KittCore/Settings.h>
