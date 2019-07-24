@@ -572,9 +572,7 @@
 		E9CD44B71B26F062005662E0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E9CD44BA1B26FC16005662E0 /* Swift-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge.h"; sourceTree = "<group>"; };
 		E9D661341E5C8F440040B0BC /* AdblockBrowserRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdblockBrowserRelease.xcconfig; sourceTree = "<group>"; };
-		E9D661371E5C8F790040B0BC /* AdblockBrowserDevbuild.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdblockBrowserDevbuild.xcconfig; sourceTree = "<group>"; };
 		E9D661381E5C8F9D0040B0BC /* ExtensionShareRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ExtensionShareRelease.xcconfig; sourceTree = "<group>"; };
-		E9D661391E5C8FBE0040B0BC /* ExtensionShareDevbuild.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ExtensionShareDevbuild.xcconfig; sourceTree = "<group>"; };
 		E9D6613A1E5C92DE0040B0BC /* AdblockBrowserDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdblockBrowserDebug.xcconfig; sourceTree = "<group>"; };
 		E9D6613B1E5C93010040B0BC /* ExtensionShareDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ExtensionShareDebug.xcconfig; sourceTree = "<group>"; };
 		E9D6614F1E5D8C940040B0BC /* ReleaseCommonSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseCommonSettings.xcconfig; sourceTree = "<group>"; };
@@ -908,7 +906,6 @@
 			isa = PBXGroup;
 			children = (
 				E9D6613A1E5C92DE0040B0BC /* AdblockBrowserDebug.xcconfig */,
-				E9D661371E5C8F790040B0BC /* AdblockBrowserDevbuild.xcconfig */,
 				E9D661341E5C8F440040B0BC /* AdblockBrowserRelease.xcconfig */,
 				E959DE701B3CAF9400E98E18 /* Info.plist */,
 				E91C93F21B4BCECF00F3006F /* InfoPlist.strings */,
@@ -945,7 +942,6 @@
 			children = (
 				E9D661381E5C8F9D0040B0BC /* ExtensionShareRelease.xcconfig */,
 				E9D6613B1E5C93010040B0BC /* ExtensionShareDebug.xcconfig */,
-				E9D661391E5C8FBE0040B0BC /* ExtensionShareDevbuild.xcconfig */,
 				E968E39D1AB32B2B0002735B /* ExtensionShare.xcassets */,
 				E91C79991AB2E77700632D61 /* ShareViewController.h */,
 				E91C799A1AB2E77700632D61 /* ShareViewController.m */,
