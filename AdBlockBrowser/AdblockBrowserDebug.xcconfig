@@ -9,7 +9,7 @@
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev
 SWIFT_ADDITIONAL_FLAGS = "-DDEVBUILD_FEATURES" "-DDEBUG"
 // Eyeo Enterprise
-DEVELOPMENT_TEAM = G5LEUTX2F6
-CODE_SIGN_IDENTITY = iPhone Distribution: Eyeo GmbH (G5LEUTX2F6)
-CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution // override default "iPhone Developer"
-PROVISIONING_PROFILE_SPECIFIER = Adblock Browser Devbuild In House
+// DEVELOPMENT_TEAM = G5LEUTX2F6
+// CODE_SIGN_IDENTITY = iPhone Distribution: Eyeo GmbH (G5LEUTX2F6)
+// CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution // override default "iPhone Developer"
+// PROVISIONING_PROFILE_SPECIFIER = Adblock Browser Devbuild In House
