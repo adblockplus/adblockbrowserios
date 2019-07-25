@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>CFBundleAllowMixedLocalizations</key>
-        <true/>
-        <key>CFBundleDevelopmentRegion</key>
-        <string>en</string>
-        <key>CFBundleDisplayName</key>
-        <string>Adblock Browser</string>
-        <key>CFBundleExecutable</key>
-        <string>$(EXECUTABLE_NAME)</string>
-        <key>CFBundleIdentifier</key>
-        <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-        <key>CFBundleInfoDictionaryVersion</key>
-        <string>6.0</string>
-        <key>CFBundleName</key>
-        <string>Adblock Browser</string>
-        <key>CFBundlePackageType</key>
-        <string>APPL</string>
-        <key>CFBundleShortVersionString</key>
-        <string>2.1.0</string>
-        <key>CFBundleSignature</key>
-        <string>????</string>
-        <key>CFBundleURLTypes</key>
-        <array>
-            <dict>
-                <key>CFBundleTypeRole</key>
-                <string>Editor</string>
-                <key>CFBundleURLIconFile</key>
-                <string>app_iphone</string>
-                <key>CFBundleURLName</key>
-                <string>JavaScript bridge</string>
-                <key>CFBundleURLSchemes</key>
-                <array>
-                    <string>adblockbrowser</string>
-                </array>
-            </dict>
-            <dict>
-                <key>CFBundleTypeRole</key>
-                <string>Viewer</string>
-                <key>CFBundleURLIconFile</key>
-                <string></string>
-                <key>CFBundleURLSchemes</key>
-                <array>
-                    <string>http</string>
-                    <string>https</string>
-                    <string>adblockbrowser</string>
-                    <string>adblockbrowsers</string>
-                </array>
-            </dict>
-        </array>
-        <key>CFBundleVersion</key>
-        <string>1</string>
-        <key>LSApplicationQueriesSchemes</key>
-        <array>
-            <string>org-appextension-feature-password-management</string>
-        </array>
-        <key>LSRequiresIPhoneOS</key>
-        <true/>
-        <key>NSAppTransportSecurity</key>
-        <dict>
-            <key>NSAllowsArbitraryLoads</key>
-            <true/>
-        </dict>
-        <key>NSCameraUsageDescription</key>
-        <string>Adblock Browser would like to access your camera in order for you to be able to take and upload pictures.</string>
-        <key>NSLocationWhenInUseUsageDescription</key>
-        <string>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</string>
-        <key>NSPhotoLibraryUsageDescription</key>
-        <string>Adblock Browser would like to access your photo library in order for you to be able to upload pictures.</string>
-        <key>UILaunchStoryboardName</key>
-        <string>Bootstrap</string>
-        <key>UIMainStoryboardFile</key>
-        <string>Bootstrap</string>
-        <key>UIRequiredDeviceCapabilities</key>
-        <array>
-            <string>armv7</string>
-        </array>
-        <key>UIRequiresFullScreen</key>
-        <true/>
-        <key>UISupportedInterfaceOrientations</key>
-        <array>
-            <string>UIInterfaceOrientationPortrait</string>
-            <string>UIInterfaceOrientationLandscapeLeft</string>
-            <string>UIInterfaceOrientationLandscapeRight</string>
-        </array>
-        <key>UIViewControllerBasedStatusBarAppearance</key>
-        <true/>
-    </dict>
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Adblock Browser</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Adblock Browser</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>app_iphone</string>
+			<key>CFBundleURLName</key>
+			<string>JavaScript bridge</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>adblockbrowser</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>http</string>
+				<string>https</string>
+				<string>adblockbrowser</string>
+				<string>adblockbrowsers</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>org-appextension-feature-password-management</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Adblock Browser would like to access your camera in order for you to be able to take and upload pictures.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purpose.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Adblock Browser would like to access your photo library in order for you to be able to upload pictures.</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Bootstrap</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Bootstrap</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
 </plist>
