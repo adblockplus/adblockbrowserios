@@ -1072,7 +1072,7 @@
 					};
 					E91C79801AB2E22700632D61 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = G5LEUTX2F6;
+						DevelopmentTeam = GRYYZR985A;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 						TestTargetID = E91C796B1AB2E22700632D61;
@@ -1732,9 +1732,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"HOCKEYSDK_FEATURE_FEEDBACK=0",
-					"HOCKEYSDK_FEATURE_UPDATES=1",
-					"HOCKEYSDK_FEATURE_STORE_UPDATES=0",
 					"DEBUG=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -1794,9 +1791,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"HOCKEYSDK_FEATURE_FEEDBACK=0",
-					"HOCKEYSDK_FEATURE_UPDATES=0",
-					"HOCKEYSDK_FEATURE_STORE_UPDATES=0",
 					"RELEASE=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1848,6 +1842,8 @@
 			baseConfigurationReference = E9D661341E5C8F440040B0BC /* AdblockBrowserRelease.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = GRYYZR985A;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
@@ -1860,6 +1856,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) $(SWIFT_ADDITIONAL_FLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
+				PROVISIONING_PROFILE_SPECIFIER = "Adblock Browser App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1871,6 +1868,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRYYZR985A;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1894,6 +1893,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1930,10 +1930,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9D661381E5C8F9D0040B0BC /* ExtensionShareRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = ExtensionShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.AdblockBrowser.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Adblock Browser Share Extension App Store";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -1978,9 +1980,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"HOCKEYSDK_FEATURE_FEEDBACK=0",
-					"HOCKEYSDK_FEATURE_UPDATES=0",
-					"HOCKEYSDK_FEATURE_STORE_UPDATES=0",
 					"DEVBUILD=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2007,6 +2006,8 @@
 			baseConfigurationReference = E9D661371E5C8F790040B0BC /* AdblockBrowserDevbuild.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = GRYYZR985A;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
@@ -2017,8 +2018,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.devbuilds.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AdblockBrowser;
+				PROVISIONING_PROFILE_SPECIFIER = "Adblock Browser App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2030,6 +2032,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRYYZR985A;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2047,10 +2051,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9D661391E5C8FBE0040B0BC /* ExtensionShareDevbuild.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = GRYYZR985A;
 				INFOPLIST_FILE = ExtensionShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.devbuilds.AdblockBrowser.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.adblockplus.AdblockBrowser.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Adblock Browser Share Extension App Store";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
