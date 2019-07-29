@@ -1,0 +1,31 @@
+# CI Script used for Adblock Browser
+
+stages:
+  - unit_tests
+
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+
+before_script:
+  - rm -rf ~/Library/Caches/org.carthage.CarthageKit
+  - rm -rf ../adblockbrowserios-core
+  - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.com/eyeo/adblockplus/adblockbrowserios-core.git ../adblockbrowserios-core
+  - cd ../adblockbrowserios-core
+  - git checkout -b develop origin/develop
+  - npm install
+  - cd ../adblockbrowserios
+  - gem install bundler
+  - bundle install
+  - carthage update --platform ios
+
+unit_tests:
+  tags:
+    - ios, abb
+  stage: unit_tests
+  script:
+    - bundle exec fastlane ios tests
+  artifacts:
+    paths:
+      - fastlane/tests/
+  allow_failure: false
