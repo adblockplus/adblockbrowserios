@@ -12,12 +12,12 @@ variables:
   LANG: "en_US.UTF-8"
 
 before_script:
+  - rm -rf ~/Library/Caches/org.carthage.CarthageKit
   - rm -rf ../adblockbrowserios-core
   - git clone https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.com/eyeo/adblockplus/adblockbrowserios-core.git ../adblockbrowserios-core
   - cd ../adblockbrowserios-core
   - git checkout -b develop origin/develop
   - npm install
-  # - carthage update
   - cd ../adblockbrowserios
   - gem install bundler
   - bundle install
