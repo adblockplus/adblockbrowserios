@@ -19,7 +19,6 @@
 		2962DE3B22DF2F44006B24F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2962DE3A22DF2F44006B24F6 /* libc++.tbd */; };
 		2962DE3E22DF2FE1006B24F6 /* FabricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962DE3D22DF2FE1006B24F6 /* FabricManager.swift */; };
 		2962DE4822E60FE8006B24F6 /* DBAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2962DE4722E60FE8006B24F6 /* DBAlertController.framework */; };
-		2976CDBC2080BB0B00D20FF7 /* HockeyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */; };
 		29BD987621CD024600E067F9 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD987521CD024600E067F9 /* AboutViewModel.swift */; };
 		69013C541BA0577000E312DE /* aquariophilie.json in Resources */ = {isa = PBXBuildFile; fileRef = 69013C4E1BA056F900E312DE /* aquariophilie.json */; };
 		69013C561BA0769800E312DE /* campfyre.json in Resources */ = {isa = PBXBuildFile; fileRef = 69013C551BA0769800E312DE /* campfyre.json */; };
@@ -156,7 +155,6 @@
 		E968E3A11AB32B4D0002735B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E968E39F1AB32B4D0002735B /* Localizable.strings */; };
 		E9BC27711ACA934F00CB5268 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BC27701ACA934F00CB5268 /* CoreLocation.framework */; };
 		E9C0625C1B34CAFF0041F6D9 /* ControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C062581B34B4140041F6D9 /* ControllersTests.swift */; };
-		E9F092781E23EBD400B9795A /* ErrorReportingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F092771E23EBD400B9795A /* ErrorReportingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,7 +239,6 @@
 		2962DE3A22DF2F44006B24F6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2962DE3D22DF2FE1006B24F6 /* FabricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricManager.swift; sourceTree = "<group>"; };
 		2962DE4722E60FE8006B24F6 /* DBAlertController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DBAlertController.framework; path = Carthage/Build/iOS/DBAlertController.framework; sourceTree = SOURCE_ROOT; };
-		2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyAppTests.swift; sourceTree = "<group>"; };
 		29BD987521CD024600E067F9 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 		69013C4E1BA056F900E312DE /* aquariophilie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aquariophilie.json; sourceTree = "<group>"; };
 		69013C551BA0769800E312DE /* campfyre.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = campfyre.json; sourceTree = "<group>"; };
@@ -578,7 +575,6 @@
 		E9D6613A1E5C92DE0040B0BC /* AdblockBrowserDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AdblockBrowserDebug.xcconfig; sourceTree = "<group>"; };
 		E9D6613B1E5C93010040B0BC /* ExtensionShareDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ExtensionShareDebug.xcconfig; sourceTree = "<group>"; };
 		E9D6614F1E5D8C940040B0BC /* ReleaseCommonSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseCommonSettings.xcconfig; sourceTree = "<group>"; };
-		E9F092771E23EBD400B9795A /* ErrorReportingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorReportingTests.swift; sourceTree = "<group>"; };
 		E9F5D4151C0863E500CCCADD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E9F5D41A1C0863E500CCCADD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E9F5D41B1C0863E600CCCADD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -929,9 +925,7 @@
 				69013C551BA0769800E312DE /* campfyre.json */,
 				E9C062581B34B4140041F6D9 /* ControllersTests.swift */,
 				69CC8EAC1F1E300700087D1F /* CustomViewsTests.swift */,
-				E9F092771E23EBD400B9795A /* ErrorReportingTests.swift */,
 				697EAC1E1C0F3333008FF082 /* GeneralTests.swift */,
-				2976CDBB2080BB0B00D20FF7 /* HockeyAppTests.swift */,
 				E90062D51D915E6300EADE9F /* NilContractTest.m */,
 				E90062D91D915EBB00EADE9F /* NilContractTestSupport.swift */,
 				6931F7B01B2ABF34001885DB /* scripts.js */,
@@ -1445,8 +1439,6 @@
 				E9C0625C1B34CAFF0041F6D9 /* ControllersTests.swift in Sources */,
 				69CC8EAD1F1E300700087D1F /* CustomViewsTests.swift in Sources */,
 				695D9A0A1F04381E00FEB676 /* BookmarkControllersTests.swift in Sources */,
-				E9F092781E23EBD400B9795A /* ErrorReportingTests.swift in Sources */,
-				2976CDBC2080BB0B00D20FF7 /* HockeyAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
