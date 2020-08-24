@@ -101,6 +101,8 @@ final class MenuViewModel: ViewModelProtocol {
         case .requestDesktopSite:
             viewModel.activeTab.value?.requestDesktopSite = !(viewModel.activeTab.value?.requestDesktopSite ?? true)
             // re-mount chrome tab onto browser view model
+            viewModel.activeTab.value?.active = false
+            viewModel.activeTab.value?.active = true
             viewModel.activeTab.value = viewModel.activeTab.value
         case .openNewTab:
             if let tab = components.chrome.focusedWindow?.add(tabWithURL: nil, atIndex: 0) {
