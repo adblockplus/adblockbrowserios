@@ -20,6 +20,7 @@ import RxSwift
 
 enum MenuItem: Int {
     case adblockingEnabled
+    case requestDesktopSite
     case openNewTab
     case addBookmark
     case share
@@ -80,13 +81,13 @@ final class MenuViewModel: ViewModelProtocol {
 
     func shouldBeEnabled(_ menuItem: MenuItem) -> Bool {
         switch menuItem {
-        case .adblockingEnabled, .addBookmark, .share:
+        case .adblockingEnabled, .addBookmark, .share, .requestDesktopSite:
             return isWhitelistable.value
         default:
             return true
         }
     }
-
+    
     func handle(menuItem: MenuItem) {
         switch menuItem {
         case .adblockingEnabled:
@@ -97,6 +98,10 @@ final class MenuViewModel: ViewModelProtocol {
                 }
             }
             return
+        case .requestDesktopSite:
+            viewModel.activeTab.value?.requestDesktopSite = !(viewModel.activeTab.value?.requestDesktopSite ?? true)
+            // re-mount chrome tab onto browser view model
+            viewModel.activeTab.value = viewModel.activeTab.value
         case .openNewTab:
             if let tab = components.chrome.focusedWindow?.add(tabWithURL: nil, atIndex: 0) {
                 tab.active = true
@@ -117,5 +122,9 @@ final class MenuViewModel: ViewModelProtocol {
         }
 
         viewModel.isMenuViewShown.value = false
+    }
+    
+    func isRequestDesktopSiteActive() -> Bool {
+        return viewModel.chrome.focusedWindow?.activeTab?.requestDesktopSite ?? false
     }
 }

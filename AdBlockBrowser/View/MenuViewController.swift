@@ -21,6 +21,7 @@ import UIKit
 
 final class MenuViewController: TableViewController<MenuViewModel> {
     @IBOutlet weak var whitelistSwitch: SwitchView?
+    @IBOutlet weak var requestDesktopSiteSwitch: SwitchView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -120,6 +121,11 @@ final class MenuViewController: TableViewController<MenuViewModel> {
             whitelistSwitch?.isEnabled = isEnabled
             text = NSLocalizedString("Block Ads on this Site", comment: "Pull up menu option")
             image = nil
+        case .requestDesktopSite:
+            requestDesktopSiteSwitch?.isEnabled = isEnabled
+            requestDesktopSiteSwitch?.isOn = viewModel?.isRequestDesktopSiteActive() ?? false
+            text = NSLocalizedString("Request Desktop Site", comment: "Request desktop site")
+            image = nil
         case .openNewTab:
             text = NSLocalizedString("Open New Tab", comment: "Pull up menu option")
             image = #imageLiteral(resourceName: "newTabIcon")
@@ -162,6 +168,9 @@ final class MenuViewController: TableViewController<MenuViewModel> {
             tableView.deselectRow(at: indexPath, animated: true)
             if item == .adblockingEnabled {
                 whitelistSwitch?.isOn = !(whitelistSwitch?.isOn ?? true)
+            }
+            if item == .requestDesktopSite{
+                requestDesktopSiteSwitch?.isOn = viewModel?.isRequestDesktopSiteActive() ?? false
             }
         }
     }
